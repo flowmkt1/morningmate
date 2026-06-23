@@ -1,0 +1,2555 @@
+{
+  "meta": {
+    "industry": "マーケティング",
+    "sector": "フリーランス協業",
+    "language": "ja",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "グローバル マーケティング協業ルーム",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "フリーランス協業ルーム",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "競合モニタリング (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AIチーム構築プロジェクト",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[田中] 個人ToDo",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "動画クリエイティブチーム協業ルーム",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[インフルエンサー代理店] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "田中 美咲",
+    "role": "チームリーダー",
+    "team": "海外展開チーム",
+    "av": "#F2A65A"
+  },
+  "room": {
+    "name": "フリーランス協業ルーム",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "time": "2026-06-04 12:36",
+      "taskNo": "",
+      "read": 1,
+      "title": "[業務委託契約] マーケティング - 山本健一",
+      "status": {
+        "key": "request",
+        "label": "要請",
+        "color": "#0053BF",
+        "bg": "rgba(0,181,241,.20)",
+        "dot": "#00B5F1"
+      },
+      "assignee": {
+        "name": "佐藤 健",
+        "color": "#5B6CF0"
+      },
+      "due": "2026-04-21 (火) まで",
+      "progress": 0,
+      "body": [
+        "山本健一さんは来週水曜日(22日)から1日8時間勤務予定です。",
+        "2ヶ月契約の進行をお願いします。",
+        {
+          "t": "h",
+          "e": "📋",
+          "x": "契約概要"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "👤",
+              "x": "対象：山本健一(フリーランス)"
+            },
+            {
+              "e": "📅",
+              "x": "勤務開始：6/22(水) 〜"
+            },
+            {
+              "e": "⏱",
+              "x": "稼働：1日8時間 / 週5日"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "業務一覧"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "業務名",
+            "内容",
+            "状態"
+          ],
+          "rows": [
+            [
+              "広告運用",
+              "Yahoo/Google広告の設定・運用",
+              "進行中"
+            ],
+            [
+              "SNS運用",
+              "X・インスタの企画と投稿",
+              "待機"
+            ],
+            [
+              "記事作成",
+              "PR記事・ブログの執筆",
+              "待機"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "短期契約後、長期契約を検討します。"
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "time": "2026-06-04 12:37",
+      "read": 3,
+      "title": "展示会ブース準備チェックリスト",
+      "items": [
+        {
+          "t": "ブースデザイン案の確定",
+          "done": false,
+          "c": "#9DC8FF"
+        },
+        {
+          "t": "バナー・横断幕の印刷発注",
+          "done": false,
+          "c": "#A8E6C0"
+        },
+        {
+          "t": "サンプル製品の梱包",
+          "done": false,
+          "c": "#FFD4A8"
+        },
+        {
+          "t": "商談予約リストの整理",
+          "done": false,
+          "c": "#F2A65A"
+        },
+        {
+          "t": "現場スタッフ配置表",
+          "done": false,
+          "c": "#5B6CF0"
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "time": "2026-06-04 12:37",
+      "read": 1,
+      "title": "Japan IT Week ブース運営",
+      "dateBadge": {
+        "m": "2026.06",
+        "d": "04"
+      },
+      "timeRange": "2026-06-04 (木), 12:40 — 13:40",
+      "parts": [
+        {
+          "c": "#F2A65A"
+        },
+        {
+          "c": "#B0A4E6"
+        }
+      ],
+      "going": 1,
+      "notGoing": 1,
+      "body": [
+        "東京ビッグサイト East Hall · Booth E-12",
+        "ブース運営 / 商談対応 / リード収集を行います。"
+      ]
+    },
+    {
+      "type": "vote",
+      "time": "2026-06-04 16:14",
+      "read": 1,
+      "vstatus": "進行中",
+      "title": "9月 新製品キービジュアル投票",
+      "desc": "3つのキービジュアル案の中から最も良い案をお選びください。9月ローンチのメインKVに使用します。",
+      "voters": 12,
+      "options": [
+        {
+          "l": "A案 — ミニマルホワイト",
+          "v": 7,
+          "voted": true
+        },
+        {
+          "l": "B案 — ビビッドグラデーション",
+          "v": 4
+        },
+        {
+          "l": "C案 — ダークプレミアム",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "time": "2026-06-04 12:39",
+      "read": 8,
+      "title": "今週のマーケティングウィークリー共有",
+      "body": [
+        "今週のマーケティング活動の要点を共有します。",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "今週のハイライト"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "🎯",
+              "b": true,
+              "x": "日本展示会リード312件を収集",
+              "sub": [
+                "CRMアップロード進行中。来週から個別フォローを開始します。"
+              ]
+            },
+            {
+              "e": "🧪",
+              "b": true,
+              "x": "新規LPのA/Bテスト完了",
+              "sub": [
+                "B案のコンバージョン率が+18%。本番反映を進めます。"
+              ]
+            },
+            {
+              "e": "📣",
+              "b": true,
+              "x": "PR TIMES配信",
+              "sub": [
+                "新製品ローンチ記事を配信し、初動の反応は良好です。"
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "来週のアクション"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "リード312件の個別フォロー"
+            },
+            {
+              "e": "②",
+              "x": "LP B案の本番反映"
+            },
+            {
+              "e": "③",
+              "x": "9月キービジュアルの最終確定"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "x": "詳細は添付資料をご参照ください。"
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/marketing,office?lock=5"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "2026年 5月",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "こどもの日"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "創立記念日"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "ホームページロゴ使用可否の確認…",
+          "status": "Complete",
+          "assignee": "中村 さくら",
+          "author": "田中 美咲"
+        },
+        {
+          "type": "task",
+          "name": "ホームページ - 会社紹介 (モーニング…",
+          "status": "Complete",
+          "assignee": "高橋 結衣",
+          "author": "田中 美咲"
+        },
+        {
+          "type": "task",
+          "name": "ホームページ - 会社紹介",
+          "status": "Complete",
+          "assignee": "中村 さくら",
+          "author": "田中 美咲"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "HubSpot DBインポート機能",
+          "s": "Pending"
+        },
+        {
+          "t": "ハルカさんへ漫画ガイド送付",
+          "s": "Pending"
+        },
+        {
+          "t": "広告コンテンツ制作",
+          "s": "Pending"
+        },
+        {
+          "t": "広告コンテンツ制作_シネマティック",
+          "s": "Pending"
+        },
+        {
+          "t": "キャラクターガイド",
+          "s": "Pending"
+        },
+        {
+          "t": "クロージングガイド",
+          "s": "Pending"
+        },
+        {
+          "t": "ロゴソング-社名連呼",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "週次レポート(日本)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "HubSpot MKTルート追加 (展示会)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "週次会議_日本チーム",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "英語圏 優先順位に関する会議",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Google API カード情報変更",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "共有ドライブ_展示会フォルダ",
+      "t": "cloud",
+      "by": "田中 美咲",
+      "sz": "フォルダ"
+    },
+    {
+      "n": "チーム_ワークスペース_リンク",
+      "t": "cloud",
+      "by": "山本 翔太",
+      "sz": "ショートカット"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "中村 さくら",
+      "sz": "2 MB"
+    },
+    {
+      "n": "ジョブカン会計_シミュレーション.pdf",
+      "t": "pdf",
+      "by": "中村 さくら",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "ブース_運営_マニュアル.pdf",
+      "t": "pdf",
+      "by": "伊藤 彩",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "業務委託_契約_山本健一.docx",
+      "t": "word",
+      "by": "田中 美咲",
+      "sz": "210 KB"
+    },
+    {
+      "n": "標準_契約書_様式.docx",
+      "t": "word",
+      "by": "山本 翔太",
+      "sz": "320 KB"
+    },
+    {
+      "n": "展示会_リード_312件.xlsx",
+      "t": "excel",
+      "by": "田中 美咲",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "ブース_運営_精算表.xlsx",
+      "t": "excel",
+      "by": "伊藤 彩",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_ローンチ_プラン.pptx",
+      "t": "ppt",
+      "by": "高橋 結衣",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "展示会_ブース_提案書.pptx",
+      "t": "ppt",
+      "by": "中村 さくら",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "ブース_デザイン案_レンダー.png",
+      "t": "image",
+      "by": "伊藤 彩",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "会場_レイアウト図.jpg",
+      "t": "image",
+      "by": "佐野 春香",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "展示会_プロモ動画.mp4",
+      "t": "av",
+      "by": "佐野 春香",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "ブース_BGM.mp3",
+      "t": "av",
+      "by": "木村 拓也",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "ランディングページ_案.html",
+      "t": "html",
+      "by": "山田 大輔",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_申込フォーム.html",
+      "t": "html",
+      "by": "高橋 結衣",
+      "sz": "22 KB"
+    },
+    {
+      "n": "展示会_資料_バックアップ.zip",
+      "t": "zip",
+      "by": "田中 美咲",
+      "sz": "124 MB"
+    },
+    {
+      "n": "ロゴ_原本_まとめ.zip",
+      "t": "zip",
+      "by": "中村 さくら",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "高橋結衣さんのコメント",
+      "task": "仮説ICP策定 2回目",
+      "time": "たった今",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "高橋結衣さんが新しいタスクを追加",
+      "task": "仮説ICP策定 2回目",
+      "time": "4分前",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "高橋結衣さんのコメント",
+      "task": "競合のマーケティングチャネル・戦略調査",
+      "time": "5分前",
+      "unread": true
+    },
+    {
+      "proj": "[QA] Morningmate",
+      "av": "#A8E6C0",
+      "ac": "小林由美さんが返信を追加",
+      "task": "[Website] Can't sign up",
+      "time": "1時間前"
+    },
+    {
+      "proj": "フリーランス協業ルーム",
+      "emoji": "🔴",
+      "av": "#C5A3FF",
+      "ac": "佐野春香さんがコメントを追加",
+      "time": "1時間前"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "小林由美さんのコメント",
+      "task": "懇親会レストランの予約",
+      "time": "2時間前"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "小林由美さんがコメントを追加",
+      "task": "ブルネル大学ミーティングの調整",
+      "time": "2時間前"
+    },
+    {
+      "proj": "フリーランス協業ルーム",
+      "emoji": "🔴",
+      "av": "#5BBF9A",
+      "ac": "伊藤彩さんが新しいタスクを追加",
+      "task": "展示会ブース施工契約",
+      "time": "3時間前"
+    },
+    {
+      "proj": "Japan Business",
+      "emoji": "🟡",
+      "av": "#5B6CF0",
+      "ac": "山本翔太さんのコメント",
+      "task": "標準契約書様式の確定",
+      "time": "4時間前"
+    }
+  ],
+  "chats": [
+    {
+      "name": "佐野 春香",
+      "av": "#9DC8FF",
+      "last": "動画業務、まだ着手できていません ㅎㅎ",
+      "time": "午後 8:16",
+      "act": true
+    },
+    {
+      "name": "🔴 展示会TF",
+      "cnt": 4,
+      "members": [
+        "伊藤 彩",
+        "佐野 春香",
+        "高橋 結衣",
+        "山本 翔太"
+      ],
+      "last": "現場セットアップは22日午前から始めます",
+      "time": "午後 8:02"
+    },
+    {
+      "name": "高橋 結衣, 中村 さくら...",
+      "cnt": 3,
+      "members": [
+        "高橋 結衣",
+        "中村 さくら",
+        "田中 美咲"
+      ],
+      "last": "やる時はチャットしますね",
+      "time": "05/18"
+    },
+    {
+      "name": "❤️ KGNC × morni...",
+      "cnt": 4,
+      "members": [
+        "山田 大輔",
+        "木村 拓也",
+        "佐野 春香",
+        "小林 由美"
+      ],
+      "last": "@中島 太郎 こんにちは、代表",
+      "time": "04/28"
+    },
+    {
+      "name": "渡辺 七海",
+      "av": "#FFD4A8",
+      "last": "七海さん〜",
+      "time": "02/04"
+    },
+    {
+      "name": "伊藤 彩",
+      "av": "#5BBF9A",
+      "last": "展示会ブースの資材を発注しました 📦",
+      "time": "午後 6:40"
+    },
+    {
+      "name": "山本 翔太",
+      "av": "#5B6CF0",
+      "last": "契約条件を確認しました 👍 進めましょう",
+      "time": "午後 4:12"
+    },
+    {
+      "name": "小林 由美",
+      "av": "#FFB89D",
+      "last": "ありがとうございますリーダー!!",
+      "time": "05/13"
+    },
+    {
+      "name": "加藤 結菜",
+      "av": "#A8E6C0",
+      "last": "はいはい!! ㅎㅎ おっしゃってください😋",
+      "time": "05/02"
+    },
+    {
+      "name": "中村 さくら, 山田 大輔...",
+      "cnt": 3,
+      "members": [
+        "中村 さくら",
+        "山田 大輔",
+        "木村 拓也"
+      ],
+      "last": "近いうちにまたお会いしましょう。",
+      "time": "05/12"
+    },
+    {
+      "name": "山田 大輔",
+      "av": "#FFB89D",
+      "last": "はい、コメント残しました",
+      "time": "05/15"
+    }
+  ],
+  "conversation": [
+    {
+      "sep": "2026-06-04 (木)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "side": "them",
+      "text": "これですか?",
+      "time": "午後 5:46"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "text": "これはflowを使って音声も原本も全部作りました!",
+      "time": "午後 5:47"
+    },
+    {
+      "side": "me",
+      "text": "はいはい"
+    },
+    {
+      "side": "me",
+      "text": "ハルカさんすみません ㅠ もし明日ではなく月曜日に出ていただくことはできますか",
+      "time": "午後 8:15"
+    },
+    {
+      "side": "me",
+      "text": "動画業務、まだ着手できていません ㅎㅎㅎㅎ ㅠㅠㅠㅠㅠ",
+      "time": "午後 8:16"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "deleted": 1
+    },
+    {
+      "side": "them",
+      "reply": {
+        "to": "佐野 春香",
+        "text": "https://voicevox.hiroshiba.jp/···"
+      }
+    },
+    {
+      "side": "them",
+      "text": "これで作った音声です!",
+      "time": "午後 10:42"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "file": {
+        "name": "IMG_7732.mp4",
+        "size": "83.7 MB"
+      },
+      "time": "午後 10:46",
+      "react": 1
+    }
+  ],
+  "groupConversation": [
+    {
+      "sep": "2026-06-04 (木)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "text": "皆さん、展示会ブースの準備は順調ですか? 🙌",
+      "time": "午前 10:02"
+    },
+    {
+      "who": 1,
+      "head": 1,
+      "text": "はい!資材を発注して金曜入荷予定です 📦",
+      "time": "午前 10:05"
+    },
+    {
+      "who": 2,
+      "head": 1,
+      "text": "リード収集のQRフォームもほぼ完成しました 🔗",
+      "time": "午前 10:08"
+    },
+    {
+      "side": "me",
+      "text": "いいですね、皆さんお疲れ様です 👏",
+      "time": "午前 10:10"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "file": {
+        "name": "ブース_配置図_v3.pdf",
+        "size": "3.2 MB"
+      },
+      "time": "午前 10:14"
+    },
+    {
+      "who": 0,
+      "text": "現場セットアップは22日午前から始めます",
+      "time": "午前 10:15"
+    },
+    {
+      "who": 3,
+      "head": 1,
+      "text": "契約条件の確認も終わりました。すぐ進めましょう 👍",
+      "time": "午前 10:18"
+    },
+    {
+      "side": "me",
+      "text": "はい確認しました!22日に現場でお会いしましょう 🙆",
+      "time": "午前 10:20"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "山本 翔太",
+        "text": "契約条件を確認しました 👍 すぐ進めましょう!"
+      },
+      {
+        "name": "佐野 春香",
+        "text": "項目完了しました!次の作業も頑張ります 💪"
+      },
+      {
+        "name": "田中 美咲",
+        "text": "ブース位置を確認しました 📍 現場でお会いしましょう!"
+      },
+      {
+        "name": "伊藤 彩",
+        "text": "私はA案が一番すっきりしていると思います 🎨 一票入れます"
+      },
+      {
+        "name": "高橋 結衣",
+        "text": "リード312件は本当にすごいですね 🎉 お疲れ様でした!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "木村 拓也",
+        "text": "日本語チェックまで終えました。問題ありません ✅"
+      },
+      {
+        "name": "小林 由美",
+        "text": "共有ありがとうございます!参考にして進めます 🙏"
+      },
+      {
+        "name": "中村 さくら",
+        "text": "日程を確認しました。カレンダーに登録しておきます 📅"
+      },
+      {
+        "name": "山田 大輔",
+        "text": "良いアイデアですね!私も一票入れます ✋"
+      },
+      {
+        "name": "山本 翔太",
+        "text": "数値が印象的ですね。来週の会議で共有しましょう 📊"
+      },
+      {
+        "name": "田中 美咲",
+        "text": "はい確認しました!すぐ反映してご返信します 🙌"
+      },
+      {
+        "name": "佐野 春香",
+        "text": "現地の反応も良いです 😊 このまま進めて大丈夫そうです"
+      },
+      {
+        "name": "伊藤 彩",
+        "text": "資材を発注しました 📦 金曜入荷予定です"
+      },
+      {
+        "name": "高橋 結衣",
+        "text": "QR申込フォームもほぼ完成しました 🔗 まもなく共有します"
+      },
+      {
+        "name": "木村 拓也",
+        "text": "広告素材の案を3種準備しました 🎬 ご確認お願いします"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "佐野 春香",
+    "木村 拓也",
+    "田中 美咲",
+    "高橋 結衣"
+  ],
+  "extraTasks": [
+    "Yahoo! JAPAN広告の設定",
+    "Google広告の設定",
+    "PR TIMES 1ヶ月プランの決済",
+    "noteの使い方記事の作成",
+    "Instagramリール制作",
+    "ウェビナー資料の準備",
+    "競合広告素材の調査",
+    "リードのCRMアップロード",
+    "キーワード調査",
+    "ランディングページA/Bテスト",
+    "ニュースレター配信",
+    "業務委託契約書のレビュー",
+    "展示会ブースのデザイン案",
+    "現場スタッフ配置表",
+    "サンプル製品の梱包",
+    "商談予約リストの整理",
+    "コンテンツの日本語チェック",
+    "ミーティングノートの整理",
+    "週次レポート(日本)",
+    "X/Instagram/YouTube運用",
+    "kintoneウェビナー",
+    "Notionウェビナー",
+    "PR記事の公開",
+    "イベント参加案内文"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "業務委託契約書 協業ルーム",
+          "who": "田中 美咲",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[業務委託契約] 標準契約書様式の確定依頼 - 山本健一",
+          "body": "山本健一さんの契約に関する標準契約書様式を添付します。短期契約後の長期契約への転換条項が含まれていますので、契約書をご確認の上ご返信ください…",
+          "who": "田中 美咲",
+          "date": "2026-06-04 12:36",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "外部委託 契約書 翻訳版のレビュー完了",
+          "body": "日本語契約書の翻訳版のレビューを終えました。法務確認まで完了し、双方の署名のみ残っています。契約書PDFの最終版を共有します…",
+          "who": "木村 拓也",
+          "date": "2026-06-02 18:20",
+          "tag": "業務",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[情報共有] 標準 労働/業務委託 契約書テンプレート集",
+          "body": "",
+          "who": "山本 翔太",
+          "date": "2026-04-15 11:41",
+          "tag": "業務",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "契約書の押印および原本保管のご案内",
+          "body": "",
+          "who": "中村 さくら",
+          "date": "2026-04-27 11:06",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "展示会ブース施工 契約書 条件の協議",
+          "body": "…ブース施工業者と契約書の条件を協議中です。金額および日程条項の調整が必要そうです。契約書のドラフトをご確認ください…",
+          "who": "伊藤 彩",
+          "date": "2026-05-14 19:49",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… 契約書の条件を確認しました 👍 すぐ進めましょう!署名版は明日ご返信します。",
+          "who": "山本 翔太",
+          "date": "2026-06-04 17:58",
+          "proj": "[業務委託契約] マーケティング - 山本健一"
+        },
+        {
+          "text": "…契約書に短期契約後の長期契約転換条項を追加しました。ご確認お願いします。",
+          "who": "田中 美咲",
+          "date": "2026-06-04 17:36",
+          "proj": "[業務委託契約] マーケティング - 山本健一"
+        },
+        {
+          "text": "…日本語契約書のレビューまで終えました。問題ありません ✅ 法務確認も通過しました。",
+          "who": "木村 拓也",
+          "date": "2026-03-07 01:24",
+          "proj": "外部委託 契約書 翻訳版のレビュー"
+        },
+        {
+          "text": "…契約書の標準様式はファイルに添付しておきました。次の契約案件でも同じものを使えます。",
+          "who": "中村 さくら",
+          "date": "2026-03-07 00:39",
+          "proj": "標準 労働/業務委託 契約書テンプレート集"
+        },
+        {
+          "text": "代表、契約書の押印のため法人印と署名が必要です。2/2までにご返信お願いします。",
+          "who": "中村 さくら",
+          "date": "2026-01-29 10:42",
+          "proj": "契約書の押印および原本保管のご案内"
+        }
+      ],
+      "chats": [
+        {
+          "text": "標準契約書の様式をお送りします",
+          "who": "田中 美咲",
+          "date": "2026-03-17 12:56",
+          "proj": "山本 翔太"
+        },
+        {
+          "text": "契約書の条件を確認しました 👍 進めましょう",
+          "who": "山本 翔太",
+          "date": "2026-06-08 12:22",
+          "proj": "山本 翔太"
+        },
+        {
+          "text": "契約書の署名版は本日中にご返信します ㅠㅠ",
+          "who": "木村 拓也",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴 展示会TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_業務プロセス革新_日本_田中_契約書.docx",
+          "who": "田中 美咲",
+          "date": "2026-06-04 12:37",
+          "proj": "[業務委託契約] マーケティング - 山本健一",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "標準_業務委託_契約書_様式.docx",
+          "who": "山本 翔太",
+          "date": "2026-05-20 10:12",
+          "proj": "標準 労働/業務委託 契約書テンプレート集",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "契約書",
+        "d": "06/10"
+      },
+      {
+        "kw": "場所",
+        "d": "06/10"
+      },
+      {
+        "kw": "メンバー",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "田中 美咲": "woman1",
+    "佐藤 健": "man2",
+    "佐野 春香": "woman2",
+    "高橋 結衣": "woman4",
+    "中村 さくら": "woman1",
+    "渡辺 七海": "woman4",
+    "小林 由美": "woman3",
+    "伊藤 彩": "woman3",
+    "木村 拓也": "man3",
+    "山田 大輔": "man1",
+    "加藤 結菜": "woman2",
+    "山本 健一": "man1",
+    "山本 翔太": "man6",
+    "中島 太郎": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "田中美咲",
+      "role": "チームリーダー",
+      "team": "市場拡大チーム",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "田中美咲",
+          "role": "チームリーダー",
+          "team": "市場拡大チーム",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "582462",
+        "read": 1,
+        "title": "[フリーランス契約] 日本マーケティング - 山本健一",
+        "status": {
+          "label": "요청",
+          "color": "#0053BF",
+          "bg": "rgba(0,181,241,.20)"
+        },
+        "assignee": {
+          "name": "佐藤健",
+          "color": "#5B6CF0"
+        },
+        "due": "",
+        "progress": 0,
+        "body": [
+          "山本健一さんは来週水曜日(22日)から1日8時間勤務予定です。",
+          "2ヶ月契約の進行をお願いします。",
+          {
+            "t": "h",
+            "e": "📋",
+            "x": "契約概要"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "👤",
+                "x": "対象：山本健一(フリーランス)"
+              },
+              {
+                "e": "📅",
+                "x": "勤務開始：6/22(水) 〜"
+              },
+              {
+                "e": "⏱",
+                "x": "稼働：1日8時間 / 週5日"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "業務一覧"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "業務名",
+              "内容",
+              "状態"
+            ],
+            "rows": [
+              [
+                "広告運用",
+                "Yahoo/Google広告の設定・運用",
+                "進行中"
+              ],
+              [
+                "SNS運用",
+                "X・インスタの企画と投稿",
+                "待機"
+              ],
+              [
+                "記事作成",
+                "PR記事・ブログの執筆",
+                "待機"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "短期契約後、長期契約を検討します。"
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "伊藤彩",
+          "role": "オフィスリード",
+          "team": "オペレーションチーム",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "展示会ブース準備チェックリスト",
+        "items": [
+          {
+            "text": "ブースデザイン案の確定",
+            "done": false,
+            "assignee": {
+              "name": "中村さくら",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "バナー・横断幕の印刷発注",
+            "done": false,
+            "assignee": {
+              "name": "渡辺翔",
+              "color": "#A8E6C0"
+            }
+          },
+          {
+            "text": "サンプル製品の梱包",
+            "done": false,
+            "assignee": {
+              "name": "小林花",
+              "color": "#FFD4A8"
+            }
+          },
+          {
+            "text": "商談予約リストの整理",
+            "done": false,
+            "assignee": {
+              "name": "田中美咲",
+              "color": "#F2A65A"
+            }
+          },
+          {
+            "text": "現場スタッフ配置表",
+            "done": false,
+            "assignee": {
+              "name": "佐藤健",
+              "color": "#5B6CF0"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "佐野春香",
+          "role": "フリーランサー",
+          "team": "日本",
+          "color": "#7E8694"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "Japan IT Week ブース運営",
+        "dateBadge": {
+          "month": "2026-06",
+          "day": "04"
+        },
+        "timeRange": "2026-06-04 (木), 12:40 — 13:40",
+        "participants": {
+          "going": 1,
+          "notGoing": 1,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "田中美咲",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "高橋結衣",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "10分前にリマインド",
+        "recording": true,
+        "body": [
+          "東京ビッグサイト East Hall · Booth E-12",
+          "ブース運営 / 商談対応 / リード収集を行います。"
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "高橋結衣",
+          "role": "アソシエイト",
+          "team": "市場拡大チーム",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "9月 新製品キービジュアル投票",
+        "description": "3つのキービジュアル案の中から最も良い案を選んでください。9月ローンチのメインKVに使用します。",
+        "voters": 12,
+        "options": [
+          {
+            "label": "A案 — ミニマルホワイト",
+            "votes": 7,
+            "voted": true
+          },
+          {
+            "label": "B案 — ビビッドグラデーション",
+            "votes": 4
+          },
+          {
+            "label": "C案 — ダークプレミアム",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "山本翔太",
+          "role": "創業者 & CEO",
+          "team": "morningmate",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "今週のマーケティングウィークリー共有",
+        "body": [
+          "今週のマーケティング活動の要点を共有します。",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "今週のハイライト"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "🎯",
+                "b": true,
+                "x": "日本展示会リード312件を収集",
+                "sub": [
+                  "CRMアップロード進行中。来週から個別フォローを開始します。"
+                ]
+              },
+              {
+                "e": "🧪",
+                "b": true,
+                "x": "新規LPのA/Bテスト完了",
+                "sub": [
+                  "B案のコンバージョン率が+18%。本番反映を進めます。"
+                ]
+              },
+              {
+                "e": "📣",
+                "b": true,
+                "x": "PR TIMES配信",
+                "sub": [
+                  "新製品ローンチ記事を配信し、初動の反応は良好です。"
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "来週のアクション"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "リード312件の個別フォロー"
+              },
+              {
+                "e": "②",
+                "x": "LP B案の本番反映"
+              },
+              {
+                "e": "③",
+                "x": "9月キービジュアルの最終確定"
+              }
+            ]
+          },
+          {
+            "t": "note",
+            "x": "詳細は添付資料をご参照ください。"
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/marketing,office?lock=5"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "X/インスタ/YouTube",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "佐野春香",
+        "start": "",
+        "progress": 0,
+        "check": false,
+        "budget": "",
+        "children": [
+          {
+            "task": "5月",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "budget": "",
+            "collapsed": true,
+            "assignee": "木村拓也",
+            "start": "",
+            "due": "",
+            "check": false
+          },
+          {
+            "task": "6月",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "田中美咲",
+            "more": 1,
+            "progress": 0,
+            "budget": "",
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "check": false
+          }
+        ],
+        "due": ""
+      },
+      {
+        "task": "日本の現地ビジネスパーソン詳細インタビュー",
+        "status": "Complete",
+        "assignee": "高橋結衣",
+        "due": "",
+        "progress": 100,
+        "budget": "",
+        "start": "",
+        "check": false
+      },
+      {
+        "task": "[講座シェア] スキルアップ",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "佐野春香",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "n8n",
+            "count": 3,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "木村拓也",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Claude Code",
+            "count": 4,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "田中美咲",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "日本のIT導入補助金調査",
+        "status": "Pending",
+        "progress": 0,
+        "assignee": "高橋結衣",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[情報シェア] セミナー/ウェビナー/オフラインイベント等",
+        "count": 7,
+        "status": "Progress",
+        "progress": 0,
+        "children": [
+          {
+            "task": "Backlog ウェビナー",
+            "status": "Complete",
+            "assignee": "木村拓也",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Notion ウェビナー",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "田中美咲",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "kintone ウェビナー",
+            "count": 2,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "高橋結衣",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Kuta ウェビナー",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "佐野春香",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "flyle ウェビナー",
+            "status": "Complete",
+            "assignee": "木村拓也",
+            "more": 1,
+            "start": "",
+            "due": "",
+            "progress": 100,
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "TENDA ウェビナー",
+            "status": "Pending",
+            "assignee": "田中美咲",
+            "more": 1,
+            "start": "",
+            "progress": 0,
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "GOOGLE cloude",
+            "status": "Pending",
+            "assignee": "高橋結衣",
+            "more": 1,
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "佐野春香",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[校正] 日本語",
+        "count": 4,
+        "status": "Progress",
+        "assignee": "佐野春香",
+        "progress": 100,
+        "purpleBar": true,
+        "children": [
+          {
+            "task": "展示会関連",
+            "status": "Complete",
+            "assignee": "木村拓也",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "PR記事",
+        "count": 6,
+        "status": "Complete",
+        "assignee": "田中美咲",
+        "due": "",
+        "progress": 100,
+        "children": [
+          {
+            "task": "イベント参加案内",
+            "status": "Complete",
+            "assignee": "高橋結衣",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "会員登録メールシーケンス",
+            "status": "Complete",
+            "assignee": "佐野春香",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[日本] フリーランス費用の支払い",
+        "count": 5,
+        "status": "Pending",
+        "progress": 0,
+        "children": [
+          {
+            "task": "山本健一 4月契約金 (4/27出社)",
+            "status": "Complete",
+            "assignee": "田中美咲",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "春香 2月契約金",
+            "status": "Complete",
+            "assignee": "高橋結衣",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "春香 3月契約金",
+            "status": "Complete",
+            "assignee": "佐野春香",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "春香 4月契約金",
+            "status": "Pending",
+            "assignee": "木村拓也",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "春香 5月契約金",
+            "status": "Pending",
+            "assignee": "田中美咲",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "木村拓也",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Paid] PR/メディア/パフォーマンス",
+        "count": 5,
+        "status": "Progress",
+        "assignee": "高橋結衣",
+        "progress": 0,
+        "children": [
+          {
+            "task": "[キーワード広告] Yahoo!ジャパン広告設定",
+            "status": "Hold",
+            "assignee": "佐野春香",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[キーワード広告] キーワード調査",
+            "status": "Complete",
+            "assignee": "木村拓也",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[キーワード広告] Google広告設定",
+            "status": "Pending",
+            "assignee": "田中美咲",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[PR] PR TIMES 1ヶ月プラン決済",
+            "count": 1,
+            "status": "Complete",
+            "assignee": "高橋結衣",
+            "due": "",
+            "progress": 100,
+            "collapsed": true,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[パフォーマンス] 広告クリエイティブ調査",
+            "status": "Complete",
+            "assignee": "佐野春香",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[日本] SNS/Blog",
+        "count": 16,
+        "status": "Progress",
+        "assignee": "木村拓也",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "[日本] インスタグラム",
+            "count": 12,
+            "status": "Progress",
+            "assignee": "田中美咲",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[日本] X",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "高橋結衣",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[日本] Blog",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "佐野春香",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[日本]note",
+            "count": 3,
+            "status": "Progress",
+            "progress": 100,
+            "purpleBar": true,
+            "collapsed": true,
+            "assignee": "木村拓也",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      }
+    ],
+    "gantt": [
+      {
+        "task": "Notion ウェビナー",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "kintone ウェビナー",
+        "count": 2,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "Kuta ウェビナー",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100
+      },
+      {
+        "task": "flyle ウェビナー",
+        "status": "Complete",
+        "start": "2026-05-21",
+        "due": "2026-05-26",
+        "prog": 100,
+        "assignee": "佐野春香",
+        "more": 1
+      },
+      {
+        "task": "TENDA ウェビナー",
+        "status": "Pending",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 0,
+        "assignee": "佐野春香",
+        "more": 1
+      },
+      {
+        "task": "GOOGLE cloude",
+        "status": "Pending",
+        "start": "2026-06-11",
+        "due": "2026-06-11",
+        "prog": 0
+      },
+      {
+        "task": "[校正] 日本語",
+        "count": 4,
+        "status": "Progress",
+        "prog": 60,
+        "check": true
+      },
+      {
+        "task": "展示会関連",
+        "status": "Complete",
+        "due": "2026-04-06",
+        "prog": 100
+      },
+      {
+        "task": "PR記事",
+        "count": 6,
+        "status": "Complete",
+        "due": "2026-04-07",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "[日本] フリーランス費用の支払い",
+        "count": 5,
+        "status": "Pending",
+        "prog": 0
+      },
+      {
+        "task": "山本健一 4月契約金",
+        "status": "Complete",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 100,
+        "assignee": "佐野春香",
+        "budget": "1,000"
+      },
+      {
+        "task": "春香 2月契約金",
+        "status": "Complete",
+        "due": "2026-03-31",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "春香 4月契約金",
+        "status": "Pending",
+        "start": "2026-06-05",
+        "due": "2026-06-05",
+        "prog": 0,
+        "assignee": "佐野春香"
+      },
+      {
+        "task": "春香 5月契約金",
+        "status": "Pending",
+        "start": "2026-07-03",
+        "due": "2026-07-03",
+        "prog": 0
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "11:00 am",
+            "name": "[6/4(木) 13:00~18:00] チャネルコン…",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "こどもの日",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "新宿支社 訪問",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "SNS振り返り",
+            "type": "event"
+          }
+        ],
+        "2026-05-24": [
+          {
+            "name": "灌仏会",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "12:00 pm",
+            "name": "Money Forward AI",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "メモリアルデー",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "週次マーケティング会議",
+        "日本広告クリエイティブレビュー",
+        "コンテンツ締切",
+        "フリーランス協業ミーティング",
+        "PR TIMES配信",
+        "キービジュアル確認",
+        "展示会ブース準備",
+        "リード整理作業",
+        "新製品ローンチ点検",
+        "月次レポート作成"
+      ],
+      "assignees": [
+        "田中美咲",
+        "伊藤彩",
+        "高橋結衣",
+        "佐野春香",
+        "山本翔太",
+        "木村拓也"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🔴",
+          "name": "[日本] フリーランス協業ルーム",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "🇬🇧",
+          "name": "English Market..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🤖",
+          "name": "AIチーム作成プ..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🇯🇵",
+          "name": "[日本] morningmate..."
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "",
+          "name": "[田中美咲] 個人to-do"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "Data Extraction"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[日本] 競合モ..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[日本] 韓国×日本..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "[PM] Policy & Impr..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "[QA] morningmate 新..."
+        },
+        {
+          "color": "#D8D8DE",
+          "emoji": "",
+          "name": "田中美咲 個人ルーム"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "[PM] morningmate..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🌏",
+          "name": "Global MKT Hub"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🎬",
+          "name": "動画クリエイティ..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🎬",
+          "name": "動画クリエイティ..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🟡",
+          "name": "Japan Business"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "",
+          "name": "Data Extraction Ro..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "morningmate × インドネシア..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "Morningmate 使い方..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🇬🇧",
+          "name": "[UK] Sales"
+        }
+      ]
+    },
+    "search": {
+      "kw": "契約書",
+      "posts": [
+        {
+          "title": "[フリーランス契約書] 日本マーケティング - 山本健一 契約条件レビュー依頼",
+          "body": "来週水曜(22日)から1日8時間勤務を基準に、2ヶ月の短期契約書を作成しました。契約書のドラフト(業務範囲・契約期間・報酬支払日)を共有しますので、ご確認のうえご返信ください。短期契約後、成果に応じて長期契約書へ移行予定です...",
+          "who": "田中美咲",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[日本] フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "佐野春香 2026 業務委託契約書 更新の件",
+          "body": "既存契約書の満了(5/31)に伴い、更新契約書を準備しました。報酬条件は同一で、業務範囲に動画編集を追加しました。標準契約書フォーマットに基づき、電子署名で進める予定です。契約書をご確認のうえ署名をお願いします...",
+          "who": "高橋結衣",
+          "date": "30-05-2026 10:12",
+          "tag": "Task",
+          "proj": "[日本] フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "[法務レビュー] 日本の現地フリーランス標準契約書フォーマット確定",
+          "body": "現地フリーランス用の標準契約書フォーマットの法務レビューが完了しました。今後の新規契約はこの契約書フォーマットに統一します。添付の契約書テンプレートをご確認ください...",
+          "who": "山本翔太",
+          "date": "28-05-2026 16:40",
+          "tag": "Task",
+          "proj": "[日本] フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "展示会ブース施工業者の契約書捺印依頼",
+          "body": "Japan IT Week ブース施工業者との契約書の捺印が必要です。契約金額とスケジュールをご確認のうえ承認をお願いします...",
+          "who": "伊藤彩",
+          "date": "27-04-2026 11:06",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#19B43A"
+        },
+        {
+          "title": "広告代理店の年間契約書条件すり合わせメモ",
+          "body": "Yahoo!ジャパン・Googleの広告代理店と年間契約書の条件を協議中です。契約書上の最低出稿金額と手数料率の条項を調整しています...",
+          "who": "木村拓也",
+          "date": "14-05-2026 19:49",
+          "tag": "Task",
+          "proj": "[日本] フリーランス協業ルーム",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "契約書のドラフト確認しました。報酬支払日の条項だけ「月末締め」に修正をお願いします。",
+          "who": "山本翔太",
+          "date": "04-06-2026 13:10",
+          "proj": "[フリーランス契約書] 日本マーケティング - 山本健一"
+        },
+        {
+          "text": "契約書上の業務範囲が少し広い気がします。動画編集は別件で分けた方が良いでしょうか?",
+          "who": "佐野春香",
+          "date": "30-05-2026 11:02",
+          "proj": "佐野春香 2026 業務委託契約書 更新"
+        },
+        {
+          "text": "標準契約書フォーマットを添付しました。次の契約からはこれで進めて良さそうです!",
+          "who": "高橋結衣",
+          "date": "28-05-2026 17:20",
+          "proj": "標準契約書フォーマット確定"
+        },
+        {
+          "text": "電子署名で契約書の捺印が完了しました。原本は法務フォルダに保管します。",
+          "who": "伊藤彩",
+          "date": "27-04-2026 15:33",
+          "proj": "ブース施工業者 契約書"
+        },
+        {
+          "text": "契約書の報酬条件いいですね 👍 山本健一さんにも条件を共有しました。",
+          "who": "田中美咲",
+          "date": "04-06-2026 14:05",
+          "proj": "[フリーランス契約書] 日本マーケティング - 山本健一"
+        }
+      ],
+      "files": [
+        {
+          "name": "20260604_山本健一_フリーランス_契約書_v2.pdf",
+          "who": "田中美咲",
+          "date": "04-06-2026 12:40",
+          "proj": "[日本] フリーランス協業ルーム",
+          "size": "1.12 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "契約書のドラフト、たった今共有しました!報酬条件のご確認をお願いします",
+          "who": "田中美咲",
+          "date": "04-06-2026 12:38",
+          "proj": "佐野春香"
+        },
+        {
+          "text": "契約書の報酬は月末締めに統一します。次の更新契約書も同様にします!",
+          "who": "田中美咲",
+          "date": "08-06-2026 12:22",
+          "proj": "田中美咲, 高橋結衣, 山本翔太"
+        },
+        {
+          "text": "標準契約書フォーマットが確定したら、既存フリーランスの契約書も順次更新しましょうか?",
+          "who": "高橋結衣",
+          "date": "28-05-2026 20:48",
+          "proj": "高橋結衣"
+        },
+        {
+          "text": "代表~ 展示会施工業者の契約書金額をご承認いただければ、すぐ捺印を進めます!",
+          "who": "伊藤彩",
+          "date": "27-04-2026 10:31",
+          "proj": "🔴[日本] 韓国×日本×MWI マーケティング協業ルーム"
+        },
+        {
+          "text": "契約書の原本スキャンをドライブに上げました。法務フォルダで確認できます!",
+          "who": "木村拓也",
+          "date": "14-05-2026 13:36",
+          "proj": "資料共有ルーム"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[日本] フリーランス契約・法務協業ルーム",
+          "who": "田中美咲",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "English Markets GTM — ベンダー契約書管理",
+          "who": "小林由美",
+          "date": "12-03-2026 14:20",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "佐野春香",
+          "pin": true,
+          "last": "動画の作業まだ着手できてなくて…💦",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "active": true,
+          "convo": true
+        },
+        {
+          "name": "高橋結衣, 中村さくら...",
+          "count": 3,
+          "last": "やる時にチャットしますね",
+          "time": "05/18/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "❤️[協業] KGNC × morni...",
+          "count": 4,
+          "last": "@新原 こんにちは、お久しぶりです。",
+          "time": "04/28/2026",
+          "color": "#FFB0B0"
+        },
+        {
+          "name": "渡辺七海 (勤務 Jun 2,...",
+          "pin": true,
+          "last": "七海さん〜",
+          "time": "02/04/2026",
+          "color": "#FFD4A8"
+        },
+        {
+          "name": "Ashley, 加藤結菜",
+          "count": 3,
+          "pin": true,
+          "last": "日程共有ありがとうございます!! 🙏 今年もよろしくお願いします!",
+          "time": "01/30/2026",
+          "color": "#C5A3FF"
+        },
+        {
+          "name": "高橋結衣",
+          "last": "https://www.facebook.com/ads/library/?active_statu...",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "加藤結菜",
+          "last": "はいはい!! お声がけください😋",
+          "time": "06/02/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "山本健一",
+          "last": "はい、コメント残しました https://morningmate.com/l/coYl",
+          "time": "05/15/2026",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "高橋結衣, 佐野春...",
+          "count": 4,
+          "last": "はい!ありがとうございます!",
+          "time": "05/13/2026",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "中村さくら, 山本...",
+          "count": 3,
+          "last": "ありがとうございます!!よろしくお願いします。近いうちにまたお会いしましょう。",
+          "time": "05/12/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "高橋結衣, 山本健一",
+          "count": 3,
+          "last": "はいはい!!",
+          "time": "05/11/2026",
+          "color": "#C5A3FF"
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "link": "https://www.instagram.com/reel/DYg7JoCBL6F/?utm_source=ig_web_copy_link&igsh=MzRIODBiNWFIZA=="
+        },
+        {
+          "side": "them",
+          "card": {
+            "title": "モーニングメイト - Instagram: ...",
+            "meta": "May 17, 2026, 5 likes, 0 comme..."
+          }
+        },
+        {
+          "side": "them",
+          "text": "これですか?",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "これはflowを使って音声も原本も全部作りました!",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "はいはい"
+        },
+        {
+          "side": "me",
+          "text": "春香さん、ごめんなさい〜"
+        },
+        {
+          "side": "me",
+          "text": "明日ではなく月曜に来ていただくことは可能でしょうか",
+          "time": "8:15 PM"
+        },
+        {
+          "side": "me",
+          "text": "動画の作業、まだ着手できてなくて…💦",
+          "time": "8:16 PM"
+        },
+        {
+          "side": "them",
+          "text": "はい、承知しました!月曜にお会いしましょう🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "山本翔太",
+          "text": "皆さん、今週の[日本]展示会ブース準備の状況を共有お願いします 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "伊藤彩",
+          "text": "ブース資材、本日発注しました!金曜入荷予定です 📦",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "佐野春香",
+          "text": "現地通訳2名の手配が完了しました。名簿はまもなく共有します 😊",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "皆さんお疲れさまです!バナー案は本日中に上げます"
+        },
+        {
+          "side": "them",
+          "who": "高橋結衣",
+          "text": "リード収集用QR申込フォームもほぼ完成しました 🔗",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "いいですね 🔥 では木曜に最終リハーサルを回しましょう"
+        },
+        {
+          "side": "them",
+          "who": "山本翔太",
+          "text": "👍 木曜午後3時でカレンダーに入れておきます",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "高橋結衣のコメント",
+          "task": "仮説ICP策定 2回目",
+          "activity": "'🚫 Not started' → '⏳ In Progress' にステータスが更新されました。",
+          "time": "数秒前",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "高橋結衣が新しいタスクを追加",
+          "task": "仮説ICP策定 2回目",
+          "time": "4分前",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "高橋結衣のコメント",
+          "task": "競合のマーケティングチャネル・戦略調査",
+          "activity": "'⏳ In Progress' → '🎉 Done' にステータスが更新されました。",
+          "time": "5分前",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "高橋結衣のコメント",
+          "task": "追加マーケティングチャネル調査",
+          "activity": "'⏳ In Progress' → '🎉 Done' にステータスが更新されました。",
+          "time": "5分前",
+          "unread": true
+        },
+        {
+          "proj": "[QA] Morningmate",
+          "av": "#A8E6C0",
+          "actor": "小林由美が返信を追加",
+          "task": "[Website] Can't sign up to Morningmate",
+          "activity": "ありがとうございます、リーダー!!",
+          "time": "1時間前"
+        },
+        {
+          "proj": "[日本] フリーランス協業ルーム",
+          "emoji": "🔴",
+          "av": "#C5A3FF",
+          "actor": "佐野春香がコメントを追加",
+          "plain": "お先に失礼します!また明日お会いしましょう",
+          "time": "1時間前"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "小林由美のコメント",
+          "task": "ディナーのレストラン予約",
+          "activity": "担当者に「小林由美」が追加されました。",
+          "time": "2時間前"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "小林由美がコメントを追加",
+          "task": "[共有・確認依頼] ブルネル大学副学長 訪問ミーティングのアレンジ件",
+          "activity": "15時オフィス訪問+その後ディナーでアレンジ完了",
+          "time": "2時間前"
+        }
+      ],
+      "haruka": {
+        "pin": "📢 8日出社、18日出社します!",
+        "auto": "春香さん、動画の編集版確認しました!クオリティすごく良いですね 👍 月曜にお会いしましょう"
+      },
+      "group": {
+        "name": "[日本] フリーランス協業ルーム",
+        "pin": "📢 [日本] 展示会 D-3!ブース最終チェックお願いします 🔥",
+        "auto": "先ほどバナー最終案を共有しました!ご確認のうえコメントお願いします 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 {name}さんとの1:1チャット",
+        "auto": "はい、確認しました!すぐ反映して再共有します 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "こんにちは!先ほど共有いただいた資料、確かに受け取りました 😊"
+          },
+          {
+            "side": "me",
+            "text": "はい、ご確認お願いします!"
+          },
+          {
+            "side": "them",
+            "text": "はい、すぐ反映してご返信します 🙌"
+          }
+        ]
+      }
+    },
+    "participants": [
+      {
+        "name": "田中美咲",
+        "role": "チームリーダー"
+      },
+      {
+        "name": "佐野春香",
+        "role": "フリーランサー"
+      },
+      {
+        "name": "伊藤彩",
+        "role": "オフィスリード"
+      },
+      {
+        "name": "高橋結衣",
+        "role": "アソシエイト"
+      },
+      {
+        "name": "山本翔太",
+        "role": "創業者 & CEO"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "中島大輝",
+        "role": "エンジニア",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "加藤陸",
+        "role": "営業",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "小川誠",
+        "role": "サポート",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}

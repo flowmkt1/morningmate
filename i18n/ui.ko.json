@@ -1,0 +1,270 @@
+{
+  "lang": "ko",
+  "tabs": {
+    "home": "홈",
+    "projects": "프로젝트",
+    "tasks": "업무",
+    "noti": "알림",
+    "chat": "채팅",
+    "files": "파일",
+    "images": "이미지",
+    "schedule": "일정"
+  },
+  "header": {
+    "home": "홈",
+    "myProjects": "내 프로젝트",
+    "allTasks": "전체 업무",
+    "noti": "알림",
+    "chat": "채팅",
+    "files": "파일",
+    "images": "이미지",
+    "schedule": "일정"
+  },
+  "task": {
+    "status": "상태",
+    "assignee": "담당자",
+    "due": "마감일",
+    "progress": "진척도",
+    "changeAssignee": "담당자 변경",
+    "addDue": "＋ 마감일 추가",
+    "addItem": "＋ 추가 항목 보기",
+    "collapseItem": "항목 접기",
+    "dueSample": "2026-06-13 (금) 까지"
+  },
+  "todo": {
+    "addItem": "＋ 할 일 추가",
+    "added1": "현장 점검표 작성",
+    "added2": "자료 수집 폼 설치"
+  },
+  "status": {
+    "request": "요청",
+    "inProgress": "진행중",
+    "feedback": "피드백",
+    "done": "완료",
+    "pending": "요청",
+    "progress": "진행",
+    "complete": "완료",
+    "hold": "보류"
+  },
+  "actions": {
+    "like": "좋아요",
+    "bookmark": "북마크",
+    "remindAgain": "다시 알림"
+  },
+  "meta": {
+    "read": "읽음",
+    "justNow": "방금"
+  },
+  "comment": {
+    "all": "전체",
+    "comment": "댓글",
+    "like": "좋아요",
+    "placeholder": "댓글을 입력하세요.",
+    "inputHint": "Shift + Enter로 줄바꿈, Enter로 등록",
+    "auto": [
+      "확인했습니다 👍 바로 진행하겠습니다!",
+      "체크리스트 꼼꼼하네요 📋 제 항목은 오늘 중으로 끝낼게요!",
+      "일정 확인했어요 📅 시간 맞춰 참여하겠습니다!",
+      "저는 A안에 한 표 🙋 가독성이 제일 좋네요!",
+      "공유 감사합니다 🙌 수치가 인상적이네요!"
+    ],
+    "reply": "넵! 확인했습니다 🙌",
+    "sampleFile": "2026_업무프로세스_개선안.docx"
+  },
+  "files": {
+    "allFiles": "전체 파일",
+    "allFormats": "모든 포맷",
+    "empty": "해당 포맷의 파일이 없습니다",
+    "format": {
+      "cloud": "클라우드",
+      "pdf": "PDF",
+      "word": "워드",
+      "excel": "엑셀",
+      "ppt": "파워포인트",
+      "image": "이미지",
+      "av": "음악/동영상",
+      "html": "HTML",
+      "zip": "압축파일",
+      "video": "동영상"
+    }
+  },
+  "search": {
+    "placeholder": "검색어를 입력하세요.",
+    "recent": "최근 검색",
+    "clearAll": "전체 삭제",
+    "more": "더보기 →",
+    "tab": {
+      "all": "전체",
+      "project": "프로젝트",
+      "post": "게시물",
+      "comment": "댓글",
+      "chat": "채팅",
+      "file": "파일"
+    },
+    "section": {
+      "post": "게시물",
+      "comment": "댓글",
+      "chat": "채팅",
+      "file": "파일",
+      "project": "프로젝트"
+    }
+  },
+  "chat": {
+    "inputPlaceholder": "메시지 보내기",
+    "windowPlaceholder": "메시지를 입력하세요. (멘션 @ / 줄바꿈 Shift + Enter)",
+    "send": "전송"
+  },
+  "vote": {
+    "end": "투표 종료",
+    "cancel": "투표 취소하기",
+    "unit": "명",
+    "participating": "명 참여 중"
+  },
+  "schedule": {
+    "changeParticipants": "참석자 변경",
+    "joinZoom": "Zoom으로 참여하기",
+    "copyLink": "링크 복사",
+    "remindBefore": "{n}분 전 미리 알림",
+    "recordNote": "미팅노트로 녹음하기"
+  },
+  "rsvp": {
+    "going": "참석",
+    "notGoing": "불참",
+    "maybe": "미정",
+    "commentGoing": "{name}님이 참석합니다. 현장에서 뵙겠습니다! 🙌",
+    "commentNotGoing": "{name}님이 불참합니다. 다음에 함께해요 🙏",
+    "commentMaybe": "{name}님이 미정입니다."
+  },
+  "common": {
+    "favorites": "즐겨찾기",
+    "viewSettings": "보기설정",
+    "allAssignees": "전체 담당자",
+    "allTasksFilter": "전체 업무",
+    "taskName": "업무명",
+    "comingSoon": "준비 중입니다"
+  },
+  "weekdays": [
+    "일",
+    "월",
+    "화",
+    "수",
+    "목",
+    "금",
+    "토"
+  ],
+  "dateFmt": {
+    "ampmBefore": "오전",
+    "ampmAfter": "오후",
+    "dueSuffix": "까지"
+  },
+  "pc": {
+    "newProject": "새 프로젝트",
+    "myProjects": "내 프로젝트",
+    "dashboard": "대시보드",
+    "allMemberProjects": "전체 멤버 프로젝트",
+    "more": "더보기",
+    "seeAll": "전체 보기",
+    "tasks": "업무",
+    "gantt": "간트차트",
+    "calendar": "일정",
+    "files": "파일",
+    "bookmarks": "북마크",
+    "mentions": "멘션",
+    "myPosts": "내 게시물",
+    "savedDrafts": "임시 저장",
+    "inviteEmployees": "직원 초대",
+    "customerSupport": "고객 지원",
+    "smartSearch": "스마트 검색",
+    "participants": "참여자",
+    "projectManager": "프로젝트 관리자",
+    "external": "외부",
+    "internal": "내부",
+    "chat": "채팅",
+    "videoConference": "화상 회의",
+    "invite": "＋ 초대",
+    "event": "이벤트",
+    "task": "업무",
+    "all": "전체",
+    "myEvents": "내 이벤트",
+    "registeredSchedule": "등록한 일정",
+    "none": "선택 안함",
+    "allTasks": "전체 업무",
+    "myTasks": "내 업무",
+    "requestedTasks": "요청한 업무",
+    "addEvent": "＋ 일정 추가",
+    "enterEventName": "일정명을 입력하세요.",
+    "fileType": "파일 형식",
+    "project": "프로젝트",
+    "enterFileName": "파일명을 입력하세요.",
+    "filter": "필터",
+    "addFolder": "＋ 폴더 추가",
+    "latest": "최신순",
+    "name": "이름",
+    "createWidget": "＋ 위젯 만들기",
+    "groupedView": "그룹 보기",
+    "hide": "숨기기",
+    "hideAll": "모두 숨기기",
+    "addTask": "업무 추가",
+    "noAssigneeTasks": "해당 담당자의 업무가 없습니다",
+    "col": {
+      "task": "업무명",
+      "status": "상태",
+      "assignee": "담당자",
+      "startDate": "시작일",
+      "dueDate": "마감일",
+      "progress": "진척도",
+      "doubleCheck": "더블체크",
+      "budget": "예산"
+    },
+    "tab": {
+      "feed": "피드",
+      "table": "테이블",
+      "gantt": "간트차트",
+      "calendar": "일정",
+      "files": "파일",
+      "activity": "활동",
+      "repeat": "반복",
+      "insights": "인사이트"
+    },
+    "today": "오늘",
+    "day": "일",
+    "settings": "설정",
+    "newChat": "＋ 채팅",
+    "contact": "연락처",
+    "searchByName": "이름, 채팅방 이름으로 검색",
+    "notifications": "알림",
+    "unread": "안 읽음",
+    "readAll": "모두 읽음",
+    "goBack": "뒤로가기",
+    "searchResults": "검색 결과",
+    "searchChip": "검색",
+    "filterReset": "초기화",
+    "sort": "정렬",
+    "related": "관련도순",
+    "oldest": "오래된순",
+    "dateRange": "검색 기간",
+    "week": "1주일",
+    "month1": "1개월",
+    "months6": "6개월",
+    "custom": "직접 입력",
+    "creator": "작성자",
+    "searchByAuthors": "작성자를 검색",
+    "searchByProject": "프로젝트를 검색",
+    "projectFile": "프로젝트 파일",
+    "month": "월",
+    "insights": {
+      "weeklyTrend": "주별 업무 추이",
+      "byStatus": "상태별 업무 현황",
+      "weeklyAvg": "주평균 요청/처리 건수",
+      "postTop": "게시글 TOP 5",
+      "commentTop": "댓글 TOP 5",
+      "byAssignee": "담당자별 업무",
+      "perWeek": "주별 업무 수",
+      "duration": "기간",
+      "all": "전체",
+      "requestedTasks": "요청한 업무 수",
+      "processedTasks": "처리한 업무 수",
+      "noResults": "결과 없음"
+    }
+  }
+}

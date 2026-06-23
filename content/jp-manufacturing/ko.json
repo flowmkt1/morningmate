@@ -1,0 +1,2557 @@
+{
+  "meta": {
+    "industry": "마케팅",
+    "sector": "프리랜서 협업",
+    "language": "ko",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "[일본] 한국X일본XMWI 마케팅 협업방",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "[일본] 프리랜서 협업방",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "[일본] 경쟁사 모니터링 (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AI 팀 만들기 프로젝트",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[노소연] 개인 to-do",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "영상 크리에이티브팀 협업방",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[인플루언서 에이전시] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "박정호",
+    "role": "생산관리 매니저",
+    "team": "제조관리부",
+    "color": "#F2A65A"
+  },
+  "room": {
+    "name": "[일본] 제조 공정관리방",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "author": {
+        "name": "박정호",
+        "role": "생산관리 매니저",
+        "team": "제조관리부",
+        "color": "#F2A65A"
+      },
+      "datetime": "2026-06-04 12:36",
+      "taskNo": "920471",
+      "read": 1,
+      "title": "[공정관리] A라인 가동률 개선 진행",
+      "status": {
+        "label": "진행중",
+        "color": "#1A8F2E",
+        "bg": "rgba(0,176,28,.20)"
+      },
+      "assignee": {
+        "name": "한지영",
+        "color": "#A8E6C0"
+      },
+      "due": "",
+      "progress": 45,
+      "body": [
+        "A라인 가동률 개선 활동의 진행 상황을 관리합니다.",
+        {
+          "t": "h",
+          "e": "🏭",
+          "x": "개선 개요"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "📍",
+              "x": "대상: 제1공장 A라인(센서유닛)"
+            },
+            {
+              "e": "🎯",
+              "x": "목표: 가동률 82% → 90%"
+            },
+            {
+              "e": "📅",
+              "x": "점검 주기: 매주 수요일"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "개선 항목"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "항목",
+            "내용",
+            "상태"
+          ],
+          "rows": [
+            [
+              "택트타임 단축",
+              "병목 공정 재배치와 치공구 개선",
+              "진행중"
+            ],
+            [
+              "불량률 저감",
+              "초기 불량 원인 분석·대책",
+              "대기"
+            ],
+            [
+              "설비 가동",
+              "정지시간 분석과 예방보전",
+              "대기"
+            ],
+            [
+              "작업표준",
+              "SOP 갱신과 작업자 교육",
+              "대기"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "상세는 첨부 공정개선 계획서를 참고 부탁드립니다."
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "author": {
+        "name": "최민석",
+        "role": "구매 담당",
+        "team": "제조관리부",
+        "color": "#5BBF9A"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 3,
+      "title": "주간 공정 점검 체크리스트",
+      "items": [
+        {
+          "text": "라인 정지시간 집계",
+          "done": false,
+          "assignee": {
+            "name": "한지영",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "불량 유형 분류",
+          "done": false,
+          "assignee": {
+            "name": "한지영",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "금형·치공구 상태 점검",
+          "done": false,
+          "assignee": {
+            "name": "한지영",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "부품 재고 확인",
+          "done": false,
+          "assignee": {
+            "name": "한지영",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "안전·5S 점검",
+          "done": false,
+          "assignee": {
+            "name": "한지영",
+            "color": "#9DC8FF"
+          }
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "author": {
+        "name": "이수진",
+        "role": "품질관리 리더",
+        "team": "제조관리부",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 1,
+      "title": "A라인 공정 개선 회의",
+      "dateBadge": {
+        "month": "2026-07",
+        "day": "08"
+      },
+      "timeRange": "2026-07-08 (수), 10:00 — 11:00",
+      "participants": {
+        "going": 1,
+        "notGoing": 0,
+        "pending": 0,
+        "avatars": [
+          {
+            "name": "박정호",
+            "color": "#F2A65A"
+          },
+          {
+            "name": "정대현",
+            "color": "#B0A4E6"
+          }
+        ]
+      },
+      "zoom": true,
+      "reminder": "30분 전 미리 알림",
+      "recording": true,
+      "body": [
+        "제1공장 회의실",
+        "가동률 데이터 리뷰 / 병목 공정 대책 논의"
+      ],
+      "rsvp": true
+    },
+    {
+      "type": "vote",
+      "author": {
+        "name": "이수진",
+        "role": "품질관리 리더",
+        "team": "제조관리부",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 16:14",
+      "read": 1,
+      "status": "진행중",
+      "title": "치공구 개선안 투표",
+      "description": "병목 공정 치공구 개선안 중 우선 적용안을 골라주세요.",
+      "voters": 8,
+      "options": [
+        {
+          "label": "A안 — 지그 자동화",
+          "votes": 5,
+          "voted": true
+        },
+        {
+          "label": "B안 — 작업대 재배치",
+          "votes": 2
+        },
+        {
+          "label": "C안 — 공구 교체",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "author": {
+        "name": "김상우",
+        "role": "공장장",
+        "team": "제조관리부",
+        "color": "#5B6CF0"
+      },
+      "datetime": "2026-06-04 12:39",
+      "read": 8,
+      "title": "공정관리 위클리 공유",
+      "body": [
+        "이번 주 A라인 공정관리 요점을 공유합니다.",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "이번 주 하이라이트"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "⚙️",
+              "b": true,
+              "x": "가동률 82→86% 개선",
+              "sub": [
+                "병목 공정 재배치 효과. 다음 주 치공구 개선 적용 예정입니다."
+              ]
+            },
+            {
+              "e": "✅",
+              "b": true,
+              "x": "초기 불량률 1.8%→1.1%",
+              "sub": [
+                "주요 불량 원인 2건 대책 완료. 추적 관찰 중입니다."
+              ]
+            },
+            {
+              "e": "🛠",
+              "b": true,
+              "x": "예방보전 계획 수립",
+              "sub": [
+                "주요 설비 점검 주기 확정. 정지시간 20% 감소 목표입니다."
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "다음 주 액션"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "치공구 개선 적용"
+            },
+            {
+              "e": "②",
+              "x": "불량 추적 관찰"
+            },
+            {
+              "e": "③",
+              "x": "설비 예방보전 1차"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/factory,production?lock=7"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "2026년 05월",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "어린이날"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "석가탄신일"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "홈페이지 로고 사용 여부 확인…",
+          "status": "Complete",
+          "assignee": "Jessica Baek",
+          "author": "Soyun Noh"
+        },
+        {
+          "type": "task",
+          "name": "홈페이지 - 회사소개 (모닝메…",
+          "status": "Complete",
+          "assignee": "Hyejo Seo",
+          "author": "Soyun Noh"
+        },
+        {
+          "type": "task",
+          "name": "홈페이지 - 회사소개",
+          "status": "Complete",
+          "assignee": "Jessica Baek",
+          "author": "Soyun Noh"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "허브스팟 db import 기ㄴㄱ",
+          "s": "Pending"
+        },
+        {
+          "t": "하루카상 웹툰 가이드 주기",
+          "s": "Pending"
+        },
+        {
+          "t": "광고 콘텐츠 제작",
+          "s": "Pending"
+        },
+        {
+          "t": "광고 콘텐츠 제작_시네마틱",
+          "s": "Pending"
+        },
+        {
+          "t": "캐릭터 가이드",
+          "s": "Pending"
+        },
+        {
+          "t": "클로징 가이드",
+          "s": "Pending"
+        },
+        {
+          "t": "로고송-사명 연호(社名連呼)",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "주간보고서(일본)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "허브스팟 MKT 루트 추가 (박람회)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "주간회의_일본팀",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "영미권 우선순위 관련 회의",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "구글 API 카드정보 변경",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "공유드라이브_전시회폴더",
+      "t": "cloud",
+      "by": "노소연",
+      "sz": "폴더"
+    },
+    {
+      "n": "팀_워크스페이스_링크",
+      "t": "cloud",
+      "by": "June Lee",
+      "sz": "바로가기"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "Jessica Baek",
+      "sz": "2 MB"
+    },
+    {
+      "n": "ジョブカン会計_시뮬레이션.pdf",
+      "t": "pdf",
+      "by": "Jessica Baek",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "부스_운영_매뉴얼.pdf",
+      "t": "pdf",
+      "by": "장아람",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "프리랜서_계약_김우중.docx",
+      "t": "word",
+      "by": "노소연",
+      "sz": "210 KB"
+    },
+    {
+      "n": "표준_계약서_양식.docx",
+      "t": "word",
+      "by": "June Lee",
+      "sz": "320 KB"
+    },
+    {
+      "n": "전시회_리드_312건.xlsx",
+      "t": "excel",
+      "by": "노소연",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "부스_운영_정산표.xlsx",
+      "t": "excel",
+      "by": "장아람",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_런치_플랜.pptx",
+      "t": "ppt",
+      "by": "Hyejo Seo",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "전시회_부스_제안서.pptx",
+      "t": "ppt",
+      "by": "Jessica Baek",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "부스_시안_렌더.png",
+      "t": "image",
+      "by": "장아람",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "행사장_배치도.jpg",
+      "t": "image",
+      "by": "SANO HARUKA",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "전시회_홍보영상.mp4",
+      "t": "av",
+      "by": "SANO HARUKA",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "부스_BGM.mp3",
+      "t": "av",
+      "by": "Kimura Takuya",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "랜딩페이지_시안.html",
+      "t": "html",
+      "by": "WOOJUNG KIM",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_신청폼.html",
+      "t": "html",
+      "by": "Hyejo Seo",
+      "sz": "22 KB"
+    },
+    {
+      "n": "전시회_자료_백업.zip",
+      "t": "zip",
+      "by": "노소연",
+      "sz": "124 MB"
+    },
+    {
+      "n": "로고_원본_모음.zip",
+      "t": "zip",
+      "by": "Jessica Baek",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "A라인 공정개선 TF",
+      "av": "#9DC8FF",
+      "actor": "이수진님의 코멘트",
+      "time": "몇 초 전",
+      "emoji": "🟢",
+      "task": "택트타임 측정 2차",
+      "activity": "'요청' → '진행중' 상태로 변경되었습니다.",
+      "unread": true
+    },
+    {
+      "proj": "A라인 공정개선 TF",
+      "av": "#9DC8FF",
+      "actor": "정대현님이 새 업무를 추가",
+      "time": null,
+      "emoji": "🟢",
+      "activity": "설비 예방보전 1차",
+      "unread": true
+    },
+    {
+      "proj": "품질관리 QA",
+      "av": "#9DC8FF",
+      "actor": "이수진님의 코멘트",
+      "time": "5분 전",
+      "emoji": "🟢",
+      "task": "초기 양산 품질 점검",
+      "activity": "'진행중' → '완료' 상태로 변경되었습니다.",
+      "unread": true
+    },
+    {
+      "proj": "부품 조달·발주",
+      "av": "#9DC8FF",
+      "actor": "최민석님의 코멘트",
+      "time": "5분 전",
+      "emoji": "🟢",
+      "task": "주요 부품 발주",
+      "activity": "'진행중' → '완료' 상태로 변경되었습니다.",
+      "unread": true
+    },
+    {
+      "proj": "[설비] 보전 이력",
+      "av": "#9DC8FF",
+      "actor": "정대현님이 답글을 추가",
+      "time": "1시간 전",
+      "task": "설비 점검 체크리스트",
+      "activity": "감사합니다 매니저님!"
+    },
+    {
+      "proj": "[일본] 제조 공정관리방",
+      "av": "#9DC8FF",
+      "actor": "한지영님이 코멘트를 추가",
+      "time": null,
+      "emoji": "🔴",
+      "activity": "먼저 퇴근하겠습니다! 내일 라인 점검 같이 봐요",
+      "unread": true
+    },
+    {
+      "proj": "A라인 공정개선 TF",
+      "av": "#9DC8FF",
+      "actor": "박정호님의 코멘트",
+      "time": null,
+      "emoji": "🟢",
+      "task": "택트타임 단축",
+      "activity": "'박정호' 담당자가 추가되었습니다.",
+      "unread": true
+    },
+    {
+      "proj": "생산계획·납기",
+      "av": "#9DC8FF",
+      "actor": "박정호님이 코멘트를 추가",
+      "time": null,
+      "emoji": "🟢",
+      "task": "월간 생산계획",
+      "activity": "7월 생산계획 초안 공유드립니다",
+      "unread": true
+    }
+  ],
+  "chats": [
+    {
+      "name": "한지영",
+      "last": "A라인 가동률 데이터 공유드렸어요",
+      "time": "08:16 PM",
+      "color": "#9DC8FF",
+      "pin": true,
+      "count": true,
+      "active": true
+    },
+    {
+      "name": "이수진, 최민석",
+      "last": "수입검사 기준 확정되면 알려드릴게요",
+      "time": "",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "🔴[A라인] 공정개선 TF",
+      "last": "택트타임 측정 결과 공유드립니다",
+      "time": "04/28",
+      "color": "#FFB0B0",
+      "count": 4
+    },
+    {
+      "name": "정대현",
+      "last": "설비 점검 끝났습니다",
+      "time": "02/04",
+      "color": "#FFD4A8",
+      "pin": true
+    },
+    {
+      "name": "생산관리부 전체",
+      "last": "주간 생산회의 자료 확인 부탁드려요",
+      "time": "01/30",
+      "color": "#C5A3FF",
+      "pin": true,
+      "count": 5
+    },
+    {
+      "name": "이수진",
+      "last": "불량 추적표 업데이트했습니다",
+      "time": "04:58 PM",
+      "color": "#9DC8FF"
+    },
+    {
+      "name": "최민석",
+      "last": "부품 납기 7/2로 확정됐습니다",
+      "time": "06/02",
+      "color": "#A8E6C0"
+    },
+    {
+      "name": "김상우",
+      "last": "월간 생산보고 잘 받았습니다",
+      "time": "05/15",
+      "color": "#FFB89D"
+    },
+    {
+      "name": "이수진, 정대현",
+      "last": "네! 감사합니다!",
+      "time": "05/13",
+      "color": "#9DC8FF",
+      "count": 4
+    },
+    {
+      "name": "박정호, 한지영",
+      "last": "공정개선 일정 공유드립니다",
+      "time": "05/12",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "이수진, 김상우",
+      "last": "네네!!",
+      "time": "05/11",
+      "color": "#C5A3FF",
+      "count": 3
+    }
+  ],
+  "conversation": [
+    {
+      "side": "them",
+      "text": "A라인 가동률 데이터 공유드려요",
+      "time": "5:46 PM"
+    },
+    {
+      "side": "them",
+      "text": "어제 정지시간이 좀 길었어요",
+      "time": "5:47 PM"
+    },
+    {
+      "side": "me",
+      "text": "넵넵"
+    },
+    {
+      "side": "me",
+      "text": "한지영님 병목 공정 어디였나요?"
+    },
+    {
+      "side": "me",
+      "text": "다음 주 치공구 개선 적용해볼게요"
+    },
+    {
+      "side": "me",
+      "text": "택트타임 측정도 같이 부탁드려요"
+    },
+    {
+      "side": "them",
+      "text": "넵 알겠습니다! 수요일에 측정하겠습니다 🙏",
+      "time": "10:42 PM"
+    }
+  ],
+  "groupConversation": [
+    {
+      "side": "them",
+      "who": "김상우",
+      "text": "다들 이번 주 A라인 공정개선 진행 상황 공유 부탁드려요 🙌",
+      "time": "9:02 AM"
+    },
+    {
+      "side": "them",
+      "who": "정대현",
+      "text": "설비 예방보전 1차 완료했습니다. 정지시간 줄었어요 🛠",
+      "time": "9:10 AM"
+    },
+    {
+      "side": "them",
+      "who": "이수진",
+      "text": "초기 불량 2건 대책 적용했습니다. 추적 관찰 중이에요 ✅",
+      "time": "9:15 AM"
+    },
+    {
+      "side": "me",
+      "text": "다들 고생하셨어요! 택트타임 데이터는 제가 오늘 정리할게요"
+    },
+    {
+      "side": "them",
+      "who": "최민석",
+      "text": "주요 부품 납기 7/2로 확정됐습니다 📦",
+      "time": "9:22 AM"
+    },
+    {
+      "side": "me",
+      "text": "좋아요 🔥 그럼 수요일 시운전 때 같이 점검하시죠"
+    },
+    {
+      "side": "them",
+      "who": "김상우",
+      "text": "👍 수요일 오전 10시로 잡아둘게요",
+      "time": "9:30 AM"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "June Lee",
+        "text": "계약 조건 확인했습니다 👍 바로 진행하시죠!"
+      },
+      {
+        "name": "SANO HARUKA",
+        "text": "항목 완료했어요! 다음 작업도 화이팅이에요 💪"
+      },
+      {
+        "name": "노소연",
+        "text": "부스 위치 확인했어요 📍 현장에서 뵙겠습니다!"
+      },
+      {
+        "name": "장아람",
+        "text": "저는 A안이 제일 깔끔한 것 같아요 🎨 한 표 던집니다"
+      },
+      {
+        "name": "Hyejo Seo",
+        "text": "리드 312건 정말 대박이네요 🎉 고생하셨어요!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "Kimura Takuya",
+        "text": "일본어 검수까지 마쳤습니다. 문제 없어요 ✅"
+      },
+      {
+        "name": "Kate Lee",
+        "text": "공유 감사합니다! 참고해서 진행할게요 🙏"
+      },
+      {
+        "name": "Jessica Baek",
+        "text": "일정 확인했습니다. 캘린더에 등록해둘게요 📅"
+      },
+      {
+        "name": "WOOJUNG KIM",
+        "text": "좋은 아이디어네요! 저도 한 표 보탭니다 ✋"
+      },
+      {
+        "name": "June Lee",
+        "text": "수치가 인상적이네요. 다음 주 회의에서 공유하죠 📊"
+      },
+      {
+        "name": "노소연",
+        "text": "넵 확인했습니다! 바로 반영해서 회신드릴게요 🙌"
+      },
+      {
+        "name": "SANO HARUKA",
+        "text": "현지 반응도 좋아요 😊 이대로 가면 될 것 같아요"
+      },
+      {
+        "name": "장아람",
+        "text": "부자재 발주 넣었습니다 📦 금요일 입고 예정이에요"
+      },
+      {
+        "name": "Hyejo Seo",
+        "text": "QR 신청 폼도 거의 완성됐어요 🔗 곧 공유드릴게요"
+      },
+      {
+        "name": "Kimura Takuya",
+        "text": "광고 소재 시안 3종 준비했습니다 🎬 검토 부탁드려요"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "SANO HARUKA",
+    "Kimura Takuya",
+    "Soyun Noh",
+    "Hyejo Seo"
+  ],
+  "extraTasks": [
+    "야후재팬 광고 셋팅",
+    "구글 광고 셋팅",
+    "PR TIMES 1개월 플랜 결제",
+    "note 사용법 기사 작성",
+    "인스타 릴스 제작",
+    "웨비나 자료 준비",
+    "경쟁사 광고 소재 조사",
+    "리드 CRM 업로드",
+    "키워드 조사",
+    "랜딩페이지 A/B 테스트",
+    "뉴스레터 발송",
+    "프리랜서 계약서 검토",
+    "전시회 부스 디자인 시안",
+    "현장 스태프 배치표",
+    "샘플 제품 포장",
+    "상담 예약 리스트 정리",
+    "콘텐츠 일본어 검수",
+    "미팅노트 정리",
+    "주간 보고서(일본)",
+    "X/인스타/유튜브 운영",
+    "kintone 웨비나",
+    "노션 웨비나",
+    "PR 기사 발행",
+    "이벤트 참여 안내문"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "[일본] 프리랜서 계약서 협업방",
+          "who": "Soyun Noh",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[프리랜서 계약] 표준 계약서 양식 확정 요청 - 김우중",
+          "body": "김우중님 계약 건 관련 표준 계약서 양식 첨부드립니다. 단기계약 후 장기계약 전환 조항이 포함되어 있으니 계약서 검토 후 회신 부탁드립니다…",
+          "who": "Soyun Noh",
+          "date": "2026-06-04 12:36",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "일본 외주 계약서 번역본 검수 완료",
+          "body": "일본어 계약서 번역본 검수 마쳤습니다. 법무 검토까지 끝났고 양측 서명만 남았습니다. 계약서 PDF 최종본 공유드립니다…",
+          "who": "Kimura Takuya",
+          "date": "2026-06-02 18:20",
+          "tag": "업무",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[정보 공유] 표준 근로/용역 계약서 템플릿 모음",
+          "body": "",
+          "who": "June Lee",
+          "date": "2026-04-15 11:41",
+          "tag": "업무",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "계약서 날인 및 원본 보관 안내",
+          "body": "",
+          "who": "Jessica Baek",
+          "date": "2026-04-27 11:06",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "전시회 부스 시공 계약서 조건 협의",
+          "body": "…부스 시공업체와 계약서 조건 협의 중입니다. 금액 및 일정 조항 조정이 필요해 보입니다. 계약서 초안 검토 부탁드려요…",
+          "who": "장아람",
+          "date": "2026-05-14 19:49",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… 계약서 조건 확인했습니다 👍 바로 진행하시죠! 서명본은 내일 회신드리겠습니다.",
+          "who": "June Lee",
+          "date": "2026-06-04 17:58",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중"
+        },
+        {
+          "text": "…계약서에 단기계약 후 장기계약 전환 조항 추가했습니다. 확인 부탁드려요.",
+          "who": "Soyun Noh",
+          "date": "2026-06-04 17:36",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중"
+        },
+        {
+          "text": "…일본어 계약서 검수까지 마쳤습니다. 문제 없어요 ✅ 법무 검토도 통과했습니다.",
+          "who": "Kimura Takuya",
+          "date": "2026-03-07 01:24",
+          "proj": "일본 외주 계약서 번역본 검수"
+        },
+        {
+          "text": "…계약서 표준 양식은 파일에 첨부해두었습니다. 다음 계약 건에도 동일하게 사용하면 됩니다.",
+          "who": "Jessica Baek",
+          "date": "2026-03-07 00:39",
+          "proj": "표준 근로/용역 계약서 템플릿 모음"
+        },
+        {
+          "text": "대표님, 계약서 날인을 위해 법인 인감과 서명이 필요합니다. 2/2까지 회신 부탁드립니다.",
+          "who": "Jessica Baek",
+          "date": "2026-01-29 10:42",
+          "proj": "계약서 날인 및 원본 보관 안내"
+        }
+      ],
+      "chats": [
+        {
+          "text": "표준 계약서 양식 보내드릴게요",
+          "who": "Soyun Noh",
+          "date": "2026-03-17 12:56",
+          "proj": "June Lee"
+        },
+        {
+          "text": "계약서 조건 확인했습니다 👍 진행하시죠",
+          "who": "June Lee",
+          "date": "2026-06-08 12:22",
+          "proj": "June Lee"
+        },
+        {
+          "text": "계약서 서명본은 오늘 중으로 회신드리겠습니다 ㅠㅠ",
+          "who": "Kimura Takuya",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴[일본] 전시회 TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_업무프로세스혁신_일본_노소연_계약서.docx",
+          "who": "노소연",
+          "date": "2026-06-04 12:37",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "표준_프리랜서_계약서_양식.docx",
+          "who": "June Lee",
+          "date": "2026-05-20 10:12",
+          "proj": "표준 근로/용역 계약서 템플릿 모음",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "계약서",
+        "d": "06/10"
+      },
+      {
+        "kw": "위치",
+        "d": "06/10"
+      },
+      {
+        "kw": "팀원",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "노소연": "woman1",
+    "유성균": "man2",
+    "SANO HARUKA": "woman2",
+    "Hyejo Seo": "woman4",
+    "서혜조": "woman4",
+    "Hyejo (Jo) Seo": "woman4",
+    "Jessica Baek": "woman1",
+    "Sooyoung Oh": "woman4",
+    "Kate Lee": "woman3",
+    "장아람": "woman3",
+    "Kimura Takuya": "man3",
+    "WOOJUNG KIM": "man1",
+    "박선아": "woman1",
+    "정해성": "man5",
+    "한지민": "woman2",
+    "김채영": "woman2",
+    "김우중": "man1",
+    "June Lee": "man6",
+    "신원준": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "박정호",
+      "role": "생산관리 매니저",
+      "team": "제조관리부",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "박정호",
+          "role": "생산관리 매니저",
+          "team": "제조관리부",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "920471",
+        "read": 1,
+        "title": "[공정관리] A라인 가동률 개선 진행",
+        "status": {
+          "label": "진행중",
+          "color": "#1A8F2E",
+          "bg": "rgba(0,176,28,.20)"
+        },
+        "assignee": {
+          "name": "한지영",
+          "color": "#A8E6C0"
+        },
+        "due": "",
+        "progress": 45,
+        "body": [
+          "A라인 가동률 개선 활동의 진행 상황을 관리합니다.",
+          {
+            "t": "h",
+            "e": "🏭",
+            "x": "개선 개요"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "📍",
+                "x": "대상: 제1공장 A라인(센서유닛)"
+              },
+              {
+                "e": "🎯",
+                "x": "목표: 가동률 82% → 90%"
+              },
+              {
+                "e": "📅",
+                "x": "점검 주기: 매주 수요일"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "개선 항목"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "항목",
+              "내용",
+              "상태"
+            ],
+            "rows": [
+              [
+                "택트타임 단축",
+                "병목 공정 재배치와 치공구 개선",
+                "진행중"
+              ],
+              [
+                "불량률 저감",
+                "초기 불량 원인 분석·대책",
+                "대기"
+              ],
+              [
+                "설비 가동",
+                "정지시간 분석과 예방보전",
+                "대기"
+              ],
+              [
+                "작업표준",
+                "SOP 갱신과 작업자 교육",
+                "대기"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "상세는 첨부 공정개선 계획서를 참고 부탁드립니다."
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "최민석",
+          "role": "구매 담당",
+          "team": "제조관리부",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "주간 공정 점검 체크리스트",
+        "items": [
+          {
+            "text": "라인 정지시간 집계",
+            "done": false,
+            "assignee": {
+              "name": "한지영",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "불량 유형 분류",
+            "done": false,
+            "assignee": {
+              "name": "한지영",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "금형·치공구 상태 점검",
+            "done": false,
+            "assignee": {
+              "name": "한지영",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "부품 재고 확인",
+            "done": false,
+            "assignee": {
+              "name": "한지영",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "안전·5S 점검",
+            "done": false,
+            "assignee": {
+              "name": "한지영",
+              "color": "#9DC8FF"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "이수진",
+          "role": "품질관리 리더",
+          "team": "제조관리부",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "A라인 공정 개선 회의",
+        "dateBadge": {
+          "month": "2026-07",
+          "day": "08"
+        },
+        "timeRange": "2026-07-08 (수), 10:00 — 11:00",
+        "participants": {
+          "going": 1,
+          "notGoing": 0,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "박정호",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "정대현",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "30분 전 미리 알림",
+        "recording": true,
+        "body": [
+          "제1공장 회의실",
+          "가동률 데이터 리뷰 / 병목 공정 대책 논의"
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "이수진",
+          "role": "품질관리 리더",
+          "team": "제조관리부",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "치공구 개선안 투표",
+        "description": "병목 공정 치공구 개선안 중 우선 적용안을 골라주세요.",
+        "voters": 8,
+        "options": [
+          {
+            "label": "A안 — 지그 자동화",
+            "votes": 5,
+            "voted": true
+          },
+          {
+            "label": "B안 — 작업대 재배치",
+            "votes": 2
+          },
+          {
+            "label": "C안 — 공구 교체",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "김상우",
+          "role": "공장장",
+          "team": "제조관리부",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "공정관리 위클리 공유",
+        "body": [
+          "이번 주 A라인 공정관리 요점을 공유합니다.",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "이번 주 하이라이트"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "⚙️",
+                "b": true,
+                "x": "가동률 82→86% 개선",
+                "sub": [
+                  "병목 공정 재배치 효과. 다음 주 치공구 개선 적용 예정입니다."
+                ]
+              },
+              {
+                "e": "✅",
+                "b": true,
+                "x": "초기 불량률 1.8%→1.1%",
+                "sub": [
+                  "주요 불량 원인 2건 대책 완료. 추적 관찰 중입니다."
+                ]
+              },
+              {
+                "e": "🛠",
+                "b": true,
+                "x": "예방보전 계획 수립",
+                "sub": [
+                  "주요 설비 점검 주기 확정. 정지시간 20% 감소 목표입니다."
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "다음 주 액션"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "치공구 개선 적용"
+              },
+              {
+                "e": "②",
+                "x": "불량 추적 관찰"
+              },
+              {
+                "e": "③",
+                "x": "설비 예방보전 1차"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/factory,production?lock=7"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "생산라인 셋업",
+        "status": "Progress",
+        "assignee": "한지영",
+        "progress": 40,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "라인 레이아웃 설계",
+            "status": "Complete",
+            "assignee": "한지영",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "설비 반입·설치",
+            "status": "Progress",
+            "assignee": "정대현",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "시운전·택트 측정",
+            "status": "Pending",
+            "assignee": "박정호",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "금형·치공구 관리",
+        "status": "Progress",
+        "assignee": "정대현",
+        "progress": 55,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "시작 금형 제작",
+            "status": "Complete",
+            "assignee": "정대현",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "금형 검증",
+            "status": "Progress",
+            "assignee": "이수진",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "부품·자재 조달",
+        "status": "Progress",
+        "assignee": "최민석",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "주요 부품 발주",
+            "status": "Complete",
+            "assignee": "최민석",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "수입검사 기준 수립",
+            "status": "Progress",
+            "assignee": "이수진",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "공급사 평가",
+            "status": "Pending",
+            "assignee": "최민석",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "품질관리",
+        "status": "Progress",
+        "assignee": "이수진",
+        "progress": 50,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "검사기준서 작성",
+            "status": "Complete",
+            "assignee": "이수진",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "초기 양산 품질 점검",
+            "status": "Progress",
+            "assignee": "이수진",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "불량 원인 분석",
+            "status": "Pending",
+            "assignee": "한지영",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "설비보전",
+        "status": "Progress",
+        "assignee": "정대현",
+        "progress": 45,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "예방보전 계획",
+            "status": "Progress",
+            "assignee": "정대현",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "설비 점검 체크리스트",
+            "status": "Complete",
+            "assignee": "정대현",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "공정 개선",
+        "status": "Progress",
+        "assignee": "박정호",
+        "progress": 35,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "택트타임 단축",
+            "status": "Progress",
+            "assignee": "한지영",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "불량률 개선",
+            "status": "Pending",
+            "assignee": "이수진",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "표준화·교육",
+        "status": "Progress",
+        "assignee": "박정호",
+        "progress": 60,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "작업표준서(SOP) 작성",
+            "status": "Complete",
+            "assignee": "박정호",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "작업자 교육",
+            "status": "Progress",
+            "assignee": "한지영",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "안전·환경",
+        "status": "Pending",
+        "assignee": "정대현",
+        "progress": 0,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "안전점검",
+            "status": "Complete",
+            "assignee": "정대현",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "5S 활동",
+            "status": "Progress",
+            "assignee": "한지영",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "생산 계획",
+        "status": "Progress",
+        "assignee": "박정호",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "월간 생산계획",
+            "status": "Progress",
+            "assignee": "박정호",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "납기 관리",
+            "status": "Pending",
+            "assignee": "최민석",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      }
+    ],
+    "gantt": [
+      {
+        "task": "라인 레이아웃 설계",
+        "status": "Complete",
+        "start": "2026-06-02",
+        "due": "2026-06-06",
+        "prog": 100,
+        "assignee": "한지영"
+      },
+      {
+        "task": "설비 반입·설치",
+        "status": "Progress",
+        "start": "2026-06-08",
+        "due": "2026-06-19",
+        "prog": 60,
+        "assignee": "정대현"
+      },
+      {
+        "task": "시작 금형 제작",
+        "status": "Complete",
+        "start": "2026-06-01",
+        "due": "2026-06-12",
+        "prog": 100,
+        "assignee": "정대현"
+      },
+      {
+        "task": "금형 검증",
+        "status": "Progress",
+        "start": "2026-06-15",
+        "due": "2026-06-24",
+        "prog": 50,
+        "assignee": "이수진"
+      },
+      {
+        "task": "주요 부품 발주",
+        "status": "Complete",
+        "start": "2026-06-03",
+        "due": "2026-06-05",
+        "prog": 100,
+        "assignee": "최민석"
+      },
+      {
+        "task": "수입검사 기준 수립",
+        "status": "Progress",
+        "start": "2026-06-17",
+        "due": "2026-06-26",
+        "prog": 40,
+        "assignee": "이수진"
+      },
+      {
+        "task": "검사기준서 작성",
+        "status": "Complete",
+        "start": "2026-06-09",
+        "due": "2026-06-16",
+        "prog": 100,
+        "assignee": "이수진"
+      },
+      {
+        "task": "예방보전 계획",
+        "status": "Progress",
+        "start": "2026-06-22",
+        "due": "2026-07-01",
+        "prog": 50,
+        "assignee": "정대현"
+      },
+      {
+        "task": "택트타임 단축",
+        "status": "Progress",
+        "start": "2026-06-24",
+        "due": "2026-07-03",
+        "prog": 40,
+        "assignee": "한지영"
+      },
+      {
+        "task": "작업표준서(SOP) 작성",
+        "status": "Complete",
+        "start": "2026-06-10",
+        "due": "2026-06-18",
+        "prog": 100,
+        "assignee": "박정호"
+      },
+      {
+        "task": "작업자 교육",
+        "status": "Progress",
+        "start": "2026-06-29",
+        "due": "2026-07-08",
+        "prog": 40,
+        "assignee": "한지영"
+      },
+      {
+        "task": "시운전·택트 측정",
+        "status": "Pending",
+        "start": "2026-07-06",
+        "due": "2026-07-10",
+        "prog": 0,
+        "assignee": "박정호"
+      },
+      {
+        "task": "초기 양산 품질 점검",
+        "status": "Progress",
+        "start": "2026-07-01",
+        "due": "2026-07-09",
+        "prog": 60,
+        "assignee": "이수진"
+      },
+      {
+        "task": "월간 생산계획",
+        "status": "Pending",
+        "start": "2026-07-01",
+        "due": "2026-07-02",
+        "prog": 0,
+        "assignee": "박정호"
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "10:00 am",
+            "name": "설비 정기점검",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "어린이날",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "공급사 품질 미팅",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "월간 생산회의",
+            "type": "event"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "10:00 am",
+            "name": "A라인 시운전",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "현충일",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "라인 가동률 리뷰",
+        "불량 원인 회의",
+        "금형 점검",
+        "공급사 미팅",
+        "예방보전 작업",
+        "품질 감사",
+        "생산계획 수립",
+        "재고 점검",
+        "신라인 시운전",
+        "월간 생산보고"
+      ],
+      "assignees": [
+        "박정호",
+        "이수진",
+        "최민석",
+        "정대현",
+        "한지영",
+        "김상우"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🏭",
+          "name": "[일본] 제조 공정관리방",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "⚙️",
+          "name": "A라인 생산관리"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "✅",
+          "name": "품질관리 QA"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[설비] 보전 이력"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "📦",
+          "name": "부품 조달·발주"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🔧",
+          "name": "금형·치공구"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "불량 분석 Room"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🦺",
+          "name": "[안전] 5S 활동"
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "📅",
+          "name": "생산계획·납기"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🤝",
+          "name": "협력사 관리"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📦",
+          "name": "신제품 양산"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "📋",
+          "name": "검사기준·SOP"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[설비] 점검 로그"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "💴",
+          "name": "원가·자재"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📊",
+          "name": "월간 생산보고"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔧",
+          "name": "라인 개선 TF"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "📈",
+          "name": "공정 데이터"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "품질 클레임"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🏭",
+          "name": "외주 가공"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🏭",
+          "name": "工場 全体方"
+        }
+      ]
+    },
+    "search": {
+      "kw": "공정",
+      "posts": [
+        {
+          "title": "[공정개선] A라인 택트타임 단축 검토",
+          "body": "병목 공정 재배치로 택트타임을 단축하는 공정개선안을 검토했습니다. 공정별 작업시간을 측정해 표준 공정을 재정의했고, 치공구 개선으로 추가 단축이 가능합니다...",
+          "who": "박정호",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[일본] 제조 공정관리방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "초기 양산 공정 불량 원인 분석",
+          "body": "초기 양산 공정에서 발생한 불량을 공정별로 분류해 원인을 분석했습니다. 주요 공정 2건에 대해 대책을 적용했고 추적 관찰 중입니다...",
+          "who": "이수진",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "품질관리 QA",
+          "color": "#F5524A"
+        },
+        {
+          "title": "설비 정지로 인한 공정 지연 대응",
+          "body": "설비 정지로 후속 공정이 지연되어 예방보전 주기를 재검토했습니다. 핵심 설비 공정의 가동률을 우선 확보합니다...",
+          "who": "정대현",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[설비] 보전 이력",
+          "color": "#F5524A"
+        },
+        {
+          "title": "신규 부품 수입검사 공정 표준화",
+          "body": "신규 부품의 수입검사 공정을 표준화했습니다. 검사기준서를 공정에 반영해 합격 기준을 통일합니다...",
+          "who": "최민석",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "부품 조달·발주",
+          "color": "#F5524A"
+        },
+        {
+          "title": "작업표준서(SOP) 공정 갱신 안내",
+          "body": "변경된 공정에 맞춰 작업표준서를 갱신했습니다. 작업자 교육 후 공정에 적용 예정입니다...",
+          "who": "한지영",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "검사기준·SOP",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "공정 표준시간 다시 측정해서 SOP에 반영 부탁드려요.",
+          "who": "김상우",
+          "date": "04-06-2026 13:10",
+          "proj": "A라인 택트타임 단축"
+        },
+        {
+          "text": "이 공정 불량은 치공구 마모가 원인 같아요. 교체 검토 부탁드립니다.",
+          "who": "한지영",
+          "date": "04-06-2026 13:10",
+          "proj": "초기 양산 불량 분석"
+        },
+        {
+          "text": "설비 점검 공정 주기를 주 1회로 올리는게 좋겠습니다.",
+          "who": "정대현",
+          "date": "04-06-2026 13:10",
+          "proj": "설비 보전 이력"
+        },
+        {
+          "text": "수입검사 공정 기준 첨부했습니다. 다음 입고부터 적용하죠.",
+          "who": "이수진",
+          "date": "04-06-2026 13:10",
+          "proj": "수입검사 기준"
+        },
+        {
+          "text": "공정 개선 효과 좋네요 👍 다른 라인에도 전개하죠.",
+          "who": "박정호",
+          "date": "04-06-2026 13:10",
+          "proj": "A라인 택트타임 단축"
+        }
+      ],
+      "files": [
+        {
+          "name": "A라인_공정개선_계획서_v2.pdf",
+          "who": "박정호",
+          "date": "04-06-2026 12:40",
+          "proj": "[일본] 제조 공정관리방",
+          "size": "0.94 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "A라인 공정 데이터 방금 공유드렸어요! 가동률 확인 부탁드려요",
+          "who": "박정호",
+          "date": "04-06-2026 12:38",
+          "proj": "한지영"
+        },
+        {
+          "text": "이 공정 불량 추적표 업데이트했습니다. 확인 부탁드려요",
+          "who": "이수진",
+          "date": "04-06-2026 12:38",
+          "proj": "품질관리 QA"
+        },
+        {
+          "text": "설비 점검 공정 끝났습니다. 다음 주 예방보전 진행할게요",
+          "who": "정대현",
+          "date": "04-06-2026 12:38",
+          "proj": "정대현"
+        },
+        {
+          "text": "수입검사 공정 기준 확정되면 공유드릴게요!",
+          "who": "최민석",
+          "date": "04-06-2026 12:38",
+          "proj": "최민석"
+        },
+        {
+          "text": "공정 개선안 적용 일정 잡으시죠. 라인 정지 최소화로요!",
+          "who": "한지영",
+          "date": "04-06-2026 12:38",
+          "proj": "라인 개선 TF"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[일본] 제조 공정관리 · 품질 협업방",
+          "who": "김상우",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "A라인 공정개선 TF · 데이터 관리",
+          "who": "박정호",
+          "date": "01-02-2026 09:00",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "한지영",
+          "last": "A라인 가동률 데이터 공유드렸어요",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "pin": true,
+          "count": true,
+          "active": true
+        },
+        {
+          "name": "이수진, 최민석",
+          "last": "수입검사 기준 확정되면 알려드릴게요",
+          "time": "",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "🔴[A라인] 공정개선 TF",
+          "last": "택트타임 측정 결과 공유드립니다",
+          "time": "04/28",
+          "color": "#FFB0B0",
+          "count": 4
+        },
+        {
+          "name": "정대현",
+          "last": "설비 점검 끝났습니다",
+          "time": "02/04",
+          "color": "#FFD4A8",
+          "pin": true
+        },
+        {
+          "name": "생산관리부 전체",
+          "last": "주간 생산회의 자료 확인 부탁드려요",
+          "time": "01/30",
+          "color": "#C5A3FF",
+          "pin": true,
+          "count": 5
+        },
+        {
+          "name": "이수진",
+          "last": "불량 추적표 업데이트했습니다",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "최민석",
+          "last": "부품 납기 7/2로 확정됐습니다",
+          "time": "06/02",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "김상우",
+          "last": "월간 생산보고 잘 받았습니다",
+          "time": "05/15",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "이수진, 정대현",
+          "last": "네! 감사합니다!",
+          "time": "05/13",
+          "color": "#9DC8FF",
+          "count": 4
+        },
+        {
+          "name": "박정호, 한지영",
+          "last": "공정개선 일정 공유드립니다",
+          "time": "05/12",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "이수진, 김상우",
+          "last": "네네!!",
+          "time": "05/11",
+          "color": "#C5A3FF",
+          "count": 3
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "text": "A라인 가동률 데이터 공유드려요",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "어제 정지시간이 좀 길었어요",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "넵넵"
+        },
+        {
+          "side": "me",
+          "text": "한지영님 병목 공정 어디였나요?"
+        },
+        {
+          "side": "me",
+          "text": "다음 주 치공구 개선 적용해볼게요"
+        },
+        {
+          "side": "me",
+          "text": "택트타임 측정도 같이 부탁드려요"
+        },
+        {
+          "side": "them",
+          "text": "넵 알겠습니다! 수요일에 측정하겠습니다 🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "김상우",
+          "text": "다들 이번 주 A라인 공정개선 진행 상황 공유 부탁드려요 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "정대현",
+          "text": "설비 예방보전 1차 완료했습니다. 정지시간 줄었어요 🛠",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "이수진",
+          "text": "초기 불량 2건 대책 적용했습니다. 추적 관찰 중이에요 ✅",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "다들 고생하셨어요! 택트타임 데이터는 제가 오늘 정리할게요"
+        },
+        {
+          "side": "them",
+          "who": "최민석",
+          "text": "주요 부품 납기 7/2로 확정됐습니다 📦",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "좋아요 🔥 그럼 수요일 시운전 때 같이 점검하시죠"
+        },
+        {
+          "side": "them",
+          "who": "김상우",
+          "text": "👍 수요일 오전 10시로 잡아둘게요",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "A라인 공정개선 TF",
+          "av": "#9DC8FF",
+          "actor": "이수진님의 코멘트",
+          "time": "몇 초 전",
+          "emoji": "🟢",
+          "task": "택트타임 측정 2차",
+          "activity": "'요청' → '진행중' 상태로 변경되었습니다.",
+          "unread": true
+        },
+        {
+          "proj": "A라인 공정개선 TF",
+          "av": "#9DC8FF",
+          "actor": "정대현님이 새 업무를 추가",
+          "time": null,
+          "emoji": "🟢",
+          "activity": "설비 예방보전 1차",
+          "unread": true
+        },
+        {
+          "proj": "품질관리 QA",
+          "av": "#9DC8FF",
+          "actor": "이수진님의 코멘트",
+          "time": "5분 전",
+          "emoji": "🟢",
+          "task": "초기 양산 품질 점검",
+          "activity": "'진행중' → '완료' 상태로 변경되었습니다.",
+          "unread": true
+        },
+        {
+          "proj": "부품 조달·발주",
+          "av": "#9DC8FF",
+          "actor": "최민석님의 코멘트",
+          "time": "5분 전",
+          "emoji": "🟢",
+          "task": "주요 부품 발주",
+          "activity": "'진행중' → '완료' 상태로 변경되었습니다.",
+          "unread": true
+        },
+        {
+          "proj": "[설비] 보전 이력",
+          "av": "#9DC8FF",
+          "actor": "정대현님이 답글을 추가",
+          "time": "1시간 전",
+          "task": "설비 점검 체크리스트",
+          "activity": "감사합니다 매니저님!"
+        },
+        {
+          "proj": "[일본] 제조 공정관리방",
+          "av": "#9DC8FF",
+          "actor": "한지영님이 코멘트를 추가",
+          "time": null,
+          "emoji": "🔴",
+          "activity": "먼저 퇴근하겠습니다! 내일 라인 점검 같이 봐요",
+          "unread": true
+        },
+        {
+          "proj": "A라인 공정개선 TF",
+          "av": "#9DC8FF",
+          "actor": "박정호님의 코멘트",
+          "time": null,
+          "emoji": "🟢",
+          "task": "택트타임 단축",
+          "activity": "'박정호' 담당자가 추가되었습니다.",
+          "unread": true
+        },
+        {
+          "proj": "생산계획·납기",
+          "av": "#9DC8FF",
+          "actor": "박정호님이 코멘트를 추가",
+          "time": null,
+          "emoji": "🟢",
+          "task": "월간 생산계획",
+          "activity": "7월 생산계획 초안 공유드립니다",
+          "unread": true
+        }
+      ],
+      "haruka": {
+        "pin": "📢 8일 A라인, 18일 B라인 점검합니다!",
+        "auto": "한지영님 공정 데이터 확인했어요! 가동률 많이 올랐네요 👍 수요일에 봬요"
+      },
+      "group": {
+        "name": "[일본] 제조 공정관리방",
+        "pin": "📢 A라인 가동률 90% 목표! 공정개선 박차 🔥",
+        "auto": "방금 공정개선 1차 결과 공유드렸어요! 확인 후 코멘트 부탁드려요 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 {name}님과의 1:1 대화",
+        "auto": "넵 확인했습니다! 바로 공정에 반영해서 다시 공유드릴게요 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "안녕하세요! 방금 공유해주신 공정 데이터 잘 받았습니다 😊"
+          },
+          {
+            "side": "me",
+            "text": "네 확인 부탁드려요!"
+          },
+          {
+            "side": "them",
+            "text": "넵 바로 반영해서 회신드릴게요 🙌"
+          }
+        ]
+      }
+    },
+    "activity": [
+      {
+        "who": "한지영",
+        "color": "#A8E6C0",
+        "action": "added a new comment",
+        "lines": [
+          {
+            "text": "먼저 퇴근하겠습니다! 내일 라인 점검 같이 봐요"
+          }
+        ],
+        "time": "an hour ago"
+      },
+      {
+        "who": "이수진",
+        "color": "#D98AA6",
+        "action": "added a new reply",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "초기 양산 품질 점검",
+            "plain": true
+          },
+          {
+            "label": "Activity",
+            "text": "감사합니다! 반영하겠습니다."
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "정대현",
+        "color": "#9DC8FF",
+        "emoji": "😊",
+        "action": "liked this comment.",
+        "lines": [
+          {
+            "text": "설비 예방보전 주기 재검토했어요. 다들 참고 부탁드려요 ",
+            "link": "https://app.notion.com/p/mfg22ee",
+            "inline": true
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "박정호",
+        "color": "#F2A65A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'택트타임 단축' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "최민석",
+        "color": "#5BBF9A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'주요 부품 발주' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "김상우",
+        "color": "#5B6CF0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'작업표준서(SOP) 작성' is done!"
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "이수진",
+        "color": "#D98AA6",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "검사기준서 작성"
+          },
+          {
+            "label": "Activity",
+            "text": "'Progress' → 'Complete' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "한지영",
+        "color": "#A8E6C0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "A라인 시운전"
+          },
+          {
+            "label": "Activity",
+            "text": "'Pending' → 'Progress' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      }
+    ],
+    "participants": [
+      {
+        "name": "박정호",
+        "role": "생산관리 매니저"
+      },
+      {
+        "name": "한지영",
+        "role": "라인 리더"
+      },
+      {
+        "name": "이수진",
+        "role": "품질관리 리더"
+      },
+      {
+        "name": "최민석",
+        "role": "구매 담당"
+      },
+      {
+        "name": "정대현",
+        "role": "설비보전"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "김도현",
+        "role": "공정 엔지니어",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "박서준",
+        "role": "설비 엔지니어",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "이하준",
+        "role": "품질 검사원",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}

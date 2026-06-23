@@ -1,0 +1,2555 @@
+{
+  "meta": {
+    "industry": "Marketing",
+    "sector": "Freelance collaboration",
+    "language": "en",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "Global Marketing Collaboration Room",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "Freelance Collaboration Room",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "Competitor Monitoring (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AI Team Building Project",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[Emma] Personal To-do",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "Video Creative Team Room",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[Influencer Agency] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "Emma Walker",
+    "role": "Team Lead",
+    "team": "Market Expansion Team",
+    "av": "#F2A65A"
+  },
+  "room": {
+    "name": "Freelance Collaboration Room",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "time": "2026-06-04 12:36",
+      "taskNo": "",
+      "read": 1,
+      "title": "[Freelance Contract] Marketing - Michael Reed",
+      "status": {
+        "key": "request",
+        "label": "Request",
+        "color": "#0053BF",
+        "bg": "rgba(0,181,241,.20)",
+        "dot": "#00B5F1"
+      },
+      "assignee": {
+        "name": "David Chen",
+        "color": "#5B6CF0"
+      },
+      "due": "2026-04-21 (Tue)",
+      "progress": 0,
+      "body": [
+        "Daniel will work 8 hours a day starting next Wednesday (the 22nd).",
+        "Please proceed with a 2-month contract.",
+        {
+          "t": "h",
+          "e": "📋",
+          "x": "Contract Overview"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "👤",
+              "x": "Contractor: Daniel Kim (Freelancer)"
+            },
+            {
+              "e": "📅",
+              "x": "Start: Wed 6/22 onward"
+            },
+            {
+              "e": "⏱",
+              "x": "Hours: 8 hrs/day, 5 days/week"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "Task List"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "Task",
+            "Details",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Ad operations",
+              "Set up & run Yahoo/Google ads",
+              "Progress"
+            ],
+            [
+              "SNS",
+              "Plan & post on X / Instagram",
+              "Pending"
+            ],
+            [
+              "Articles",
+              "Write PR articles & blog posts",
+              "Pending"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "We'll consider a long-term contract after the short-term one."
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "time": "2026-06-04 12:37",
+      "read": 3,
+      "title": "Trade Show Booth Prep Checklist",
+      "items": [
+        {
+          "t": "Finalize booth design",
+          "done": false,
+          "c": "#9DC8FF"
+        },
+        {
+          "t": "Order banner & signage printing",
+          "done": false,
+          "c": "#A8E6C0"
+        },
+        {
+          "t": "Pack sample products",
+          "done": false,
+          "c": "#FFD4A8"
+        },
+        {
+          "t": "Organize consultation booking list",
+          "done": false,
+          "c": "#F2A65A"
+        },
+        {
+          "t": "On-site staff seating chart",
+          "done": false,
+          "c": "#5B6CF0"
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "time": "2026-06-04 12:37",
+      "read": 1,
+      "title": "Japan IT Week Booth Operations",
+      "dateBadge": {
+        "m": "2026.06",
+        "d": "04"
+      },
+      "timeRange": "2026-06-04 (Thu), 12:40 — 13:40",
+      "parts": [
+        {
+          "c": "#F2A65A"
+        },
+        {
+          "c": "#B0A4E6"
+        }
+      ],
+      "going": 1,
+      "notGoing": 1,
+      "body": [
+        "Tokyo Big Sight, East Hall · Booth E-12",
+        "Booth operations / consultations / lead collection."
+      ]
+    },
+    {
+      "type": "vote",
+      "time": "2026-06-04 16:14",
+      "read": 1,
+      "vstatus": "In progress",
+      "title": "September New Product Key Visual Vote",
+      "desc": "Please pick the best of the three key visual options. It will be used as the main KV for the September launch.",
+      "voters": 12,
+      "options": [
+        {
+          "l": "Option A — Minimal White",
+          "v": 7,
+          "voted": true
+        },
+        {
+          "l": "Option B — Vivid Gradient",
+          "v": 4
+        },
+        {
+          "l": "Option C — Dark Premium",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "time": "2026-06-04 12:39",
+      "read": 8,
+      "title": "This Week's Marketing Weekly",
+      "body": [
+        "Sharing the key points of this week's marketing.",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "This Week's Highlights"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "🎯",
+              "b": true,
+              "x": "Collected 312 leads from the Japan expo",
+              "sub": [
+                "Uploading to CRM. Individual follow-ups start next week."
+              ]
+            },
+            {
+              "e": "🧪",
+              "b": true,
+              "x": "Completed the new LP A/B test",
+              "sub": [
+                "Option B conversion +18%. Rolling it out to production."
+              ]
+            },
+            {
+              "e": "📣",
+              "b": true,
+              "x": "PR TIMES distribution",
+              "sub": [
+                "Distributed the product launch article; early response is strong."
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "Next Week's Actions"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "Follow up on 312 leads"
+            },
+            {
+              "e": "②",
+              "x": "Roll out LP Option B"
+            },
+            {
+              "e": "③",
+              "x": "Finalize the September key visual"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "x": "Please refer to the attached document for details."
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/marketing,office?lock=5"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "May 2026",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "Company Holiday"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "Memorial Day"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "Confirm homepage logo usage…",
+          "status": "Complete",
+          "assignee": "Jessica Bennett",
+          "author": "Emma Walker"
+        },
+        {
+          "type": "task",
+          "name": "Homepage - About Us (Morning…",
+          "status": "Complete",
+          "assignee": "Sophia Lee",
+          "author": "Emma Walker"
+        },
+        {
+          "type": "task",
+          "name": "Homepage - About Us",
+          "status": "Complete",
+          "assignee": "Jessica Bennett",
+          "author": "Emma Walker"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "HubSpot DB import feature",
+          "s": "Pending"
+        },
+        {
+          "t": "Send webtoon guide to Haruka",
+          "s": "Pending"
+        },
+        {
+          "t": "Produce ad content",
+          "s": "Pending"
+        },
+        {
+          "t": "Produce ad content_cinematic",
+          "s": "Pending"
+        },
+        {
+          "t": "Character guide",
+          "s": "Pending"
+        },
+        {
+          "t": "Closing guide",
+          "s": "Pending"
+        },
+        {
+          "t": "Logo song - company name chant",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "Weekly report (Japan)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Add HubSpot MKT route (expo)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Weekly meeting_Japan team",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Meeting on English-market priorities",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Update Google API card info",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "SharedDrive_TradeShowFolder",
+      "t": "cloud",
+      "by": "Emma Walker",
+      "sz": "Folder"
+    },
+    {
+      "n": "Team_Workspace_Link",
+      "t": "cloud",
+      "by": "James Park",
+      "sz": "Shortcut"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "Jessica Bennett",
+      "sz": "2 MB"
+    },
+    {
+      "n": "Jobcan_Accounting_Simulation.pdf",
+      "t": "pdf",
+      "by": "Jessica Bennett",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "Booth_Operations_Manual.pdf",
+      "t": "pdf",
+      "by": "Olivia Brooks",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "Freelance_Contract_MichaelReed.docx",
+      "t": "word",
+      "by": "Emma Walker",
+      "sz": "210 KB"
+    },
+    {
+      "n": "Standard_Contract_Template.docx",
+      "t": "word",
+      "by": "James Park",
+      "sz": "320 KB"
+    },
+    {
+      "n": "TradeShow_Leads_312.xlsx",
+      "t": "excel",
+      "by": "Emma Walker",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "Booth_Operations_Settlement.xlsx",
+      "t": "excel",
+      "by": "Olivia Brooks",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_Launch_Plan.pptx",
+      "t": "ppt",
+      "by": "Sophia Lee",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "TradeShow_Booth_Proposal.pptx",
+      "t": "ppt",
+      "by": "Jessica Bennett",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "Booth_Design_Render.png",
+      "t": "image",
+      "by": "Olivia Brooks",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "Venue_Layout.jpg",
+      "t": "image",
+      "by": "Haruka Sano",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "TradeShow_Promo_Video.mp4",
+      "t": "av",
+      "by": "Haruka Sano",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "Booth_BGM.mp3",
+      "t": "av",
+      "by": "Takuya Kimura",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "LandingPage_Draft.html",
+      "t": "html",
+      "by": "Daniel Kim",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_SignupForm.html",
+      "t": "html",
+      "by": "Sophia Lee",
+      "sz": "22 KB"
+    },
+    {
+      "n": "TradeShow_Assets_Backup.zip",
+      "t": "zip",
+      "by": "Emma Walker",
+      "sz": "124 MB"
+    },
+    {
+      "n": "Logo_Originals.zip",
+      "t": "zip",
+      "by": "Jessica Bennett",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Sophia Lee's comment",
+      "task": "Draft ICP v2",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Sophia Lee added a new task",
+      "task": "Draft ICP v2",
+      "time": "4 mins ago",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Sophia Lee's comment",
+      "task": "Research competitor channels & strategy",
+      "time": "5 mins ago",
+      "unread": true
+    },
+    {
+      "proj": "[QA] Morningmate",
+      "av": "#A8E6C0",
+      "ac": "Kate Morgan added a new reply",
+      "task": "[Website] Can't sign up",
+      "time": "1 hour ago"
+    },
+    {
+      "proj": "Freelance Collaboration Room",
+      "emoji": "🔴",
+      "av": "#C5A3FF",
+      "ac": "Haruka Sano added a new comment",
+      "time": "1 hour ago"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "Kate Morgan's comment",
+      "task": "Book dinner restaurant",
+      "time": "2 hours ago"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "Kate Morgan added a new comment",
+      "task": "Arrange Brunel University meeting",
+      "time": "2 hours ago"
+    },
+    {
+      "proj": "Freelance Collaboration Room",
+      "emoji": "🔴",
+      "av": "#5BBF9A",
+      "ac": "Olivia Brooks added a new task",
+      "task": "Trade show booth construction contract",
+      "time": "3 hours ago"
+    },
+    {
+      "proj": "Japan Business",
+      "emoji": "🟡",
+      "av": "#5B6CF0",
+      "ac": "James Park's comment",
+      "task": "Finalize standard contract template",
+      "time": "4 hours ago"
+    }
+  ],
+  "chats": [
+    {
+      "name": "Haruka Sano",
+      "av": "#9DC8FF",
+      "last": "Haven't started the video work yet haha",
+      "time": "8:16 PM",
+      "act": true
+    },
+    {
+      "name": "🔴 Trade Show TF",
+      "cnt": 4,
+      "members": [
+        "Olivia Brooks",
+        "Haruka Sano",
+        "Sophia Lee",
+        "James Park"
+      ],
+      "last": "We'll start the on-site setup at 22nd morning",
+      "time": "8:02 PM"
+    },
+    {
+      "name": "Sophia Lee, Jessica Bennett...",
+      "cnt": 3,
+      "members": [
+        "Sophia Lee",
+        "Jessica Bennett",
+        "Emma Walker"
+      ],
+      "last": "I'll drop a message when we do it",
+      "time": "05/18"
+    },
+    {
+      "name": "❤️ KGNC × morni...",
+      "cnt": 4,
+      "members": [
+        "Daniel Kim",
+        "Takuya Kimura",
+        "Haruka Sano",
+        "Kate Morgan"
+      ],
+      "last": "@Ryan Shin Hello, CEO",
+      "time": "04/28"
+    },
+    {
+      "name": "Grace Oh",
+      "av": "#FFD4A8",
+      "last": "Hi Grace~",
+      "time": "02/04"
+    },
+    {
+      "name": "Olivia Brooks",
+      "av": "#5BBF9A",
+      "last": "Placed the booth material order 📦",
+      "time": "6:40 PM"
+    },
+    {
+      "name": "James Park",
+      "av": "#5B6CF0",
+      "last": "Confirmed the contract terms 👍 let's proceed",
+      "time": "4:12 PM"
+    },
+    {
+      "name": "Kate Morgan",
+      "av": "#FFB89D",
+      "last": "Thank you so much, lead!!",
+      "time": "05/13"
+    },
+    {
+      "name": "Chloe Kim",
+      "av": "#A8E6C0",
+      "last": "Sure sure!! haha just let me know😋",
+      "time": "05/02"
+    },
+    {
+      "name": "Jessica Bennett, Daniel Kim...",
+      "cnt": 3,
+      "members": [
+        "Jessica Bennett",
+        "Daniel Kim",
+        "Takuya Kimura"
+      ],
+      "last": "Let's meet again soon.",
+      "time": "05/12"
+    },
+    {
+      "name": "Daniel Kim",
+      "av": "#FFB89D",
+      "last": "Yep, left a comment",
+      "time": "05/15"
+    }
+  ],
+  "conversation": [
+    {
+      "sep": "2026-06-04 (Thu)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "side": "them",
+      "text": "Is it this one?",
+      "time": "5:46 PM"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "text": "I made this one with flow — both the audio and the original!",
+      "time": "5:47 PM"
+    },
+    {
+      "side": "me",
+      "text": "Yep yep"
+    },
+    {
+      "side": "me",
+      "text": "Haruka, sorry to ask :( could you come in on Monday instead of tomorrow?",
+      "time": "8:15 PM"
+    },
+    {
+      "side": "me",
+      "text": "I still haven't started the video work haha :((((",
+      "time": "8:16 PM"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "deleted": 1
+    },
+    {
+      "side": "them",
+      "reply": {
+        "to": "Haruka Sano",
+        "text": "https://voicevox.hiroshiba.jp/···"
+      }
+    },
+    {
+      "side": "them",
+      "text": "This is the audio I made with it!",
+      "time": "10:42 PM"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "file": {
+        "name": "IMG_7732.mp4",
+        "size": "83.7 MB"
+      },
+      "time": "10:46 PM",
+      "react": 1
+    }
+  ],
+  "groupConversation": [
+    {
+      "sep": "2026-06-04 (Thu)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "text": "How's everyone doing with the booth prep? 🙌",
+      "time": "10:02 AM"
+    },
+    {
+      "who": 1,
+      "head": 1,
+      "text": "Good! Placed the material order, arriving Friday 📦",
+      "time": "10:05 AM"
+    },
+    {
+      "who": 2,
+      "head": 1,
+      "text": "The lead-collection QR form is almost done too 🔗",
+      "time": "10:08 AM"
+    },
+    {
+      "side": "me",
+      "text": "Great, thanks everyone for the hard work 👏",
+      "time": "10:10 AM"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "file": {
+        "name": "Booth_Layout_v3.pdf",
+        "size": "3.2 MB"
+      },
+      "time": "10:14 AM"
+    },
+    {
+      "who": 0,
+      "text": "On-site setup starts on the morning of the 22nd",
+      "time": "10:15 AM"
+    },
+    {
+      "who": 3,
+      "head": 1,
+      "text": "Finished checking the contract terms too. Let's proceed 👍",
+      "time": "10:18 AM"
+    },
+    {
+      "side": "me",
+      "text": "Got it! See you on-site on the 22nd 🙆",
+      "time": "10:20 AM"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "James Park",
+        "text": "Confirmed the contract terms 👍 let's proceed!"
+      },
+      {
+        "name": "Haruka Sano",
+        "text": "Finished this item! Let's keep it up for the next one 💪"
+      },
+      {
+        "name": "Emma Walker",
+        "text": "Confirmed the booth location 📍 see you on-site!"
+      },
+      {
+        "name": "Olivia Brooks",
+        "text": "I think Option A is the cleanest 🎨 casting my vote"
+      },
+      {
+        "name": "Sophia Lee",
+        "text": "312 leads is amazing 🎉 great job!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "Takuya Kimura",
+        "text": "Finished the Japanese review too. No issues ✅"
+      },
+      {
+        "name": "Kate Morgan",
+        "text": "Thanks for sharing! I'll use it as reference 🙏"
+      },
+      {
+        "name": "Jessica Bennett",
+        "text": "Checked the schedule. I'll add it to the calendar 📅"
+      },
+      {
+        "name": "Daniel Kim",
+        "text": "Great idea! I'll add my vote too ✋"
+      },
+      {
+        "name": "James Park",
+        "text": "Impressive numbers. Let's share at next week's meeting 📊"
+      },
+      {
+        "name": "Emma Walker",
+        "text": "Got it! I'll reflect it and get back to you 🙌"
+      },
+      {
+        "name": "Haruka Sano",
+        "text": "The local response is good too 😊 I think we're on track"
+      },
+      {
+        "name": "Olivia Brooks",
+        "text": "Placed the material order 📦 arriving Friday"
+      },
+      {
+        "name": "Sophia Lee",
+        "text": "The QR signup form is almost done 🔗 sharing soon"
+      },
+      {
+        "name": "Takuya Kimura",
+        "text": "Prepared 3 ad creative drafts 🎬 please review"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "Haruka Sano",
+    "Takuya Kimura",
+    "Emma Walker",
+    "Sophia Lee"
+  ],
+  "extraTasks": [
+    "Set up Yahoo! JAPAN ads",
+    "Set up Google ads",
+    "Pay for PR TIMES 1-month plan",
+    "Write a note how-to article",
+    "Produce Instagram Reels",
+    "Prepare webinar materials",
+    "Research competitor ad creatives",
+    "Upload leads to CRM",
+    "Keyword research",
+    "Landing page A/B test",
+    "Send newsletter",
+    "Review freelance contract",
+    "Trade show booth design",
+    "On-site staff seating chart",
+    "Pack sample products",
+    "Organize consultation list",
+    "Japanese content review",
+    "Organize meeting notes",
+    "Weekly report (Japan)",
+    "Run X/Instagram/YouTube",
+    "kintone webinar",
+    "Notion webinar",
+    "Publish PR article",
+    "Event participation notice"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "Freelance Contract Collaboration Room",
+          "who": "Emma Walker",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[Freelance Contract] Finalize standard contract template - Michael Reed",
+          "body": "Attaching the standard contract template for Michael's contract. It includes a short-to-long-term conversion clause, so please review and reply…",
+          "who": "Emma Walker",
+          "date": "2026-06-04 12:36",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Outsourced contract translation review complete",
+          "body": "Finished reviewing the Japanese contract translation. Legal review is done, only both signatures remain. Sharing the final contract PDF…",
+          "who": "Takuya Kimura",
+          "date": "2026-06-02 18:20",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[Info] Standard employment/service contract templates",
+          "body": "",
+          "who": "James Park",
+          "date": "2026-04-15 11:41",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "Contract stamping & original storage guide",
+          "body": "",
+          "who": "Jessica Bennett",
+          "date": "2026-04-27 11:06",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Negotiating trade show booth construction contract terms",
+          "body": "…Negotiating contract terms with the booth construction vendor. The amount and schedule clauses need adjustment. Please review the contract draft…",
+          "who": "Olivia Brooks",
+          "date": "2026-05-14 19:49",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… Confirmed the contract terms 👍 let's proceed! I'll send the signed copy tomorrow.",
+          "who": "James Park",
+          "date": "2026-06-04 17:58",
+          "proj": "[Freelance Contract] Marketing - Michael Reed"
+        },
+        {
+          "text": "…Added a short-to-long-term conversion clause to the contract. Please review.",
+          "who": "Emma Walker",
+          "date": "2026-06-04 17:36",
+          "proj": "[Freelance Contract] Marketing - Michael Reed"
+        },
+        {
+          "text": "…Finished reviewing the Japanese contract too. No issues ✅ legal review passed.",
+          "who": "Takuya Kimura",
+          "date": "2026-03-07 01:24",
+          "proj": "Outsourced contract translation review"
+        },
+        {
+          "text": "…Attached the standard contract template to the files. You can reuse it for the next contract.",
+          "who": "Jessica Bennett",
+          "date": "2026-03-07 00:39",
+          "proj": "Standard employment/service contract templates"
+        },
+        {
+          "text": "We need the company seal and signature for stamping the contract. Please reply by 2/2.",
+          "who": "Jessica Bennett",
+          "date": "2026-01-29 10:42",
+          "proj": "Contract stamping & original storage guide"
+        }
+      ],
+      "chats": [
+        {
+          "text": "I'll send you the standard contract template",
+          "who": "Emma Walker",
+          "date": "2026-03-17 12:56",
+          "proj": "James Park"
+        },
+        {
+          "text": "Confirmed the contract terms 👍 let's proceed",
+          "who": "James Park",
+          "date": "2026-06-08 12:22",
+          "proj": "James Park"
+        },
+        {
+          "text": "I'll send the signed contract by end of day :(",
+          "who": "Takuya Kimura",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴 Trade Show TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_ProcessInnovation_Japan_Emma_Contract.docx",
+          "who": "Emma Walker",
+          "date": "2026-06-04 12:37",
+          "proj": "[Freelance Contract] Marketing - Michael Reed",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "Standard_Freelance_Contract_Template.docx",
+          "who": "James Park",
+          "date": "2026-05-20 10:12",
+          "proj": "Standard employment/service contract templates",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "contract",
+        "d": "06/10"
+      },
+      {
+        "kw": "location",
+        "d": "06/10"
+      },
+      {
+        "kw": "member",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "Emma Walker": "woman1",
+    "David Chen": "man2",
+    "Haruka Sano": "woman2",
+    "Sophia Lee": "woman4",
+    "Jessica Bennett": "woman1",
+    "Grace Oh": "woman4",
+    "Kate Morgan": "woman3",
+    "Olivia Brooks": "woman3",
+    "Takuya Kimura": "man3",
+    "Daniel Kim": "man1",
+    "Chloe Kim": "woman2",
+    "Michael Reed": "man1",
+    "James Park": "man6",
+    "Ryan Shin": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "Emma Walker",
+      "role": "Team Lead",
+      "team": "Market Expansion",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "Emma Walker",
+          "role": "Team Lead",
+          "team": "Market Expansion",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "582462",
+        "read": 1,
+        "title": "[Freelance Contract] Japan Marketing - Daniel Kim",
+        "status": {
+          "label": "요청",
+          "color": "#0053BF",
+          "bg": "rgba(0,181,241,.20)"
+        },
+        "assignee": {
+          "name": "David Chen",
+          "color": "#5B6CF0"
+        },
+        "due": "",
+        "progress": 0,
+        "body": [
+          "Daniel will work 8 hours a day starting next Wednesday (the 22nd).",
+          "Please proceed with a 2-month contract.",
+          {
+            "t": "h",
+            "e": "📋",
+            "x": "Contract Overview"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "👤",
+                "x": "Contractor: Daniel Kim (Freelancer)"
+              },
+              {
+                "e": "📅",
+                "x": "Start: Wed 6/22 onward"
+              },
+              {
+                "e": "⏱",
+                "x": "Hours: 8 hrs/day, 5 days/week"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "Task List"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "Task",
+              "Details",
+              "Status"
+            ],
+            "rows": [
+              [
+                "Ad operations",
+                "Set up & run Yahoo/Google ads",
+                "Progress"
+              ],
+              [
+                "SNS",
+                "Plan & post on X / Instagram",
+                "Pending"
+              ],
+              [
+                "Articles",
+                "Write PR articles & blog posts",
+                "Pending"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "We'll consider a long-term contract after the short-term one."
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "Olivia Brooks",
+          "role": "Office Lead",
+          "team": "Operations",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "Exhibition Booth Prep Checklist",
+        "items": [
+          {
+            "text": "Finalize booth design draft",
+            "done": false,
+            "assignee": {
+              "name": "Jessica Bennett",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "Order banner & signage printing",
+            "done": false,
+            "assignee": {
+              "name": "Ryan Carter",
+              "color": "#A8E6C0"
+            }
+          },
+          {
+            "text": "Pack sample products",
+            "done": false,
+            "assignee": {
+              "name": "Grace Oh",
+              "color": "#FFD4A8"
+            }
+          },
+          {
+            "text": "Organize consultation booking list",
+            "done": false,
+            "assignee": {
+              "name": "Emma Walker",
+              "color": "#F2A65A"
+            }
+          },
+          {
+            "text": "On-site staff assignment chart",
+            "done": false,
+            "assignee": {
+              "name": "David Chen",
+              "color": "#5B6CF0"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "Haruka Sano",
+          "role": "Freelancer",
+          "team": "Japan",
+          "color": "#7E8694"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "Japan IT Week Booth Operation",
+        "dateBadge": {
+          "month": "2026-06",
+          "day": "04"
+        },
+        "timeRange": "2026-06-04 (Thu), 12:40 — 13:40",
+        "participants": {
+          "going": 1,
+          "notGoing": 1,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "Emma Walker",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "Sophia Lee",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "Remind 10 min before",
+        "recording": true,
+        "body": [
+          "Tokyo Big Sight East Hall · Booth E-12",
+          "Booth operation / consultation / lead collection."
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "Sophia Lee",
+          "role": "Associate",
+          "team": "Market Expansion",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "September New Product Key Visual Vote",
+        "description": "Pick the best of the three key visual drafts. It will be used as the main KV for the September launch.",
+        "voters": 12,
+        "options": [
+          {
+            "label": "Option A — Minimal White",
+            "votes": 7,
+            "voted": true
+          },
+          {
+            "label": "Option B — Vivid Gradient",
+            "votes": 4
+          },
+          {
+            "label": "Option C — Dark Premium",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "James Park",
+          "role": "Founder & CEO",
+          "team": "morningmate",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "This Week's Marketing Weekly",
+        "body": [
+          "Sharing the key points of this week's marketing.",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "This Week's Highlights"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "🎯",
+                "b": true,
+                "x": "Collected 312 leads from the Japan expo",
+                "sub": [
+                  "Uploading to CRM. Individual follow-ups start next week."
+                ]
+              },
+              {
+                "e": "🧪",
+                "b": true,
+                "x": "Completed the new LP A/B test",
+                "sub": [
+                  "Option B conversion +18%. Rolling it out to production."
+                ]
+              },
+              {
+                "e": "📣",
+                "b": true,
+                "x": "PR TIMES distribution",
+                "sub": [
+                  "Distributed the product launch article; early response is strong."
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "Next Week's Actions"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "Follow up on 312 leads"
+              },
+              {
+                "e": "②",
+                "x": "Roll out LP Option B"
+              },
+              {
+                "e": "③",
+                "x": "Finalize the September key visual"
+              }
+            ]
+          },
+          {
+            "t": "note",
+            "x": "Please refer to the attached document for details."
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/marketing,office?lock=5"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "X/Insta/YouTube",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "Haruka Sano",
+        "start": "",
+        "progress": 0,
+        "check": false,
+        "budget": "",
+        "children": [
+          {
+            "task": "May",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "budget": "",
+            "collapsed": true,
+            "assignee": "Takuya Kimura",
+            "start": "",
+            "due": "",
+            "check": false
+          },
+          {
+            "task": "June",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "Emma Walker",
+            "more": 1,
+            "progress": 0,
+            "budget": "",
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "check": false
+          }
+        ],
+        "due": ""
+      },
+      {
+        "task": "In-depth interviews with local Japanese professionals",
+        "status": "Complete",
+        "assignee": "Sophia Lee",
+        "due": "",
+        "progress": 100,
+        "budget": "",
+        "start": "",
+        "check": false
+      },
+      {
+        "task": "[Course Share] Skill-up",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "Haruka Sano",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "n8n",
+            "count": 3,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "Takuya Kimura",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Claude Code",
+            "count": 4,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "Emma Walker",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "Japan IT adoption subsidy research",
+        "status": "Pending",
+        "progress": 0,
+        "assignee": "Sophia Lee",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Info Share] Seminars/Webinars/Offline events, etc.",
+        "count": 7,
+        "status": "Progress",
+        "progress": 0,
+        "children": [
+          {
+            "task": "Backlog webinar",
+            "status": "Complete",
+            "assignee": "Takuya Kimura",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Notion webinar",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "Emma Walker",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "kintone webinar",
+            "count": 2,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "Sophia Lee",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Kuta webinar",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "Haruka Sano",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "flyle webinar",
+            "status": "Complete",
+            "assignee": "Takuya Kimura",
+            "more": 1,
+            "start": "",
+            "due": "",
+            "progress": 100,
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "TENDA webinar",
+            "status": "Pending",
+            "assignee": "Emma Walker",
+            "more": 1,
+            "start": "",
+            "progress": 0,
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "GOOGLE cloude",
+            "status": "Pending",
+            "assignee": "Sophia Lee",
+            "more": 1,
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "Haruka Sano",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Proofread] Japanese",
+        "count": 4,
+        "status": "Progress",
+        "assignee": "Haruka Sano",
+        "progress": 100,
+        "purpleBar": true,
+        "children": [
+          {
+            "task": "Exhibition related",
+            "status": "Complete",
+            "assignee": "Takuya Kimura",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "PR article",
+        "count": 6,
+        "status": "Complete",
+        "assignee": "Emma Walker",
+        "due": "",
+        "progress": 100,
+        "children": [
+          {
+            "task": "Event participation guide",
+            "status": "Complete",
+            "assignee": "Sophia Lee",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Sign-up email sequence",
+            "status": "Complete",
+            "assignee": "Haruka Sano",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Japan] Freelancer payment",
+        "count": 5,
+        "status": "Pending",
+        "progress": 0,
+        "children": [
+          {
+            "task": "Daniel Kim April fee (starts 4/27)",
+            "status": "Complete",
+            "assignee": "Emma Walker",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Haruka February fee",
+            "status": "Complete",
+            "assignee": "Sophia Lee",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Haruka March fee",
+            "status": "Complete",
+            "assignee": "Haruka Sano",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Haruka April fee",
+            "status": "Pending",
+            "assignee": "Takuya Kimura",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Haruka May fee",
+            "status": "Pending",
+            "assignee": "Emma Walker",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "Takuya Kimura",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Paid] PR/Media/Performance",
+        "count": 5,
+        "status": "Progress",
+        "assignee": "Sophia Lee",
+        "progress": 0,
+        "children": [
+          {
+            "task": "[Keyword Ad] Yahoo Japan ad setup",
+            "status": "Hold",
+            "assignee": "Haruka Sano",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Keyword Ad] Keyword research",
+            "status": "Complete",
+            "assignee": "Takuya Kimura",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Keyword Ad] Google ad setup",
+            "status": "Pending",
+            "assignee": "Emma Walker",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[PR] PR TIMES 1-month plan payment",
+            "count": 1,
+            "status": "Complete",
+            "assignee": "Sophia Lee",
+            "due": "",
+            "progress": 100,
+            "collapsed": true,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Performance] Ad creative research",
+            "status": "Complete",
+            "assignee": "Haruka Sano",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Japan] SNS/Blog",
+        "count": 16,
+        "status": "Progress",
+        "assignee": "Takuya Kimura",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "[Japan] Instagram",
+            "count": 12,
+            "status": "Progress",
+            "assignee": "Emma Walker",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Japan] X",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "Sophia Lee",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Japan] Blog",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "Haruka Sano",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[Japan] note",
+            "count": 3,
+            "status": "Progress",
+            "progress": 100,
+            "purpleBar": true,
+            "collapsed": true,
+            "assignee": "Takuya Kimura",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      }
+    ],
+    "gantt": [
+      {
+        "task": "Notion webinar",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "kintone webinar",
+        "count": 2,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "Kuta webinar",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100
+      },
+      {
+        "task": "flyle webinar",
+        "status": "Complete",
+        "start": "2026-05-21",
+        "due": "2026-05-26",
+        "prog": 100,
+        "assignee": "Haruka Sano",
+        "more": 1
+      },
+      {
+        "task": "TENDA webinar",
+        "status": "Pending",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 0,
+        "assignee": "Haruka Sano",
+        "more": 1
+      },
+      {
+        "task": "GOOGLE cloude",
+        "status": "Pending",
+        "start": "2026-06-11",
+        "due": "2026-06-11",
+        "prog": 0
+      },
+      {
+        "task": "[Proofread] Japanese",
+        "count": 4,
+        "status": "Progress",
+        "prog": 60,
+        "check": true
+      },
+      {
+        "task": "Exhibition related",
+        "status": "Complete",
+        "due": "2026-04-06",
+        "prog": 100
+      },
+      {
+        "task": "PR article",
+        "count": 6,
+        "status": "Complete",
+        "due": "2026-04-07",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "[Japan] Freelancer payment",
+        "count": 5,
+        "status": "Pending",
+        "prog": 0
+      },
+      {
+        "task": "Daniel Kim April fee",
+        "status": "Complete",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 100,
+        "assignee": "Haruka Sano",
+        "budget": "1,000"
+      },
+      {
+        "task": "Haruka February fee",
+        "status": "Complete",
+        "due": "2026-03-31",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "Haruka April fee",
+        "status": "Pending",
+        "start": "2026-06-05",
+        "due": "2026-06-05",
+        "prog": 0,
+        "assignee": "Haruka Sano"
+      },
+      {
+        "task": "Haruka May fee",
+        "status": "Pending",
+        "start": "2026-07-03",
+        "due": "2026-07-03",
+        "prog": 0
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "11:00 am",
+            "name": "[6/4(Thu) 13:00~18:00] Channel Con…",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "Children's Day",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "Shinjuku branch visit",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "SNS retrospective",
+            "type": "event"
+          }
+        ],
+        "2026-05-24": [
+          {
+            "name": "Buddha's Birthday",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "12:00 pm",
+            "name": "Money Forward AI",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "Memorial Day",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "Weekly marketing meeting",
+        "Japan ad creative review",
+        "Content deadline",
+        "Freelancer collaboration meeting",
+        "PR TIMES distribution",
+        "Key visual confirmation",
+        "Exhibition booth prep",
+        "Lead organization",
+        "Product launch check",
+        "Monthly report writing"
+      ],
+      "assignees": [
+        "Emma Walker",
+        "Olivia Brooks",
+        "Sophia Lee",
+        "Haruka Sano",
+        "James Park",
+        "Takuya Kimura"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🔴",
+          "name": "[Japan] Freelancer Room",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "🇬🇧",
+          "name": "English Market..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🤖",
+          "name": "Building an AI Team..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🇯🇵",
+          "name": "[Japan] morningmate..."
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "",
+          "name": "[Emma Walker] Personal to-do"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "Data Extraction"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[Japan] Competitor M..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[Japan] Korea×Japan..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "[PM] Policy & Impr..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "[QA] morningmate New..."
+        },
+        {
+          "color": "#D8D8DE",
+          "emoji": "",
+          "name": "Emma Walker's Room"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "[PM] morningmate..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🌏",
+          "name": "Global MKT Hub"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🎬",
+          "name": "Video Creative..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🎬",
+          "name": "Video Creative..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🟡",
+          "name": "Japan Business"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "",
+          "name": "Data Extraction Ro..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "morningmate × Indonesia..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "Morningmate Guide..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🇬🇧",
+          "name": "[UK] Sales"
+        }
+      ]
+    },
+    "search": {
+      "kw": "contract",
+      "posts": [
+        {
+          "title": "[Freelance Contract] Japan Marketing - Review Daniel Kim's contract terms",
+          "body": "I drafted a 2-month short-term contract based on 8 hours/day starting next Wednesday (the 22nd). Sharing the contract draft (scope, term, payment date) — please review and reply. We plan to move to a long-term contract based on performance...",
+          "who": "Emma Walker",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[Japan] Freelancer Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Haruka Sano 2026 service contract renewal",
+          "body": "As the existing contract expires (5/31), I prepared a renewal contract. Compensation terms are the same, with video editing added to the scope. It follows the standard contract format and will proceed via e-signature. Please review and sign the contract...",
+          "who": "Sophia Lee",
+          "date": "30-05-2026 10:12",
+          "tag": "Task",
+          "proj": "[Japan] Freelancer Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "[Legal Review] Finalized standard contract format for local Japan freelancers",
+          "body": "Legal review of the standard contract format for local freelancers is complete. New contracts will be unified under this contract format going forward. Please check the attached contract template...",
+          "who": "James Park",
+          "date": "28-05-2026 16:40",
+          "tag": "Task",
+          "proj": "[Japan] Freelancer Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Request to seal the exhibition booth vendor contract",
+          "body": "We need to seal the contract with the Japan IT Week booth construction vendor. Please review the amount and schedule, then approve...",
+          "who": "Olivia Brooks",
+          "date": "27-04-2026 11:06",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#19B43A"
+        },
+        {
+          "title": "Memo: negotiating the ad agency annual contract terms",
+          "body": "We are negotiating annual contract terms with the Yahoo Japan / Google ad agencies. We are adjusting the minimum spend and commission-rate clauses in the contract...",
+          "who": "Takuya Kimura",
+          "date": "14-05-2026 19:49",
+          "tag": "Task",
+          "proj": "[Japan] Freelancer Room",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "Reviewed the contract draft. Please change only the payment-date clause to 'end-of-month settlement.'",
+          "who": "James Park",
+          "date": "04-06-2026 13:10",
+          "proj": "[Freelance Contract] Japan Marketing - Daniel Kim"
+        },
+        {
+          "text": "The scope in the contract seems a bit broad. Should we split out video editing as a separate item?",
+          "who": "Haruka Sano",
+          "date": "30-05-2026 11:02",
+          "proj": "Haruka Sano 2026 service contract renewal"
+        },
+        {
+          "text": "Attached the standard contract format. Looks good to use from the next contract onward!",
+          "who": "Sophia Lee",
+          "date": "28-05-2026 17:20",
+          "proj": "Standard contract format finalized"
+        },
+        {
+          "text": "Sealed the contract via e-signature. I'll keep the original in the legal folder.",
+          "who": "Olivia Brooks",
+          "date": "27-04-2026 15:33",
+          "proj": "Booth vendor contract"
+        },
+        {
+          "text": "The contract compensation terms look great 👍 I shared them with Daniel too.",
+          "who": "Emma Walker",
+          "date": "04-06-2026 14:05",
+          "proj": "[Freelance Contract] Japan Marketing - Daniel Kim"
+        }
+      ],
+      "files": [
+        {
+          "name": "20260604_DanielKim_Freelance_Contract_v2.pdf",
+          "who": "Emma Walker",
+          "date": "04-06-2026 12:40",
+          "proj": "[Japan] Freelancer Room",
+          "size": "1.12 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "Just shared the contract draft! Please check the compensation terms",
+          "who": "Emma Walker",
+          "date": "04-06-2026 12:38",
+          "proj": "Haruka Sano"
+        },
+        {
+          "text": "Let's unify the contract pay to end-of-month settlement. Same for the next renewal contract!",
+          "who": "Emma Walker",
+          "date": "08-06-2026 12:22",
+          "proj": "Emma Walker, Sophia Lee, James Park"
+        },
+        {
+          "text": "Once the standard contract format is finalized, shall we renew existing freelancers' contracts in order?",
+          "who": "Sophia Lee",
+          "date": "28-05-2026 20:48",
+          "proj": "Sophia Lee"
+        },
+        {
+          "text": "Hi! Once you approve the booth vendor contract amount, we'll seal it right away!",
+          "who": "Olivia Brooks",
+          "date": "27-04-2026 10:31",
+          "proj": "🔴[Japan] Korea×Japan×MWI Marketing Room"
+        },
+        {
+          "text": "Uploaded the scanned contract original to the drive. You can find it in the legal folder!",
+          "who": "Takuya Kimura",
+          "date": "14-05-2026 13:36",
+          "proj": "Resource Sharing Room"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[Japan] Freelancer Contract · Legal Room",
+          "who": "Emma Walker",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "English Markets GTM — Vendor contract management",
+          "who": "Kate Morgan",
+          "date": "12-03-2026 14:20",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "Haruka Sano",
+          "pin": true,
+          "last": "Haven't started the video work yet 😭",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "active": true,
+          "convo": true
+        },
+        {
+          "name": "Sophia Lee, Jessica B...",
+          "count": 3,
+          "last": "I'll message when we do it",
+          "time": "05/18/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "❤️[Collab] KGNC × morni...",
+          "count": 4,
+          "last": "@Shin hello, it's been a while.",
+          "time": "04/28/2026",
+          "color": "#FFB0B0"
+        },
+        {
+          "name": "Grace Oh (work Jun 2,...",
+          "pin": true,
+          "last": "Hi Grace~",
+          "time": "02/04/2026",
+          "color": "#FFD4A8"
+        },
+        {
+          "name": "Ashley, Chloe Kim",
+          "count": 3,
+          "pin": true,
+          "last": "Thanks for sharing the schedule!! 🙏 Looking forward to this year!",
+          "time": "01/30/2026",
+          "color": "#C5A3FF"
+        },
+        {
+          "name": "Sophia Lee",
+          "last": "https://www.facebook.com/ads/library/?active_statu...",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "Chloe Kim",
+          "last": "Sure!! Let me know 😋",
+          "time": "06/02/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "Daniel Kim",
+          "last": "Done, left a comment https://morningmate.com/l/coYl",
+          "time": "05/15/2026",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "Sophia Lee, Haruka S...",
+          "count": 4,
+          "last": "Yes! Thank you!",
+          "time": "05/13/2026",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "Jessica Bennett, Daniel ...",
+          "count": 3,
+          "last": "Thank you!! Looking forward to it. See you again soon.",
+          "time": "05/12/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "Sophia Lee, Daniel Kim",
+          "count": 3,
+          "last": "Sure!!",
+          "time": "05/11/2026",
+          "color": "#C5A3FF"
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "link": "https://www.instagram.com/reel/DYg7JoCBL6F/?utm_source=ig_web_copy_link&igsh=MzRIODBiNWFIZA=="
+        },
+        {
+          "side": "them",
+          "card": {
+            "title": "morningmate - Instagram: ...",
+            "meta": "May 17, 2026, 5 likes, 0 comme..."
+          }
+        },
+        {
+          "side": "them",
+          "text": "Is this the one?",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "I made this with flow — voice and original both done!",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "yep yep"
+        },
+        {
+          "side": "me",
+          "text": "Haruka, so sorry 😢"
+        },
+        {
+          "side": "me",
+          "text": "Could you come on Monday instead of tomorrow?",
+          "time": "8:15 PM"
+        },
+        {
+          "side": "me",
+          "text": "Haven't started the video work yet 😭",
+          "time": "8:16 PM"
+        },
+        {
+          "side": "them",
+          "text": "Got it! See you Monday 🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "James Park",
+          "text": "Everyone, please share this week's [Japan] expo booth prep status 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "Olivia Brooks",
+          "text": "Ordered the booth materials today! Arriving Friday 📦",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "Haruka Sano",
+          "text": "Booked 2 local interpreters. I'll share the list soon 😊",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "Great work everyone! I'll upload the banner draft today"
+        },
+        {
+          "side": "them",
+          "who": "Sophia Lee",
+          "text": "The lead-capture QR signup form is almost done 🔗",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "Nice 🔥 Let's run a final rehearsal on Thursday"
+        },
+        {
+          "side": "them",
+          "who": "James Park",
+          "text": "👍 I'll block 3 PM Thursday on the calendar",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Sophia Lee's comment",
+          "task": "Define hypothesis ICP (2nd)",
+          "activity": "'🚫 Not started' → '⏳ In Progress' Status has been updated.",
+          "time": "a few seconds ago",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Sophia Lee added a new task",
+          "task": "Define hypothesis ICP (2nd)",
+          "time": "4 minutes ago",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Sophia Lee's comment",
+          "task": "Competitor marketing channel & strategy research",
+          "activity": "'⏳ In Progress' → '🎉 Done' Status has been updated.",
+          "time": "5 minutes ago",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Sophia Lee's comment",
+          "task": "Additional marketing channel research",
+          "activity": "'⏳ In Progress' → '🎉 Done' Status has been updated.",
+          "time": "5 minutes ago",
+          "unread": true
+        },
+        {
+          "proj": "[QA] Morningmate",
+          "av": "#A8E6C0",
+          "actor": "Kate Morgan added a new reply",
+          "task": "[Website] Can't sign up to Morningmate",
+          "activity": "Thank you, lead!!",
+          "time": "an hour ago"
+        },
+        {
+          "proj": "[Japan] Freelancer Room",
+          "emoji": "🔴",
+          "av": "#C5A3FF",
+          "actor": "Haruka Sano added a new comment",
+          "plain": "Heading out first! See you tomorrow",
+          "time": "an hour ago"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "Kate Morgan's comment",
+          "task": "Dinner restaurant booking",
+          "activity": "'Kate Morgan' Assignee has been added.",
+          "time": "2 hours ago"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "Kate Morgan added a new comment",
+          "task": "[Share & confirm] Arranging the Brunel University vice-chancellor visit meeting",
+          "activity": "3 PM office visit + dinner afterward arranged",
+          "time": "2 hours ago"
+        }
+      ],
+      "haruka": {
+        "pin": "📢 Coming in on the 8th and 18th!",
+        "auto": "Haruka, I checked the video edit! The quality is great 👍 See you Monday"
+      },
+      "group": {
+        "name": "[Japan] Freelancer Room",
+        "pin": "📢 [Japan] Expo D-3! Please do a final booth check 🔥",
+        "auto": "Just shared the final banner draft! Please review and comment 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 1:1 chat with {name}",
+        "auto": "Got it! I'll apply it and re-share right away 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "Hi! I received the material you just shared 😊"
+          },
+          {
+            "side": "me",
+            "text": "Yes, please take a look!"
+          },
+          {
+            "side": "them",
+            "text": "Sure, I'll apply it and reply right away 🙌"
+          }
+        ]
+      }
+    },
+    "participants": [
+      {
+        "name": "Emma Walker",
+        "role": "Team Lead"
+      },
+      {
+        "name": "Haruka Sano",
+        "role": "Freelancer"
+      },
+      {
+        "name": "Olivia Brooks",
+        "role": "Office Lead"
+      },
+      {
+        "name": "Sophia Lee",
+        "role": "Associate"
+      },
+      {
+        "name": "James Park",
+        "role": "Founder & CEO"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "David Lee",
+        "role": "Engineer",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "Riku Kato",
+        "role": "Sales",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "James Jung",
+        "role": "Support",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}

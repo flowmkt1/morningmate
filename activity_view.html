@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>morningmate — Activity 뷰</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--mm:#6449FC;--line:#EEE;--tx:#333;--tx2:#777;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;font-family:Roboto,'Noto Sans KR','Noto Sans JP',sans-serif;color:var(--tx);background:#fff;-webkit-font-smoothing:antialiased;}
+  .app{display:flex;height:100vh;overflow:hidden;}
+  /* 메인 내비 사이드바 */
+  .sb{width:212px;flex-shrink:0;border-right:1px solid var(--line);display:flex;flex-direction:column;padding:14px 10px;overflow:auto;}
+  .sb-logo{display:flex;align-items:center;gap:8px;padding:6px 8px 14px;font-weight:800;font-size:17px;color:#5B2A86;}
+  .sb-logo .mk{width:24px;height:24px;border-radius:50%;background:conic-gradient(from 210deg,#7A1FA2,#C0257A,#FF6A00,#FFB400,#7A1FA2);transform:rotate(12deg);}
+  .sb-new{display:flex;align-items:center;justify-content:center;gap:6px;background:var(--mm);color:#fff;font-weight:600;font-size:13.5px;border-radius:8px;height:38px;margin:0 4px 12px;}
+  .sb-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:7px;font-size:13.5px;color:var(--tx2);cursor:pointer;}
+  .sb-item:hover{background:#F5F5F7;} .sb-item .badge{margin-left:auto;font-size:11px;color:#FF5A5A;}
+  .sb-item .ic{width:17px;height:17px;opacity:.7;}
+  .sb-sec{font-size:12px;color:#999;font-weight:700;padding:14px 12px 6px;display:flex;align-items:center;justify-content:space-between;}
+  .sb-proj{display:flex;align-items:center;gap:9px;padding:7px 12px;font-size:13px;color:#444;cursor:pointer;white-space:nowrap;overflow:hidden;}
+  .sb-proj .sq{width:14px;height:14px;border-radius:4px;flex-shrink:0;} .sb-proj .em{font-size:11px;} .sb-proj .nm{overflow:hidden;text-overflow:ellipsis;}
+  .sb-foot{margin-top:8px;padding-top:8px;}
+  .sb-foot .cs{display:flex;align-items:center;gap:8px;margin:6px 4px 0;padding:9px 12px;background:#FCEEF5;border-radius:8px;font-size:13px;color:#C2387E;}
+  /* main */
+  .main{flex:1;display:flex;flex-direction:column;min-width:0;}
+  .top{height:52px;flex-shrink:0;display:flex;align-items:center;gap:14px;padding:0 18px;border-bottom:1px solid var(--line);}
+  .top .demo{font-size:12px;color:#555;border:1px solid #E2E2E8;border-radius:14px;padding:5px 12px;}
+  .search{width:460px;max-width:40%;margin:0 auto;display:flex;align-items:center;gap:10px;background:#2C2A34;border-radius:8px;padding:9px 14px;}
+  .search .lz{display:flex;color:#c9c9d2;} .search .txt{flex:1;text-align:center;color:#fff;font-size:13px;opacity:.92;} .search .mg{display:flex;color:#fff;}
+  .top .right{display:flex;align-items:center;gap:14px;margin-left:auto;color:#888;}
+  .top .notice{font-size:12px;color:#E0533D;display:flex;align-items:center;gap:5px;font-weight:600;}
+  .badge-n{position:relative;}.badge-n .n{position:absolute;top:-6px;right:-8px;background:#FF3B30;color:#fff;font-size:9px;border-radius:9px;padding:1px 4px;}
+  .ava{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#9DC8FF,#C5A3FF);}
+  .sub{height:56px;flex-shrink:0;display:flex;align-items:center;gap:10px;padding:0 22px;border-bottom:1px solid var(--line);}
+  .sub .star{color:#FFC400;font-size:18px;}.sub .dots{color:#bbb;}.sub .red{color:#FF3B30;}
+  .sub h1{font-size:17px;font-weight:700;margin:0;}
+  .sub .ext{font-size:11px;color:#6449FC;border:1px solid #D9D2FF;border-radius:4px;padding:2px 7px;margin-left:4px;}
+  .sub .right{margin-left:auto;display:flex;align-items:center;gap:12px;}
+  .sub .avas{display:flex;}.sub .avas .ava{width:30px;height:30px;border:2px solid #fff;margin-left:-8px;}
+  .sub .chipbtn{font-size:13px;color:#555;border:1px solid #E2E2E8;border-radius:8px;padding:7px 12px;}
+  .sub .invite{background:#FFB400;color:#fff;font-weight:600;border:none;}
+  .tabs{height:44px;flex-shrink:0;display:flex;align-items:center;gap:24px;padding:0 22px;border-bottom:1px solid var(--line);}
+  .tab{font-size:14px;color:var(--tx2);height:100%;display:flex;align-items:center;border-bottom:2px solid transparent;cursor:pointer;}
+  .tab.on{color:var(--tx);font-weight:700;border-bottom-color:var(--mm);}
+  /* activity 본문 */
+  .actwrap{flex:1;overflow:auto;padding:0 0 30px;}
+  .act-tb{display:flex;align-items:center;gap:12px;padding:14px 22px 6px;}
+  .act-search{flex:1;max-width:360px;display:flex;align-items:center;gap:8px;border:1px solid #E2E2E8;border-radius:8px;padding:9px 14px;color:#aaa;font-size:13px;}
+  .act-search .flt{margin-left:auto;color:#888;}
+  #act-list{padding:6px 22px;}
+  .act-item{display:flex;gap:13px;padding:18px 2px;border-bottom:1px solid #F1F1F1;}
+  .act-ava{width:36px;height:36px;border-radius:50%;flex-shrink:0;}
+  .act-body{flex:1;min-width:0;}
+  .act-title{font-size:14px;color:#888;} .act-title b{color:#333;font-weight:700;}
+  .act-line{font-size:13.5px;color:#555;margin-top:7px;word-break:break-all;}
+  .act-line .lab{color:#999;}
+  .act-line .lnk{color:#6449FC;}
+  .act-time{font-size:12px;color:#aaa;margin-top:9px;}
+</style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sb">
+      <div class="sb-logo"><span class="mk"></span><span>morningmate</span></div>
+      <div class="sb-new">＋ New Project</div>
+      <div class="sb-item">🏠 My Projects <span class="badge">28</span></div>
+      <div class="sb-item">▥ Dashboard</div>
+      <div class="sb-item">🔍 All-member projects</div>
+      <div class="sb-item">⋯ More</div>
+      <div class="sb-sec">See all <span>▴</span></div>
+      <div class="sb-item">☰ Tasks</div><div class="sb-item">▤ Gantt</div><div class="sb-item">▦ Calendar</div>
+      <div class="sb-item">🗀 Files</div><div class="sb-item">🔖 Bookmarks</div><div class="sb-item">＠ Mentions</div>
+      <div class="sb-item">🗎 My Posts</div><div class="sb-item">🖫 Saved drafts</div>
+      <div class="sb-sec">Latest update <span>▴</span></div>
+      <div class="sb-proj"><span class="sq" style="background:#FF5A5A"></span><span class="em">📕</span><span class="nm">[QA] Morningmate</span></div>
+      <div class="sb-proj"><span class="sq" style="background:#FFC400"></span><span class="em">🔴</span><span class="nm">[일본] 프리랜서 협업방</span></div>
+      <div class="sb-proj"><span class="sq" style="background:#36CFBD"></span><span class="em">🌐</span><span class="nm">English Markets GTM</span></div>
+      <div class="sb-proj"><span class="sq" style="background:#D8D8DE"></span><span class="em">🤖</span><span class="nm">AI 팀 만들기 프로젝트</span></div>
+      <div class="sb-proj"><span class="sq" style="background:#D8D8DE"></span><span class="em">🟡</span><span class="nm">[일본] 모닝메이트 고객 및 …</span></div>
+      <div class="sb-sec">Project Folders <span style="color:#6449FC">＋</span></div>
+      <div class="sb-foot"><div class="sb-item">＋ Invite Employees</div><div class="cs">❓ Customer Support</div></div>
+    </aside>
+    <div class="main">
+      <div class="top">
+        <span class="demo">📖 Book a demo</span>
+        <div class="search">
+          <span class="lz"><svg width="18" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9c9d2" stroke-width="2"><path d="M3 6h18M3 12h11M3 18h7"/></svg></span>
+          <span class="txt">Smart Search</span>
+          <span class="mg"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg></span>
+        </div>
+        <div class="right"><span class="notice">🔴 Update Notice</span><span>⊞</span><span class="badge-n">🔔<span class="n">28</span></span><span class="ava"></span></div>
+      </div>
+      <div class="sub">
+        <span class="star">★</span><span class="dots">⋮</span>
+        <h1><span class="red">🔴</span>[일본] 프리랜서 협업방</h1><span class="ext">External</span>
+        <div class="right">
+          <div class="avas"><span class="ava"></span><span class="ava"></span><span class="ava"></span></div>
+          <span style="font-size:13px;color:#888;">+2</span>
+          <span class="chipbtn">🔗 Keyword Integration</span><span class="chipbtn invite">＋ Invite</span>
+        </div>
+      </div>
+      <div class="tabs">
+        <span class="tab">⌂ Feed</span><span class="tab">Table</span><span class="tab">Gantt</span>
+        <span class="tab">Calendar</span><span class="tab">Files</span><span class="tab on">Activity</span>
+        <span class="tab">Repeat</span><span class="tab">Insights</span>
+      </div>
+      <div class="actwrap">
+        <div class="act-tb"><div class="act-search">🔍 Search <span class="flt">⛃ Filter</span></div></div>
+        <div id="act-list"></div>
+      </div>
+    </div>
+  </div>
+  <script src="activity_view.js?v=1"></script>
+  <script src="panels.js?v=1"></script>
+</body>
+</html>

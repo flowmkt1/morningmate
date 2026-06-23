@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>morningmate デモ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=Noto+Sans+KR:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{--mm:#6449FC;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:"Noto Sans JP","Noto Sans KR",Roboto,system-ui,sans-serif;background:#F4F2F7;color:#23233a;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:980px;margin:0 auto;padding:54px 20px 70px;}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;}
+  .logo .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,#7a5bff,#5238e0);}
+  h1{font-size:30px;font-weight:800;margin:22px 0 8px;letter-spacing:-.5px;}
+  .sub{color:#6b6b7b;font-size:15px;line-height:1.6;margin-bottom:14px;}
+  .langbar{display:inline-flex;gap:4px;background:#fff;border:1px solid #e6e4ee;border-radius:999px;padding:4px;margin-bottom:30px;}
+  .langbar button{border:0;background:transparent;font:600 13px inherit;color:#7a7a88;padding:7px 16px;border-radius:999px;cursor:pointer;}
+  .langbar button.on{background:var(--mm);color:#fff;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;}
+  .card{background:#fff;border:1px solid #ececf1;border-radius:16px;padding:22px 22px 20px;box-shadow:0 8px 24px rgba(20,20,40,.05);display:flex;flex-direction:column;}
+  .card .em{font-size:26px;}
+  .card h3{font-size:17px;font-weight:800;margin:10px 0 4px;}
+  .card p{font-size:13px;color:#8a8a9a;line-height:1.5;margin-bottom:16px;flex:1;}
+  .btns{display:flex;gap:10px;}
+  .btns a{flex:1;text-align:center;text-decoration:none;font:700 13.5px inherit;padding:11px 0;border-radius:10px;transition:.15s;}
+  .btns .pc{background:var(--mm);color:#fff;}
+  .btns .pc:hover{background:#5238e0;}
+  .btns .mo{background:#F1F0F6;color:#4b4b5a;}
+  .btns .mo:hover{background:#e7e6ef;}
+  .foot{margin-top:34px;color:#a6a6b4;font-size:12.5px;text-align:center;line-height:1.7;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo"><span class="dot"></span> morningmate</div>
+  <h1 data-t="title">プロジェクト協業 デモ</h1>
+  <p class="sub" data-t="sub">実際の製品とそっくりなインタラクティブ・デモ。下のいずれかを開いて、クリック・スクロールで体験できます。</p>
+
+  <div class="langbar">
+    <button data-lang="ja" class="on">日本語</button>
+    <button data-lang="ko">한국어</button>
+    <button data-lang="en">English</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="foot" data-t="foot">morningmate (flow) — 体験用デモ。データはサンプルです。</div>
+</div>
+
+<script>
+  var LANG = 'ja';
+  var T = {
+    ja:{ title:'プロジェクト協業 デモ', sub:'実際の製品とそっくりなインタラクティブ・デモ。下のいずれかを開いて、クリック・スクロールで体験できます。', foot:'morningmate (flow) — 体験用デモ。データはサンプルです。', pc:'PCで開く', mo:'モバイルで開く' },
+    ko:{ title:'프로젝트 협업 데모', sub:'실제 제품과 똑같은 인터랙티브 데모입니다. 아래에서 골라 열고 클릭·스크롤로 체험해 보세요.', foot:'morningmate (flow) — 체험용 데모. 데이터는 샘플입니다.', pc:'PC로 열기', mo:'모바일로 열기' },
+    en:{ title:'Project Collaboration Demo', sub:'A pixel-accurate interactive demo of the real product. Open one below and explore by clicking and scrolling.', foot:'morningmate (flow) — interactive demo. Sample data only.', pc:'Open on PC', mo:'Open on Mobile' }
+  };
+  var CARDS = {
+    ja:[
+      { inst:'jp-manufacturing', em:'🏭', h:'製造工程管理', p:'A工程ライン改善・品質・設備保全をひとつのルームで。' },
+      { inst:'jp-freelance', em:'💼', h:'フリーランス協業', p:'外部メンバーとのプロジェクト協業・契約・タスク管理。' },
+      { inst:'jp-retail', em:'🛍️', h:'店舗オープン準備', p:'新店オープンの内装・発注・スタッフ準備を一括管理。' }
+    ],
+    ko:[
+      { inst:'jp-manufacturing', em:'🏭', h:'제조 공정관리', p:'A라인 개선·품질·설비보전을 한 방에서.' },
+      { inst:'jp-freelance', em:'💼', h:'프리랜서 협업', p:'외부 멤버와의 프로젝트 협업·계약·업무 관리.' },
+      { inst:'jp-retail', em:'🛍️', h:'매장 오픈 준비', p:'신규 매장 인테리어·발주·스태프 준비를 한 번에.' }
+    ],
+    en:[
+      { inst:'jp-manufacturing', em:'🏭', h:'Mfg Process Mgmt', p:'Line improvement, quality, and maintenance in one room.' },
+      { inst:'jp-freelance', em:'💼', h:'Freelance Collab', p:'Project collaboration, contracts, and tasks with externals.' },
+      { inst:'jp-retail', em:'🛍️', h:'Store Opening', p:'Interior, ordering, and staffing for a new store launch.' }
+    ]
+  };
+  function render(){
+    var t=T[LANG];
+    document.querySelectorAll('[data-t]').forEach(function(e){ var k=e.getAttribute('data-t'); if(t[k]) e.textContent=t[k]; });
+    document.documentElement.lang=LANG;
+    var g=document.getElementById('grid'); g.innerHTML='';
+    CARDS[LANG].forEach(function(c){
+      var q='?inst='+c.inst+'&lang='+LANG;
+      g.insertAdjacentHTML('beforeend',
+        '<div class="card"><span class="em">'+c.em+'</span><h3>'+c.h+'</h3><p>'+c.p+'</p>'+
+        '<div class="btns"><a class="pc" href="app.html'+q+'">'+t.pc+'</a>'+
+        '<a class="mo" href="m.html'+q+'">'+t.mo+'</a></div></div>');
+    });
+  }
+  document.querySelector('.langbar').addEventListener('click',function(e){
+    var b=e.target.closest('[data-lang]'); if(!b) return;
+    LANG=b.getAttribute('data-lang');
+    document.querySelectorAll('.langbar button').forEach(function(x){ x.classList.toggle('on', x===b); });
+    render();
+  });
+  render();
+</script>
+</body>
+</html>

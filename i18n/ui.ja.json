@@ -1,0 +1,270 @@
+{
+  "lang": "ja",
+  "tabs": {
+    "home": "ホーム",
+    "projects": "プロジェクト",
+    "tasks": "タスク",
+    "noti": "通知",
+    "chat": "チャット",
+    "files": "ファイル",
+    "images": "画像",
+    "schedule": "カレンダー"
+  },
+  "header": {
+    "home": "ホーム",
+    "myProjects": "全体プロジェクト",
+    "allTasks": "全体タスク",
+    "noti": "通知",
+    "chat": "チャット",
+    "files": "ファイル",
+    "images": "画像",
+    "schedule": "カレンダー"
+  },
+  "task": {
+    "status": "ステータス",
+    "assignee": "担当者",
+    "due": "期日",
+    "progress": "進捗",
+    "changeAssignee": "担当者を変更",
+    "addDue": "＋ 期日を追加",
+    "addItem": "＋ もっと見る",
+    "collapseItem": "項目を閉じる",
+    "dueSample": "2026-06-13 (金) まで"
+  },
+  "todo": {
+    "addItem": "＋ やることを追加",
+    "added1": "現場チェックリスト作成",
+    "added2": "資料収集フォーム設置"
+  },
+  "status": {
+    "request": "待機",
+    "inProgress": "進行中",
+    "feedback": "レビュー",
+    "done": "完了",
+    "pending": "待機",
+    "progress": "進行中",
+    "complete": "完了",
+    "hold": "保留"
+  },
+  "actions": {
+    "like": "いいね",
+    "bookmark": "ブックマーク",
+    "remindAgain": "リマインダー"
+  },
+  "meta": {
+    "read": "既読",
+    "justNow": "たった今"
+  },
+  "comment": {
+    "all": "全体",
+    "comment": "コメント",
+    "like": "いいね",
+    "placeholder": "コメントを入力してください。",
+    "inputHint": "Shift + Enterで改行、Enterで送信",
+    "auto": [
+      "確認しました 👍 すぐ進めます!",
+      "チェックリスト丁寧ですね 📋 担当分は今日中に終わらせます!",
+      "予定を確認しました 📅 時間に合わせて参加します!",
+      "私はA案に一票 🙋 見やすさが一番ですね!",
+      "共有ありがとうございます 🙌 数字が印象的です!"
+    ],
+    "reply": "はい!確認しました 🙌",
+    "sampleFile": "2026_業務プロセス改善案.docx"
+  },
+  "files": {
+    "allFiles": "すべてのファイル",
+    "allFormats": "すべての形式",
+    "empty": "この形式のファイルはありません",
+    "format": {
+      "cloud": "クラウド",
+      "pdf": "PDF",
+      "word": "ワード",
+      "excel": "エクセル",
+      "ppt": "パワーポイント",
+      "image": "画像",
+      "av": "音楽/動画",
+      "html": "HTML",
+      "zip": "圧縮ファイル",
+      "video": "動画"
+    }
+  },
+  "search": {
+    "placeholder": "検索ワードを入力してください。",
+    "recent": "最近の検索",
+    "clearAll": "すべて削除",
+    "more": "その他 →",
+    "tab": {
+      "all": "すべての結果",
+      "project": "プロジェクト",
+      "post": "投稿",
+      "comment": "コメント",
+      "chat": "チャット",
+      "file": "ファイル"
+    },
+    "section": {
+      "post": "投稿",
+      "comment": "コメント",
+      "chat": "チャット",
+      "file": "ファイル",
+      "project": "プロジェクト"
+    }
+  },
+  "chat": {
+    "inputPlaceholder": "メッセージを送信",
+    "windowPlaceholder": "メッセージを入力してください... (@でメンション / 改行はShift + Enter)",
+    "send": "送信"
+  },
+  "vote": {
+    "end": "投票終了",
+    "cancel": "投票をキャンセル",
+    "unit": "人",
+    "participating": "人 参加"
+  },
+  "schedule": {
+    "changeParticipants": "参加者を変更する",
+    "joinZoom": "Zoomで参加してください",
+    "copyLink": "リンクをコピー",
+    "remindBefore": "{n}分前に通知",
+    "recordNote": "ミーティングノートで録音"
+  },
+  "rsvp": {
+    "going": "参加",
+    "notGoing": "不参加",
+    "maybe": "未定",
+    "commentGoing": "{name}さんが参加します。現場でお会いしましょう! 🙌",
+    "commentNotGoing": "{name}さんは参加できません。次回ご一緒しましょう 🙏",
+    "commentMaybe": "{name}さんは未定です。"
+  },
+  "common": {
+    "favorites": "お気に入り",
+    "viewSettings": "表示設定",
+    "allAssignees": "すべての担当者",
+    "allTasksFilter": "全体タスク",
+    "taskName": "タスク名",
+    "comingSoon": "準備中です"
+  },
+  "weekdays": [
+    "日",
+    "月",
+    "火",
+    "水",
+    "木",
+    "金",
+    "土"
+  ],
+  "dateFmt": {
+    "ampmBefore": "午前",
+    "ampmAfter": "午後",
+    "dueSuffix": "まで"
+  },
+  "pc": {
+    "newProject": "新規プロジェクト",
+    "myProjects": "Myプロジェクト",
+    "dashboard": "ダッシュボード",
+    "allMemberProjects": "公開プロジェクト",
+    "more": "その他",
+    "seeAll": "コレクションビュー",
+    "tasks": "全体タスク",
+    "gantt": "ガントチャート",
+    "calendar": "カレンダー",
+    "files": "ライブラリ",
+    "bookmarks": "ブックマーク",
+    "mentions": "自分をメンション",
+    "myPosts": "自分が投稿したもの",
+    "savedDrafts": "一時保存",
+    "inviteEmployees": "自社メンバーを招待する",
+    "customerSupport": "カスタマーサポート",
+    "smartSearch": "スマート検索",
+    "participants": "参加者",
+    "projectManager": "管理者",
+    "external": "外部メンバー",
+    "internal": "自社メンバー",
+    "chat": "チャット",
+    "videoConference": "Web会議",
+    "invite": "＋ 招待する",
+    "event": "スケジュール",
+    "task": "タスク",
+    "all": "全体",
+    "myEvents": "Myスケジュール",
+    "registeredSchedule": "登録したスケジュール",
+    "none": "選択なし",
+    "allTasks": "全体タスク",
+    "myTasks": "自分のタスク",
+    "requestedTasks": "リクエストしたタスク",
+    "addEvent": "＋スケジュールを追加",
+    "enterEventName": "スケジュール名を入力してください",
+    "fileType": "ファイル形式",
+    "project": "プロジェクト",
+    "enterFileName": "ファイル名を入力してください",
+    "filter": "オプション",
+    "addFolder": "＋フォルダを追加",
+    "latest": "最新",
+    "name": "名前",
+    "createWidget": "＋ ウィジェット作成",
+    "groupedView": "グループビュー",
+    "hide": "非表示",
+    "hideAll": "すべて閉じる",
+    "addTask": "タスクを追加",
+    "noAssigneeTasks": "この担当者のタスクはありません",
+    "col": {
+      "task": "タスク名",
+      "status": "ステータス",
+      "assignee": "担当者",
+      "startDate": "開始日",
+      "dueDate": "期日",
+      "progress": "進捗",
+      "doubleCheck": "ダブルチェック",
+      "budget": "予算"
+    },
+    "tab": {
+      "feed": "フィード",
+      "table": "タスク",
+      "gantt": "ガントチャート",
+      "calendar": "カレンダー",
+      "files": "ファイル",
+      "activity": "アクティビティ",
+      "repeat": "ルーティン",
+      "insights": "インサイト"
+    },
+    "today": "今日",
+    "day": "日",
+    "settings": "設定",
+    "newChat": "＋ チャット",
+    "contact": "連絡先",
+    "searchByName": "氏名、チャットルーム名で検索",
+    "notifications": "通知",
+    "unread": "未読",
+    "readAll": "すべて既読",
+    "goBack": "戻る",
+    "searchResults": "検索結果",
+    "searchChip": "検索",
+    "filterReset": "初期化",
+    "sort": "ソート",
+    "related": "関連度順",
+    "oldest": "古い順",
+    "dateRange": "検索期間",
+    "week": "1週間",
+    "month1": "1か月",
+    "months6": "6か月",
+    "custom": "直接入力",
+    "creator": "作成者",
+    "searchByAuthors": "作成者を検索",
+    "searchByProject": "プロジェクトを検索",
+    "projectFile": "プロジェクトファイル",
+    "month": "月",
+    "insights": {
+      "weeklyTrend": "週別タスク推移",
+      "byStatus": "ステータス別タスク状況",
+      "weeklyAvg": "週平均リクエスト/処理件数",
+      "postTop": "投稿TOP 5",
+      "commentTop": "コメントTOP 5",
+      "byAssignee": "担当者別タスク",
+      "perWeek": "週別タスク数",
+      "duration": "期間",
+      "all": "全体",
+      "requestedTasks": "リクエストされたタスク数",
+      "processedTasks": "処理されたタスク数",
+      "noResults": "結果がありません"
+    }
+  }
+}

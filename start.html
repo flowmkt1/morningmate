@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>morningmate 데모 시작</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;min-height:100vh;font-family:'Poppins','Noto Sans KR','Noto Sans JP',sans-serif;color:#23222B;
+    background:linear-gradient(160deg,#F4F2FF 0%,#FBFAFF 40%,#F3F8FF 100%);display:flex;align-items:center;justify-content:center;padding:32px;}
+  .wrap{width:100%;max-width:680px;background:#fff;border-radius:22px;box-shadow:0 24px 70px rgba(60,40,140,.14);padding:34px 36px 30px;}
+  .brand{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+  .brand .dot{width:30px;height:30px;border-radius:50%;background:conic-gradient(from 210deg,#7A1FA2,#C0257A,#FF6A00,#FFB400,#7A1FA2);}
+  .brand b{font-size:18px;font-weight:700;}
+  h1{font-size:23px;margin:14px 0 4px;font-weight:700;}
+  .sub{color:#8A879A;font-size:13.5px;margin-bottom:22px;}
+  .sec{margin:20px 0;}
+  .lab{font-size:12.5px;font-weight:700;color:#6E6B7E;margin-bottom:9px;letter-spacing:.2px;}
+  .row{display:flex;flex-wrap:wrap;gap:10px;}
+  .pill{padding:9px 16px;border:1.5px solid #E4E1F0;border-radius:11px;background:#fff;font-size:13.5px;font-weight:600;color:#555;cursor:pointer;transition:.12s;}
+  .pill:hover{border-color:#C9BEF6;}
+  .pill.on{background:#6449FC;color:#fff;border-color:#6449FC;box-shadow:0 4px 12px rgba(100,73,252,.28);}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .card{border:1.5px solid #E4E1F0;border-radius:14px;padding:15px 16px;cursor:pointer;transition:.12s;background:#fff;display:flex;align-items:center;gap:12px;}
+  .card:hover{border-color:#C9BEF6;transform:translateY(-1px);}
+  .card.on{border-color:#6449FC;background:#F6F4FF;box-shadow:0 6px 18px rgba(100,73,252,.14);}
+  .card .ic{font-size:26px;flex-shrink:0;}
+  .card .t{font-size:14px;font-weight:700;}
+  .card .d{font-size:11.5px;color:#9A97A8;margin-top:2px;}
+  .proj-empty{font-size:13px;color:#B6B3C2;padding:8px 2px;}
+  .foot{display:flex;align-items:center;gap:14px;margin-top:26px;}
+  .start{flex:1;height:50px;border:none;border-radius:13px;background:#6449FC;color:#fff;font-size:15.5px;font-weight:700;cursor:pointer;transition:.12s;font-family:inherit;}
+  .start:disabled{background:#D6D2EC;cursor:not-allowed;}
+  .start:not(:disabled):hover{background:#5438EE;}
+  .hint{font-size:12px;color:#A8A5B6;}
+  @media(max-width:560px){.cards{grid-template-columns:1fr;}.wrap{padding:26px 20px;}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span><b>morningmate</b></div>
+    <h1 data-t="title">데모 시작 설정</h1>
+    <div class="sub" data-t="sub">언어 · 산업 · 프로젝트를 고르고 데모를 시작하세요.</div>
+
+    <div class="sec">
+      <div class="lab" data-t="lang">언어</div>
+      <div class="row" id="langRow"></div>
+    </div>
+
+    <div class="sec">
+      <div class="lab" data-t="industry">산업</div>
+      <div class="cards" id="indRow"></div>
+    </div>
+
+    <div class="sec">
+      <div class="lab" data-t="project">프로젝트</div>
+      <div class="cards" id="projRow"><div class="proj-empty" data-t="pickInd">먼저 산업을 선택하세요.</div></div>
+    </div>
+
+    <div class="sec">
+      <div class="lab" data-t="device">화면</div>
+      <div class="row" id="devRow"></div>
+    </div>
+
+    <div class="foot">
+      <button class="start" id="startBtn" disabled data-t="start">데모 시작 ▶</button>
+      <span class="hint" data-t="hint">선택한 설정으로 새 화면이 열립니다.</span>
+    </div>
+  </div>
+
+<script>
+/* ---------------- 설정 화면 데이터 ---------------- */
+var LANGS = [['ko','KO'],['ja','JA'],['en','EN']];
+var DEVICES = [['pc',{ko:'PC',ja:'PC',en:'PC'}],['mo',{ko:'모바일',ja:'モバイル',en:'Mobile'}]];
+var INDUSTRIES = [
+  { key:'manufacturing', ic:'🏭',
+    label:{ko:'제조 중소기업',ja:'製造業 中小企業',en:'Manufacturing SME'},
+    desc:{ko:'생산·양산·품질 관리 (관리자)',ja:'生産・量産・品質管理（管理者）',en:'Production & quality (manager)'},
+    projects:[ { inst:'jp-manufacturing', label:{ko:'제조 공정관리방',ja:'製造工程管理ルーム',en:'Mfg Process Management'},
+                 desc:{ko:'생산라인·품질·공정 관리',ja:'生産ライン・品質・工程管理',en:'Line, quality & process'} } ] },
+  { key:'freelance', ic:'🧑‍💻',
+    label:{ko:'프리랜서 · 외주 협업',ja:'フリーランス・外注協業',en:'Freelance · Outsourcing'},
+    desc:{ko:'외부 협업·계약 관리',ja:'外部協業・契約管理',en:'External collab & contracts'},
+    projects:[ { inst:'jp-freelance', label:{ko:'[일본] 프리랜서 협업방',ja:'[日本] フリーランス協業',en:'[Japan] Freelancer Room'},
+                 desc:{ko:'일본 마케팅 외주',ja:'日本マーケ外注',en:'Japan marketing'} } ] },
+  { key:'retail', ic:'🏪',
+    label:{ko:'매장 · 오프라인 오픈',ja:'店舗・オフライン開店',en:'Retail · Store Opening'},
+    desc:{ko:'신규 매장 오픈 준비',ja:'新店舗オープン準備',en:'New store opening prep'},
+    projects:[ { inst:'jp-retail', label:{ko:'[일본] A점 오픈 준비',ja:'[日本] A店 オープン準備',en:'[Japan] Store A Opening'},
+                 desc:{ko:'신주쿠 A점 6/30 오픈',ja:'新宿A店 6/30開店',en:'Shinjuku A, opens 6/30'} } ] }
+];
+var UI = {
+  ko:{title:'데모 시작 설정',sub:'언어 · 산업 · 프로젝트를 고르고 데모를 시작하세요.',lang:'언어',industry:'산업',project:'프로젝트',device:'화면',start:'데모 시작 ▶',hint:'선택한 설정으로 새 화면이 열립니다.',pickInd:'먼저 산업을 선택하세요.'},
+  ja:{title:'デモ開始設定',sub:'言語・業界・プロジェクトを選んでデモを開始してください。',lang:'言語',industry:'業界',project:'プロジェクト',device:'画面',start:'デモを開始 ▶',hint:'選んだ設定で新しい画面が開きます。',pickInd:'まず業界を選択してください。'},
+  en:{title:'Start the demo',sub:'Pick language, industry and project, then start.',lang:'Language',industry:'Industry',project:'Project',device:'Device',start:'Start demo ▶',hint:'Opens in a new screen with your settings.',pickInd:'Pick an industry first.'}
+};
+
+var sel = { lang:'ja', ind:null, inst:null, dev:'pc' };
+
+function applyUI(){
+  var t = UI[sel.lang] || UI.ko;
+  document.querySelectorAll('[data-t]').forEach(function(el){ var k=el.getAttribute('data-t'); if(t[k]!=null) el.textContent=t[k]; });
+  document.documentElement.lang = sel.lang;
+}
+function L(o){ return o[sel.lang] || o.ko; }
+
+function renderLangs(){
+  document.getElementById('langRow').innerHTML = LANGS.map(function(l){
+    return '<button class="pill'+(sel.lang===l[0]?' on':'')+'" data-lang="'+l[0]+'">'+l[1]+'</button>';
+  }).join('');
+}
+function renderDevs(){
+  document.getElementById('devRow').innerHTML = DEVICES.map(function(d){
+    return '<button class="pill'+(sel.dev===d[0]?' on':'')+'" data-dev="'+d[0]+'">'+L(d[1])+'</button>';
+  }).join('');
+}
+function renderInds(){
+  document.getElementById('indRow').innerHTML = INDUSTRIES.map(function(it){
+    return '<div class="card'+(sel.ind===it.key?' on':'')+'" data-ind="'+it.key+'"><span class="ic">'+it.ic+'</span><div><div class="t">'+L(it.label)+'</div><div class="d">'+L(it.desc)+'</div></div></div>';
+  }).join('');
+}
+function renderProjs(){
+  var box=document.getElementById('projRow');
+  var ind = INDUSTRIES.filter(function(i){return i.key===sel.ind;})[0];
+  if(!ind){ box.innerHTML='<div class="proj-empty">'+(UI[sel.lang]||UI.ko).pickInd+'</div>'; return; }
+  box.innerHTML = ind.projects.map(function(p){
+    return '<div class="card'+(sel.inst===p.inst?' on':'')+'" data-inst="'+p.inst+'"><span class="ic">📁</span><div><div class="t">'+L(p.label)+'</div><div class="d">'+L(p.desc)+'</div></div></div>';
+  }).join('');
+}
+function refresh(){ applyUI(); renderLangs(); renderDevs(); renderInds(); renderProjs();
+  document.getElementById('startBtn').disabled = !(sel.ind && sel.inst);
+}
+
+document.addEventListener('click', function(e){
+  var t=e.target;
+  var lg=t.closest('[data-lang]'); if(lg){ sel.lang=lg.getAttribute('data-lang'); refresh(); return; }
+  var dv=t.closest('[data-dev]'); if(dv){ sel.dev=dv.getAttribute('data-dev'); refresh(); return; }
+  var ind=t.closest('[data-ind]'); if(ind){ sel.ind=ind.getAttribute('data-ind'); sel.inst=null; refresh(); return; }
+  var pj=t.closest('[data-inst]'); if(pj){ sel.inst=pj.getAttribute('data-inst'); refresh(); return; }
+  if(t.closest('#startBtn') && sel.inst){
+    try{ localStorage.setItem('mm_lang',sel.lang); localStorage.setItem('mm_instance',sel.inst); }catch(err){}
+    var page = sel.dev==='mo' ? 'm.html' : 'app.html';
+    location.href = page+'?inst='+encodeURIComponent(sel.inst)+'&lang='+encodeURIComponent(sel.lang)+'&_='+Date.now();
+  }
+});
+refresh();
+</script>
+</body>
+</html>

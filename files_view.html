@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>morningmate — 파일함(Files) 뷰</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--mm:#6449FC;--line:#EEE;--tx:#333;--tx2:#777;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;font-family:Roboto,'Noto Sans KR','Noto Sans JP',sans-serif;color:var(--tx);background:#fff;-webkit-font-smoothing:antialiased;}
+  .app{display:flex;height:100vh;overflow:hidden;}
+  /* 좌측 패널 (회색) */
+  .side{width:212px;flex-shrink:0;border-right:1px solid #E0E0E0;display:flex;flex-direction:column;overflow:hidden;position:relative;background:#EDEDED;}
+  .side .logo{display:flex;align-items:center;justify-content:center;gap:8px;height:54px;background:#fff;font-weight:800;font-size:17px;color:#5B2A86;border-bottom:1px solid #E6E6E6;flex-shrink:0;}
+  .side .logo .mk{width:24px;height:24px;border-radius:50%;background:conic-gradient(from 210deg,#7A1FA2,#C0257A,#FF6A00,#FFB400,#7A1FA2);transform:rotate(12deg);}
+  .collapse{position:absolute;top:64px;right:-14px;width:28px;height:28px;border-radius:50%;background:var(--mm);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;box-shadow:0 2px 6px rgba(0,0,0,.2);z-index:5;}
+  .fbody{padding:12px 16px 4px;flex-shrink:0;}
+  .fsec-h{font-size:14px;font-weight:700;color:#333;display:flex;align-items:center;justify-content:space-between;padding:6px 2px 10px;}
+  .ft-dd{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid #DADADA;border-radius:8px;padding:9px 12px;font-size:13px;color:#333;}
+  .ft-dd .ico{width:18px;height:18px;border-radius:4px;background:var(--mm);}
+  .ft-dd .sp{margin-left:auto;color:#bbb;}
+  .proj-h{font-size:14px;font-weight:700;color:#333;padding:14px 18px 6px;}
+  #files-projects{flex:1;overflow:auto;padding:0 10px 16px;}
+  .f-proj{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;font-size:13px;color:#444;cursor:pointer;white-space:nowrap;overflow:hidden;}
+  .f-proj:hover{background:#E5E5E5;} .f-proj.on{background:#E3E0FF;}
+  .f-proj .sq{width:14px;height:14px;border-radius:4px;flex-shrink:0;}
+  .f-proj .em{font-size:12px;flex-shrink:0;} .f-proj .nm{overflow:hidden;text-overflow:ellipsis;}
+  /* main */
+  .main{flex:1;display:flex;flex-direction:column;min-width:0;}
+  .top{height:52px;flex-shrink:0;display:flex;align-items:center;gap:14px;padding:0 18px;border-bottom:1px solid var(--line);}
+  .top .demo{font-size:12px;color:#555;border:1px solid #E2E2E8;border-radius:14px;padding:5px 12px;display:flex;align-items:center;gap:6px;}
+  /* 다크 검색바 */
+  .search{width:460px;max-width:40%;margin:0 auto;display:flex;align-items:center;gap:10px;background:#2C2A34;border-radius:8px;padding:9px 14px;}
+  .search .lz{display:flex;color:#c9c9d2;}
+  .search .txt{flex:1;text-align:center;color:#fff;font-size:13px;opacity:.92;}
+  .search .mg{display:flex;color:#fff;}
+  .top .right{display:flex;align-items:center;gap:14px;margin-left:auto;color:#888;}
+  .top .notice{font-size:12px;color:#E0533D;display:flex;align-items:center;gap:5px;font-weight:600;}
+  .badge-n{position:relative;}.badge-n .n{position:absolute;top:-6px;right:-8px;background:#FF3B30;color:#fff;font-size:9px;border-radius:9px;padding:1px 4px;}
+  .ava{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#9DC8FF,#C5A3FF);}
+  .sub{height:56px;flex-shrink:0;display:flex;align-items:center;gap:10px;padding:0 22px;border-bottom:1px solid var(--line);}
+  .sub .star{color:#FFC400;font-size:18px;}.sub .dots{color:#bbb;}.sub .red{color:#FF3B30;}
+  .sub h1{font-size:17px;font-weight:700;margin:0;}
+  .sub .ext{font-size:11px;color:#6449FC;border:1px solid #D9D2FF;border-radius:4px;padding:2px 7px;margin-left:4px;}
+  .sub .right{margin-left:auto;display:flex;align-items:center;gap:12px;}
+  .sub .avas{display:flex;}.sub .avas .ava{width:30px;height:30px;border:2px solid #fff;margin-left:-8px;}
+  .sub .chipbtn{font-size:13px;color:#555;border:1px solid #E2E2E8;border-radius:8px;padding:7px 12px;display:flex;align-items:center;gap:6px;}
+  .sub .invite{background:#FFB400;color:#fff;font-weight:600;border:none;}
+  .tabs{height:44px;flex-shrink:0;display:flex;align-items:center;gap:24px;padding:0 22px;border-bottom:1px solid var(--line);}
+  .tab{font-size:14px;color:var(--tx2);height:100%;display:flex;align-items:center;border-bottom:2px solid transparent;cursor:pointer;}
+  .tab.on{color:var(--tx);font-weight:700;border-bottom-color:var(--mm);}
+  /* files 본문 */
+  .fwrap{flex:1;overflow:auto;display:flex;flex-direction:column;}
+  .f-tb{display:flex;align-items:center;gap:12px;padding:14px 22px 4px;}
+  .f-search{flex:1;max-width:360px;display:flex;align-items:center;gap:8px;border:1px solid #E2E2E8;border-radius:8px;padding:9px 14px;color:#aaa;font-size:13px;}
+  .f-search .flt{margin-left:auto;color:#888;}
+  .f-add{margin-left:auto;background:var(--mm);color:#fff;font-weight:600;font-size:13px;border-radius:6px;padding:9px 16px;}
+  .f-vtoggle{display:flex;gap:4px;}
+  .f-vtoggle .v{width:32px;height:32px;border:1px solid #E2E2E8;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#888;}
+  .f-vtoggle .v.on{background:#EFECFF;color:var(--mm);border-color:#D9D2FF;}
+  .f-sort{display:flex;justify-content:center;gap:26px;padding:14px 0 18px;}
+  .f-sort span{font-size:13px;color:#999;display:flex;align-items:center;gap:5px;}
+  .f-sort span.on{color:var(--mm);font-weight:600;}
+  #files-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:18px;padding:0 22px 30px;}
+  .f-card{cursor:pointer;}
+  .f-thumb{position:relative;aspect-ratio:1/1;background:#FAFAFA;border:1px solid #DDD;border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+  .f-card.sel .f-thumb{border:2px solid var(--mm);background:#F4F1FF;}
+  .f-check{position:absolute;top:10px;left:10px;background:#fff;border-radius:50%;display:flex;}
+  .f-dots{position:absolute;top:8px;right:10px;color:#bbb;font-size:16px;}
+  .f-vicon{width:54px;height:54px;border-radius:13px;background:#21C6C6;display:flex;align-items:center;justify-content:center;}
+  .f-imgph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;}
+  .f-name{font-size:13px;color:#333;text-align:center;margin-top:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+</style>
+</head>
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="logo"><span class="mk"></span><span>morningmate</span></div>
+      <div class="collapse">←|</div>
+      <div class="fbody">
+        <div class="fsec-h">File Type</div>
+        <div class="ft-dd"><span class="ico"></span><span>All</span><span class="sp">⌄</span></div>
+      </div>
+      <div class="proj-h">Project</div>
+      <div id="files-projects"></div>
+    </aside>
+    <div class="main">
+      <div class="top">
+        <span class="demo">📖 Book a demo</span>
+        <div class="search">
+          <span class="lz"><svg width="18" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9c9d2" stroke-width="2"><path d="M3 6h18M3 12h11M3 18h7"/></svg></span>
+          <span class="txt">Smart Search</span>
+          <span class="mg"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg></span>
+        </div>
+        <div class="right"><span class="notice">🔴 Update Notice</span><span>⊞</span><span class="badge-n">🔔<span class="n">28</span></span><span class="ava"></span></div>
+      </div>
+      <div class="sub">
+        <span class="star">★</span><span class="dots">⋮</span>
+        <h1><span class="red">🔴</span>[일본] 프리랜서 협업방</h1><span class="ext">External</span>
+        <div class="right">
+          <div class="avas"><span class="ava"></span><span class="ava"></span><span class="ava"></span></div>
+          <span style="font-size:13px;color:#888;">+2</span>
+          <span class="chipbtn">🔗 Keyword Integration</span><span class="chipbtn invite">＋ Invite</span>
+        </div>
+      </div>
+      <div class="tabs">
+        <span class="tab">⌂ Feed</span><span class="tab">Table</span><span class="tab">Gantt</span>
+        <span class="tab">Calendar</span><span class="tab on">Files</span><span class="tab">Activity</span>
+        <span class="tab">Repeat</span><span class="tab">Insights</span>
+        <span style="margin-left:auto;font-size:13px;color:#888;">Total 219</span>
+      </div>
+      <div class="fwrap">
+        <div class="f-tb">
+          <div class="f-search">🔍 Enter File name. <span class="flt">⛃ Filter</span></div>
+          <div class="f-add">＋ Add folder</div>
+          <div class="f-vtoggle"><span class="v on">▦</span><span class="v">☰</span></div>
+        </div>
+        <div class="f-sort"><span class="on">Latest ▾</span><span>Name ▾</span></div>
+        <div id="files-grid"></div>
+      </div>
+    </div>
+  </div>
+  <script src="files_view.js?v=1"></script>
+  <script src="panels.js?v=1"></script>
+</body>
+</html>

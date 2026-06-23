@@ -1,0 +1,2552 @@
+{
+  "meta": {
+    "industry": "Marketing",
+    "sector": "Freelance collaboration",
+    "language": "en",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "Global Marketing Collaboration Room",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "Freelance Collaboration Room",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "Competitor Monitoring (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AI Team Building Project",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[Emma] Personal To-do",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "Video Creative Team Room",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[Influencer Agency] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "Kenji Tanaka",
+    "role": "Production Manager",
+    "team": "Mfg Management",
+    "color": "#F2A65A"
+  },
+  "room": {
+    "name": "[Japan] Mfg Process Management",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "author": {
+        "name": "Kenji Tanaka",
+        "role": "Production Manager",
+        "team": "Mfg Management",
+        "color": "#F2A65A"
+      },
+      "datetime": "2026-06-04 12:36",
+      "taskNo": "920471",
+      "read": 1,
+      "title": "[Process Mgmt] Improve Line A utilization",
+      "status": {
+        "label": "진행중",
+        "color": "#1A8F2E",
+        "bg": "rgba(0,176,28,.20)"
+      },
+      "assignee": {
+        "name": "Aya Watanabe",
+        "color": "#A8E6C0"
+      },
+      "due": "",
+      "progress": 45,
+      "body": [
+        "Managing the Line A utilization improvement activity.",
+        {
+          "t": "h",
+          "e": "🏭",
+          "x": "Improvement Overview"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "📍",
+              "x": "Target: Plant 1 Line A (sensor unit)"
+            },
+            {
+              "e": "🎯",
+              "x": "Goal: utilization 82% → 90%"
+            },
+            {
+              "e": "📅",
+              "x": "Review cycle: every Wednesday"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "Improvement Items"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "Item",
+            "Details",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Cut tact time",
+              "Re-layout bottleneck & improve jigs",
+              "진행중"
+            ],
+            [
+              "Reduce defects",
+              "Analyze & fix initial defects",
+              "대기"
+            ],
+            [
+              "Equipment uptime",
+              "Analyze downtime & preventive maint.",
+              "대기"
+            ],
+            [
+              "Work standard",
+              "Update SOP & train operators",
+              "대기"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "Please refer to the attached process improvement plan."
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "author": {
+        "name": "Ichiro Suzuki",
+        "role": "Procurement",
+        "team": "Mfg Management",
+        "color": "#5BBF9A"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 3,
+      "title": "Weekly process check",
+      "items": [
+        {
+          "text": "Tally line downtime",
+          "done": false,
+          "assignee": {
+            "name": "Aya Watanabe",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "Classify defect types",
+          "done": false,
+          "assignee": {
+            "name": "Aya Watanabe",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "Check mold & jig condition",
+          "done": false,
+          "assignee": {
+            "name": "Aya Watanabe",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "Check parts inventory",
+          "done": false,
+          "assignee": {
+            "name": "Aya Watanabe",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "Safety & 5S check",
+          "done": false,
+          "assignee": {
+            "name": "Aya Watanabe",
+            "color": "#9DC8FF"
+          }
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "author": {
+        "name": "Yumi Sato",
+        "role": "Quality Lead",
+        "team": "Mfg Management",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 1,
+      "title": "Line A process improvement meeting",
+      "dateBadge": {
+        "month": "2026-07",
+        "day": "08"
+      },
+      "timeRange": "2026-07-08 (Wed), 10:00 — 11:00",
+      "participants": {
+        "going": 1,
+        "notGoing": 0,
+        "pending": 0,
+        "avatars": [
+          {
+            "name": "Kenji Tanaka",
+            "color": "#F2A65A"
+          },
+          {
+            "name": "Makoto Takahashi",
+            "color": "#B0A4E6"
+          }
+        ]
+      },
+      "zoom": true,
+      "reminder": "Remind 30 min before",
+      "recording": true,
+      "body": [
+        "Plant 1 meeting room",
+        "Review utilization data / discuss bottleneck fixes"
+      ],
+      "rsvp": true
+    },
+    {
+      "type": "vote",
+      "author": {
+        "name": "Yumi Sato",
+        "role": "Quality Lead",
+        "team": "Mfg Management",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 16:14",
+      "read": 1,
+      "status": "진행중",
+      "title": "Jig improvement vote",
+      "description": "Pick the priority jig-improvement plan for the bottleneck process.",
+      "voters": 8,
+      "options": [
+        {
+          "label": "A — Automate jig",
+          "votes": 5,
+          "voted": true
+        },
+        {
+          "label": "B — Re-layout workbench",
+          "votes": 2
+        },
+        {
+          "label": "C — Replace tools",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "author": {
+        "name": "Robert Nakamura",
+        "role": "Plant Manager",
+        "team": "Mfg Management",
+        "color": "#5B6CF0"
+      },
+      "datetime": "2026-06-04 12:39",
+      "read": 8,
+      "title": "Process Mgmt Weekly",
+      "body": [
+        "Sharing this week's Line A process management.",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "This Week's Highlights"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "⚙️",
+              "b": true,
+              "x": "Utilization 82→86%",
+              "sub": [
+                "From bottleneck re-layout. Jig improvement applied next week."
+              ]
+            },
+            {
+              "e": "✅",
+              "b": true,
+              "x": "Initial defects 1.8%→1.1%",
+              "sub": [
+                "Fixed 2 main causes. Under follow-up observation."
+              ]
+            },
+            {
+              "e": "🛠",
+              "b": true,
+              "x": "Preventive maintenance plan",
+              "sub": [
+                "Set inspection cycles. Target 20% less downtime."
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "Next Week's Actions"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "Apply jig improvement"
+            },
+            {
+              "e": "②",
+              "x": "Track defects"
+            },
+            {
+              "e": "③",
+              "x": "Preventive maintenance #1"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/factory,production?lock=7"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "May 2026",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "Company Holiday"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "Memorial Day"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "Confirm homepage logo usage…",
+          "status": "Complete",
+          "assignee": "Jessica Bennett",
+          "author": "Emma Walker"
+        },
+        {
+          "type": "task",
+          "name": "Homepage - About Us (Morning…",
+          "status": "Complete",
+          "assignee": "Sophia Lee",
+          "author": "Emma Walker"
+        },
+        {
+          "type": "task",
+          "name": "Homepage - About Us",
+          "status": "Complete",
+          "assignee": "Jessica Bennett",
+          "author": "Emma Walker"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "HubSpot DB import feature",
+          "s": "Pending"
+        },
+        {
+          "t": "Send webtoon guide to Haruka",
+          "s": "Pending"
+        },
+        {
+          "t": "Produce ad content",
+          "s": "Pending"
+        },
+        {
+          "t": "Produce ad content_cinematic",
+          "s": "Pending"
+        },
+        {
+          "t": "Character guide",
+          "s": "Pending"
+        },
+        {
+          "t": "Closing guide",
+          "s": "Pending"
+        },
+        {
+          "t": "Logo song - company name chant",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "Weekly report (Japan)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Add HubSpot MKT route (expo)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Weekly meeting_Japan team",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Meeting on English-market priorities",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Update Google API card info",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "SharedDrive_TradeShowFolder",
+      "t": "cloud",
+      "by": "Emma Walker",
+      "sz": "Folder"
+    },
+    {
+      "n": "Team_Workspace_Link",
+      "t": "cloud",
+      "by": "James Park",
+      "sz": "Shortcut"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "Jessica Bennett",
+      "sz": "2 MB"
+    },
+    {
+      "n": "Jobcan_Accounting_Simulation.pdf",
+      "t": "pdf",
+      "by": "Jessica Bennett",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "Booth_Operations_Manual.pdf",
+      "t": "pdf",
+      "by": "Olivia Brooks",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "Freelance_Contract_MichaelReed.docx",
+      "t": "word",
+      "by": "Emma Walker",
+      "sz": "210 KB"
+    },
+    {
+      "n": "Standard_Contract_Template.docx",
+      "t": "word",
+      "by": "James Park",
+      "sz": "320 KB"
+    },
+    {
+      "n": "TradeShow_Leads_312.xlsx",
+      "t": "excel",
+      "by": "Emma Walker",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "Booth_Operations_Settlement.xlsx",
+      "t": "excel",
+      "by": "Olivia Brooks",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_Launch_Plan.pptx",
+      "t": "ppt",
+      "by": "Sophia Lee",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "TradeShow_Booth_Proposal.pptx",
+      "t": "ppt",
+      "by": "Jessica Bennett",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "Booth_Design_Render.png",
+      "t": "image",
+      "by": "Olivia Brooks",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "Venue_Layout.jpg",
+      "t": "image",
+      "by": "Haruka Sano",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "TradeShow_Promo_Video.mp4",
+      "t": "av",
+      "by": "Haruka Sano",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "Booth_BGM.mp3",
+      "t": "av",
+      "by": "Takuya Kimura",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "LandingPage_Draft.html",
+      "t": "html",
+      "by": "Daniel Kim",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_SignupForm.html",
+      "t": "html",
+      "by": "Sophia Lee",
+      "sz": "22 KB"
+    },
+    {
+      "n": "TradeShow_Assets_Backup.zip",
+      "t": "zip",
+      "by": "Emma Walker",
+      "sz": "124 MB"
+    },
+    {
+      "n": "Logo_Originals.zip",
+      "t": "zip",
+      "by": "Jessica Bennett",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "Line A Process TF",
+      "av": "#9DC8FF",
+      "actor": "Yumi Sato's comment",
+      "time": "a few seconds ago",
+      "emoji": "🟢",
+      "task": "Tact time measure #2",
+      "activity": "'요청' → '진행중' Status has been updated.",
+      "unread": true
+    },
+    {
+      "proj": "Line A Process TF",
+      "av": "#9DC8FF",
+      "actor": "Makoto Takahashi added a new task",
+      "time": null,
+      "emoji": "🟢",
+      "activity": "Preventive maintenance #1",
+      "unread": true
+    },
+    {
+      "proj": "Quality QA",
+      "av": "#9DC8FF",
+      "actor": "Yumi Sato's comment",
+      "time": "5 minutes ago",
+      "emoji": "🟢",
+      "task": "Initial production QC",
+      "activity": "'진행중' → '완료' Status has been updated.",
+      "unread": true
+    },
+    {
+      "proj": "Parts sourcing",
+      "av": "#9DC8FF",
+      "actor": "Ichiro Suzuki's comment",
+      "time": "5 minutes ago",
+      "emoji": "🟢",
+      "task": "Order key parts",
+      "activity": "'진행중' → '완료' Status has been updated.",
+      "unread": true
+    },
+    {
+      "proj": "[Equip] Maint. log",
+      "av": "#9DC8FF",
+      "actor": "Makoto Takahashi added a new reply",
+      "time": "an hour ago",
+      "task": "Equipment check list",
+      "activity": "Thank you, manager!"
+    },
+    {
+      "proj": "[Japan] Mfg Process Mgmt",
+      "av": "#9DC8FF",
+      "actor": "Aya Watanabe added a new comment",
+      "time": null,
+      "emoji": "🔴",
+      "activity": "Heading out! Let's check the line together tomorrow",
+      "unread": true
+    },
+    {
+      "proj": "Line A Process TF",
+      "av": "#9DC8FF",
+      "actor": "Kenji Tanaka's comment",
+      "time": null,
+      "emoji": "🟢",
+      "task": "Cut tact time",
+      "activity": "'Kenji Tanaka' Assignee has been added.",
+      "unread": true
+    },
+    {
+      "proj": "Production plan",
+      "av": "#9DC8FF",
+      "actor": "Kenji Tanaka added a new comment",
+      "time": null,
+      "emoji": "🟢",
+      "task": "Monthly production plan",
+      "activity": "Sharing the July production plan draft",
+      "unread": true
+    }
+  ],
+  "chats": [
+    {
+      "name": "Aya Watanabe",
+      "last": "Shared the Line A utilization data",
+      "time": "08:16 PM",
+      "color": "#9DC8FF",
+      "pin": true,
+      "count": true,
+      "active": true
+    },
+    {
+      "name": "Yumi Sato, Ichiro Suzuki",
+      "last": "I'll notify once the inspection criteria are set",
+      "time": "",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "🔴[Line A] Process TF",
+      "last": "Sharing the tact-time results",
+      "time": "04/28",
+      "color": "#FFB0B0",
+      "count": 4
+    },
+    {
+      "name": "Makoto Takahashi",
+      "last": "Equipment check done",
+      "time": "02/04",
+      "color": "#FFD4A8",
+      "pin": true
+    },
+    {
+      "name": "Production Mgmt All",
+      "last": "Please review the weekly production materials",
+      "time": "01/30",
+      "color": "#C5A3FF",
+      "pin": true,
+      "count": 5
+    },
+    {
+      "name": "Yumi Sato",
+      "last": "Updated the defect tracking sheet",
+      "time": "04:58 PM",
+      "color": "#9DC8FF"
+    },
+    {
+      "name": "Ichiro Suzuki",
+      "last": "Parts lead time fixed to 7/2",
+      "time": "06/02",
+      "color": "#A8E6C0"
+    },
+    {
+      "name": "Robert Nakamura",
+      "last": "Got the monthly production report",
+      "time": "05/15",
+      "color": "#FFB89D"
+    },
+    {
+      "name": "Yumi Sato, Makoto Takahashi",
+      "last": "Yes! Thank you!",
+      "time": "05/13",
+      "color": "#9DC8FF",
+      "count": 4
+    },
+    {
+      "name": "Kenji Tanaka, Aya Watanabe",
+      "last": "Sharing the process improvement schedule",
+      "time": "05/12",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "Yumi Sato, Robert Nakamura",
+      "last": "Sure!!",
+      "time": "05/11",
+      "color": "#C5A3FF",
+      "count": 3
+    }
+  ],
+  "conversation": [
+    {
+      "side": "them",
+      "text": "Sharing the Line A utilization data",
+      "time": "5:46 PM"
+    },
+    {
+      "side": "them",
+      "text": "Downtime was a bit long yesterday",
+      "time": "5:47 PM"
+    },
+    {
+      "side": "me",
+      "text": "yep yep"
+    },
+    {
+      "side": "me",
+      "text": "Aya, where was the bottleneck process?"
+    },
+    {
+      "side": "me",
+      "text": "I'll apply the jig improvement next week"
+    },
+    {
+      "side": "me",
+      "text": "Please also measure the tact time"
+    },
+    {
+      "side": "them",
+      "text": "Got it! I'll measure on Wednesday 🙏",
+      "time": "10:42 PM"
+    }
+  ],
+  "groupConversation": [
+    {
+      "side": "them",
+      "who": "Robert Nakamura",
+      "text": "Everyone, please share this week's Line A process improvement 🙌",
+      "time": "9:02 AM"
+    },
+    {
+      "side": "them",
+      "who": "Makoto Takahashi",
+      "text": "Preventive maintenance #1 done. Downtime is down 🛠",
+      "time": "9:10 AM"
+    },
+    {
+      "side": "them",
+      "who": "Yumi Sato",
+      "text": "Applied fixes to 2 initial defects. Under observation ✅",
+      "time": "9:15 AM"
+    },
+    {
+      "side": "me",
+      "text": "Great work! I'll compile the tact-time data today"
+    },
+    {
+      "side": "them",
+      "who": "Ichiro Suzuki",
+      "text": "Key parts lead time fixed to 7/2 📦",
+      "time": "9:22 AM"
+    },
+    {
+      "side": "me",
+      "text": "Nice 🔥 Let's check together at Wednesday's trial run"
+    },
+    {
+      "side": "them",
+      "who": "Robert Nakamura",
+      "text": "👍 Blocking 10 AM Wednesday",
+      "time": "9:30 AM"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "James Park",
+        "text": "Confirmed the contract terms 👍 let's proceed!"
+      },
+      {
+        "name": "Haruka Sano",
+        "text": "Finished this item! Let's keep it up for the next one 💪"
+      },
+      {
+        "name": "Emma Walker",
+        "text": "Confirmed the booth location 📍 see you on-site!"
+      },
+      {
+        "name": "Olivia Brooks",
+        "text": "I think Option A is the cleanest 🎨 casting my vote"
+      },
+      {
+        "name": "Sophia Lee",
+        "text": "312 leads is amazing 🎉 great job!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "Takuya Kimura",
+        "text": "Finished the Japanese review too. No issues ✅"
+      },
+      {
+        "name": "Kate Morgan",
+        "text": "Thanks for sharing! I'll use it as reference 🙏"
+      },
+      {
+        "name": "Jessica Bennett",
+        "text": "Checked the schedule. I'll add it to the calendar 📅"
+      },
+      {
+        "name": "Daniel Kim",
+        "text": "Great idea! I'll add my vote too ✋"
+      },
+      {
+        "name": "James Park",
+        "text": "Impressive numbers. Let's share at next week's meeting 📊"
+      },
+      {
+        "name": "Emma Walker",
+        "text": "Got it! I'll reflect it and get back to you 🙌"
+      },
+      {
+        "name": "Haruka Sano",
+        "text": "The local response is good too 😊 I think we're on track"
+      },
+      {
+        "name": "Olivia Brooks",
+        "text": "Placed the material order 📦 arriving Friday"
+      },
+      {
+        "name": "Sophia Lee",
+        "text": "The QR signup form is almost done 🔗 sharing soon"
+      },
+      {
+        "name": "Takuya Kimura",
+        "text": "Prepared 3 ad creative drafts 🎬 please review"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "Haruka Sano",
+    "Takuya Kimura",
+    "Emma Walker",
+    "Sophia Lee"
+  ],
+  "extraTasks": [
+    "Set up Yahoo! JAPAN ads",
+    "Set up Google ads",
+    "Pay for PR TIMES 1-month plan",
+    "Write a note how-to article",
+    "Produce Instagram Reels",
+    "Prepare webinar materials",
+    "Research competitor ad creatives",
+    "Upload leads to CRM",
+    "Keyword research",
+    "Landing page A/B test",
+    "Send newsletter",
+    "Review freelance contract",
+    "Trade show booth design",
+    "On-site staff seating chart",
+    "Pack sample products",
+    "Organize consultation list",
+    "Japanese content review",
+    "Organize meeting notes",
+    "Weekly report (Japan)",
+    "Run X/Instagram/YouTube",
+    "kintone webinar",
+    "Notion webinar",
+    "Publish PR article",
+    "Event participation notice"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "Freelance Contract Collaboration Room",
+          "who": "Emma Walker",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[Freelance Contract] Finalize standard contract template - Michael Reed",
+          "body": "Attaching the standard contract template for Michael's contract. It includes a short-to-long-term conversion clause, so please review and reply…",
+          "who": "Emma Walker",
+          "date": "2026-06-04 12:36",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Outsourced contract translation review complete",
+          "body": "Finished reviewing the Japanese contract translation. Legal review is done, only both signatures remain. Sharing the final contract PDF…",
+          "who": "Takuya Kimura",
+          "date": "2026-06-02 18:20",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[Info] Standard employment/service contract templates",
+          "body": "",
+          "who": "James Park",
+          "date": "2026-04-15 11:41",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "Contract stamping & original storage guide",
+          "body": "",
+          "who": "Jessica Bennett",
+          "date": "2026-04-27 11:06",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Negotiating trade show booth construction contract terms",
+          "body": "…Negotiating contract terms with the booth construction vendor. The amount and schedule clauses need adjustment. Please review the contract draft…",
+          "who": "Olivia Brooks",
+          "date": "2026-05-14 19:49",
+          "tag": "Task",
+          "proj": "Freelance Collaboration Room",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… Confirmed the contract terms 👍 let's proceed! I'll send the signed copy tomorrow.",
+          "who": "James Park",
+          "date": "2026-06-04 17:58",
+          "proj": "[Freelance Contract] Marketing - Michael Reed"
+        },
+        {
+          "text": "…Added a short-to-long-term conversion clause to the contract. Please review.",
+          "who": "Emma Walker",
+          "date": "2026-06-04 17:36",
+          "proj": "[Freelance Contract] Marketing - Michael Reed"
+        },
+        {
+          "text": "…Finished reviewing the Japanese contract too. No issues ✅ legal review passed.",
+          "who": "Takuya Kimura",
+          "date": "2026-03-07 01:24",
+          "proj": "Outsourced contract translation review"
+        },
+        {
+          "text": "…Attached the standard contract template to the files. You can reuse it for the next contract.",
+          "who": "Jessica Bennett",
+          "date": "2026-03-07 00:39",
+          "proj": "Standard employment/service contract templates"
+        },
+        {
+          "text": "We need the company seal and signature for stamping the contract. Please reply by 2/2.",
+          "who": "Jessica Bennett",
+          "date": "2026-01-29 10:42",
+          "proj": "Contract stamping & original storage guide"
+        }
+      ],
+      "chats": [
+        {
+          "text": "I'll send you the standard contract template",
+          "who": "Emma Walker",
+          "date": "2026-03-17 12:56",
+          "proj": "James Park"
+        },
+        {
+          "text": "Confirmed the contract terms 👍 let's proceed",
+          "who": "James Park",
+          "date": "2026-06-08 12:22",
+          "proj": "James Park"
+        },
+        {
+          "text": "I'll send the signed contract by end of day :(",
+          "who": "Takuya Kimura",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴 Trade Show TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_ProcessInnovation_Japan_Emma_Contract.docx",
+          "who": "Emma Walker",
+          "date": "2026-06-04 12:37",
+          "proj": "[Freelance Contract] Marketing - Michael Reed",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "Standard_Freelance_Contract_Template.docx",
+          "who": "James Park",
+          "date": "2026-05-20 10:12",
+          "proj": "Standard employment/service contract templates",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "contract",
+        "d": "06/10"
+      },
+      {
+        "kw": "location",
+        "d": "06/10"
+      },
+      {
+        "kw": "member",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "Emma Walker": "woman1",
+    "David Chen": "man2",
+    "Haruka Sano": "woman2",
+    "Sophia Lee": "woman4",
+    "Jessica Bennett": "woman1",
+    "Grace Oh": "woman4",
+    "Kate Morgan": "woman3",
+    "Olivia Brooks": "woman3",
+    "Takuya Kimura": "man3",
+    "Daniel Kim": "man1",
+    "Chloe Kim": "woman2",
+    "Michael Reed": "man1",
+    "James Park": "man6",
+    "Ryan Shin": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "Kenji Tanaka",
+      "role": "Production Manager",
+      "team": "Mfg Management",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "Kenji Tanaka",
+          "role": "Production Manager",
+          "team": "Mfg Management",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "920471",
+        "read": 1,
+        "title": "[Process Mgmt] Improve Line A utilization",
+        "status": {
+          "label": "진행중",
+          "color": "#1A8F2E",
+          "bg": "rgba(0,176,28,.20)"
+        },
+        "assignee": {
+          "name": "Aya Watanabe",
+          "color": "#A8E6C0"
+        },
+        "due": "",
+        "progress": 45,
+        "body": [
+          "Managing the Line A utilization improvement activity.",
+          {
+            "t": "h",
+            "e": "🏭",
+            "x": "Improvement Overview"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "📍",
+                "x": "Target: Plant 1 Line A (sensor unit)"
+              },
+              {
+                "e": "🎯",
+                "x": "Goal: utilization 82% → 90%"
+              },
+              {
+                "e": "📅",
+                "x": "Review cycle: every Wednesday"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "Improvement Items"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "Item",
+              "Details",
+              "Status"
+            ],
+            "rows": [
+              [
+                "Cut tact time",
+                "Re-layout bottleneck & improve jigs",
+                "진행중"
+              ],
+              [
+                "Reduce defects",
+                "Analyze & fix initial defects",
+                "대기"
+              ],
+              [
+                "Equipment uptime",
+                "Analyze downtime & preventive maint.",
+                "대기"
+              ],
+              [
+                "Work standard",
+                "Update SOP & train operators",
+                "대기"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "Please refer to the attached process improvement plan."
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "Ichiro Suzuki",
+          "role": "Procurement",
+          "team": "Mfg Management",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "Weekly process check",
+        "items": [
+          {
+            "text": "Tally line downtime",
+            "done": false,
+            "assignee": {
+              "name": "Aya Watanabe",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "Classify defect types",
+            "done": false,
+            "assignee": {
+              "name": "Aya Watanabe",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "Check mold & jig condition",
+            "done": false,
+            "assignee": {
+              "name": "Aya Watanabe",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "Check parts inventory",
+            "done": false,
+            "assignee": {
+              "name": "Aya Watanabe",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "Safety & 5S check",
+            "done": false,
+            "assignee": {
+              "name": "Aya Watanabe",
+              "color": "#9DC8FF"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "Yumi Sato",
+          "role": "Quality Lead",
+          "team": "Mfg Management",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "Line A process improvement meeting",
+        "dateBadge": {
+          "month": "2026-07",
+          "day": "08"
+        },
+        "timeRange": "2026-07-08 (Wed), 10:00 — 11:00",
+        "participants": {
+          "going": 1,
+          "notGoing": 0,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "Kenji Tanaka",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "Makoto Takahashi",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "Remind 30 min before",
+        "recording": true,
+        "body": [
+          "Plant 1 meeting room",
+          "Review utilization data / discuss bottleneck fixes"
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "Yumi Sato",
+          "role": "Quality Lead",
+          "team": "Mfg Management",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "Jig improvement vote",
+        "description": "Pick the priority jig-improvement plan for the bottleneck process.",
+        "voters": 8,
+        "options": [
+          {
+            "label": "A — Automate jig",
+            "votes": 5,
+            "voted": true
+          },
+          {
+            "label": "B — Re-layout workbench",
+            "votes": 2
+          },
+          {
+            "label": "C — Replace tools",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "Robert Nakamura",
+          "role": "Plant Manager",
+          "team": "Mfg Management",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "Process Mgmt Weekly",
+        "body": [
+          "Sharing this week's Line A process management.",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "This Week's Highlights"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "⚙️",
+                "b": true,
+                "x": "Utilization 82→86%",
+                "sub": [
+                  "From bottleneck re-layout. Jig improvement applied next week."
+                ]
+              },
+              {
+                "e": "✅",
+                "b": true,
+                "x": "Initial defects 1.8%→1.1%",
+                "sub": [
+                  "Fixed 2 main causes. Under follow-up observation."
+                ]
+              },
+              {
+                "e": "🛠",
+                "b": true,
+                "x": "Preventive maintenance plan",
+                "sub": [
+                  "Set inspection cycles. Target 20% less downtime."
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "Next Week's Actions"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "Apply jig improvement"
+              },
+              {
+                "e": "②",
+                "x": "Track defects"
+              },
+              {
+                "e": "③",
+                "x": "Preventive maintenance #1"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/factory,production?lock=7"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "Production line setup",
+        "status": "Progress",
+        "assignee": "Aya Watanabe",
+        "progress": 40,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "Line layout design",
+            "status": "Complete",
+            "assignee": "Aya Watanabe",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Equipment install",
+            "status": "Progress",
+            "assignee": "Makoto Takahashi",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Trial run & tact",
+            "status": "Pending",
+            "assignee": "Kenji Tanaka",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Mold & jig management",
+        "status": "Progress",
+        "assignee": "Makoto Takahashi",
+        "progress": 55,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Prototype mold",
+            "status": "Complete",
+            "assignee": "Makoto Takahashi",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Mold validation",
+            "status": "Progress",
+            "assignee": "Yumi Sato",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Parts & material sourcing",
+        "status": "Progress",
+        "assignee": "Ichiro Suzuki",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "Order key parts",
+            "status": "Complete",
+            "assignee": "Ichiro Suzuki",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Set incoming inspection",
+            "status": "Progress",
+            "assignee": "Yumi Sato",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Supplier evaluation",
+            "status": "Pending",
+            "assignee": "Ichiro Suzuki",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Quality management",
+        "status": "Progress",
+        "assignee": "Yumi Sato",
+        "progress": 50,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "Write inspection sheet",
+            "status": "Complete",
+            "assignee": "Yumi Sato",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Initial production QC",
+            "status": "Progress",
+            "assignee": "Yumi Sato",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Defect root-cause",
+            "status": "Pending",
+            "assignee": "Aya Watanabe",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Equipment maintenance",
+        "status": "Progress",
+        "assignee": "Makoto Takahashi",
+        "progress": 45,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Preventive maint. plan",
+            "status": "Progress",
+            "assignee": "Makoto Takahashi",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Equipment check list",
+            "status": "Complete",
+            "assignee": "Makoto Takahashi",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Process improvement",
+        "status": "Progress",
+        "assignee": "Kenji Tanaka",
+        "progress": 35,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Cut tact time",
+            "status": "Progress",
+            "assignee": "Aya Watanabe",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Reduce defect rate",
+            "status": "Pending",
+            "assignee": "Yumi Sato",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Standardization & training",
+        "status": "Progress",
+        "assignee": "Kenji Tanaka",
+        "progress": 60,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Write SOP",
+            "status": "Complete",
+            "assignee": "Kenji Tanaka",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Operator training",
+            "status": "Progress",
+            "assignee": "Aya Watanabe",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Safety & environment",
+        "status": "Pending",
+        "assignee": "Makoto Takahashi",
+        "progress": 0,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Safety inspection",
+            "status": "Complete",
+            "assignee": "Makoto Takahashi",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "5S activity",
+            "status": "Progress",
+            "assignee": "Aya Watanabe",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "Production planning",
+        "status": "Progress",
+        "assignee": "Kenji Tanaka",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "Monthly production plan",
+            "status": "Progress",
+            "assignee": "Kenji Tanaka",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Delivery management",
+            "status": "Pending",
+            "assignee": "Ichiro Suzuki",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      }
+    ],
+    "gantt": [
+      {
+        "task": "Line layout design",
+        "status": "Complete",
+        "start": "2026-06-02",
+        "due": "2026-06-06",
+        "prog": 100,
+        "assignee": "Aya Watanabe"
+      },
+      {
+        "task": "Equipment install",
+        "status": "Progress",
+        "start": "2026-06-08",
+        "due": "2026-06-19",
+        "prog": 60,
+        "assignee": "Makoto Takahashi"
+      },
+      {
+        "task": "Prototype mold",
+        "status": "Complete",
+        "start": "2026-06-01",
+        "due": "2026-06-12",
+        "prog": 100,
+        "assignee": "Makoto Takahashi"
+      },
+      {
+        "task": "Mold validation",
+        "status": "Progress",
+        "start": "2026-06-15",
+        "due": "2026-06-24",
+        "prog": 50,
+        "assignee": "Yumi Sato"
+      },
+      {
+        "task": "Order key parts",
+        "status": "Complete",
+        "start": "2026-06-03",
+        "due": "2026-06-05",
+        "prog": 100,
+        "assignee": "Ichiro Suzuki"
+      },
+      {
+        "task": "Set incoming inspection",
+        "status": "Progress",
+        "start": "2026-06-17",
+        "due": "2026-06-26",
+        "prog": 40,
+        "assignee": "Yumi Sato"
+      },
+      {
+        "task": "Write inspection sheet",
+        "status": "Complete",
+        "start": "2026-06-09",
+        "due": "2026-06-16",
+        "prog": 100,
+        "assignee": "Yumi Sato"
+      },
+      {
+        "task": "Preventive maint. plan",
+        "status": "Progress",
+        "start": "2026-06-22",
+        "due": "2026-07-01",
+        "prog": 50,
+        "assignee": "Makoto Takahashi"
+      },
+      {
+        "task": "Cut tact time",
+        "status": "Progress",
+        "start": "2026-06-24",
+        "due": "2026-07-03",
+        "prog": 40,
+        "assignee": "Aya Watanabe"
+      },
+      {
+        "task": "Write SOP",
+        "status": "Complete",
+        "start": "2026-06-10",
+        "due": "2026-06-18",
+        "prog": 100,
+        "assignee": "Kenji Tanaka"
+      },
+      {
+        "task": "Operator training",
+        "status": "Progress",
+        "start": "2026-06-29",
+        "due": "2026-07-08",
+        "prog": 40,
+        "assignee": "Aya Watanabe"
+      },
+      {
+        "task": "Trial run & tact",
+        "status": "Pending",
+        "start": "2026-07-06",
+        "due": "2026-07-10",
+        "prog": 0,
+        "assignee": "Kenji Tanaka"
+      },
+      {
+        "task": "Initial production QC",
+        "status": "Progress",
+        "start": "2026-07-01",
+        "due": "2026-07-09",
+        "prog": 60,
+        "assignee": "Yumi Sato"
+      },
+      {
+        "task": "Monthly production plan",
+        "status": "Pending",
+        "start": "2026-07-01",
+        "due": "2026-07-02",
+        "prog": 0,
+        "assignee": "Kenji Tanaka"
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "10:00 am",
+            "name": "Equipment inspection",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "Children's Day",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "Supplier quality MTG",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "Monthly production mtg",
+            "type": "event"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "10:00 am",
+            "name": "Line A trial run",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "Memorial Day",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "Line utilization review",
+        "Defect cause meeting",
+        "Mold inspection",
+        "Supplier meeting",
+        "Preventive maintenance",
+        "Quality audit",
+        "Production planning",
+        "Inventory check",
+        "New line trial",
+        "Monthly production report"
+      ],
+      "assignees": [
+        "Kenji Tanaka",
+        "Yumi Sato",
+        "Ichiro Suzuki",
+        "Makoto Takahashi",
+        "Aya Watanabe",
+        "Robert Nakamura"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🏭",
+          "name": "[Japan] Mfg Process Mgmt",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "⚙️",
+          "name": "Line A production"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "✅",
+          "name": "Quality QA"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[Equip] Maint. log"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "📦",
+          "name": "Parts sourcing"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🔧",
+          "name": "Mold & jig"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "Defect analysis"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🦺",
+          "name": "[Safety] 5S"
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "📅",
+          "name": "Production plan"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🤝",
+          "name": "Supplier mgmt"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📦",
+          "name": "New product mass-prod"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "📋",
+          "name": "Inspection & SOP"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[Equip] Check log"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "💴",
+          "name": "Cost & material"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📊",
+          "name": "Monthly report"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔧",
+          "name": "Line improvement TF"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "📈",
+          "name": "Process data"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "Quality claims"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🏭",
+          "name": "Outsourced machining"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🏭",
+          "name": "Plant-wide room"
+        }
+      ]
+    },
+    "search": {
+      "kw": "process",
+      "posts": [
+        {
+          "title": "[Process] Review cutting Line A tact time",
+          "body": "Reviewed a process improvement to cut tact time by re-laying out the bottleneck process. Measured per-process times, redefined the standard process; jigs can cut it further...",
+          "who": "Kenji Tanaka",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[Japan] Mfg Process Mgmt",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Initial production process defect analysis",
+          "body": "Classified initial-production defects by process and analyzed causes. Applied fixes to 2 key processes, under observation...",
+          "who": "Yumi Sato",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "Quality QA",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Handling process delay from equipment stop",
+          "body": "A stop delayed downstream processes, so we revised the preventive maintenance cycle to prioritize key equipment uptime...",
+          "who": "Makoto Takahashi",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[Equip] Maint. log",
+          "color": "#F5524A"
+        },
+        {
+          "title": "Standardize incoming inspection process",
+          "body": "Standardized the incoming inspection process for new parts and unified the pass criteria via the inspection sheet...",
+          "who": "Ichiro Suzuki",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "Parts sourcing",
+          "color": "#F5524A"
+        },
+        {
+          "title": "SOP process update notice",
+          "body": "Updated the SOP for the changed process. To be applied after operator training...",
+          "who": "Aya Watanabe",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "Inspection & SOP",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "Please re-measure the standard process time and reflect it in the SOP.",
+          "who": "Robert Nakamura",
+          "date": "04-06-2026 13:10",
+          "proj": "Cut Line A tact time"
+        },
+        {
+          "text": "This process defect seems caused by jig wear. Please consider replacement.",
+          "who": "Aya Watanabe",
+          "date": "04-06-2026 13:10",
+          "proj": "Initial defect analysis"
+        },
+        {
+          "text": "We should raise the equipment-check process to weekly.",
+          "who": "Makoto Takahashi",
+          "date": "04-06-2026 13:10",
+          "proj": "Equipment maint. log"
+        },
+        {
+          "text": "Attached the incoming inspection process criteria. Apply from next intake.",
+          "who": "Yumi Sato",
+          "date": "04-06-2026 13:10",
+          "proj": "Incoming inspection"
+        },
+        {
+          "text": "Process improvement is working 👍 Let's roll it out to other lines.",
+          "who": "Kenji Tanaka",
+          "date": "04-06-2026 13:10",
+          "proj": "Cut Line A tact time"
+        }
+      ],
+      "files": [
+        {
+          "name": "LineA_Process_Improvement_Plan_v2.pdf",
+          "who": "Kenji Tanaka",
+          "date": "04-06-2026 12:40",
+          "proj": "[Japan] Mfg Process Mgmt",
+          "size": "0.94 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "Just shared the Line A process data! Please check utilization",
+          "who": "Kenji Tanaka",
+          "date": "04-06-2026 12:38",
+          "proj": "Aya Watanabe"
+        },
+        {
+          "text": "Updated the defect tracking sheet for this process. Please review",
+          "who": "Yumi Sato",
+          "date": "04-06-2026 12:38",
+          "proj": "Quality QA"
+        },
+        {
+          "text": "Finished the equipment-check process. Preventive maintenance next week",
+          "who": "Makoto Takahashi",
+          "date": "04-06-2026 12:38",
+          "proj": "Makoto Takahashi"
+        },
+        {
+          "text": "Once the incoming inspection criteria are set, I'll share them!",
+          "who": "Ichiro Suzuki",
+          "date": "04-06-2026 12:38",
+          "proj": "Ichiro Suzuki"
+        },
+        {
+          "text": "Let's schedule the process improvement rollout, minimizing line stops!",
+          "who": "Aya Watanabe",
+          "date": "04-06-2026 12:38",
+          "proj": "Line improvement TF"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[Japan] Mfg Process & Quality Room",
+          "who": "Robert Nakamura",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "Line A Process TF · Data",
+          "who": "Kenji Tanaka",
+          "date": "01-02-2026 09:00",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "Aya Watanabe",
+          "last": "Shared the Line A utilization data",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "pin": true,
+          "count": true,
+          "active": true
+        },
+        {
+          "name": "Yumi Sato, Ichiro Suzuki",
+          "last": "I'll notify once the inspection criteria are set",
+          "time": "",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "🔴[Line A] Process TF",
+          "last": "Sharing the tact-time results",
+          "time": "04/28",
+          "color": "#FFB0B0",
+          "count": 4
+        },
+        {
+          "name": "Makoto Takahashi",
+          "last": "Equipment check done",
+          "time": "02/04",
+          "color": "#FFD4A8",
+          "pin": true
+        },
+        {
+          "name": "Production Mgmt All",
+          "last": "Please review the weekly production materials",
+          "time": "01/30",
+          "color": "#C5A3FF",
+          "pin": true,
+          "count": 5
+        },
+        {
+          "name": "Yumi Sato",
+          "last": "Updated the defect tracking sheet",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "Ichiro Suzuki",
+          "last": "Parts lead time fixed to 7/2",
+          "time": "06/02",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "Robert Nakamura",
+          "last": "Got the monthly production report",
+          "time": "05/15",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "Yumi Sato, Makoto Takahashi",
+          "last": "Yes! Thank you!",
+          "time": "05/13",
+          "color": "#9DC8FF",
+          "count": 4
+        },
+        {
+          "name": "Kenji Tanaka, Aya Watanabe",
+          "last": "Sharing the process improvement schedule",
+          "time": "05/12",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "Yumi Sato, Robert Nakamura",
+          "last": "Sure!!",
+          "time": "05/11",
+          "color": "#C5A3FF",
+          "count": 3
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "text": "Sharing the Line A utilization data",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "Downtime was a bit long yesterday",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "yep yep"
+        },
+        {
+          "side": "me",
+          "text": "Aya, where was the bottleneck process?"
+        },
+        {
+          "side": "me",
+          "text": "I'll apply the jig improvement next week"
+        },
+        {
+          "side": "me",
+          "text": "Please also measure the tact time"
+        },
+        {
+          "side": "them",
+          "text": "Got it! I'll measure on Wednesday 🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "Robert Nakamura",
+          "text": "Everyone, please share this week's Line A process improvement 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "Makoto Takahashi",
+          "text": "Preventive maintenance #1 done. Downtime is down 🛠",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "Yumi Sato",
+          "text": "Applied fixes to 2 initial defects. Under observation ✅",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "Great work! I'll compile the tact-time data today"
+        },
+        {
+          "side": "them",
+          "who": "Ichiro Suzuki",
+          "text": "Key parts lead time fixed to 7/2 📦",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "Nice 🔥 Let's check together at Wednesday's trial run"
+        },
+        {
+          "side": "them",
+          "who": "Robert Nakamura",
+          "text": "👍 Blocking 10 AM Wednesday",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "Line A Process TF",
+          "av": "#9DC8FF",
+          "actor": "Yumi Sato's comment",
+          "time": "a few seconds ago",
+          "emoji": "🟢",
+          "task": "Tact time measure #2",
+          "activity": "'요청' → '진행중' Status has been updated.",
+          "unread": true
+        },
+        {
+          "proj": "Line A Process TF",
+          "av": "#9DC8FF",
+          "actor": "Makoto Takahashi added a new task",
+          "time": null,
+          "emoji": "🟢",
+          "activity": "Preventive maintenance #1",
+          "unread": true
+        },
+        {
+          "proj": "Quality QA",
+          "av": "#9DC8FF",
+          "actor": "Yumi Sato's comment",
+          "time": "5 minutes ago",
+          "emoji": "🟢",
+          "task": "Initial production QC",
+          "activity": "'진행중' → '완료' Status has been updated.",
+          "unread": true
+        },
+        {
+          "proj": "Parts sourcing",
+          "av": "#9DC8FF",
+          "actor": "Ichiro Suzuki's comment",
+          "time": "5 minutes ago",
+          "emoji": "🟢",
+          "task": "Order key parts",
+          "activity": "'진행중' → '완료' Status has been updated.",
+          "unread": true
+        },
+        {
+          "proj": "[Equip] Maint. log",
+          "av": "#9DC8FF",
+          "actor": "Makoto Takahashi added a new reply",
+          "time": "an hour ago",
+          "task": "Equipment check list",
+          "activity": "Thank you, manager!"
+        },
+        {
+          "proj": "[Japan] Mfg Process Mgmt",
+          "av": "#9DC8FF",
+          "actor": "Aya Watanabe added a new comment",
+          "time": null,
+          "emoji": "🔴",
+          "activity": "Heading out! Let's check the line together tomorrow",
+          "unread": true
+        },
+        {
+          "proj": "Line A Process TF",
+          "av": "#9DC8FF",
+          "actor": "Kenji Tanaka's comment",
+          "time": null,
+          "emoji": "🟢",
+          "task": "Cut tact time",
+          "activity": "'Kenji Tanaka' Assignee has been added.",
+          "unread": true
+        },
+        {
+          "proj": "Production plan",
+          "av": "#9DC8FF",
+          "actor": "Kenji Tanaka added a new comment",
+          "time": null,
+          "emoji": "🟢",
+          "task": "Monthly production plan",
+          "activity": "Sharing the July production plan draft",
+          "unread": true
+        }
+      ],
+      "haruka": {
+        "pin": "📢 Line A on the 8th, Line B on the 18th!",
+        "auto": "Aya, I checked the process data! Utilization is up a lot 👍 See you Wednesday"
+      },
+      "group": {
+        "name": "[Japan] Mfg Process Mgmt",
+        "pin": "📢 Line A 90% utilization target! Push the process improvement 🔥",
+        "auto": "Just shared the process improvement #1 results! Please review and comment 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 1:1 chat with {name}",
+        "auto": "Got it! I'll apply it to the process and re-share 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "Hi! I received the process data you shared 😊"
+          },
+          {
+            "side": "me",
+            "text": "Yes, please take a look!"
+          },
+          {
+            "side": "them",
+            "text": "Sure, I'll apply it and reply 🙌"
+          }
+        ]
+      }
+    },
+    "activity": [
+      {
+        "who": "Aya Watanabe",
+        "color": "#A8E6C0",
+        "action": "added a new comment",
+        "lines": [
+          {
+            "text": "Heading out! Let's check the line together tomorrow"
+          }
+        ],
+        "time": "an hour ago"
+      },
+      {
+        "who": "Yumi Sato",
+        "color": "#D98AA6",
+        "action": "added a new reply",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "Initial production QC",
+            "plain": true
+          },
+          {
+            "label": "Activity",
+            "text": "Thank you! I will reflect it."
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "Makoto Takahashi",
+        "color": "#9DC8FF",
+        "emoji": "😊",
+        "action": "liked this comment.",
+        "lines": [
+          {
+            "text": "Reviewed the preventive maintenance cycle. Please refer, everyone ",
+            "link": "https://app.notion.com/p/mfg22ee",
+            "inline": true
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "Kenji Tanaka",
+        "color": "#F2A65A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'Cut tact time' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "Ichiro Suzuki",
+        "color": "#5BBF9A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'Order key parts' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "Robert Nakamura",
+        "color": "#5B6CF0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'Write SOP' is done!"
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "Yumi Sato",
+        "color": "#D98AA6",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "Write inspection sheet"
+          },
+          {
+            "label": "Activity",
+            "text": "'Progress' → 'Complete' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "Aya Watanabe",
+        "color": "#A8E6C0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "Line A trial run"
+          },
+          {
+            "label": "Activity",
+            "text": "'Pending' → 'Progress' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      }
+    ],
+    "participants": [
+      {
+        "name": "Kenji Tanaka",
+        "role": "Production Manager"
+      },
+      {
+        "name": "Aya Watanabe",
+        "role": "Line Leader"
+      },
+      {
+        "name": "Yumi Sato",
+        "role": "Quality Lead"
+      },
+      {
+        "name": "Ichiro Suzuki",
+        "role": "Procurement"
+      },
+      {
+        "name": "Makoto Takahashi",
+        "role": "Maintenance"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "David Lee",
+        "role": "Process Engineer",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "Riku Kato",
+        "role": "Equipment Engineer",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "James Jung",
+        "role": "QC Inspector",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}

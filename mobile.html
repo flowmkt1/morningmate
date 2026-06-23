@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>morningmate — 모바일 미리보기</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;font-family:Roboto,'Noto Sans KR',sans-serif;background:#1b1d24;color:#e8e8ee;-webkit-font-smoothing:antialiased;}
+  .wrap{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px 16px;gap:18px;}
+  .ttl{font-size:18px;font-weight:700;letter-spacing:-.2px;}
+  .ttl .sub{display:block;font-size:12.5px;font-weight:400;color:#9a9aa6;margin-top:4px;text-align:center;}
+  .seg{display:inline-flex;background:#2a2d36;border-radius:10px;padding:4px;gap:4px;}
+  .seg button{border:none;background:transparent;color:#b9b9c4;font-size:13px;font-weight:600;padding:8px 16px;border-radius:7px;cursor:pointer;font-family:inherit;}
+  .seg button.on{background:#6449FC;color:#fff;}
+  /* 폰 목업 — iPhone 16 Pro (다이내믹 아일랜드) */
+  .phone{width:386px;max-width:94vw;height:836px;max-height:86vh;background:#1b1b1d;border-radius:56px;padding:11px;box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 2px #3a3a3c,inset 0 0 0 9px #0a0a0b;position:relative;}
+  .screen{width:100%;height:100%;border-radius:46px;overflow:hidden;background:#000;position:relative;}
+  .screen iframe{width:100%;height:100%;border:0;display:block;}
+  .sidebtn{position:absolute;background:#2a2a2c;border-radius:3px;} .sb-pw{right:-3px;top:200px;width:3px;height:90px;} .sb-v1{left:-3px;top:165px;width:3px;height:34px;} .sb-v2{left:-3px;top:215px;width:3px;height:62px;} .sb-v3{left:-3px;top:285px;width:3px;height:62px;}
+  .hint{font-size:12px;color:#7c7c88;text-align:center;max-width:420px;line-height:1.6;}
+  .hint code{background:#2a2d36;color:#cfcfe0;padding:2px 6px;border-radius:4px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="ttl">morningmate 모바일 미리보기 <span class="sub">PC에서 폰 화면 그대로 보기 (프레임 안은 실제 모바일 레이아웃)</span></div>
+    <div class="phone"><div class="screen"><iframe id="fr" src="m.html?v=6"></iframe></div><span class="sidebtn sb-v1"></span><span class="sidebtn sb-v2"></span><span class="sidebtn sb-v3"></span><span class="sidebtn sb-pw"></span></div>
+    <div class="hint">하단 탭바(홈·프로젝트·업무·알림·채팅)로 이동하고, 프로젝트 카드를 누르면 프로젝트방으로 들어갑니다.<br>실제 휴대폰에서 보려면 같은 와이파이에서 <code>http://(이 PC IP):8765/m.html</code> 로 접속하세요.</div>
+  </div>
+  <script>
+    var fr=document.getElementById('fr');
+    function load(u){ fr.src=u; document.getElementById('b-proj').classList.toggle('on', u.indexOf('projects')>-1); document.getElementById('b-app').classList.toggle('on', u.indexOf('app')>-1); }
+  </script>
+</body>
+</html>

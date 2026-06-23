@@ -1,0 +1,270 @@
+{
+  "lang": "en",
+  "tabs": {
+    "home": "Home",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "noti": "Notifications",
+    "chat": "Chats",
+    "files": "Files",
+    "images": "Images",
+    "schedule": "Calendar"
+  },
+  "header": {
+    "home": "Home",
+    "myProjects": "My projects",
+    "allTasks": "All tasks",
+    "noti": "Notifications",
+    "chat": "Chats",
+    "files": "Files",
+    "images": "Images",
+    "schedule": "Calendar"
+  },
+  "task": {
+    "status": "Status",
+    "assignee": "Assignee",
+    "due": "Due date",
+    "progress": "Progress",
+    "changeAssignee": "Change Assignee",
+    "addDue": "＋ Add due date",
+    "addItem": "＋ Show more",
+    "collapseItem": "Show less",
+    "dueSample": "Due 2026-06-13 (Fri)"
+  },
+  "todo": {
+    "addItem": "＋ Add to-do",
+    "added1": "Create on-site checklist",
+    "added2": "Set up data collection form"
+  },
+  "status": {
+    "request": "Pending",
+    "inProgress": "Progress",
+    "feedback": "Feedback",
+    "done": "Complete",
+    "pending": "Pending",
+    "progress": "Progress",
+    "complete": "Complete",
+    "hold": "Hold"
+  },
+  "actions": {
+    "like": "Like",
+    "bookmark": "Bookmark",
+    "remindAgain": "Reminder"
+  },
+  "meta": {
+    "read": "Read",
+    "justNow": "Just now"
+  },
+  "comment": {
+    "all": "All",
+    "comment": "Comments",
+    "like": "Like",
+    "placeholder": "Write a comment.",
+    "inputHint": "Shift + Enter for newline, Enter to send",
+    "auto": [
+      "Got it 👍 I'll get started right away!",
+      "Great checklist 📋 I'll finish my items today!",
+      "Confirmed the schedule 📅 I'll join on time!",
+      "My vote goes to option A 🙋 best readability!",
+      "Thanks for sharing 🙌 impressive numbers!"
+    ],
+    "reply": "Sure! Got it 🙌",
+    "sampleFile": "2026_Process_Improvement.docx"
+  },
+  "files": {
+    "allFiles": "All files",
+    "allFormats": "All formats",
+    "empty": "No files of this format",
+    "format": {
+      "cloud": "Cloud",
+      "pdf": "PDF",
+      "word": "Word",
+      "excel": "Excel",
+      "ppt": "PowerPoint",
+      "image": "Image",
+      "av": "Audio • Video",
+      "html": "HTML",
+      "zip": "ZIP",
+      "video": "Video"
+    }
+  },
+  "search": {
+    "placeholder": "Search",
+    "recent": "Recent searches",
+    "clearAll": "Clear all",
+    "more": "More →",
+    "tab": {
+      "all": "Results",
+      "project": "Project",
+      "post": "Post",
+      "comment": "Comment",
+      "chat": "Chat",
+      "file": "File"
+    },
+    "section": {
+      "post": "Post",
+      "comment": "Comment",
+      "chat": "Chat",
+      "file": "File",
+      "project": "Project"
+    }
+  },
+  "chat": {
+    "inputPlaceholder": "Type here",
+    "windowPlaceholder": "Type a message... (@ to mention / Shift + Enter for new line)",
+    "send": "Send"
+  },
+  "vote": {
+    "end": "End vote",
+    "cancel": "Cancel vote",
+    "unit": "votes",
+    "participating": "votes"
+  },
+  "schedule": {
+    "changeParticipants": "Change Participant",
+    "joinZoom": "Join via Zoom",
+    "copyLink": "Copy link",
+    "remindBefore": "{n} minutes before",
+    "recordNote": "Record meeting note"
+  },
+  "rsvp": {
+    "going": "Yes",
+    "notGoing": "No",
+    "maybe": "Maybe",
+    "commentGoing": "{name} will attend. See you on-site! 🙌",
+    "commentNotGoing": "{name} can't attend. Let's join next time 🙏",
+    "commentMaybe": "{name} is undecided."
+  },
+  "common": {
+    "favorites": "Starred",
+    "viewSettings": "View settings",
+    "allAssignees": "All assignees",
+    "allTasksFilter": "All Tasks",
+    "taskName": "Task",
+    "comingSoon": "Coming soon"
+  },
+  "weekdays": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "dateFmt": {
+    "ampmBefore": "AM",
+    "ampmAfter": "PM",
+    "dueSuffix": ""
+  },
+  "pc": {
+    "newProject": "New Project",
+    "myProjects": "My Projects",
+    "dashboard": "Dashboard",
+    "allMemberProjects": "All-member projects",
+    "more": "More",
+    "seeAll": "See all",
+    "tasks": "Tasks",
+    "gantt": "Gantt",
+    "calendar": "Calendar",
+    "files": "Files",
+    "bookmarks": "Bookmarks",
+    "mentions": "Mentions",
+    "myPosts": "My Posts",
+    "savedDrafts": "Saved drafts",
+    "inviteEmployees": "Invite Employees",
+    "customerSupport": "Customer Support",
+    "smartSearch": "Smart Search",
+    "participants": "Participants",
+    "projectManager": "Project manager",
+    "external": "External",
+    "internal": "Internal",
+    "chat": "Chat",
+    "videoConference": "Video Conference",
+    "invite": "＋ Invite",
+    "event": "Event",
+    "task": "Task",
+    "all": "All",
+    "myEvents": "My Events",
+    "registeredSchedule": "Registered schedule",
+    "none": "None",
+    "allTasks": "All Tasks",
+    "myTasks": "My Tasks",
+    "requestedTasks": "Requested Tasks",
+    "addEvent": "＋ Add event",
+    "enterEventName": "Enter Event name.",
+    "fileType": "File Type",
+    "project": "Project",
+    "enterFileName": "Enter File name.",
+    "filter": "Filter",
+    "addFolder": "＋ Add folder",
+    "latest": "Latest",
+    "name": "Name",
+    "createWidget": "＋ Create Widget",
+    "groupedView": "Grouped View",
+    "hide": "Hide",
+    "hideAll": "Hide all",
+    "addTask": "Add Task",
+    "noAssigneeTasks": "No tasks for this assignee",
+    "col": {
+      "task": "Task",
+      "status": "Status",
+      "assignee": "Assignee",
+      "startDate": "Start date",
+      "dueDate": "Due date",
+      "progress": "Progress",
+      "doubleCheck": "Doublecheck",
+      "budget": "Budget"
+    },
+    "tab": {
+      "feed": "Feed",
+      "table": "Table",
+      "gantt": "Gantt",
+      "calendar": "Calendar",
+      "files": "Files",
+      "activity": "Activity",
+      "repeat": "Repeat",
+      "insights": "Insights"
+    },
+    "today": "Today",
+    "day": "Day",
+    "settings": "Settings",
+    "newChat": "＋ Chat",
+    "contact": "Contact",
+    "searchByName": "Search by name or chat room name",
+    "notifications": "Notifications",
+    "unread": "Unread",
+    "readAll": "Read All",
+    "goBack": "Go back",
+    "searchResults": "Result",
+    "searchChip": "Search",
+    "filterReset": "Reset",
+    "sort": "Sort",
+    "related": "Related",
+    "oldest": "Oldest",
+    "dateRange": "Date Range",
+    "week": "Week",
+    "month1": "1 month",
+    "months6": "6 months",
+    "custom": "Custom",
+    "creator": "Creator",
+    "searchByAuthors": "Search by authors",
+    "searchByProject": "Search by project",
+    "projectFile": "Project File",
+    "month": "Month",
+    "insights": {
+      "weeklyTrend": "Weekly tasks",
+      "byStatus": "Tasks by status",
+      "weeklyAvg": "Weekly avg. requested/processed",
+      "postTop": "Posts TOP 5",
+      "commentTop": "Comments TOP 5",
+      "byAssignee": "Tasks by assignee",
+      "perWeek": "Tasks per week",
+      "duration": "Duration",
+      "all": "All",
+      "requestedTasks": "Number of requested tasks",
+      "processedTasks": "Number of processed tasks",
+      "noResults": "No results found"
+    }
+  }
+}

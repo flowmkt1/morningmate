@@ -1,0 +1,2552 @@
+{
+  "meta": {
+    "industry": "マーケティング",
+    "sector": "フリーランス協業",
+    "language": "ja",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "グローバル マーケティング協業ルーム",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "フリーランス協業ルーム",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "競合モニタリング (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AIチーム構築プロジェクト",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[田中] 個人ToDo",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "動画クリエイティブチーム協業ルーム",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[インフルエンサー代理店] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "田中健一",
+    "role": "生産管理マネージャー",
+    "team": "製造管理部",
+    "color": "#F2A65A"
+  },
+  "room": {
+    "name": "[日本] 製造工程管理ルーム",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "author": {
+        "name": "田中健一",
+        "role": "生産管理マネージャー",
+        "team": "製造管理部",
+        "color": "#F2A65A"
+      },
+      "datetime": "2026-06-04 12:36",
+      "taskNo": "920471",
+      "read": 1,
+      "title": "[工程管理] Aラインの稼働率改善",
+      "status": {
+        "label": "진행중",
+        "color": "#1A8F2E",
+        "bg": "rgba(0,176,28,.20)"
+      },
+      "assignee": {
+        "name": "渡辺彩",
+        "color": "#A8E6C0"
+      },
+      "due": "",
+      "progress": 45,
+      "body": [
+        "Aラインの稼働率改善活動の進捗を管理します。",
+        {
+          "t": "h",
+          "e": "🏭",
+          "x": "改善概要"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "📍",
+              "x": "対象：第1工場Aライン（センサーユニット）"
+            },
+            {
+              "e": "🎯",
+              "x": "目標：稼働率82% → 90%"
+            },
+            {
+              "e": "📅",
+              "x": "点検周期：毎週水曜"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "改善項目"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "項目",
+            "内容",
+            "状態"
+          ],
+          "rows": [
+            [
+              "タクトタイム短縮",
+              "ボトルネック工程の再配置と治工具改善",
+              "진행중"
+            ],
+            [
+              "不良率低減",
+              "初期不良の原因分析・対策",
+              "대기"
+            ],
+            [
+              "設備稼働",
+              "停止時間の分析と予防保全",
+              "대기"
+            ],
+            [
+              "作業標準",
+              "SOP更新と作業者教育",
+              "대기"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "詳細は添付の工程改善計画書をご参照ください。"
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "author": {
+        "name": "鈴木一郎",
+        "role": "購買担当",
+        "team": "製造管理部",
+        "color": "#5BBF9A"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 3,
+      "title": "週次工程点検チェックリスト",
+      "items": [
+        {
+          "text": "ライン停止時間の集計",
+          "done": false,
+          "assignee": {
+            "name": "渡辺彩",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "不良タイプの分類",
+          "done": false,
+          "assignee": {
+            "name": "渡辺彩",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "金型・治工具の状態点検",
+          "done": false,
+          "assignee": {
+            "name": "渡辺彩",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "部品在庫の確認",
+          "done": false,
+          "assignee": {
+            "name": "渡辺彩",
+            "color": "#9DC8FF"
+          }
+        },
+        {
+          "text": "安全・5S点検",
+          "done": false,
+          "assignee": {
+            "name": "渡辺彩",
+            "color": "#9DC8FF"
+          }
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "author": {
+        "name": "佐藤由美",
+        "role": "品質管理リーダー",
+        "team": "製造管理部",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 12:37",
+      "read": 1,
+      "title": "Aライン工程改善会議",
+      "dateBadge": {
+        "month": "2026-07",
+        "day": "08"
+      },
+      "timeRange": "2026-07-08 (水), 10:00 — 11:00",
+      "participants": {
+        "going": 1,
+        "notGoing": 0,
+        "pending": 0,
+        "avatars": [
+          {
+            "name": "田中健一",
+            "color": "#F2A65A"
+          },
+          {
+            "name": "高橋誠",
+            "color": "#B0A4E6"
+          }
+        ]
+      },
+      "zoom": true,
+      "reminder": "30分前にリマインド",
+      "recording": true,
+      "body": [
+        "第1工場 会議室",
+        "稼働率データのレビュー / ボトルネック工程の対策検討"
+      ],
+      "rsvp": true
+    },
+    {
+      "type": "vote",
+      "author": {
+        "name": "佐藤由美",
+        "role": "品質管理リーダー",
+        "team": "製造管理部",
+        "color": "#D98AA6"
+      },
+      "datetime": "2026-06-04 16:14",
+      "read": 1,
+      "status": "진행중",
+      "title": "治工具改善案の投票",
+      "description": "ボトルネック工程の治工具改善案から優先適用案を選んでください。",
+      "voters": 8,
+      "options": [
+        {
+          "label": "A案 — 治具の自動化",
+          "votes": 5,
+          "voted": true
+        },
+        {
+          "label": "B案 — 作業台の再配置",
+          "votes": 2
+        },
+        {
+          "label": "C案 — 工具の交換",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "author": {
+        "name": "中村大輔",
+        "role": "工場長",
+        "team": "製造管理部",
+        "color": "#5B6CF0"
+      },
+      "datetime": "2026-06-04 12:39",
+      "read": 8,
+      "title": "工程管理ウィークリー共有",
+      "body": [
+        "今週のAライン工程管理の要点を共有します。",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "今週のハイライト"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "⚙️",
+              "b": true,
+              "x": "稼働率 82→86%改善",
+              "sub": [
+                "ボトルネック工程の再配置効果。来週は治工具改善を適用予定です。"
+              ]
+            },
+            {
+              "e": "✅",
+              "b": true,
+              "x": "初期不良率 1.8%→1.1%",
+              "sub": [
+                "主要な不良原因2件の対策完了。追跡観察中です。"
+              ]
+            },
+            {
+              "e": "🛠",
+              "b": true,
+              "x": "予防保全計画の策定",
+              "sub": [
+                "主要設備の点検周期を確定。停止時間20%削減が目標です。"
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "来週のアクション"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "治工具改善の適用"
+            },
+            {
+              "e": "②",
+              "x": "不良の追跡観察"
+            },
+            {
+              "e": "③",
+              "x": "設備予防保全1次"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/factory,production?lock=7"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "2026年 5月",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "こどもの日"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "創立記念日"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "ホームページロゴ使用可否の確認…",
+          "status": "Complete",
+          "assignee": "中村 さくら",
+          "author": "田中 美咲"
+        },
+        {
+          "type": "task",
+          "name": "ホームページ - 会社紹介 (モーニング…",
+          "status": "Complete",
+          "assignee": "高橋 結衣",
+          "author": "田中 美咲"
+        },
+        {
+          "type": "task",
+          "name": "ホームページ - 会社紹介",
+          "status": "Complete",
+          "assignee": "中村 さくら",
+          "author": "田中 美咲"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "HubSpot DBインポート機能",
+          "s": "Pending"
+        },
+        {
+          "t": "ハルカさんへ漫画ガイド送付",
+          "s": "Pending"
+        },
+        {
+          "t": "広告コンテンツ制作",
+          "s": "Pending"
+        },
+        {
+          "t": "広告コンテンツ制作_シネマティック",
+          "s": "Pending"
+        },
+        {
+          "t": "キャラクターガイド",
+          "s": "Pending"
+        },
+        {
+          "t": "クロージングガイド",
+          "s": "Pending"
+        },
+        {
+          "t": "ロゴソング-社名連呼",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "週次レポート(日本)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "HubSpot MKTルート追加 (展示会)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "週次会議_日本チーム",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "英語圏 優先順位に関する会議",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "Google API カード情報変更",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "共有ドライブ_展示会フォルダ",
+      "t": "cloud",
+      "by": "田中 美咲",
+      "sz": "フォルダ"
+    },
+    {
+      "n": "チーム_ワークスペース_リンク",
+      "t": "cloud",
+      "by": "山本 翔太",
+      "sz": "ショートカット"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "中村 さくら",
+      "sz": "2 MB"
+    },
+    {
+      "n": "ジョブカン会計_シミュレーション.pdf",
+      "t": "pdf",
+      "by": "中村 さくら",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "ブース_運営_マニュアル.pdf",
+      "t": "pdf",
+      "by": "伊藤 彩",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "業務委託_契約_山本健一.docx",
+      "t": "word",
+      "by": "田中 美咲",
+      "sz": "210 KB"
+    },
+    {
+      "n": "標準_契約書_様式.docx",
+      "t": "word",
+      "by": "山本 翔太",
+      "sz": "320 KB"
+    },
+    {
+      "n": "展示会_リード_312件.xlsx",
+      "t": "excel",
+      "by": "田中 美咲",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "ブース_運営_精算表.xlsx",
+      "t": "excel",
+      "by": "伊藤 彩",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_ローンチ_プラン.pptx",
+      "t": "ppt",
+      "by": "高橋 結衣",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "展示会_ブース_提案書.pptx",
+      "t": "ppt",
+      "by": "中村 さくら",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "ブース_デザイン案_レンダー.png",
+      "t": "image",
+      "by": "伊藤 彩",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "会場_レイアウト図.jpg",
+      "t": "image",
+      "by": "佐野 春香",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "展示会_プロモ動画.mp4",
+      "t": "av",
+      "by": "佐野 春香",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "ブース_BGM.mp3",
+      "t": "av",
+      "by": "木村 拓也",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "ランディングページ_案.html",
+      "t": "html",
+      "by": "山田 大輔",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_申込フォーム.html",
+      "t": "html",
+      "by": "高橋 結衣",
+      "sz": "22 KB"
+    },
+    {
+      "n": "展示会_資料_バックアップ.zip",
+      "t": "zip",
+      "by": "田中 美咲",
+      "sz": "124 MB"
+    },
+    {
+      "n": "ロゴ_原本_まとめ.zip",
+      "t": "zip",
+      "by": "中村 さくら",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "Aライン工程改善TF",
+      "av": "#9DC8FF",
+      "actor": "佐藤由美のコメント",
+      "time": "数秒前",
+      "emoji": "🟢",
+      "task": "タクトタイム測定 2回目",
+      "activity": "'요청' → '진행중' にステータスが更新されました。",
+      "unread": true
+    },
+    {
+      "proj": "Aライン工程改善TF",
+      "av": "#9DC8FF",
+      "actor": "高橋誠が新しいタスクを追加",
+      "time": null,
+      "emoji": "🟢",
+      "activity": "設備予防保全1次",
+      "unread": true
+    },
+    {
+      "proj": "品質管理QA",
+      "av": "#9DC8FF",
+      "actor": "佐藤由美のコメント",
+      "time": "5分前",
+      "emoji": "🟢",
+      "task": "初期量産の品質点検",
+      "activity": "'진행중' → '완료' にステータスが更新されました。",
+      "unread": true
+    },
+    {
+      "proj": "部品調達・発注",
+      "av": "#9DC8FF",
+      "actor": "鈴木一郎のコメント",
+      "time": "5分前",
+      "emoji": "🟢",
+      "task": "主要部品の発注",
+      "activity": "'진행중' → '완료' にステータスが更新されました。",
+      "unread": true
+    },
+    {
+      "proj": "[設備] 保全履歴",
+      "av": "#9DC8FF",
+      "actor": "高橋誠が返信を追加",
+      "time": "1時間前",
+      "task": "設備点検チェックリスト",
+      "activity": "ありがとうございます、マネージャー!"
+    },
+    {
+      "proj": "[日本] 製造工程管理ルーム",
+      "av": "#9DC8FF",
+      "actor": "渡辺彩がコメントを追加",
+      "time": null,
+      "emoji": "🔴",
+      "activity": "お先に失礼します!明日ライン点検を一緒に見ましょう",
+      "unread": true
+    },
+    {
+      "proj": "Aライン工程改善TF",
+      "av": "#9DC8FF",
+      "actor": "田中健一のコメント",
+      "time": null,
+      "emoji": "🟢",
+      "task": "タクトタイム短縮",
+      "activity": "担当者に「田中健一」が追加されました。",
+      "unread": true
+    },
+    {
+      "proj": "生産計画・納期",
+      "av": "#9DC8FF",
+      "actor": "田中健一がコメントを追加",
+      "time": null,
+      "emoji": "🟢",
+      "task": "月次生産計画",
+      "activity": "7月の生産計画ドラフトを共有します",
+      "unread": true
+    }
+  ],
+  "chats": [
+    {
+      "name": "渡辺彩",
+      "last": "Aラインの稼働率データを共有しました",
+      "time": "08:16 PM",
+      "color": "#9DC8FF",
+      "pin": true,
+      "count": true,
+      "active": true
+    },
+    {
+      "name": "佐藤由美, 鈴木一郎",
+      "last": "受入検査基準が確定したらお知らせします",
+      "time": "",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "🔴[Aライン] 工程改善TF",
+      "last": "タクトタイム測定結果を共有します",
+      "time": "04/28",
+      "color": "#FFB0B0",
+      "count": 4
+    },
+    {
+      "name": "高橋誠",
+      "last": "設備点検が終わりました",
+      "time": "02/04",
+      "color": "#FFD4A8",
+      "pin": true
+    },
+    {
+      "name": "生産管理部 全体",
+      "last": "週次生産会議の資料の確認をお願いします",
+      "time": "01/30",
+      "color": "#C5A3FF",
+      "pin": true,
+      "count": 5
+    },
+    {
+      "name": "佐藤由美",
+      "last": "不良追跡表を更新しました",
+      "time": "04:58 PM",
+      "color": "#9DC8FF"
+    },
+    {
+      "name": "鈴木一郎",
+      "last": "部品の納期が7/2に確定しました",
+      "time": "06/02",
+      "color": "#A8E6C0"
+    },
+    {
+      "name": "中村大輔",
+      "last": "月次生産報告、受け取りました",
+      "time": "05/15",
+      "color": "#FFB89D"
+    },
+    {
+      "name": "佐藤由美, 高橋誠",
+      "last": "はい!ありがとうございます!",
+      "time": "05/13",
+      "color": "#9DC8FF",
+      "count": 4
+    },
+    {
+      "name": "田中健一, 渡辺彩",
+      "last": "工程改善の日程を共有します",
+      "time": "05/12",
+      "color": "#A8E6C0",
+      "count": 3
+    },
+    {
+      "name": "佐藤由美, 中村大輔",
+      "last": "はいはい!!",
+      "time": "05/11",
+      "color": "#C5A3FF",
+      "count": 3
+    }
+  ],
+  "conversation": [
+    {
+      "side": "them",
+      "text": "Aラインの稼働率データを共有します",
+      "time": "5:46 PM"
+    },
+    {
+      "side": "them",
+      "text": "昨日は停止時間が少し長かったです",
+      "time": "5:47 PM"
+    },
+    {
+      "side": "me",
+      "text": "はいはい"
+    },
+    {
+      "side": "me",
+      "text": "渡辺さん、ボトルネック工程はどこでしたか?"
+    },
+    {
+      "side": "me",
+      "text": "来週、治工具改善を適用してみます"
+    },
+    {
+      "side": "me",
+      "text": "タクトタイム測定もお願いします"
+    },
+    {
+      "side": "them",
+      "text": "承知しました!水曜に測定します🙏",
+      "time": "10:42 PM"
+    }
+  ],
+  "groupConversation": [
+    {
+      "side": "them",
+      "who": "中村大輔",
+      "text": "皆さん、今週のAライン工程改善の進捗を共有お願いします 🙌",
+      "time": "9:02 AM"
+    },
+    {
+      "side": "them",
+      "who": "高橋誠",
+      "text": "設備の予防保全1次が完了しました。停止時間が減りました 🛠",
+      "time": "9:10 AM"
+    },
+    {
+      "side": "them",
+      "who": "佐藤由美",
+      "text": "初期不良2件に対策を適用しました。追跡観察中です ✅",
+      "time": "9:15 AM"
+    },
+    {
+      "side": "me",
+      "text": "皆さんお疲れさまです!タクトタイムデータは本日整理します"
+    },
+    {
+      "side": "them",
+      "who": "鈴木一郎",
+      "text": "主要部品の納期が7/2に確定しました 📦",
+      "time": "9:22 AM"
+    },
+    {
+      "side": "me",
+      "text": "いいですね 🔥 では水曜の試運転で一緒に点検しましょう"
+    },
+    {
+      "side": "them",
+      "who": "中村大輔",
+      "text": "👍 水曜午前10時で押さえておきます",
+      "time": "9:30 AM"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "山本 翔太",
+        "text": "契約条件を確認しました 👍 すぐ進めましょう!"
+      },
+      {
+        "name": "佐野 春香",
+        "text": "項目完了しました!次の作業も頑張ります 💪"
+      },
+      {
+        "name": "田中 美咲",
+        "text": "ブース位置を確認しました 📍 現場でお会いしましょう!"
+      },
+      {
+        "name": "伊藤 彩",
+        "text": "私はA案が一番すっきりしていると思います 🎨 一票入れます"
+      },
+      {
+        "name": "高橋 結衣",
+        "text": "リード312件は本当にすごいですね 🎉 お疲れ様でした!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "木村 拓也",
+        "text": "日本語チェックまで終えました。問題ありません ✅"
+      },
+      {
+        "name": "小林 由美",
+        "text": "共有ありがとうございます!参考にして進めます 🙏"
+      },
+      {
+        "name": "中村 さくら",
+        "text": "日程を確認しました。カレンダーに登録しておきます 📅"
+      },
+      {
+        "name": "山田 大輔",
+        "text": "良いアイデアですね!私も一票入れます ✋"
+      },
+      {
+        "name": "山本 翔太",
+        "text": "数値が印象的ですね。来週の会議で共有しましょう 📊"
+      },
+      {
+        "name": "田中 美咲",
+        "text": "はい確認しました!すぐ反映してご返信します 🙌"
+      },
+      {
+        "name": "佐野 春香",
+        "text": "現地の反応も良いです 😊 このまま進めて大丈夫そうです"
+      },
+      {
+        "name": "伊藤 彩",
+        "text": "資材を発注しました 📦 金曜入荷予定です"
+      },
+      {
+        "name": "高橋 結衣",
+        "text": "QR申込フォームもほぼ完成しました 🔗 まもなく共有します"
+      },
+      {
+        "name": "木村 拓也",
+        "text": "広告素材の案を3種準備しました 🎬 ご確認お願いします"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "佐野 春香",
+    "木村 拓也",
+    "田中 美咲",
+    "高橋 結衣"
+  ],
+  "extraTasks": [
+    "Yahoo! JAPAN広告の設定",
+    "Google広告の設定",
+    "PR TIMES 1ヶ月プランの決済",
+    "noteの使い方記事の作成",
+    "Instagramリール制作",
+    "ウェビナー資料の準備",
+    "競合広告素材の調査",
+    "リードのCRMアップロード",
+    "キーワード調査",
+    "ランディングページA/Bテスト",
+    "ニュースレター配信",
+    "業務委託契約書のレビュー",
+    "展示会ブースのデザイン案",
+    "現場スタッフ配置表",
+    "サンプル製品の梱包",
+    "商談予約リストの整理",
+    "コンテンツの日本語チェック",
+    "ミーティングノートの整理",
+    "週次レポート(日本)",
+    "X/Instagram/YouTube運用",
+    "kintoneウェビナー",
+    "Notionウェビナー",
+    "PR記事の公開",
+    "イベント参加案内文"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "業務委託契約書 協業ルーム",
+          "who": "田中 美咲",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[業務委託契約] 標準契約書様式の確定依頼 - 山本健一",
+          "body": "山本健一さんの契約に関する標準契約書様式を添付します。短期契約後の長期契約への転換条項が含まれていますので、契約書をご確認の上ご返信ください…",
+          "who": "田中 美咲",
+          "date": "2026-06-04 12:36",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "外部委託 契約書 翻訳版のレビュー完了",
+          "body": "日本語契約書の翻訳版のレビューを終えました。法務確認まで完了し、双方の署名のみ残っています。契約書PDFの最終版を共有します…",
+          "who": "木村 拓也",
+          "date": "2026-06-02 18:20",
+          "tag": "業務",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[情報共有] 標準 労働/業務委託 契約書テンプレート集",
+          "body": "",
+          "who": "山本 翔太",
+          "date": "2026-04-15 11:41",
+          "tag": "業務",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "契約書の押印および原本保管のご案内",
+          "body": "",
+          "who": "中村 さくら",
+          "date": "2026-04-27 11:06",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "展示会ブース施工 契約書 条件の協議",
+          "body": "…ブース施工業者と契約書の条件を協議中です。金額および日程条項の調整が必要そうです。契約書のドラフトをご確認ください…",
+          "who": "伊藤 彩",
+          "date": "2026-05-14 19:49",
+          "tag": "業務",
+          "proj": "フリーランス協業ルーム",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… 契約書の条件を確認しました 👍 すぐ進めましょう!署名版は明日ご返信します。",
+          "who": "山本 翔太",
+          "date": "2026-06-04 17:58",
+          "proj": "[業務委託契約] マーケティング - 山本健一"
+        },
+        {
+          "text": "…契約書に短期契約後の長期契約転換条項を追加しました。ご確認お願いします。",
+          "who": "田中 美咲",
+          "date": "2026-06-04 17:36",
+          "proj": "[業務委託契約] マーケティング - 山本健一"
+        },
+        {
+          "text": "…日本語契約書のレビューまで終えました。問題ありません ✅ 法務確認も通過しました。",
+          "who": "木村 拓也",
+          "date": "2026-03-07 01:24",
+          "proj": "外部委託 契約書 翻訳版のレビュー"
+        },
+        {
+          "text": "…契約書の標準様式はファイルに添付しておきました。次の契約案件でも同じものを使えます。",
+          "who": "中村 さくら",
+          "date": "2026-03-07 00:39",
+          "proj": "標準 労働/業務委託 契約書テンプレート集"
+        },
+        {
+          "text": "代表、契約書の押印のため法人印と署名が必要です。2/2までにご返信お願いします。",
+          "who": "中村 さくら",
+          "date": "2026-01-29 10:42",
+          "proj": "契約書の押印および原本保管のご案内"
+        }
+      ],
+      "chats": [
+        {
+          "text": "標準契約書の様式をお送りします",
+          "who": "田中 美咲",
+          "date": "2026-03-17 12:56",
+          "proj": "山本 翔太"
+        },
+        {
+          "text": "契約書の条件を確認しました 👍 進めましょう",
+          "who": "山本 翔太",
+          "date": "2026-06-08 12:22",
+          "proj": "山本 翔太"
+        },
+        {
+          "text": "契約書の署名版は本日中にご返信します ㅠㅠ",
+          "who": "木村 拓也",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴 展示会TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_業務プロセス革新_日本_田中_契約書.docx",
+          "who": "田中 美咲",
+          "date": "2026-06-04 12:37",
+          "proj": "[業務委託契約] マーケティング - 山本健一",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "標準_業務委託_契約書_様式.docx",
+          "who": "山本 翔太",
+          "date": "2026-05-20 10:12",
+          "proj": "標準 労働/業務委託 契約書テンプレート集",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "契約書",
+        "d": "06/10"
+      },
+      {
+        "kw": "場所",
+        "d": "06/10"
+      },
+      {
+        "kw": "メンバー",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "田中 美咲": "woman1",
+    "佐藤 健": "man2",
+    "佐野 春香": "woman2",
+    "高橋 結衣": "woman4",
+    "中村 さくら": "woman1",
+    "渡辺 七海": "woman4",
+    "小林 由美": "woman3",
+    "伊藤 彩": "woman3",
+    "木村 拓也": "man3",
+    "山田 大輔": "man1",
+    "加藤 結菜": "woman2",
+    "山本 健一": "man1",
+    "山本 翔太": "man6",
+    "中島 太郎": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "田中健一",
+      "role": "生産管理マネージャー",
+      "team": "製造管理部",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "田中健一",
+          "role": "生産管理マネージャー",
+          "team": "製造管理部",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "920471",
+        "read": 1,
+        "title": "[工程管理] Aラインの稼働率改善",
+        "status": {
+          "label": "진행중",
+          "color": "#1A8F2E",
+          "bg": "rgba(0,176,28,.20)"
+        },
+        "assignee": {
+          "name": "渡辺彩",
+          "color": "#A8E6C0"
+        },
+        "due": "",
+        "progress": 45,
+        "body": [
+          "Aラインの稼働率改善活動の進捗を管理します。",
+          {
+            "t": "h",
+            "e": "🏭",
+            "x": "改善概要"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "📍",
+                "x": "対象：第1工場Aライン（センサーユニット）"
+              },
+              {
+                "e": "🎯",
+                "x": "目標：稼働率82% → 90%"
+              },
+              {
+                "e": "📅",
+                "x": "点検周期：毎週水曜"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "改善項目"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "項目",
+              "内容",
+              "状態"
+            ],
+            "rows": [
+              [
+                "タクトタイム短縮",
+                "ボトルネック工程の再配置と治工具改善",
+                "진행중"
+              ],
+              [
+                "不良率低減",
+                "初期不良の原因分析・対策",
+                "대기"
+              ],
+              [
+                "設備稼働",
+                "停止時間の分析と予防保全",
+                "대기"
+              ],
+              [
+                "作業標準",
+                "SOP更新と作業者教育",
+                "대기"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "詳細は添付の工程改善計画書をご参照ください。"
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "鈴木一郎",
+          "role": "購買担当",
+          "team": "製造管理部",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "週次工程点検チェックリスト",
+        "items": [
+          {
+            "text": "ライン停止時間の集計",
+            "done": false,
+            "assignee": {
+              "name": "渡辺彩",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "不良タイプの分類",
+            "done": false,
+            "assignee": {
+              "name": "渡辺彩",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "金型・治工具の状態点検",
+            "done": false,
+            "assignee": {
+              "name": "渡辺彩",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "部品在庫の確認",
+            "done": false,
+            "assignee": {
+              "name": "渡辺彩",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "安全・5S点検",
+            "done": false,
+            "assignee": {
+              "name": "渡辺彩",
+              "color": "#9DC8FF"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "佐藤由美",
+          "role": "品質管理リーダー",
+          "team": "製造管理部",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "Aライン工程改善会議",
+        "dateBadge": {
+          "month": "2026-07",
+          "day": "08"
+        },
+        "timeRange": "2026-07-08 (水), 10:00 — 11:00",
+        "participants": {
+          "going": 1,
+          "notGoing": 0,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "田中健一",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "高橋誠",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "30分前にリマインド",
+        "recording": true,
+        "body": [
+          "第1工場 会議室",
+          "稼働率データのレビュー / ボトルネック工程の対策検討"
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "佐藤由美",
+          "role": "品質管理リーダー",
+          "team": "製造管理部",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "治工具改善案の投票",
+        "description": "ボトルネック工程の治工具改善案から優先適用案を選んでください。",
+        "voters": 8,
+        "options": [
+          {
+            "label": "A案 — 治具の自動化",
+            "votes": 5,
+            "voted": true
+          },
+          {
+            "label": "B案 — 作業台の再配置",
+            "votes": 2
+          },
+          {
+            "label": "C案 — 工具の交換",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "中村大輔",
+          "role": "工場長",
+          "team": "製造管理部",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "工程管理ウィークリー共有",
+        "body": [
+          "今週のAライン工程管理の要点を共有します。",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "今週のハイライト"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "⚙️",
+                "b": true,
+                "x": "稼働率 82→86%改善",
+                "sub": [
+                  "ボトルネック工程の再配置効果。来週は治工具改善を適用予定です。"
+                ]
+              },
+              {
+                "e": "✅",
+                "b": true,
+                "x": "初期不良率 1.8%→1.1%",
+                "sub": [
+                  "主要な不良原因2件の対策完了。追跡観察中です。"
+                ]
+              },
+              {
+                "e": "🛠",
+                "b": true,
+                "x": "予防保全計画の策定",
+                "sub": [
+                  "主要設備の点検周期を確定。停止時間20%削減が目標です。"
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "来週のアクション"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "治工具改善の適用"
+              },
+              {
+                "e": "②",
+                "x": "不良の追跡観察"
+              },
+              {
+                "e": "③",
+                "x": "設備予防保全1次"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/factory,production?lock=7"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "生産ラインのセットアップ",
+        "status": "Progress",
+        "assignee": "渡辺彩",
+        "progress": 40,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "ラインレイアウト設計",
+            "status": "Complete",
+            "assignee": "渡辺彩",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "設備の搬入・設置",
+            "status": "Progress",
+            "assignee": "高橋誠",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "試運転・タクト測定",
+            "status": "Pending",
+            "assignee": "田中健一",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "金型・治工具の管理",
+        "status": "Progress",
+        "assignee": "高橋誠",
+        "progress": 55,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "試作金型の製作",
+            "status": "Complete",
+            "assignee": "高橋誠",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "金型の検証",
+            "status": "Progress",
+            "assignee": "佐藤由美",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "部品・資材の調達",
+        "status": "Progress",
+        "assignee": "鈴木一郎",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "主要部品の発注",
+            "status": "Complete",
+            "assignee": "鈴木一郎",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "受入検査基準の策定",
+            "status": "Progress",
+            "assignee": "佐藤由美",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "サプライヤー評価",
+            "status": "Pending",
+            "assignee": "鈴木一郎",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "品質管理",
+        "status": "Progress",
+        "assignee": "佐藤由美",
+        "progress": 50,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 3,
+        "children": [
+          {
+            "task": "検査基準書の作成",
+            "status": "Complete",
+            "assignee": "佐藤由美",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "初期量産の品質点検",
+            "status": "Progress",
+            "assignee": "佐藤由美",
+            "progress": 60,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "不良原因の分析",
+            "status": "Pending",
+            "assignee": "渡辺彩",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "設備保全",
+        "status": "Progress",
+        "assignee": "高橋誠",
+        "progress": 45,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "予防保全計画",
+            "status": "Progress",
+            "assignee": "高橋誠",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "設備点検チェックリスト",
+            "status": "Complete",
+            "assignee": "高橋誠",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "工程改善",
+        "status": "Progress",
+        "assignee": "田中健一",
+        "progress": 35,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "タクトタイム短縮",
+            "status": "Progress",
+            "assignee": "渡辺彩",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "不良率の改善",
+            "status": "Pending",
+            "assignee": "佐藤由美",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "標準化・教育",
+        "status": "Progress",
+        "assignee": "田中健一",
+        "progress": 60,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "作業標準書(SOP)作成",
+            "status": "Complete",
+            "assignee": "田中健一",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "作業者教育",
+            "status": "Progress",
+            "assignee": "渡辺彩",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "安全・環境",
+        "status": "Pending",
+        "assignee": "高橋誠",
+        "progress": 0,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "安全点検",
+            "status": "Complete",
+            "assignee": "高橋誠",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "5S活動",
+            "status": "Progress",
+            "assignee": "渡辺彩",
+            "progress": 50,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      },
+      {
+        "task": "生産計画",
+        "status": "Progress",
+        "assignee": "田中健一",
+        "progress": 30,
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false,
+        "count": 2,
+        "children": [
+          {
+            "task": "月次生産計画",
+            "status": "Progress",
+            "assignee": "田中健一",
+            "progress": 40,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "納期管理",
+            "status": "Pending",
+            "assignee": "鈴木一郎",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ]
+      }
+    ],
+    "gantt": [
+      {
+        "task": "ラインレイアウト設計",
+        "status": "Complete",
+        "start": "2026-06-02",
+        "due": "2026-06-06",
+        "prog": 100,
+        "assignee": "渡辺彩"
+      },
+      {
+        "task": "設備の搬入・設置",
+        "status": "Progress",
+        "start": "2026-06-08",
+        "due": "2026-06-19",
+        "prog": 60,
+        "assignee": "高橋誠"
+      },
+      {
+        "task": "試作金型の製作",
+        "status": "Complete",
+        "start": "2026-06-01",
+        "due": "2026-06-12",
+        "prog": 100,
+        "assignee": "高橋誠"
+      },
+      {
+        "task": "金型の検証",
+        "status": "Progress",
+        "start": "2026-06-15",
+        "due": "2026-06-24",
+        "prog": 50,
+        "assignee": "佐藤由美"
+      },
+      {
+        "task": "主要部品の発注",
+        "status": "Complete",
+        "start": "2026-06-03",
+        "due": "2026-06-05",
+        "prog": 100,
+        "assignee": "鈴木一郎"
+      },
+      {
+        "task": "受入検査基準の策定",
+        "status": "Progress",
+        "start": "2026-06-17",
+        "due": "2026-06-26",
+        "prog": 40,
+        "assignee": "佐藤由美"
+      },
+      {
+        "task": "検査基準書の作成",
+        "status": "Complete",
+        "start": "2026-06-09",
+        "due": "2026-06-16",
+        "prog": 100,
+        "assignee": "佐藤由美"
+      },
+      {
+        "task": "予防保全計画",
+        "status": "Progress",
+        "start": "2026-06-22",
+        "due": "2026-07-01",
+        "prog": 50,
+        "assignee": "高橋誠"
+      },
+      {
+        "task": "タクトタイム短縮",
+        "status": "Progress",
+        "start": "2026-06-24",
+        "due": "2026-07-03",
+        "prog": 40,
+        "assignee": "渡辺彩"
+      },
+      {
+        "task": "作業標準書(SOP)作成",
+        "status": "Complete",
+        "start": "2026-06-10",
+        "due": "2026-06-18",
+        "prog": 100,
+        "assignee": "田中健一"
+      },
+      {
+        "task": "作業者教育",
+        "status": "Progress",
+        "start": "2026-06-29",
+        "due": "2026-07-08",
+        "prog": 40,
+        "assignee": "渡辺彩"
+      },
+      {
+        "task": "試運転・タクト測定",
+        "status": "Pending",
+        "start": "2026-07-06",
+        "due": "2026-07-10",
+        "prog": 0,
+        "assignee": "田中健一"
+      },
+      {
+        "task": "初期量産の品質点検",
+        "status": "Progress",
+        "start": "2026-07-01",
+        "due": "2026-07-09",
+        "prog": 60,
+        "assignee": "佐藤由美"
+      },
+      {
+        "task": "月次生産計画",
+        "status": "Pending",
+        "start": "2026-07-01",
+        "due": "2026-07-02",
+        "prog": 0,
+        "assignee": "田中健一"
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "10:00 am",
+            "name": "設備定期点検",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "こどもの日",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "サプライヤー品質MTG",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "月次生産会議",
+            "type": "event"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "10:00 am",
+            "name": "Aライン試運転",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "メモリアルデー",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "ライン稼働率レビュー",
+        "不良原因会議",
+        "金型点検",
+        "サプライヤーMTG",
+        "予防保全作業",
+        "品質監査",
+        "生産計画策定",
+        "在庫点検",
+        "新ライン試運転",
+        "月次生産報告"
+      ],
+      "assignees": [
+        "田中健一",
+        "佐藤由美",
+        "鈴木一郎",
+        "高橋誠",
+        "渡辺彩",
+        "中村大輔"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🏭",
+          "name": "[日本] 製造工程管理ルーム",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "⚙️",
+          "name": "Aライン生産管理"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "✅",
+          "name": "品質管理QA"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[設備] 保全履歴"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "📦",
+          "name": "部品調達・発注"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🔧",
+          "name": "金型・治工具"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "不良分析ルーム"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🦺",
+          "name": "[安全] 5S活動"
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "📅",
+          "name": "生産計画・納期"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🤝",
+          "name": "協力会社管理"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📦",
+          "name": "新製品量産"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "📋",
+          "name": "検査基準・SOP"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🛠",
+          "name": "[設備] 点検ログ"
+        },
+        {
+          "color": "#5BBF9A",
+          "emoji": "💴",
+          "name": "原価・資材"
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "📊",
+          "name": "月次生産報告"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔧",
+          "name": "ライン改善TF"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "📈",
+          "name": "工程データ"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "品質クレーム"
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🏭",
+          "name": "外注加工"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🏭",
+          "name": "工場 全体ルーム"
+        }
+      ]
+    },
+    "search": {
+      "kw": "工程",
+      "posts": [
+        {
+          "title": "[工程改善] Aラインのタクトタイム短縮検討",
+          "body": "ボトルネック工程の再配置でタクトタイムを短縮する工程改善案を検討しました。工程ごとの作業時間を測定して標準工程を再定義し、治工具改善でさらに短縮可能です...",
+          "who": "田中健一",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[日本] 製造工程管理ルーム",
+          "color": "#F5524A"
+        },
+        {
+          "title": "初期量産工程の不良原因分析",
+          "body": "初期量産工程で発生した不良を工程別に分類して原因を分析しました。主要工程2件に対策を適用し追跡観察中です...",
+          "who": "佐藤由美",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "品質管理QA",
+          "color": "#F5524A"
+        },
+        {
+          "title": "設備停止による工程遅延への対応",
+          "body": "設備停止で後工程が遅延したため予防保全周期を見直しました。基幹設備工程の稼働率を優先確保します...",
+          "who": "高橋誠",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[設備] 保全履歴",
+          "color": "#F5524A"
+        },
+        {
+          "title": "新規部品の受入検査工程の標準化",
+          "body": "新規部品の受入検査工程を標準化しました。検査基準書を工程に反映し合格基準を統一します...",
+          "who": "鈴木一郎",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "部品調達・発注",
+          "color": "#F5524A"
+        },
+        {
+          "title": "作業標準書(SOP)の工程更新のお知らせ",
+          "body": "変更した工程に合わせて作業標準書を更新しました。作業者教育後に工程へ適用予定です...",
+          "who": "渡辺彩",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "検査基準・SOP",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "工程の標準時間を測り直してSOPに反映お願いします。",
+          "who": "中村大輔",
+          "date": "04-06-2026 13:10",
+          "proj": "Aラインのタクトタイム短縮"
+        },
+        {
+          "text": "この工程の不良は治工具の摩耗が原因のようです。交換の検討をお願いします。",
+          "who": "渡辺彩",
+          "date": "04-06-2026 13:10",
+          "proj": "初期量産の不良分析"
+        },
+        {
+          "text": "設備点検工程の周期を週1回に上げた方がよいです。",
+          "who": "高橋誠",
+          "date": "04-06-2026 13:10",
+          "proj": "設備保全履歴"
+        },
+        {
+          "text": "受入検査工程の基準を添付しました。次回入庫から適用しましょう。",
+          "who": "佐藤由美",
+          "date": "04-06-2026 13:10",
+          "proj": "受入検査基準"
+        },
+        {
+          "text": "工程改善の効果いいですね 👍 他のラインにも展開しましょう。",
+          "who": "田中健一",
+          "date": "04-06-2026 13:10",
+          "proj": "Aラインのタクトタイム短縮"
+        }
+      ],
+      "files": [
+        {
+          "name": "Aライン_工程改善_計画書_v2.pdf",
+          "who": "田中健一",
+          "date": "04-06-2026 12:40",
+          "proj": "[日本] 製造工程管理ルーム",
+          "size": "0.94 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "Aラインの工程データ、たった今共有しました!稼働率の確認お願いします",
+          "who": "田中健一",
+          "date": "04-06-2026 12:38",
+          "proj": "渡辺彩"
+        },
+        {
+          "text": "この工程の不良追跡表を更新しました。ご確認お願いします",
+          "who": "佐藤由美",
+          "date": "04-06-2026 12:38",
+          "proj": "品質管理QA"
+        },
+        {
+          "text": "設備点検工程が終わりました。来週は予防保全を行います",
+          "who": "高橋誠",
+          "date": "04-06-2026 12:38",
+          "proj": "高橋誠"
+        },
+        {
+          "text": "受入検査工程の基準が確定したら共有します!",
+          "who": "鈴木一郎",
+          "date": "04-06-2026 12:38",
+          "proj": "鈴木一郎"
+        },
+        {
+          "text": "工程改善案の適用日程を決めましょう。ライン停止を最小化で!",
+          "who": "渡辺彩",
+          "date": "04-06-2026 12:38",
+          "proj": "ライン改善TF"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[日本] 製造工程管理・品質協業ルーム",
+          "who": "中村大輔",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "Aライン工程改善TF・データ管理",
+          "who": "田中健一",
+          "date": "01-02-2026 09:00",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "渡辺彩",
+          "last": "Aラインの稼働率データを共有しました",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "pin": true,
+          "count": true,
+          "active": true
+        },
+        {
+          "name": "佐藤由美, 鈴木一郎",
+          "last": "受入検査基準が確定したらお知らせします",
+          "time": "",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "🔴[Aライン] 工程改善TF",
+          "last": "タクトタイム測定結果を共有します",
+          "time": "04/28",
+          "color": "#FFB0B0",
+          "count": 4
+        },
+        {
+          "name": "高橋誠",
+          "last": "設備点検が終わりました",
+          "time": "02/04",
+          "color": "#FFD4A8",
+          "pin": true
+        },
+        {
+          "name": "生産管理部 全体",
+          "last": "週次生産会議の資料の確認をお願いします",
+          "time": "01/30",
+          "color": "#C5A3FF",
+          "pin": true,
+          "count": 5
+        },
+        {
+          "name": "佐藤由美",
+          "last": "不良追跡表を更新しました",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "鈴木一郎",
+          "last": "部品の納期が7/2に確定しました",
+          "time": "06/02",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "中村大輔",
+          "last": "月次生産報告、受け取りました",
+          "time": "05/15",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "佐藤由美, 高橋誠",
+          "last": "はい!ありがとうございます!",
+          "time": "05/13",
+          "color": "#9DC8FF",
+          "count": 4
+        },
+        {
+          "name": "田中健一, 渡辺彩",
+          "last": "工程改善の日程を共有します",
+          "time": "05/12",
+          "color": "#A8E6C0",
+          "count": 3
+        },
+        {
+          "name": "佐藤由美, 中村大輔",
+          "last": "はいはい!!",
+          "time": "05/11",
+          "color": "#C5A3FF",
+          "count": 3
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "text": "Aラインの稼働率データを共有します",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "昨日は停止時間が少し長かったです",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "はいはい"
+        },
+        {
+          "side": "me",
+          "text": "渡辺さん、ボトルネック工程はどこでしたか?"
+        },
+        {
+          "side": "me",
+          "text": "来週、治工具改善を適用してみます"
+        },
+        {
+          "side": "me",
+          "text": "タクトタイム測定もお願いします"
+        },
+        {
+          "side": "them",
+          "text": "承知しました!水曜に測定します🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "中村大輔",
+          "text": "皆さん、今週のAライン工程改善の進捗を共有お願いします 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "高橋誠",
+          "text": "設備の予防保全1次が完了しました。停止時間が減りました 🛠",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "佐藤由美",
+          "text": "初期不良2件に対策を適用しました。追跡観察中です ✅",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "皆さんお疲れさまです!タクトタイムデータは本日整理します"
+        },
+        {
+          "side": "them",
+          "who": "鈴木一郎",
+          "text": "主要部品の納期が7/2に確定しました 📦",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "いいですね 🔥 では水曜の試運転で一緒に点検しましょう"
+        },
+        {
+          "side": "them",
+          "who": "中村大輔",
+          "text": "👍 水曜午前10時で押さえておきます",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "Aライン工程改善TF",
+          "av": "#9DC8FF",
+          "actor": "佐藤由美のコメント",
+          "time": "数秒前",
+          "emoji": "🟢",
+          "task": "タクトタイム測定 2回目",
+          "activity": "'요청' → '진행중' にステータスが更新されました。",
+          "unread": true
+        },
+        {
+          "proj": "Aライン工程改善TF",
+          "av": "#9DC8FF",
+          "actor": "高橋誠が新しいタスクを追加",
+          "time": null,
+          "emoji": "🟢",
+          "activity": "設備予防保全1次",
+          "unread": true
+        },
+        {
+          "proj": "品質管理QA",
+          "av": "#9DC8FF",
+          "actor": "佐藤由美のコメント",
+          "time": "5分前",
+          "emoji": "🟢",
+          "task": "初期量産の品質点検",
+          "activity": "'진행중' → '완료' にステータスが更新されました。",
+          "unread": true
+        },
+        {
+          "proj": "部品調達・発注",
+          "av": "#9DC8FF",
+          "actor": "鈴木一郎のコメント",
+          "time": "5分前",
+          "emoji": "🟢",
+          "task": "主要部品の発注",
+          "activity": "'진행중' → '완료' にステータスが更新されました。",
+          "unread": true
+        },
+        {
+          "proj": "[設備] 保全履歴",
+          "av": "#9DC8FF",
+          "actor": "高橋誠が返信を追加",
+          "time": "1時間前",
+          "task": "設備点検チェックリスト",
+          "activity": "ありがとうございます、マネージャー!"
+        },
+        {
+          "proj": "[日本] 製造工程管理ルーム",
+          "av": "#9DC8FF",
+          "actor": "渡辺彩がコメントを追加",
+          "time": null,
+          "emoji": "🔴",
+          "activity": "お先に失礼します!明日ライン点検を一緒に見ましょう",
+          "unread": true
+        },
+        {
+          "proj": "Aライン工程改善TF",
+          "av": "#9DC8FF",
+          "actor": "田中健一のコメント",
+          "time": null,
+          "emoji": "🟢",
+          "task": "タクトタイム短縮",
+          "activity": "担当者に「田中健一」が追加されました。",
+          "unread": true
+        },
+        {
+          "proj": "生産計画・納期",
+          "av": "#9DC8FF",
+          "actor": "田中健一がコメントを追加",
+          "time": null,
+          "emoji": "🟢",
+          "task": "月次生産計画",
+          "activity": "7月の生産計画ドラフトを共有します",
+          "unread": true
+        }
+      ],
+      "haruka": {
+        "pin": "📢 8日Aライン、18日Bライン点検します!",
+        "auto": "渡辺さん、工程データ確認しました!稼働率がかなり上がりましたね 👍 水曜にお会いしましょう"
+      },
+      "group": {
+        "name": "[日本] 製造工程管理ルーム",
+        "pin": "📢 Aライン稼働率90%目標!工程改善を加速 🔥",
+        "auto": "先ほど工程改善1次の結果を共有しました!ご確認のうえコメントお願いします 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 {name}さんとの1:1チャット",
+        "auto": "はい、確認しました!すぐ工程に反映して再共有します 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "こんにちは!先ほど共有いただいた工程データ、確かに受け取りました 😊"
+          },
+          {
+            "side": "me",
+            "text": "はい、ご確認お願いします!"
+          },
+          {
+            "side": "them",
+            "text": "はい、すぐ反映してご返信します 🙌"
+          }
+        ]
+      }
+    },
+    "activity": [
+      {
+        "who": "渡辺彩",
+        "color": "#A8E6C0",
+        "action": "added a new comment",
+        "lines": [
+          {
+            "text": "お先に失礼します!明日ライン点検を一緒に見ましょう"
+          }
+        ],
+        "time": "an hour ago"
+      },
+      {
+        "who": "佐藤由美",
+        "color": "#D98AA6",
+        "action": "added a new reply",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "初期量産の品質点検",
+            "plain": true
+          },
+          {
+            "label": "Activity",
+            "text": "ありがとうございます!反映します。"
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "高橋誠",
+        "color": "#9DC8FF",
+        "emoji": "😊",
+        "action": "liked this comment.",
+        "lines": [
+          {
+            "text": "設備の予防保全周期を見直しました。皆さんご参照ください ",
+            "link": "https://app.notion.com/p/mfg22ee",
+            "inline": true
+          }
+        ],
+        "time": "2 hours ago"
+      },
+      {
+        "who": "田中健一",
+        "color": "#F2A65A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'タクトタイム短縮' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "鈴木一郎",
+        "color": "#5BBF9A",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'主要部品の発注' is done!"
+          }
+        ],
+        "time": "3 hours ago"
+      },
+      {
+        "who": "中村大輔",
+        "color": "#5B6CF0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "text": "'作業標準書(SOP)作成' is done!"
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "佐藤由美",
+        "color": "#D98AA6",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "検査基準書の作成"
+          },
+          {
+            "label": "Activity",
+            "text": "'Progress' → 'Complete' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      },
+      {
+        "who": "渡辺彩",
+        "color": "#A8E6C0",
+        "possessive": true,
+        "action": "comment",
+        "lines": [
+          {
+            "label": "Task",
+            "link": "Aライン試運転"
+          },
+          {
+            "label": "Activity",
+            "text": "'Pending' → 'Progress' Status has been updated."
+          }
+        ],
+        "time": "5 hours ago"
+      }
+    ],
+    "participants": [
+      {
+        "name": "田中健一",
+        "role": "生産管理マネージャー"
+      },
+      {
+        "name": "渡辺彩",
+        "role": "ラインリーダー"
+      },
+      {
+        "name": "佐藤由美",
+        "role": "品質管理リーダー"
+      },
+      {
+        "name": "鈴木一郎",
+        "role": "購買担当"
+      },
+      {
+        "name": "高橋誠",
+        "role": "設備保全"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "中島大輝",
+        "role": "工程エンジニア",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "加藤陸",
+        "role": "設備エンジニア",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "小川誠",
+        "role": "品質検査員",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}

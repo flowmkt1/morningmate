@@ -1,0 +1,2560 @@
+{
+  "meta": {
+    "industry": "마케팅",
+    "sector": "프리랜서 협업",
+    "language": "ko",
+    "region": "Asia Pacific (Tokyo)"
+  },
+  "projects": [
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "[일본] 한국X일본XMWI 마케팅 협업방",
+      "mem": 6
+    },
+    {
+      "c": "#FFB800",
+      "em": "🔴",
+      "name": "[일본] 프리랜서 협업방",
+      "mem": 5
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟢",
+      "name": "English Markets GTM",
+      "mem": 8
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🔴",
+      "name": "[일본] 경쟁사 모니터링 (Auto)",
+      "mem": 6
+    },
+    {
+      "c": "#9A9AA2",
+      "em": "🤖",
+      "name": "AI 팀 만들기 프로젝트",
+      "mem": 5
+    },
+    {
+      "c": "#4A90E2",
+      "em": "",
+      "name": "[노소연] 개인 to-do",
+      "mem": 1
+    },
+    {
+      "c": "#4A90E2",
+      "em": "🌏",
+      "name": "Global MKT Hub",
+      "mem": 13,
+      "globe": true
+    },
+    {
+      "c": "#FF5A5A",
+      "em": "🎬",
+      "name": "영상 크리에이티브팀 협업방",
+      "mem": 7
+    },
+    {
+      "c": "#FFB800",
+      "em": "🟡",
+      "name": "Japan Business",
+      "mem": 9
+    },
+    {
+      "c": "#FFB800",
+      "em": "🐔",
+      "name": "[인플루언서 에이전시] KGNC",
+      "mem": 7
+    }
+  ],
+  "author": {
+    "name": "노소연",
+    "role": "팀장",
+    "team": "Market Expansion팀",
+    "av": "#F2A65A"
+  },
+  "room": {
+    "name": "[일본] 프리랜서 협업방",
+    "color": "#F2544A"
+  },
+  "feed": [
+    {
+      "type": "task",
+      "time": "2026-06-04 12:36",
+      "taskNo": "",
+      "read": 1,
+      "title": "[프리랜서 계약] 일본 마케팅 - 김우중",
+      "status": {
+        "key": "request",
+        "label": "요청",
+        "color": "#0053BF",
+        "bg": "rgba(0,181,241,.20)",
+        "dot": "#00B5F1"
+      },
+      "assignee": {
+        "name": "유성균",
+        "color": "#5B6CF0"
+      },
+      "due": "2026-04-21 (화) 까지",
+      "progress": 0,
+      "body": [
+        "김우중님 차주 수요일(22일)부터 하루 8시간 근무 예정입니다.",
+        "2개월 계약 진행 부탁드립니다.",
+        {
+          "t": "h",
+          "e": "📋",
+          "x": "계약 개요"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "👤",
+              "x": "대상: 김우중 (프리랜서)"
+            },
+            {
+              "e": "📅",
+              "x": "근무 시작: 6/22(수) ~"
+            },
+            {
+              "e": "⏱",
+              "x": "근무: 하루 8시간 / 주 5일"
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📝",
+          "x": "업무 목록"
+        },
+        {
+          "t": "table",
+          "cols": [
+            "업무명",
+            "내용",
+            "상태"
+          ],
+          "rows": [
+            [
+              "광고 운용",
+              "야후/구글 광고 셋팅·운용",
+              "진행중"
+            ],
+            [
+              "SNS 운용",
+              "X·인스타 기획 및 게시",
+              "대기"
+            ],
+            [
+              "기사 작성",
+              "PR 기사·블로그 작성",
+              "대기"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "x": "단기계약 후 장기계약을 고려하겠습니다."
+        }
+      ]
+    },
+    {
+      "type": "todo",
+      "time": "2026-06-04 12:37",
+      "read": 3,
+      "title": "전시회 부스 준비 체크리스트",
+      "items": [
+        {
+          "t": "부스 디자인 시안 확정",
+          "done": false,
+          "c": "#9DC8FF"
+        },
+        {
+          "t": "배너·현수막 인쇄 발주",
+          "done": false,
+          "c": "#A8E6C0"
+        },
+        {
+          "t": "샘플 제품 포장",
+          "done": false,
+          "c": "#FFD4A8"
+        },
+        {
+          "t": "상담 예약 리스트 정리",
+          "done": false,
+          "c": "#F2A65A"
+        },
+        {
+          "t": "현장 스태프 배치표",
+          "done": false,
+          "c": "#5B6CF0"
+        }
+      ]
+    },
+    {
+      "type": "schedule",
+      "time": "2026-06-04 12:37",
+      "read": 1,
+      "title": "Japan IT Week 부스 운영",
+      "dateBadge": {
+        "m": "2026.06",
+        "d": "04"
+      },
+      "timeRange": "2026-06-04 (목), 12:40 — 13:40",
+      "parts": [
+        {
+          "c": "#F2A65A"
+        },
+        {
+          "c": "#B0A4E6"
+        }
+      ],
+      "going": 1,
+      "notGoing": 1,
+      "body": [
+        "도쿄 빅사이트 East Hall · Booth E-12",
+        "부스 운영 / 상담 응대 / 리드 수집 진행합니다."
+      ]
+    },
+    {
+      "type": "vote",
+      "time": "2026-06-04 16:14",
+      "read": 1,
+      "vstatus": "진행중",
+      "title": "9월 신제품 키 비주얼 투표",
+      "desc": "세 가지 키 비주얼 시안 중 가장 좋은 안을 골라주세요. 9월 런칭 메인 KV로 사용됩니다.",
+      "voters": 12,
+      "options": [
+        {
+          "l": "A안 — 미니멀 화이트",
+          "v": 7,
+          "voted": true
+        },
+        {
+          "l": "B안 — 비비드 그라데이션",
+          "v": 4
+        },
+        {
+          "l": "C안 — 다크 프리미엄",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "type": "write",
+      "time": "2026-06-04 12:39",
+      "read": 8,
+      "title": "이번 주 마케팅 위클리 공유",
+      "body": [
+        "이번 주 마케팅 활동 요점을 공유합니다.",
+        {
+          "t": "h",
+          "e": "📊",
+          "x": "이번 주 하이라이트"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "🎯",
+              "b": true,
+              "x": "일본 전시회 리드 312건 수집",
+              "sub": [
+                "CRM 업로드 진행 중. 다음 주부터 개별 팔로업을 시작합니다."
+              ]
+            },
+            {
+              "e": "🧪",
+              "b": true,
+              "x": "신규 LP A/B 테스트 완료",
+              "sub": [
+                "B안 전환율 +18%. 본 반영을 진행합니다."
+              ]
+            },
+            {
+              "e": "📣",
+              "b": true,
+              "x": "PR TIMES 배포",
+              "sub": [
+                "신제품 런칭 기사를 배포했고 초기 반응이 좋습니다."
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "e": "📌",
+          "x": "다음 주 액션"
+        },
+        {
+          "t": "ul",
+          "items": [
+            {
+              "e": "①",
+              "x": "리드 312건 개별 팔로업"
+            },
+            {
+              "e": "②",
+              "x": "LP B안 본 반영"
+            },
+            {
+              "e": "③",
+              "x": "9월 키비주얼 최종 확정"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "x": "상세 내용은 첨부 문서를 참고 부탁드립니다."
+        }
+      ],
+      "images": [
+        "https://loremflickr.com/900/720/marketing,office?lock=5"
+      ]
+    }
+  ],
+  "calendar": {
+    "monthLabel": "2026년 05월",
+    "year": 2026,
+    "month": 5,
+    "today": "2026-06-04",
+    "events": {
+      "2026-05-05": [
+        {
+          "type": "holiday",
+          "name": "어린이날"
+        }
+      ],
+      "2026-05-24": [
+        {
+          "type": "holiday",
+          "name": "석가탄신일"
+        }
+      ],
+      "2026-05-29": [
+        {
+          "type": "task",
+          "name": "홈페이지 로고 사용 여부 확인…",
+          "status": "Complete",
+          "assignee": "Jessica Baek",
+          "author": "Soyun Noh"
+        },
+        {
+          "type": "task",
+          "name": "홈페이지 - 회사소개 (모닝메…",
+          "status": "Complete",
+          "assignee": "Hyejo Seo",
+          "author": "Soyun Noh"
+        },
+        {
+          "type": "task",
+          "name": "홈페이지 - 회사소개",
+          "status": "Complete",
+          "assignee": "Jessica Baek",
+          "author": "Soyun Noh"
+        }
+      ]
+    }
+  },
+  "taskGroups": [
+    {
+      "d": "6/2",
+      "n": 7,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "허브스팟 db import 기ㄴㄱ",
+          "s": "Pending"
+        },
+        {
+          "t": "하루카상 웹툰 가이드 주기",
+          "s": "Pending"
+        },
+        {
+          "t": "광고 콘텐츠 제작",
+          "s": "Pending"
+        },
+        {
+          "t": "광고 콘텐츠 제작_시네마틱",
+          "s": "Pending"
+        },
+        {
+          "t": "캐릭터 가이드",
+          "s": "Pending"
+        },
+        {
+          "t": "클로징 가이드",
+          "s": "Pending"
+        },
+        {
+          "t": "로고송-사명 연호(社名連呼)",
+          "s": "Pending"
+        }
+      ]
+    },
+    {
+      "d": "6/1",
+      "n": 8,
+      "status": {
+        "label": "Pending",
+        "bg": "#D6ECFF",
+        "color": "#0053BF",
+        "dot": "#00B5F1"
+      },
+      "rows": [
+        {
+          "t": "주간보고서(일본)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "허브스팟 MKT 루트 추가 (박람회)",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "주간회의_일본팀",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "영미권 우선순위 관련 회의",
+          "s": "Complete",
+          "done": true
+        },
+        {
+          "t": "구글 API 카드정보 변경",
+          "s": "Complete",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "n": "공유드라이브_전시회폴더",
+      "t": "cloud",
+      "by": "노소연",
+      "sz": "폴더"
+    },
+    {
+      "n": "팀_워크스페이스_링크",
+      "t": "cloud",
+      "by": "June Lee",
+      "sz": "바로가기"
+    },
+    {
+      "n": "donuts_logoguide.pdf",
+      "t": "pdf",
+      "by": "Jessica Baek",
+      "sz": "2 MB"
+    },
+    {
+      "n": "ジョブカン会計_시뮬레이션.pdf",
+      "t": "pdf",
+      "by": "Jessica Baek",
+      "sz": "10.2 MB"
+    },
+    {
+      "n": "부스_운영_매뉴얼.pdf",
+      "t": "pdf",
+      "by": "장아람",
+      "sz": "4.4 MB"
+    },
+    {
+      "n": "프리랜서_계약_김우중.docx",
+      "t": "word",
+      "by": "노소연",
+      "sz": "210 KB"
+    },
+    {
+      "n": "표준_계약서_양식.docx",
+      "t": "word",
+      "by": "June Lee",
+      "sz": "320 KB"
+    },
+    {
+      "n": "전시회_리드_312건.xlsx",
+      "t": "excel",
+      "by": "노소연",
+      "sz": "2.4 MB"
+    },
+    {
+      "n": "부스_운영_정산표.xlsx",
+      "t": "excel",
+      "by": "장아람",
+      "sz": "880 KB"
+    },
+    {
+      "n": "GTM_런치_플랜.pptx",
+      "t": "ppt",
+      "by": "Hyejo Seo",
+      "sz": "5.1 MB"
+    },
+    {
+      "n": "전시회_부스_제안서.pptx",
+      "t": "ppt",
+      "by": "Jessica Baek",
+      "sz": "8.3 MB"
+    },
+    {
+      "n": "부스_시안_렌더.png",
+      "t": "image",
+      "by": "장아람",
+      "sz": "4.6 MB"
+    },
+    {
+      "n": "행사장_배치도.jpg",
+      "t": "image",
+      "by": "SANO HARUKA",
+      "sz": "3.1 MB"
+    },
+    {
+      "n": "전시회_홍보영상.mp4",
+      "t": "av",
+      "by": "SANO HARUKA",
+      "sz": "86.4 MB"
+    },
+    {
+      "n": "부스_BGM.mp3",
+      "t": "av",
+      "by": "Kimura Takuya",
+      "sz": "5.2 MB"
+    },
+    {
+      "n": "랜딩페이지_시안.html",
+      "t": "html",
+      "by": "WOOJUNG KIM",
+      "sz": "48 KB"
+    },
+    {
+      "n": "QR_신청폼.html",
+      "t": "html",
+      "by": "Hyejo Seo",
+      "sz": "22 KB"
+    },
+    {
+      "n": "전시회_자료_백업.zip",
+      "t": "zip",
+      "by": "노소연",
+      "sz": "124 MB"
+    },
+    {
+      "n": "로고_원본_모음.zip",
+      "t": "zip",
+      "by": "Jessica Baek",
+      "sz": "38 MB"
+    }
+  ],
+  "notifications": [
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Hyejo Seo's comment",
+      "task": "가설 ICP 세우기 2차",
+      "time": "방금",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Hyejo Seo added a new task",
+      "task": "가설 ICP 세우기 2차",
+      "time": "4분 전",
+      "unread": true
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#9DC8FF",
+      "ac": "Hyejo Seo's comment",
+      "task": "경쟁사 마케팅 채널 및 전략 조사",
+      "time": "5분 전",
+      "unread": true
+    },
+    {
+      "proj": "[QA] Morningmate",
+      "av": "#A8E6C0",
+      "ac": "Kate Lee added a new reply",
+      "task": "[Website] Can't sign up",
+      "time": "1시간 전"
+    },
+    {
+      "proj": "[일본] 프리랜서 협업방",
+      "emoji": "🔴",
+      "av": "#C5A3FF",
+      "ac": "SANO HARUKA added a new comment",
+      "time": "1시간 전"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "Kate Lee's comment",
+      "task": "저녁 레스토랑 부킹",
+      "time": "2시간 전"
+    },
+    {
+      "proj": "English Markets GTM",
+      "emoji": "🟢",
+      "av": "#FFB89D",
+      "ac": "Kate Lee added a new comment",
+      "task": "브루넬 대학교 미팅 어레인지",
+      "time": "2시간 전"
+    },
+    {
+      "proj": "[일본] 프리랜서 협업방",
+      "emoji": "🔴",
+      "av": "#5BBF9A",
+      "ac": "장아람 added a new task",
+      "task": "전시회 부스 시공 계약",
+      "time": "3시간 전"
+    },
+    {
+      "proj": "Japan Business",
+      "emoji": "🟡",
+      "av": "#5B6CF0",
+      "ac": "June Lee's comment",
+      "task": "표준 계약서 양식 확정",
+      "time": "4시간 전"
+    }
+  ],
+  "chats": [
+    {
+      "name": "SANO HARUKA",
+      "av": "#9DC8FF",
+      "last": "영상 업무 아직 착수를 못했어요 ㅎㅎ",
+      "time": "오후 8:16",
+      "act": true
+    },
+    {
+      "name": "🔴[일본] 전시회 TF",
+      "cnt": 4,
+      "members": [
+        "장아람",
+        "SANO HARUKA",
+        "Hyejo Seo",
+        "June Lee"
+      ],
+      "last": "현장 셋업은 22일 오전부터 시작하겠습니다",
+      "time": "오후 8:02"
+    },
+    {
+      "name": "Hyejo (Jo) Seo, Jessica B...",
+      "cnt": 3,
+      "members": [
+        "Hyejo Seo",
+        "Jessica Baek",
+        "노소연"
+      ],
+      "last": "하게 되면 채팅 남길게요",
+      "time": "05/18"
+    },
+    {
+      "name": "❤️[협업방] KGNC X morni...",
+      "cnt": 4,
+      "members": [
+        "WOOJUNG KIM",
+        "Kimura Takuya",
+        "SANO HARUKA",
+        "Kate Lee"
+      ],
+      "last": "@신원준 안녕하세요 대표님",
+      "time": "04/28"
+    },
+    {
+      "name": "Sooyoung Oh",
+      "av": "#FFD4A8",
+      "last": "수영님~",
+      "time": "02/04"
+    },
+    {
+      "name": "장아람",
+      "av": "#5BBF9A",
+      "last": "전시회 부스 부자재 발주 넣었습니다 📦",
+      "time": "오후 6:40"
+    },
+    {
+      "name": "June Lee",
+      "av": "#5B6CF0",
+      "last": "계약서 조건 확인했습니다 👍 진행하시죠",
+      "time": "오후 4:12"
+    },
+    {
+      "name": "Kate Lee",
+      "av": "#FFB89D",
+      "last": "감사합니다 팀장님!!",
+      "time": "05/13"
+    },
+    {
+      "name": "김채영",
+      "av": "#A8E6C0",
+      "last": "네네!! ㅎㅎ 말씀주세요😋",
+      "time": "05/02"
+    },
+    {
+      "name": "Jessica Baek, WOOJUNG ...",
+      "cnt": 3,
+      "members": [
+        "Jessica Baek",
+        "WOOJUNG KIM",
+        "Kimura Takuya"
+      ],
+      "last": "가까운 시일 내에 또 뵙겠습니다.",
+      "time": "05/12"
+    },
+    {
+      "name": "WOOJUNG KIM",
+      "av": "#FFB89D",
+      "last": "네넴 댓글 남겼습니다",
+      "time": "05/15"
+    }
+  ],
+  "conversation": [
+    {
+      "sep": "2026-06-04 (목)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "side": "them",
+      "text": "이거인가요?",
+      "time": "오후 5:46"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "text": "이거는 flow쓰고 음성과 원본 다 만들었어요!",
+      "time": "오후 5:47"
+    },
+    {
+      "side": "me",
+      "text": "넹넹"
+    },
+    {
+      "side": "me",
+      "text": "하루카상 미안한데요 ㅠ 혹시 내일 말고 월요일에 나와주는걸로 할수있을까요",
+      "time": "오후 8:15"
+    },
+    {
+      "side": "me",
+      "text": "영상 업무 아직 착수를 못했어요 ㅎㅎㅎㅎ ㅠㅠㅠㅠㅠ",
+      "time": "오후 8:16"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "deleted": 1
+    },
+    {
+      "side": "them",
+      "reply": {
+        "to": "SANO HARUKA",
+        "text": "https://voicevox.hiroshiba.jp/···"
+      }
+    },
+    {
+      "side": "them",
+      "text": "이걸로 만든 음성이에요!",
+      "time": "오후 10:42"
+    },
+    {
+      "side": "them",
+      "head": 1,
+      "file": {
+        "name": "IMG_7732.mp4",
+        "size": "83.7 MB"
+      },
+      "time": "오후 10:46",
+      "react": 1
+    }
+  ],
+  "groupConversation": [
+    {
+      "sep": "2026-06-04 (목)",
+      "tz": "Asia Pacific (Tokyo)"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "text": "다들 전시회 부스 준비 잘 되고 계신가요? 🙌",
+      "time": "오전 10:02"
+    },
+    {
+      "who": 1,
+      "head": 1,
+      "text": "네! 부자재 발주 넣었고 금요일 입고 예정이에요 📦",
+      "time": "오전 10:05"
+    },
+    {
+      "who": 2,
+      "head": 1,
+      "text": "리드 수집 QR 폼도 거의 완성됐습니다 🔗",
+      "time": "오전 10:08"
+    },
+    {
+      "side": "me",
+      "text": "좋아요, 다들 고생 많으십니다 👏",
+      "time": "오전 10:10"
+    },
+    {
+      "who": 0,
+      "head": 1,
+      "file": {
+        "name": "부스_배치도_v3.pdf",
+        "size": "3.2 MB"
+      },
+      "time": "오전 10:14"
+    },
+    {
+      "who": 0,
+      "text": "현장 셋업은 22일 오전부터 시작하겠습니다",
+      "time": "오전 10:15"
+    },
+    {
+      "who": 3,
+      "head": 1,
+      "text": "계약서 조건도 확인 끝났습니다. 바로 진행하시죠 👍",
+      "time": "오전 10:18"
+    },
+    {
+      "side": "me",
+      "text": "넵 확인했습니다! 22일에 현장에서 뵙겠습니다 🙆",
+      "time": "오전 10:20"
+    }
+  ],
+  "comments": {
+    "main": [
+      {
+        "name": "June Lee",
+        "text": "계약 조건 확인했습니다 👍 바로 진행하시죠!"
+      },
+      {
+        "name": "SANO HARUKA",
+        "text": "항목 완료했어요! 다음 작업도 화이팅이에요 💪"
+      },
+      {
+        "name": "노소연",
+        "text": "부스 위치 확인했어요 📍 현장에서 뵙겠습니다!"
+      },
+      {
+        "name": "장아람",
+        "text": "저는 A안이 제일 깔끔한 것 같아요 🎨 한 표 던집니다"
+      },
+      {
+        "name": "Hyejo Seo",
+        "text": "리드 312건 정말 대박이네요 🎉 고생하셨어요!"
+      }
+    ],
+    "pool": [
+      {
+        "name": "Kimura Takuya",
+        "text": "일본어 검수까지 마쳤습니다. 문제 없어요 ✅"
+      },
+      {
+        "name": "Kate Lee",
+        "text": "공유 감사합니다! 참고해서 진행할게요 🙏"
+      },
+      {
+        "name": "Jessica Baek",
+        "text": "일정 확인했습니다. 캘린더에 등록해둘게요 📅"
+      },
+      {
+        "name": "WOOJUNG KIM",
+        "text": "좋은 아이디어네요! 저도 한 표 보탭니다 ✋"
+      },
+      {
+        "name": "June Lee",
+        "text": "수치가 인상적이네요. 다음 주 회의에서 공유하죠 📊"
+      },
+      {
+        "name": "노소연",
+        "text": "넵 확인했습니다! 바로 반영해서 회신드릴게요 🙌"
+      },
+      {
+        "name": "SANO HARUKA",
+        "text": "현지 반응도 좋아요 😊 이대로 가면 될 것 같아요"
+      },
+      {
+        "name": "장아람",
+        "text": "부자재 발주 넣었습니다 📦 금요일 입고 예정이에요"
+      },
+      {
+        "name": "Hyejo Seo",
+        "text": "QR 신청 폼도 거의 완성됐어요 🔗 곧 공유드릴게요"
+      },
+      {
+        "name": "Kimura Takuya",
+        "text": "광고 소재 시안 3종 준비했습니다 🎬 검토 부탁드려요"
+      }
+    ]
+  },
+  "taskAssignees": [
+    "SANO HARUKA",
+    "Kimura Takuya",
+    "Soyun Noh",
+    "Hyejo Seo"
+  ],
+  "extraTasks": [
+    "야후재팬 광고 셋팅",
+    "구글 광고 셋팅",
+    "PR TIMES 1개월 플랜 결제",
+    "note 사용법 기사 작성",
+    "인스타 릴스 제작",
+    "웨비나 자료 준비",
+    "경쟁사 광고 소재 조사",
+    "리드 CRM 업로드",
+    "키워드 조사",
+    "랜딩페이지 A/B 테스트",
+    "뉴스레터 발송",
+    "프리랜서 계약서 검토",
+    "전시회 부스 디자인 시안",
+    "현장 스태프 배치표",
+    "샘플 제품 포장",
+    "상담 예약 리스트 정리",
+    "콘텐츠 일본어 검수",
+    "미팅노트 정리",
+    "주간 보고서(일본)",
+    "X/인스타/유튜브 운영",
+    "kintone 웨비나",
+    "노션 웨비나",
+    "PR 기사 발행",
+    "이벤트 참여 안내문"
+  ],
+  "search": {
+    "data": {
+      "projects": [
+        {
+          "name": "[일본] 프리랜서 계약서 협업방",
+          "who": "Soyun Noh",
+          "date": "2026-02-01 09:00",
+          "color": "#F5524A"
+        }
+      ],
+      "posts": [
+        {
+          "title": "[프리랜서 계약] 표준 계약서 양식 확정 요청 - 김우중",
+          "body": "김우중님 계약 건 관련 표준 계약서 양식 첨부드립니다. 단기계약 후 장기계약 전환 조항이 포함되어 있으니 계약서 검토 후 회신 부탁드립니다…",
+          "who": "Soyun Noh",
+          "date": "2026-06-04 12:36",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "일본 외주 계약서 번역본 검수 완료",
+          "body": "일본어 계약서 번역본 검수 마쳤습니다. 법무 검토까지 끝났고 양측 서명만 남았습니다. 계약서 PDF 최종본 공유드립니다…",
+          "who": "Kimura Takuya",
+          "date": "2026-06-02 18:20",
+          "tag": "업무",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "[정보 공유] 표준 근로/용역 계약서 템플릿 모음",
+          "body": "",
+          "who": "June Lee",
+          "date": "2026-04-15 11:41",
+          "tag": "업무",
+          "proj": "Japan Business",
+          "color": "#F5C24A"
+        },
+        {
+          "title": "계약서 날인 및 원본 보관 안내",
+          "body": "",
+          "who": "Jessica Baek",
+          "date": "2026-04-27 11:06",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "전시회 부스 시공 계약서 조건 협의",
+          "body": "…부스 시공업체와 계약서 조건 협의 중입니다. 금액 및 일정 조항 조정이 필요해 보입니다. 계약서 초안 검토 부탁드려요…",
+          "who": "장아람",
+          "date": "2026-05-14 19:49",
+          "tag": "업무",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "… 계약서 조건 확인했습니다 👍 바로 진행하시죠! 서명본은 내일 회신드리겠습니다.",
+          "who": "June Lee",
+          "date": "2026-06-04 17:58",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중"
+        },
+        {
+          "text": "…계약서에 단기계약 후 장기계약 전환 조항 추가했습니다. 확인 부탁드려요.",
+          "who": "Soyun Noh",
+          "date": "2026-06-04 17:36",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중"
+        },
+        {
+          "text": "…일본어 계약서 검수까지 마쳤습니다. 문제 없어요 ✅ 법무 검토도 통과했습니다.",
+          "who": "Kimura Takuya",
+          "date": "2026-03-07 01:24",
+          "proj": "일본 외주 계약서 번역본 검수"
+        },
+        {
+          "text": "…계약서 표준 양식은 파일에 첨부해두었습니다. 다음 계약 건에도 동일하게 사용하면 됩니다.",
+          "who": "Jessica Baek",
+          "date": "2026-03-07 00:39",
+          "proj": "표준 근로/용역 계약서 템플릿 모음"
+        },
+        {
+          "text": "대표님, 계약서 날인을 위해 법인 인감과 서명이 필요합니다. 2/2까지 회신 부탁드립니다.",
+          "who": "Jessica Baek",
+          "date": "2026-01-29 10:42",
+          "proj": "계약서 날인 및 원본 보관 안내"
+        }
+      ],
+      "chats": [
+        {
+          "text": "표준 계약서 양식 보내드릴게요",
+          "who": "Soyun Noh",
+          "date": "2026-03-17 12:56",
+          "proj": "June Lee"
+        },
+        {
+          "text": "계약서 조건 확인했습니다 👍 진행하시죠",
+          "who": "June Lee",
+          "date": "2026-06-08 12:22",
+          "proj": "June Lee"
+        },
+        {
+          "text": "계약서 서명본은 오늘 중으로 회신드리겠습니다 ㅠㅠ",
+          "who": "Kimura Takuya",
+          "date": "2026-03-06 20:48",
+          "proj": "🔴[일본] 전시회 TF"
+        }
+      ],
+      "files": [
+        {
+          "name": "2026_업무프로세스혁신_일본_노소연_계약서.docx",
+          "who": "노소연",
+          "date": "2026-06-04 12:37",
+          "proj": "[프리랜서 계약] 일본 마케팅 - 김우중",
+          "size": "105.6 KB"
+        },
+        {
+          "name": "표준_프리랜서_계약서_양식.docx",
+          "who": "June Lee",
+          "date": "2026-05-20 10:12",
+          "proj": "표준 근로/용역 계약서 템플릿 모음",
+          "size": "320 KB"
+        }
+      ]
+    },
+    "recent": [
+      {
+        "kw": "계약서",
+        "d": "06/10"
+      },
+      {
+        "kw": "위치",
+        "d": "06/10"
+      },
+      {
+        "kw": "팀원",
+        "d": "04/04"
+      }
+    ]
+  },
+  "namePhoto": {
+    "노소연": "woman1",
+    "유성균": "man2",
+    "SANO HARUKA": "woman2",
+    "Hyejo Seo": "woman4",
+    "서혜조": "woman4",
+    "Hyejo (Jo) Seo": "woman4",
+    "Jessica Baek": "woman1",
+    "Sooyoung Oh": "woman4",
+    "Kate Lee": "woman3",
+    "장아람": "woman3",
+    "Kimura Takuya": "man3",
+    "WOOJUNG KIM": "man1",
+    "박선아": "woman1",
+    "정해성": "man5",
+    "한지민": "woman2",
+    "김채영": "woman2",
+    "김우중": "man1",
+    "June Lee": "man6",
+    "신원준": "man1"
+  },
+  "pc": {
+    "author": {
+      "name": "노소연",
+      "role": "팀장",
+      "team": "Market Expansion팀",
+      "color": "#F2A65A"
+    },
+    "feed": [
+      {
+        "type": "task",
+        "author": {
+          "name": "노소연",
+          "role": "팀장",
+          "team": "Market Expansion팀",
+          "color": "#F2A65A"
+        },
+        "datetime": "2026-06-04 12:36",
+        "taskNo": "582462",
+        "read": 1,
+        "title": "[프리랜서 계약] 일본 마케팅 - 김우중",
+        "status": {
+          "label": "요청",
+          "color": "#0053BF",
+          "bg": "rgba(0,181,241,.20)"
+        },
+        "assignee": {
+          "name": "유성균",
+          "color": "#5B6CF0"
+        },
+        "due": "",
+        "progress": 0,
+        "body": [
+          "김우중님 차주 수요일(22일)부터 하루 8시간 근무 예정입니다.",
+          "2개월 계약 진행 부탁드립니다.",
+          {
+            "t": "h",
+            "e": "📋",
+            "x": "계약 개요"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "👤",
+                "x": "대상: 김우중 (프리랜서)"
+              },
+              {
+                "e": "📅",
+                "x": "근무 시작: 6/22(수) ~"
+              },
+              {
+                "e": "⏱",
+                "x": "근무: 하루 8시간 / 주 5일"
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📝",
+            "x": "업무 목록"
+          },
+          {
+            "t": "table",
+            "cols": [
+              "업무명",
+              "내용",
+              "상태"
+            ],
+            "rows": [
+              [
+                "광고 운용",
+                "야후/구글 광고 셋팅·운용",
+                "진행중"
+              ],
+              [
+                "SNS 운용",
+                "X·인스타 기획 및 게시",
+                "대기"
+              ],
+              [
+                "기사 작성",
+                "PR 기사·블로그 작성",
+                "대기"
+              ]
+            ]
+          },
+          {
+            "t": "note",
+            "x": "단기계약 후 장기계약을 고려하겠습니다."
+          }
+        ]
+      },
+      {
+        "type": "todo",
+        "author": {
+          "name": "장아람",
+          "role": "Office Lead",
+          "team": "Operations팀",
+          "color": "#5BBF9A"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 3,
+        "title": "전시회 부스 준비 체크리스트",
+        "items": [
+          {
+            "text": "부스 디자인 시안 확정",
+            "done": false,
+            "assignee": {
+              "name": "박선아",
+              "color": "#9DC8FF"
+            }
+          },
+          {
+            "text": "배너·현수막 인쇄 발주",
+            "done": false,
+            "assignee": {
+              "name": "정해성",
+              "color": "#A8E6C0"
+            }
+          },
+          {
+            "text": "샘플 제품 포장",
+            "done": false,
+            "assignee": {
+              "name": "한지민",
+              "color": "#FFD4A8"
+            }
+          },
+          {
+            "text": "상담 예약 리스트 정리",
+            "done": false,
+            "assignee": {
+              "name": "노소연",
+              "color": "#F2A65A"
+            }
+          },
+          {
+            "text": "현장 스태프 배치표",
+            "done": false,
+            "assignee": {
+              "name": "유성균",
+              "color": "#5B6CF0"
+            }
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "author": {
+          "name": "SANO HARUKA",
+          "role": "Freelancer",
+          "team": "Japan",
+          "color": "#7E8694"
+        },
+        "datetime": "2026-06-04 12:37",
+        "read": 1,
+        "title": "Japan IT Week 부스 운영",
+        "dateBadge": {
+          "month": "2026-06",
+          "day": "04"
+        },
+        "timeRange": "2026-06-04 (목), 12:40 — 13:40",
+        "participants": {
+          "going": 1,
+          "notGoing": 1,
+          "pending": 0,
+          "avatars": [
+            {
+              "name": "노소연",
+              "color": "#F2A65A"
+            },
+            {
+              "name": "서혜조",
+              "color": "#B0A4E6"
+            }
+          ]
+        },
+        "zoom": true,
+        "reminder": "10분 전 미리 알림",
+        "recording": true,
+        "body": [
+          "도쿄 빅사이트 East Hall · Booth E-12",
+          "부스 운영 / 상담 응대 / 리드 수집 진행합니다."
+        ],
+        "rsvp": true
+      },
+      {
+        "type": "vote",
+        "author": {
+          "name": "Hyejo Seo",
+          "role": "Associate",
+          "team": "Market Expansion팀",
+          "color": "#D98AA6"
+        },
+        "datetime": "2026-06-04 16:14",
+        "read": 1,
+        "status": "진행중",
+        "title": "9월 신제품 키 비주얼 투표",
+        "description": "세 가지 키 비주얼 시안 중 가장 좋은 안을 골라주세요. 9월 런칭 메인 KV로 사용됩니다.",
+        "voters": 12,
+        "options": [
+          {
+            "label": "A안 — 미니멀 화이트",
+            "votes": 7,
+            "voted": true
+          },
+          {
+            "label": "B안 — 비비드 그라데이션",
+            "votes": 4
+          },
+          {
+            "label": "C안 — 다크 프리미엄",
+            "votes": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "author": {
+          "name": "June Lee",
+          "role": "Founder & CEO",
+          "team": "morningmate",
+          "color": "#5B6CF0"
+        },
+        "datetime": "2026-06-04 12:39",
+        "read": 8,
+        "title": "이번 주 마케팅 위클리 공유",
+        "body": [
+          "이번 주 마케팅 활동 요점을 공유합니다.",
+          {
+            "t": "h",
+            "e": "📊",
+            "x": "이번 주 하이라이트"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "🎯",
+                "b": true,
+                "x": "일본 전시회 리드 312건 수집",
+                "sub": [
+                  "CRM 업로드 진행 중. 다음 주부터 개별 팔로업을 시작합니다."
+                ]
+              },
+              {
+                "e": "🧪",
+                "b": true,
+                "x": "신규 LP A/B 테스트 완료",
+                "sub": [
+                  "B안 전환율 +18%. 본 반영을 진행합니다."
+                ]
+              },
+              {
+                "e": "📣",
+                "b": true,
+                "x": "PR TIMES 배포",
+                "sub": [
+                  "신제품 런칭 기사를 배포했고 초기 반응이 좋습니다."
+                ]
+              }
+            ]
+          },
+          {
+            "t": "h",
+            "e": "📌",
+            "x": "다음 주 액션"
+          },
+          {
+            "t": "ul",
+            "items": [
+              {
+                "e": "①",
+                "x": "리드 312건 개별 팔로업"
+              },
+              {
+                "e": "②",
+                "x": "LP B안 본 반영"
+              },
+              {
+                "e": "③",
+                "x": "9월 키비주얼 최종 확정"
+              }
+            ]
+          },
+          {
+            "t": "note",
+            "x": "상세 내용은 첨부 문서를 참고 부탁드립니다."
+          }
+        ],
+        "images": [
+          "https://loremflickr.com/900/720/marketing,office?lock=5"
+        ]
+      }
+    ],
+    "table": [
+      {
+        "task": "X/인스타/유튜브",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "SANO HARUKA",
+        "start": "",
+        "progress": 0,
+        "check": false,
+        "budget": "",
+        "children": [
+          {
+            "task": "5월",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "budget": "",
+            "collapsed": true,
+            "assignee": "Kimura Takuya",
+            "start": "",
+            "due": "",
+            "check": false
+          },
+          {
+            "task": "6월",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "Soyun Noh",
+            "more": 1,
+            "progress": 0,
+            "budget": "",
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "check": false
+          }
+        ],
+        "due": ""
+      },
+      {
+        "task": "일본 현지 직장인 심층 인터뷰",
+        "status": "Complete",
+        "assignee": "Hyejo Seo",
+        "due": "",
+        "progress": 100,
+        "budget": "",
+        "start": "",
+        "check": false
+      },
+      {
+        "task": "[강의공유] 스킬업",
+        "count": 2,
+        "status": "Progress",
+        "assignee": "SANO HARUKA",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "n8n",
+            "count": 3,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "Kimura Takuya",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "Claude Code",
+            "count": 4,
+            "status": "Progress",
+            "progress": 0,
+            "collapsed": true,
+            "assignee": "Soyun Noh",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "일본 IT도입보조금 조사",
+        "status": "Pending",
+        "progress": 0,
+        "assignee": "Hyejo Seo",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[정보 공유] 세미나/웨비나/오프라인 행사 등",
+        "count": 7,
+        "status": "Progress",
+        "progress": 0,
+        "children": [
+          {
+            "task": "백로그 웨비나",
+            "status": "Complete",
+            "assignee": "Kimura Takuya",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "노션 웨비나",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "Soyun Noh",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "kintone 웨비나",
+            "count": 2,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "Hyejo Seo",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "커타 웨비나",
+            "count": 3,
+            "status": "Complete",
+            "progress": 100,
+            "collapsed": true,
+            "assignee": "SANO HARUKA",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "flyle 웨비나",
+            "status": "Complete",
+            "assignee": "Kimura Takuya",
+            "more": 1,
+            "start": "",
+            "due": "",
+            "progress": 100,
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "TENDA 웨비나",
+            "status": "Pending",
+            "assignee": "Soyun Noh",
+            "more": 1,
+            "start": "",
+            "progress": 0,
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "GOOGLE cloude",
+            "status": "Pending",
+            "assignee": "Hyejo Seo",
+            "more": 1,
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "SANO HARUKA",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[검수] 일본어",
+        "count": 4,
+        "status": "Progress",
+        "assignee": "SANO HARUKA",
+        "progress": 100,
+        "purpleBar": true,
+        "children": [
+          {
+            "task": "전시화 관련",
+            "status": "Complete",
+            "assignee": "Kimura Takuya",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "PR 기사",
+        "count": 6,
+        "status": "Complete",
+        "assignee": "Soyun Noh",
+        "due": "",
+        "progress": 100,
+        "children": [
+          {
+            "task": "이벤트 참여안내문",
+            "status": "Complete",
+            "assignee": "Hyejo Seo",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "회원가입 이메일 시퀀스",
+            "status": "Complete",
+            "assignee": "SANO HARUKA",
+            "more": 1,
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[일본] 프리랜서 비용 지급",
+        "count": 5,
+        "status": "Pending",
+        "progress": 0,
+        "children": [
+          {
+            "task": "김우중 4월 계약금 (4/27 출근)",
+            "status": "Complete",
+            "assignee": "Soyun Noh",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "하루카 2월 계약금",
+            "status": "Complete",
+            "assignee": "Hyejo Seo",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "하루카 3월 계약금",
+            "status": "Complete",
+            "assignee": "SANO HARUKA",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "하루카 4월 계약금",
+            "status": "Pending",
+            "assignee": "Kimura Takuya",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "하루카 5월 계약금",
+            "status": "Pending",
+            "assignee": "Soyun Noh",
+            "due": "",
+            "progress": 0,
+            "start": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "assignee": "Kimura Takuya",
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[Paid] PR/미디어/퍼포먼스",
+        "count": 5,
+        "status": "Progress",
+        "assignee": "Hyejo Seo",
+        "progress": 0,
+        "children": [
+          {
+            "task": "[키워드광고] 야후 재팬 광고 셋팅",
+            "status": "Hold",
+            "assignee": "SANO HARUKA",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[키워드광고] 키워드 조사",
+            "status": "Complete",
+            "assignee": "Kimura Takuya",
+            "due": "",
+            "progress": 100,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[키워드광고] 구글 광고 셋팅",
+            "status": "Pending",
+            "assignee": "Soyun Noh",
+            "progress": 0,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[PR] PR TIMES 1개월 플랜 결제",
+            "count": 1,
+            "status": "Complete",
+            "assignee": "Hyejo Seo",
+            "due": "",
+            "progress": 100,
+            "collapsed": true,
+            "start": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[퍼포먼스] 광고소재 조사",
+            "status": "Complete",
+            "assignee": "SANO HARUKA",
+            "progress": 100,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      },
+      {
+        "task": "[일본] SNS/Blog",
+        "count": 16,
+        "status": "Progress",
+        "assignee": "Kimura Takuya",
+        "more": 1,
+        "progress": 0,
+        "children": [
+          {
+            "task": "[일본] 인스타그램",
+            "count": 12,
+            "status": "Progress",
+            "assignee": "Soyun Noh",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[일본] X",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "Hyejo Seo",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[일본] Blog",
+            "count": 1,
+            "status": "Progress",
+            "assignee": "SANO HARUKA",
+            "progress": 0,
+            "collapsed": true,
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          },
+          {
+            "task": "[일본]note",
+            "count": 3,
+            "status": "Progress",
+            "progress": 100,
+            "purpleBar": true,
+            "collapsed": true,
+            "assignee": "Kimura Takuya",
+            "start": "",
+            "due": "",
+            "budget": "",
+            "check": false
+          }
+        ],
+        "start": "",
+        "due": "",
+        "budget": "",
+        "check": false
+      }
+    ],
+    "gantt": [
+      {
+        "task": "노션 웨비나",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "kintone 웨비나",
+        "count": 2,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "커타 웨비나",
+        "count": 3,
+        "status": "Complete",
+        "collapsed": true,
+        "prog": 100
+      },
+      {
+        "task": "flyle 웨비나",
+        "status": "Complete",
+        "start": "2026-05-21",
+        "due": "2026-05-26",
+        "prog": 100,
+        "assignee": "SANO HARUKA",
+        "more": 1
+      },
+      {
+        "task": "TENDA 웨비나",
+        "status": "Pending",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 0,
+        "assignee": "SANO HARUKA",
+        "more": 1
+      },
+      {
+        "task": "GOOGLE cloude",
+        "status": "Pending",
+        "start": "2026-06-11",
+        "due": "2026-06-11",
+        "prog": 0
+      },
+      {
+        "task": "[검수] 일본어",
+        "count": 4,
+        "status": "Progress",
+        "prog": 60,
+        "check": true
+      },
+      {
+        "task": "전시화 관련",
+        "status": "Complete",
+        "due": "2026-04-06",
+        "prog": 100
+      },
+      {
+        "task": "PR 기사",
+        "count": 6,
+        "status": "Complete",
+        "due": "2026-04-07",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "[일본] 프리랜서 비용 지급",
+        "count": 5,
+        "status": "Pending",
+        "prog": 0
+      },
+      {
+        "task": "김우중 4월 계약금",
+        "status": "Complete",
+        "start": "2026-05-20",
+        "due": "2026-05-20",
+        "prog": 100,
+        "assignee": "SANO HARUKA",
+        "budget": "1,000"
+      },
+      {
+        "task": "하루카 2월 계약금",
+        "status": "Complete",
+        "due": "2026-03-31",
+        "prog": 100,
+        "budget": "1,000"
+      },
+      {
+        "task": "하루카 4월 계약금",
+        "status": "Pending",
+        "start": "2026-06-05",
+        "due": "2026-06-05",
+        "prog": 0,
+        "assignee": "SANO HARUKA"
+      },
+      {
+        "task": "하루카 5월 계약금",
+        "status": "Pending",
+        "start": "2026-07-03",
+        "due": "2026-07-03",
+        "prog": 0
+      }
+    ],
+    "calendar": {
+      "events": {
+        "2026-04-27": [
+          {
+            "time": "11:00 am",
+            "name": "[6/4(목) 13:00~18:00] 채널콘…",
+            "type": "event"
+          }
+        ],
+        "2026-05-05": [
+          {
+            "name": "어린이날",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-12": [
+          {
+            "time": "2:00 pm",
+            "name": "신주쿠 지사 방문",
+            "type": "event"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "11:00 am",
+            "name": "SNS 회고",
+            "type": "event"
+          }
+        ],
+        "2026-05-24": [
+          {
+            "name": "석가탄신일",
+            "type": "holiday"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "12:00 pm",
+            "name": "Money Forward AI",
+            "type": "event"
+          }
+        ],
+        "2026-06-06": [
+          {
+            "name": "현충일",
+            "type": "holiday"
+          }
+        ]
+      },
+      "evNames": [
+        "주간 마케팅 회의",
+        "일본 광고 소재 리뷰",
+        "콘텐츠 마감",
+        "프리랜서 협업 미팅",
+        "PR TIMES 발송",
+        "키비주얼 컨펌",
+        "전시회 부스 준비",
+        "리드 정리 작업",
+        "신제품 런칭 점검",
+        "월간 리포트 작성"
+      ],
+      "assignees": [
+        "노소연",
+        "장아람",
+        "Hyejo Seo",
+        "SANO HARUKA",
+        "June Lee",
+        "Kimura Takuya"
+      ]
+    },
+    "files": {
+      "projects": [
+        {
+          "color": "#F2A65A",
+          "emoji": "🔴",
+          "name": "[일본] 프리랜서 협업방",
+          "active": true
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "🇬🇧",
+          "name": "English Market..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🤖",
+          "name": "AI 팀 만들기 프..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🇯🇵",
+          "name": "[일본] 모닝메이트..."
+        },
+        {
+          "color": "#4A90E2",
+          "emoji": "",
+          "name": "[노소연] 개인 to-do"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "Data Extraction"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[일본] 경쟁사 모..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🔴",
+          "name": "[일본] 한국X일본..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "",
+          "name": "[PM] Policy & Impr..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "[QA] 모닝메이트 신..."
+        },
+        {
+          "color": "#D8D8DE",
+          "emoji": "",
+          "name": "노소연 개인방"
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "[PM] morningmate..."
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🌏",
+          "name": "Global MKT Hub"
+        },
+        {
+          "color": "#7A5BFF",
+          "emoji": "🎬",
+          "name": "영상 크리에이티..."
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "🎬",
+          "name": "영상 크리에이티..."
+        },
+        {
+          "color": "#9AA0AA",
+          "emoji": "🟡",
+          "name": "Japan Business"
+        },
+        {
+          "color": "#FF5A5A",
+          "emoji": "",
+          "name": "Data Extraction Ro..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "",
+          "name": "모닝메이트 x 인니컨..."
+        },
+        {
+          "color": "#FFC400",
+          "emoji": "",
+          "name": "Morningmate 사용..."
+        },
+        {
+          "color": "#36CFBD",
+          "emoji": "🇬🇧",
+          "name": "[UK] Sales"
+        }
+      ]
+    },
+    "search": {
+      "kw": "계약서",
+      "posts": [
+        {
+          "title": "[프리랜서 계약서] 일본 마케팅 - 김우중 계약 조건 검토 요청",
+          "body": "차주 수요일(22일)부터 하루 8시간 근무 기준, 2개월 단기 계약서로 작성했습니다. 계약서 초안(업무 범위·계약 기간·보수 지급일) 공유드리니 검토 후 회신 부탁드립니다. 단기 계약 후 성과에 따라 장기 계약서로 전환 예정입니다...",
+          "who": "노소연",
+          "date": "04-06-2026 12:36",
+          "tag": "Task",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "SANO HARUKA 2026 업무위탁 계약서 갱신 건",
+          "body": "기존 계약서 만료(5/31)에 따라 갱신 계약서를 준비했습니다. 보수 조건은 동일하되 업무 범위에 영상 편집을 추가했습니다. 표준 계약서 양식 기준이며, 전자서명으로 진행 예정입니다. 계약서 확인 후 서명 부탁드립니다...",
+          "who": "高橋結衣",
+          "date": "30-05-2026 10:12",
+          "tag": "Task",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "[법무 검토] 일본 현지 프리랜서 표준 계약서 양식 확정",
+          "body": "현지 프리랜서용 표준 계약서 양식을 법무 검토 완료했습니다. 앞으로 신규 계약은 이 계약서 양식으로 통일합니다. 첨부된 계약서 템플릿 확인 부탁드립니다...",
+          "who": "山本翔太",
+          "date": "28-05-2026 16:40",
+          "tag": "Task",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        },
+        {
+          "title": "전시회 부스 시공업체 계약서 날인 요청",
+          "body": "Japan IT Week 부스 시공업체와의 계약서 날인이 필요합니다. 계약 금액과 일정 확인 후 결재 부탁드립니다...",
+          "who": "伊藤彩",
+          "date": "27-04-2026 11:06",
+          "tag": "Task",
+          "proj": "Japan Business",
+          "color": "#19B43A"
+        },
+        {
+          "title": "광고 대행사 연간 계약서 조건 협의 메모",
+          "body": "야후재팬·구글 광고 대행사와 연간 계약서 조건을 협의 중입니다. 계약서상 최소 집행 금액과 수수료율 조항을 조정하고 있습니다...",
+          "who": "木村拓也",
+          "date": "14-05-2026 19:49",
+          "tag": "Task",
+          "proj": "[일본] 프리랜서 협업방",
+          "color": "#F5524A"
+        }
+      ],
+      "comments": [
+        {
+          "text": "계약서 초안 확인했습니다. 보수 지급일 조항만 '월말 정산'으로 수정 부탁드려요.",
+          "who": "山本翔太",
+          "date": "04-06-2026 13:10",
+          "proj": "[프리랜서 계약서] 일본 마케팅 - 김우중"
+        },
+        {
+          "text": "계약서상 업무 범위가 조금 넓은 것 같은데, 영상 편집은 별도 건으로 빼는게 좋을까요?",
+          "who": "佐野春香",
+          "date": "30-05-2026 11:02",
+          "proj": "SANO HARUKA 2026 업무위탁 계약서 갱신"
+        },
+        {
+          "text": "표준 계약서 양식 첨부했습니다. 다음 계약부터는 이대로 진행하면 될 것 같아요!",
+          "who": "高橋結衣",
+          "date": "28-05-2026 17:20",
+          "proj": "표준 계약서 양식 확정"
+        },
+        {
+          "text": "전자서명으로 계약서 날인 완료했습니다. 원본은 법무 폴더에 보관할게요.",
+          "who": "伊藤彩",
+          "date": "27-04-2026 15:33",
+          "proj": "부스 시공업체 계약서"
+        },
+        {
+          "text": "계약서 보수 조건 좋네요 👍 김우중님께도 조건 공유드렸습니다.",
+          "who": "노소연",
+          "date": "04-06-2026 14:05",
+          "proj": "[프리랜서 계약서] 일본 마케팅 - 김우중"
+        }
+      ],
+      "files": [
+        {
+          "name": "20260604_김우중_프리랜서_계약서_v2.pdf",
+          "who": "노소연",
+          "date": "04-06-2026 12:40",
+          "proj": "[일본] 프리랜서 협업방",
+          "size": "1.12 MB"
+        }
+      ],
+      "chats": [
+        {
+          "text": "계약서 초안 방금 공유드렸어요! 보수 조건 확인 부탁드려요",
+          "who": "노소연",
+          "date": "04-06-2026 12:38",
+          "proj": "SANO HARUKA"
+        },
+        {
+          "text": "계약서 보수는 월말 정산으로 통일할게요. 다음 갱신 계약서도 동일하게요!",
+          "who": "노소연",
+          "date": "08-06-2026 12:22",
+          "proj": "노소연, 高橋結衣, 山本翔太"
+        },
+        {
+          "text": "표준 계약서 양식 확정되면 기존 프리랜서분들 계약서도 순차적으로 갱신할까요?",
+          "who": "高橋結衣",
+          "date": "28-05-2026 20:48",
+          "proj": "高橋結衣"
+        },
+        {
+          "text": "대표님~ 전시회 시공업체 계약서 금액 컨펌해주시면 바로 날인 진행하겠습니다!",
+          "who": "伊藤彩",
+          "date": "27-04-2026 10:31",
+          "proj": "🔴[일본] 한국X일본XMWI 마케팅 협업방"
+        },
+        {
+          "text": "계약서 원본 스캔본 드라이브에 올렸습니다. 법무 폴더에서 확인 가능하세요!",
+          "who": "木村拓也",
+          "date": "14-05-2026 13:36",
+          "proj": "자료 공유 방"
+        }
+      ],
+      "projects": [
+        {
+          "name": "[일본] 프리랜서 계약 · 법무 협업방",
+          "who": "노소연",
+          "date": "01-02-2026 09:00",
+          "color": "#F5524A"
+        },
+        {
+          "name": "English Markets GTM — 벤더 계약서 관리",
+          "who": "小林由美",
+          "date": "12-03-2026 14:20",
+          "color": "#19B43A"
+        }
+      ]
+    },
+    "chat": {
+      "rooms": [
+        {
+          "name": "SANO HARUKA",
+          "pin": true,
+          "last": "영상 업무 아직 착수를 못했어요 ㅎㅎㅎㅎ ㅠㅠㅠㅠ",
+          "time": "08:16 PM",
+          "color": "#9DC8FF",
+          "active": true,
+          "convo": true
+        },
+        {
+          "name": "Hyejo (Jo) Seo, Jessica B...",
+          "count": 3,
+          "last": "하게 되면 채팅 남길게요",
+          "time": "05/18/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "❤️[협업방] KGNC X morni...",
+          "count": 4,
+          "last": "@신원준 안녕하세요 대표님, 오랜만에 인사드립니다.",
+          "time": "04/28/2026",
+          "color": "#FFB0B0"
+        },
+        {
+          "name": "Sooyoung Oh (work Jun 2,...",
+          "pin": true,
+          "last": "수영님~",
+          "time": "02/04/2026",
+          "color": "#FFD4A8"
+        },
+        {
+          "name": "Ashley, 김채영",
+          "count": 3,
+          "pin": true,
+          "last": "ㅎㅎ 일정 공유주셔서 감사합니다!! 🙏 올 한해도 잘부탁드립니다!",
+          "time": "01/30/2026",
+          "color": "#C5A3FF"
+        },
+        {
+          "name": "Hyejo Seo",
+          "last": "https://www.facebook.com/ads/library/?active_statu...",
+          "time": "04:58 PM",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "김채영",
+          "last": "네네!! ㅎㅎ 말씀주세요😋",
+          "time": "06/02/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "WOOJUNG KIM",
+          "last": "네넴 댓글 남겼습니다 https://morningmate.com/l/coYl",
+          "time": "05/15/2026",
+          "color": "#FFB89D"
+        },
+        {
+          "name": "Hyejo Seo, SANO HARUK...",
+          "count": 4,
+          "last": "네! 감사합니다!",
+          "time": "05/13/2026",
+          "color": "#9DC8FF"
+        },
+        {
+          "name": "Jessica Baek, WOOJUNG ...",
+          "count": 3,
+          "last": "감사합니다!! 잘 부탁드립니다. 가까운 시일 내에 또 뵙겠습니다.",
+          "time": "05/12/2026",
+          "color": "#A8E6C0"
+        },
+        {
+          "name": "Hyejo Seo, WOOJUNG KIM",
+          "count": 3,
+          "last": "네네!!",
+          "time": "05/11/2026",
+          "color": "#C5A3FF"
+        }
+      ],
+      "convo": [
+        {
+          "side": "them",
+          "link": "https://www.instagram.com/reel/DYg7JoCBL6F/?utm_source=ig_web_copy_link&igsh=MzRIODBiNWFIZA=="
+        },
+        {
+          "side": "them",
+          "card": {
+            "title": "morningmate - Instagram: ...",
+            "meta": "May 17, 2026, 5 likes, 0 comme..."
+          }
+        },
+        {
+          "side": "them",
+          "text": "이거인가요?",
+          "time": "5:46 PM"
+        },
+        {
+          "side": "them",
+          "text": "이거는 flow쓰고 음성과 원본 다 만들었어요!",
+          "time": "5:47 PM"
+        },
+        {
+          "side": "me",
+          "text": "넹넹"
+        },
+        {
+          "side": "me",
+          "text": "하루카상 미안한데요 ㅠ"
+        },
+        {
+          "side": "me",
+          "text": "혹시 내일 말고 월요일에 나와주는걸로 할수있을까요",
+          "time": "8:15 PM"
+        },
+        {
+          "side": "me",
+          "text": "영상 업무 아직 착수를 못했어요 ㅎㅎㅎㅎ ㅠㅠㅠㅠ",
+          "time": "8:16 PM"
+        },
+        {
+          "side": "them",
+          "text": "넵 알겠습니다! 월요일에 뵙겠습니다 🙏",
+          "time": "10:42 PM"
+        }
+      ],
+      "groupConvo": [
+        {
+          "side": "them",
+          "who": "June Lee",
+          "text": "다들 이번 주 [일본] 전시회 부스 준비 상황 공유 부탁드려요 🙌",
+          "time": "9:02 AM"
+        },
+        {
+          "side": "them",
+          "who": "장아람",
+          "text": "부스 부자재 오늘 발주 넣었습니다! 금요일 입고 예정이에요 📦",
+          "time": "9:10 AM"
+        },
+        {
+          "side": "them",
+          "who": "SANO HARUKA",
+          "text": "현지 통역 2명 섭외 완료했어요. 명단은 곧 공유드릴게요 😊",
+          "time": "9:15 AM"
+        },
+        {
+          "side": "me",
+          "text": "다들 고생 많으셨어요! 배너 시안은 제가 오늘 중으로 올릴게요"
+        },
+        {
+          "side": "them",
+          "who": "Hyejo Seo",
+          "text": "리드 수집용 QR 신청 폼도 거의 완성됐습니다 🔗",
+          "time": "9:22 AM"
+        },
+        {
+          "side": "me",
+          "text": "좋아요 🔥 그럼 목요일에 최종 리허설 한번 돌리시죠"
+        },
+        {
+          "side": "them",
+          "who": "June Lee",
+          "text": "👍 목요일 오후 3시로 캘린더 잡아둘게요",
+          "time": "9:30 AM"
+        }
+      ],
+      "notis": [
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Hyejo Seo's comment",
+          "task": "가설 ICP 세우기 2차",
+          "activity": "'🚫 Not started' → '⏳ In Progress' 상태로 변경되었습니다.",
+          "time": "몇 초 전",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Hyejo Seo님이 새 업무를 추가",
+          "task": "가설 ICP 세우기 2차",
+          "time": "4분 전",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Hyejo Seo's comment",
+          "task": "경쟁사 마케팅 채널 및 전략 조사",
+          "activity": "'⏳ In Progress' → '🎉 Done' 상태로 변경되었습니다.",
+          "time": "5분 전",
+          "unread": true
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#9DC8FF",
+          "actor": "Hyejo Seo's comment",
+          "task": "추가 마케팅 채널 조사",
+          "activity": "'⏳ In Progress' → '🎉 Done' 상태로 변경되었습니다.",
+          "time": "5분 전",
+          "unread": true
+        },
+        {
+          "proj": "[QA] Morningmate",
+          "av": "#A8E6C0",
+          "actor": "Kate Lee added a new reply",
+          "task": "[Website] Can't sign up to Morningmate",
+          "activity": "감사합니다 팀장님!!",
+          "time": "1시간 전"
+        },
+        {
+          "proj": "[일본] 프리랜서 협업방",
+          "emoji": "🔴",
+          "av": "#C5A3FF",
+          "actor": "SANO HARUKA added a new comment",
+          "plain": "먼저 퇴근하겠습니다! 내일 뵙겠습니다",
+          "time": "1시간 전"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "Kate Lee's comment",
+          "task": "저녁 레스토랑 부킹",
+          "activity": "'Kate Lee' 담당자가 추가되었습니다.",
+          "time": "2시간 전"
+        },
+        {
+          "proj": "English Markets GTM",
+          "emoji": "🟢",
+          "av": "#FFB89D",
+          "actor": "Kate Lee added a new comment",
+          "task": "[공유 및 컨펌 요청] 브루넬 대학교 부총장 방문 미팅 어레인지 건",
+          "activity": "3시 사무실 방문 + 이후 저녁으로 어레인지 완료",
+          "time": "2시간 전"
+        }
+      ],
+      "haruka": {
+        "pin": "📢 8일 출근, 18일 출근하겠습니다!",
+        "auto": "하루카상 영상 편집본 확인했어요! 퀄리티 너무 좋네요 👍 월요일에 뵐게요"
+      },
+      "group": {
+        "name": "[일본] 프리랜서 협업방",
+        "pin": "📢 [일본] 전시회 D-3! 부스 최종 점검 부탁드려요 🔥",
+        "auto": "방금 배너 최종 시안 공유드렸어요! 확인 후 코멘트 부탁드려요 🙏"
+      },
+      "personTpl": {
+        "pin": "📢 {name}님과의 1:1 대화",
+        "auto": "넵 확인했습니다! 바로 반영해서 다시 공유드릴게요 🙌",
+        "msgs": [
+          {
+            "side": "them",
+            "text": "안녕하세요! 방금 공유해주신 자료 잘 받았습니다 😊"
+          },
+          {
+            "side": "me",
+            "text": "네 확인 부탁드려요!"
+          },
+          {
+            "side": "them",
+            "text": "넵 바로 반영해서 회신드릴게요 🙌"
+          }
+        ]
+      }
+    },
+    "participants": [
+      {
+        "name": "노소연",
+        "role": "팀장"
+      },
+      {
+        "name": "사노 하루카",
+        "role": "프리랜서"
+      },
+      {
+        "name": "장아람",
+        "role": "Office Lead"
+      },
+      {
+        "name": "서혜조",
+        "role": "Associate"
+      },
+      {
+        "name": "이준",
+        "role": "Founder & CEO"
+      }
+    ],
+    "participantsInvited": [
+      {
+        "name": "이준호",
+        "role": "Engineer",
+        "color": "#7BC3A0",
+        "photo": "assets/profile/man1.png"
+      },
+      {
+        "name": "카토 리쿠",
+        "role": "Sales",
+        "color": "#8FA4E6",
+        "photo": "assets/profile/man3.png"
+      },
+      {
+        "name": "정우성",
+        "role": "Support",
+        "color": "#E6B45B",
+        "photo": "assets/profile/man5.png"
+      }
+    ]
+  }
+}
