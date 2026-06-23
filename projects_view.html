@@ -347,7 +347,7 @@
     document.getElementById("pv-body").addEventListener("click", function(e){
       var card=e.target.closest(".pcard"); if(!card || card._busy) return; card._busy=true;
       var mem=Math.max(1, +card.getAttribute("data-mem")||1);
-      var foot=card.querySelector(".pc-foot .mem"); if(!foot){ location.href="app.html#feed"; return; }
+      var foot=card.querySelector(".pc-foot .mem"); if(!foot){ location.href="app.html?lang="+LANG+"#feed"; return; }
       var holder=document.createElement("span"); holder.style.cssText="display:inline-flex;align-items:center;margin-left:8px;vertical-align:middle;"; foot.appendChild(holder);
       for(var i=0;i<mem;i++){ (function(idx){ setTimeout(function(){
         var a=document.createElement("span");
@@ -357,7 +357,7 @@
       var inDone=mem*120+380;
       setTimeout(function(){
         holder.style.transition="opacity .32s ease,transform .32s ease"; holder.style.opacity="0"; holder.style.transform="translateY(-5px)";
-        setTimeout(function(){ location.href="app.html#feed"; }, 340);
+        setTimeout(function(){ location.href="app.html?lang="+LANG+"#feed"; }, 340);
       }, inDone+700);
     });
   </script>

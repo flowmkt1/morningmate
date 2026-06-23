@@ -30,6 +30,8 @@
   .btns .pc:hover{background:#5238e0;}
   .btns .mo{background:#F1F0F6;color:#4b4b5a;}
   .btns .mo:hover{background:#e7e6ef;}
+  .homelink{display:inline-flex;align-items:center;margin-top:24px;text-decoration:none;font-size:14px;font-weight:700;color:#4b3fd0;background:#fff;border:1px solid #d9d2ff;border-radius:12px;padding:13px 20px;transition:.15s;box-shadow:0 6px 18px rgba(100,73,255,.08);}
+  .homelink:hover{background:#f3f0ff;border-color:#b9a9ff;}
   .foot{margin-top:34px;color:#a6a6b4;font-size:12.5px;text-align:center;line-height:1.7;}
 </style>
 </head>
@@ -47,15 +49,17 @@
 
   <div class="grid" id="grid"></div>
 
+  <a id="homelink" class="homelink" href="projects_view.html?lang=ja" data-t="home">🗂 マイプロジェクト ホーム（全プロジェクト統合ビュー）</a>
+
   <div class="foot" data-t="foot">morningmate (flow) — 体験用デモ。データはサンプルです。</div>
 </div>
 
 <script>
   var LANG = 'ja';
   var T = {
-    ja:{ title:'プロジェクト協業 デモ', sub:'実際の製品とそっくりなインタラクティブ・デモ。下のいずれかを開いて、クリック・スクロールで体験できます。', foot:'morningmate (flow) — 体験用デモ。データはサンプルです。', pc:'PCで開く', mo:'モバイルで開く' },
-    ko:{ title:'프로젝트 협업 데모', sub:'실제 제품과 똑같은 인터랙티브 데모입니다. 아래에서 골라 열고 클릭·스크롤로 체험해 보세요.', foot:'morningmate (flow) — 체험용 데모. 데이터는 샘플입니다.', pc:'PC로 열기', mo:'모바일로 열기' },
-    en:{ title:'Project Collaboration Demo', sub:'A pixel-accurate interactive demo of the real product. Open one below and explore by clicking and scrolling.', foot:'morningmate (flow) — interactive demo. Sample data only.', pc:'Open on PC', mo:'Open on Mobile' }
+    ja:{ title:'プロジェクト協業 デモ', sub:'実際の製品とそっくりなインタラクティブ・デモ。下のいずれかを開いて、クリック・スクロールで体験できます。', foot:'morningmate (flow) — 体験用デモ。データはサンプルです。', pc:'PCで開く', mo:'モバイルで開く', home:'🗂 マイプロジェクト ホーム（全プロジェクト統合ビュー）' },
+    ko:{ title:'프로젝트 협업 데모', sub:'실제 제품과 똑같은 인터랙티브 데모입니다. 아래에서 골라 열고 클릭·스크롤로 체험해 보세요.', foot:'morningmate (flow) — 체험용 데모. 데이터는 샘플입니다.', pc:'PC로 열기', mo:'모바일로 열기', home:'🗂 내 프로젝트 홈 (전체 프로젝트 통합 뷰)' },
+    en:{ title:'Project Collaboration Demo', sub:'A pixel-accurate interactive demo of the real product. Open one below and explore by clicking and scrolling.', foot:'morningmate (flow) — interactive demo. Sample data only.', pc:'Open on PC', mo:'Open on Mobile', home:'🗂 My Projects Home (cross-project workspace)' }
   };
   var CARDS = {
     ja:[
@@ -78,6 +82,7 @@
     var t=T[LANG];
     document.querySelectorAll('[data-t]').forEach(function(e){ var k=e.getAttribute('data-t'); if(t[k]) e.textContent=t[k]; });
     document.documentElement.lang=LANG;
+    var hl=document.getElementById('homelink'); if(hl) hl.href='projects_view.html?lang='+LANG;
     var g=document.getElementById('grid'); g.innerHTML='';
     CARDS[LANG].forEach(function(c){
       var q='?inst='+c.inst+'&lang='+LANG;
