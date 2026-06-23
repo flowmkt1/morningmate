@@ -142,22 +142,22 @@
             [
               "Cut tact time",
               "Re-layout bottleneck & improve jigs",
-              "진행중"
+              "In progress"
             ],
             [
               "Reduce defects",
               "Analyze & fix initial defects",
-              "대기"
+              "Pending"
             ],
             [
               "Equipment uptime",
               "Analyze downtime & preventive maint.",
-              "대기"
+              "Pending"
             ],
             [
               "Work standard",
               "Update SOP & train operators",
-              "대기"
+              "Pending"
             ]
           ]
         },
@@ -271,7 +271,7 @@
       },
       "datetime": "2026-06-04 16:14",
       "read": 1,
-      "status": "진행중",
+      "status": "In progress",
       "title": "Jig improvement vote",
       "description": "Pick the priority jig-improvement plan for the bottleneck process.",
       "voters": 8,
@@ -612,7 +612,7 @@
       "time": "a few seconds ago",
       "emoji": "🟢",
       "task": "Tact time measure #2",
-      "activity": "'요청' → '진행중' Status has been updated.",
+      "activity": "'Pending' → 'In progress' Status has been updated.",
       "unread": true
     },
     {
@@ -631,7 +631,7 @@
       "time": "5 minutes ago",
       "emoji": "🟢",
       "task": "Initial production QC",
-      "activity": "'진행중' → '완료' Status has been updated.",
+      "activity": "'In progress' → 'Done' Status has been updated.",
       "unread": true
     },
     {
@@ -641,7 +641,7 @@
       "time": "5 minutes ago",
       "emoji": "🟢",
       "task": "Order key parts",
-      "activity": "'진행중' → '완료' Status has been updated.",
+      "activity": "'In progress' → 'Done' Status has been updated.",
       "unread": true
     },
     {
@@ -1160,22 +1160,22 @@
               [
                 "Cut tact time",
                 "Re-layout bottleneck & improve jigs",
-                "진행중"
+                "In progress"
               ],
               [
                 "Reduce defects",
                 "Analyze & fix initial defects",
-                "대기"
+                "Pending"
               ],
               [
                 "Equipment uptime",
                 "Analyze downtime & preventive maint.",
-                "대기"
+                "Pending"
               ],
               [
                 "Work standard",
                 "Update SOP & train operators",
-                "대기"
+                "Pending"
               ]
             ]
           },
@@ -1289,7 +1289,7 @@
         },
         "datetime": "2026-06-04 16:14",
         "read": 1,
-        "status": "진행중",
+        "status": "In progress",
         "title": "Jig improvement vote",
         "description": "Pick the priority jig-improvement plan for the bottleneck process.",
         "voters": 8,
@@ -2294,7 +2294,7 @@
           "time": "a few seconds ago",
           "emoji": "🟢",
           "task": "Tact time measure #2",
-          "activity": "'요청' → '진행중' Status has been updated.",
+          "activity": "'Pending' → 'In progress' Status has been updated.",
           "unread": true
         },
         {
@@ -2313,7 +2313,7 @@
           "time": "5 minutes ago",
           "emoji": "🟢",
           "task": "Initial production QC",
-          "activity": "'진행중' → '완료' Status has been updated.",
+          "activity": "'In progress' → 'Done' Status has been updated.",
           "unread": true
         },
         {
@@ -2323,7 +2323,7 @@
           "time": "5 minutes ago",
           "emoji": "🟢",
           "task": "Order key parts",
-          "activity": "'진행중' → '완료' Status has been updated.",
+          "activity": "'In progress' → 'Done' Status has been updated.",
           "unread": true
         },
         {

@@ -142,22 +142,22 @@
             [
               "Store interior prep",
               "Manage interior progress & quality checks",
-              "진행중"
+              "In progress"
             ],
             [
               "Equipment sourcing",
               "List and order needed equipment",
-              "대기"
+              "Pending"
             ],
             [
               "Staff hiring & training",
               "Hiring plan and training schedule",
-              "대기"
+              "Pending"
             ],
             [
               "Promo prep",
               "Plan opening ads & campaign",
-              "대기"
+              "Pending"
             ]
           ]
         },
@@ -271,7 +271,7 @@
       },
       "datetime": "2026-06-04 16:14",
       "read": 1,
-      "status": "진행중",
+      "status": "In progress",
       "title": "Store BGM plan vote",
       "description": "Pick the BGM plan for the opening store.",
       "voters": 9,
@@ -1208,22 +1208,22 @@
               [
                 "Store interior prep",
                 "Manage interior progress & quality checks",
-                "진행중"
+                "In progress"
               ],
               [
                 "Equipment sourcing",
                 "List and order needed equipment",
-                "대기"
+                "Pending"
               ],
               [
                 "Staff hiring & training",
                 "Hiring plan and training schedule",
-                "대기"
+                "Pending"
               ],
               [
                 "Promo prep",
                 "Plan opening ads & campaign",
-                "대기"
+                "Pending"
               ]
             ]
           },
@@ -1337,7 +1337,7 @@
         },
         "datetime": "2026-06-04 16:14",
         "read": 1,
-        "status": "진행중",
+        "status": "In progress",
         "title": "Store BGM plan vote",
         "description": "Pick the BGM plan for the opening store.",
         "voters": 9,
