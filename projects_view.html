@@ -78,6 +78,62 @@
     #pgrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;}
     .pcard{width:auto;height:150px;padding:13px 13px 13px 26px;}
   }
+  /* ===== 통합 뷰(cross-project) 공통 ===== */
+  .pv-note{font-size:13px;color:#9a9aa2;margin:-4px 0 16px;}
+  .pv-ptag{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:#666;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .pv-ptag .dot{width:9px;height:9px;border-radius:3px;flex-shrink:0;}
+  .pv-st{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:4px 10px;border-radius:14px;white-space:nowrap;}
+  .pv-st .d{width:7px;height:7px;border-radius:50%;}
+  /* 표(Tasks) */
+  .pv-tbl{width:100%;border-collapse:collapse;background:#fff;border:1px solid #ECECEF;border-radius:12px;overflow:hidden;}
+  .pv-tbl th{font-size:12.5px;font-weight:700;color:#8a8a92;text-align:left;padding:13px 16px;background:#FAFAFB;border-bottom:1px solid #EFEFF1;}
+  .pv-tbl td{font-size:13.5px;color:#3a3a42;padding:13px 16px;border-bottom:1px solid #F4F4F6;}
+  .pv-tbl tbody tr:last-child td{border-bottom:none;} .pv-tbl tbody tr:hover{background:#FAFAFB;}
+  .pv-tbl td.t{font-weight:600;color:#2b2b33;} .pv-tbl td.due{color:#777;white-space:nowrap;}
+  /* 간트 */
+  .pv-gantt{background:#fff;border:1px solid #ECECEF;border-radius:12px;padding:8px 14px;overflow:hidden;}
+  .g-row{display:flex;align-items:center;height:42px;border-bottom:1px solid #F4F4F6;} .g-row:last-child{border-bottom:none;}
+  .g-head{height:34px;color:#9a9aa2;font-size:11px;} .g-lab{width:320px;flex-shrink:0;display:flex;align-items:center;gap:9px;overflow:hidden;padding-right:12px;}
+  .g-tt{font-size:13px;color:#3a3a42;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .g-tl{flex:1;position:relative;height:100%;display:flex;} .g-head .g-tl{align-items:center;}
+  .g-d{flex:1;text-align:center;border-left:1px solid #F4F4F6;} .g-d.we{background:#FAF8FF;}
+  .g-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.15);}
+  /* 캘린더 */
+  .pv-cal-h{font-size:16px;font-weight:700;color:#333;margin-bottom:12px;}
+  .pv-cal{background:#fff;border:1px solid #ECECEF;border-radius:12px;overflow:hidden;}
+  .c-wd{display:grid;grid-template-columns:repeat(7,1fr);background:#FAFAFB;border-bottom:1px solid #EFEFF1;}
+  .c-wd span{text-align:center;font-size:12px;font-weight:700;color:#9a9aa2;padding:9px 0;} .c-wd .sun{color:#E0584D;} .c-wd .sat{color:#3A78E0;}
+  .c-grid{display:grid;grid-template-columns:repeat(7,1fr);}
+  .c-cell{min-height:84px;border-right:1px solid #F4F4F6;border-bottom:1px solid #F4F4F6;padding:6px 7px;}
+  .c-cell.empty{background:#FCFCFD;} .c-n{font-size:12px;color:#888;}
+  .c-ev{display:block;font-size:11px;color:#fff;border-radius:5px;padding:2px 6px;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  /* 파일 */
+  .pv-files{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;}
+  .fcard{background:#fff;border:1px solid #ECECEF;border-radius:12px;padding:16px;cursor:pointer;transition:box-shadow .15s;} .fcard:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);}
+  .fic{width:42px;height:42px;border-radius:9px;color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:11px;}
+  .fnm{font-size:13.5px;font-weight:600;color:#2b2b33;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .fmeta{margin:7px 0 5px;} .fsz{font-size:12px;color:#a6a6b4;}
+  /* 리스트(멘션/내글/임시저장/북마크) */
+  .pv-list{display:flex;flex-direction:column;gap:1px;background:#ECECEF;border:1px solid #ECECEF;border-radius:12px;overflow:hidden;}
+  .pv-li{display:flex;align-items:center;gap:12px;background:#fff;padding:14px 16px;cursor:pointer;} .pv-li:hover{background:#FAFAFB;}
+  .pv-av{width:34px;height:34px;border-radius:50%;flex-shrink:0;}
+  .pv-bm{font-size:18px;width:30px;text-align:center;flex-shrink:0;}
+  .pv-li-b{flex:1;min-width:0;} .pv-li-t{font-size:13.5px;color:#2b2b33;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .pv-li-m{display:flex;align-items:center;gap:8px;margin-top:5px;font-size:12px;color:#9a9aa2;} .pv-li-m .sep{color:#d8d8de;} .pv-li-m .tm{color:#a6a6b4;}
+  .pv-star{color:#FFB800;font-size:16px;}
+  /* 대시보드 */
+  .d-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:8px;}
+  .d-card{background:#fff;border:1px solid #ECECEF;border-radius:12px;padding:20px;} .d-num{font-size:30px;font-weight:800;line-height:1;} .d-lab{font-size:13px;color:#8a8a92;margin-top:8px;}
+  .d-sec{font-size:15px;font-weight:700;color:#444;margin:26px 0 12px;}
+  .d-prog{background:#fff;border:1px solid #ECECEF;border-radius:12px;padding:8px 18px;}
+  .d-pr{padding:13px 0;border-bottom:1px solid #F4F4F6;} .d-pr:last-child{border-bottom:none;}
+  .d-pr-h{display:flex;align-items:center;margin-bottom:9px;} .d-pct{margin-left:auto;font-size:13px;font-weight:700;color:#555;}
+  .d-bar{height:8px;border-radius:5px;background:#EFEFF2;overflow:hidden;} .d-bar span{display:block;height:100%;border-radius:5px;}
+  /* 초대 */
+  .pv-invite{background:#fff;border:1px solid #ECECEF;border-radius:14px;padding:40px;text-align:center;max-width:460px;}
+  .iv-ic{font-size:40px;} .iv-h{font-size:19px;font-weight:800;margin:12px 0 6px;color:#23233a;} .iv-p{font-size:13.5px;color:#8a8a9a;margin-bottom:20px;line-height:1.5;}
+  .iv-row{display:flex;gap:10px;} .iv-in{flex:1;border:1px solid #E2E2E8;border-radius:9px;padding:11px 14px;font-size:13.5px;font-family:inherit;outline:none;} .iv-in:focus{border-color:var(--mm);}
+  .iv-btn{background:var(--mm);color:#fff;border:0;border-radius:9px;padding:0 20px;font-size:13.5px;font-weight:700;cursor:pointer;}
 </style>
 </head>
 <body>
@@ -85,20 +141,20 @@
     <aside class="sb">
       <div class="sb-logo"><img src="https://24076689.fs1.hubspotusercontent-na1.net/hubfs/24076689/%5BMorningmate%5D/%F0%9F%92%9C%20MKT/Group%208301.png" alt="morningmate"></div>
       <div class="sb-new"><span class="ico-plus"></span> <span data-i18n="newProject">New Project</span></div>
-      <div class="sb-item on"><span class="ico-home"></span><span data-i18n="myProjects">My Projects</span><span class="badge">45</span></div>
-      <div class="sb-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="7" height="8" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="11" width="7" height="10" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg><span data-i18n="dashboard">Dashboard</span></div>
-      <div class="sb-item"><span class="ico-search"></span><span data-i18n="allMember">All-member projects</span></div>
-      <div class="sb-item"><span class="ico-more"></span><span data-i18n="more">More</span></div>
+      <div class="sb-item on" data-view="projects"><span class="ico-home"></span><span data-i18n="myProjects">My Projects</span><span class="badge">45</span></div>
+      <div class="sb-item" data-view="dashboard"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="7" height="8" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="11" width="7" height="10" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg><span data-i18n="dashboard">Dashboard</span></div>
+      <div class="sb-item" data-view="allprojects"><span class="ico-search"></span><span data-i18n="allMember">All-member projects</span></div>
+      <div class="sb-item" data-view="more"><span class="ico-more"></span><span data-i18n="more">More</span></div>
       <div class="sb-sec"><span data-i18n="seeAll">See all</span> <span>▴</span></div>
-      <div class="sb-item"><span class="ico-task"></span><span data-i18n="tasks">Tasks</span></div>
-      <div class="sb-item"><span class="ico-ganttchart"></span><span data-i18n="gantt">Gantt</span></div>
-      <div class="sb-item"><span class="ico-schedule"></span><span data-i18n="calendar">Calendar</span></div>
-      <div class="sb-item"><span class="ico-filebox"></span><span data-i18n="files">Files</span></div>
-      <div class="sb-item"><span class="ico-bookmark"></span><span data-i18n="bookmarks">Bookmarks</span></div>
-      <div class="sb-item"><span class="ico-mention"></span><span data-i18n="mentions">Mentions</span></div>
-      <div class="sb-item"><span class="ico-my-write"></span><span data-i18n="myPosts">My Posts</span></div>
-      <div class="sb-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6"/></svg><span data-i18n="savedDrafts">Saved drafts</span></div>
-      <div class="sb-foot"><div class="sb-item"><span class="ico-invite"></span><span data-i18n="invite">Invite Employees</span></div><div class="cs"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 113.5 2.3c-.8.5-1 .9-1 1.7"/><circle cx="12" cy="17" r="1" fill="currentColor" stroke="none"/></svg><span data-i18n="support">Customer Support</span></div></div>
+      <div class="sb-item" data-view="tasks"><span class="ico-task"></span><span data-i18n="tasks">Tasks</span></div>
+      <div class="sb-item" data-view="gantt"><span class="ico-ganttchart"></span><span data-i18n="gantt">Gantt</span></div>
+      <div class="sb-item" data-view="calendar"><span class="ico-schedule"></span><span data-i18n="calendar">Calendar</span></div>
+      <div class="sb-item" data-view="files"><span class="ico-filebox"></span><span data-i18n="files">Files</span></div>
+      <div class="sb-item" data-view="bookmarks"><span class="ico-bookmark"></span><span data-i18n="bookmarks">Bookmarks</span></div>
+      <div class="sb-item" data-view="mentions"><span class="ico-mention"></span><span data-i18n="mentions">Mentions</span></div>
+      <div class="sb-item" data-view="myposts"><span class="ico-my-write"></span><span data-i18n="myPosts">My Posts</span></div>
+      <div class="sb-item" data-view="drafts"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6"/></svg><span data-i18n="savedDrafts">Saved drafts</span></div>
+      <div class="sb-foot"><div class="sb-item" data-view="invite"><span class="ico-invite"></span><span data-i18n="invite">Invite Employees</span></div><div class="cs"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 113.5 2.3c-.8.5-1 .9-1 1.7"/><circle cx="12" cy="17" r="1" fill="currentColor" stroke="none"/></svg><span data-i18n="support">Customer Support</span></div></div>
     </aside>
     <div class="main">
       <div class="top">
@@ -107,11 +163,8 @@
         <div class="right"><span class="mm-ic org"></span><span class="badge-n"><span class="mm-ic bell"></span><span class="n">45</span></span><span class="ava"></span></div>
       </div>
       <div class="pwrap">
-        <div class="pwrap-h"><h1 data-i18n="myProjects">My Projects</h1><div class="ctl"><span>⇅ <span data-i18n="sort">Sort</span></span><span>⚙ <span data-i18n="settings">Settings</span></span><span class="vt"><span class="v on">▦</span><span class="v">☰</span></span></div></div>
-        <div class="pwrap-inner">
-          <div class="fav-h" data-i18n="favorites">Favorites</div>
-          <div id="pgrid"></div>
-        </div>
+        <div class="pwrap-h"><h1 id="pv-title">My Projects</h1><div class="ctl" id="pv-ctl"><span>⇅ <span data-i18n="sort">Sort</span></span><span>⚙ <span data-i18n="settings">Settings</span></span><span class="vt"><span class="v on">▦</span><span class="v">☰</span></span></div></div>
+        <div class="pwrap-inner" id="pv-body"></div>
       </div>
     </div>
   </div>
@@ -139,24 +192,138 @@
       en:["English Markets GTM","[Japan] Freelance Collaboration","Build an AI Team Project","[My] Personal To-do","[Japan] Competitor Monitoring (Auto)","Global Marketing Collaboration Room","Global MKT Hub","Video Creative Team Room","Japan Business","[Influencer Agency] KGNC","[UK] Event/Seminar"]
     };
     var UI = {
-      ko:{ newProject:"새 프로젝트", myProjects:"내 프로젝트", dashboard:"대시보드", allMember:"전체 멤버 프로젝트", more:"더보기", seeAll:"전체 보기", tasks:"업무", gantt:"간트차트", calendar:"캘린더", files:"파일", bookmarks:"북마크", mentions:"멘션", myPosts:"내가 쓴 글", savedDrafts:"임시 저장", invite:"멤버 초대", support:"고객 지원", search:"스마트 검색", sort:"정렬", settings:"설정", favorites:"즐겨찾기" },
-      ja:{ newProject:"新規プロジェクト", myProjects:"マイプロジェクト", dashboard:"ダッシュボード", allMember:"全メンバーのプロジェクト", more:"もっと見る", seeAll:"すべて表示", tasks:"タスク", gantt:"ガントチャート", calendar:"カレンダー", files:"ファイル", bookmarks:"ブックマーク", mentions:"メンション", myPosts:"自分の投稿", savedDrafts:"一時保存", invite:"メンバーを招待", support:"カスタマーサポート", search:"スマート検索", sort:"並び替え", settings:"設定", favorites:"お気に入り" },
-      en:{ newProject:"New Project", myProjects:"My Projects", dashboard:"Dashboard", allMember:"All-member projects", more:"More", seeAll:"See all", tasks:"Tasks", gantt:"Gantt", calendar:"Calendar", files:"Files", bookmarks:"Bookmarks", mentions:"Mentions", myPosts:"My Posts", savedDrafts:"Saved drafts", invite:"Invite Employees", support:"Customer Support", search:"Smart Search", sort:"Sort", settings:"Settings", favorites:"Favorites" }
+      ko:{ newProject:"새 프로젝트", myProjects:"내 프로젝트", dashboard:"대시보드", allMember:"전체 멤버 프로젝트", more:"더보기", seeAll:"전체 보기", tasks:"업무", gantt:"간트차트", calendar:"캘린더", files:"파일", bookmarks:"북마크", mentions:"멘션", myPosts:"내가 쓴 글", savedDrafts:"임시 저장", invite:"멤버 초대", support:"고객 지원", search:"스마트 검색", sort:"정렬", settings:"설정", favorites:"즐겨찾기",
+        crossNote:"내가 속한 모든 프로젝트방을 한곳에 모았습니다", colTask:"업무명", colProject:"프로젝트", colStatus:"상태", colAssignee:"담당자", colDue:"마감", st0:"요청", st1:"진행중", st2:"피드백", st3:"완료", dProjects:"프로젝트", dActive:"진행 중 업무", dDue:"이번 주 마감", dMent:"새 멘션", dProgress:"프로젝트별 진행률", dRecent:"최근 활동", colFile:"파일명", colSize:"크기", thisMonth:"2026년 6월", invHint:"이메일로 동료를 초대해 함께 협업하세요.", invPh:"이메일 주소 입력", invBtn:"초대 보내기", moreItems:["휴지통","템플릿","아카이브된 프로젝트","태그 관리"], wd:["일","월","화","수","목","금","토"], me:"노소연" },
+      ja:{ newProject:"新規プロジェクト", myProjects:"マイプロジェクト", dashboard:"ダッシュボード", allMember:"全メンバーのプロジェクト", more:"もっと見る", seeAll:"すべて表示", tasks:"タスク", gantt:"ガントチャート", calendar:"カレンダー", files:"ファイル", bookmarks:"ブックマーク", mentions:"メンション", myPosts:"自分の投稿", savedDrafts:"一時保存", invite:"メンバーを招待", support:"カスタマーサポート", search:"スマート検索", sort:"並び替え", settings:"設定", favorites:"お気に入り",
+        crossNote:"自分が参加している全プロジェクトをまとめて表示します", colTask:"タスク名", colProject:"プロジェクト", colStatus:"ステータス", colAssignee:"担当者", colDue:"期日", st0:"待機", st1:"進行中", st2:"レビュー", st3:"完了", dProjects:"プロジェクト", dActive:"進行中タスク", dDue:"今週締切", dMent:"新着メンション", dProgress:"プロジェクト別 進捗", dRecent:"最近の活動", colFile:"ファイル名", colSize:"サイズ", thisMonth:"2026年6月", invHint:"メールで同僚を招待して一緒に協業しましょう。", invPh:"メールアドレスを入力", invBtn:"招待を送る", moreItems:["ゴミ箱","テンプレート","アーカイブ済みプロジェクト","タグ管理"], wd:["日","月","火","水","木","金","土"], me:"田中 美咲" },
+      en:{ newProject:"New Project", myProjects:"My Projects", dashboard:"Dashboard", allMember:"All-member projects", more:"More", seeAll:"See all", tasks:"Tasks", gantt:"Gantt", calendar:"Calendar", files:"Files", bookmarks:"Bookmarks", mentions:"Mentions", myPosts:"My Posts", savedDrafts:"Saved drafts", invite:"Invite Employees", support:"Customer Support", search:"Smart Search", sort:"Sort", settings:"Settings", favorites:"Favorites",
+        crossNote:"All projects you belong to, in one place", colTask:"Task", colProject:"Project", colStatus:"Status", colAssignee:"Assignee", colDue:"Due", st0:"Pending", st1:"In progress", st2:"Review", st3:"Done", dProjects:"Projects", dActive:"Active tasks", dDue:"Due this week", dMent:"New mentions", dProgress:"Progress by project", dRecent:"Recent activity", colFile:"File name", colSize:"Size", thisMonth:"June 2026", invHint:"Invite teammates by email to collaborate.", invPh:"Enter email address", invBtn:"Send invite", moreItems:["Trash","Templates","Archived projects","Manage tags"], wd:["S","M","T","W","T","F","S"], me:"Emma Walker" }
     };
+    function T(k){ return (UI[LANG]||UI.ja)[k]; }
+    var STC=[{bg:"rgba(0,181,241,.18)",c:"#0053BF",d:"#00B5F1"},{bg:"#DCF5E3",c:"#1A8F2E",d:"#19B43A"},{bg:"#FFE8D6",c:"#E8730C",d:"#FB8C2A"},{bg:"rgba(66,61,197,.18)",c:"#402A9D",d:"#5B4BE0"}];
+    function stLabel(s){ return T('st'+s); }
+    var PPL={ ko:["김상우","박정호","이수진","최민석","정대현","한지영"], ja:["佐野 春香","田中 健一","伊藤 彩","鈴木 一郎","高橋 結衣","渡辺 彩"], en:["Haruka Sano","Kenji Tanaka","Aya Ito","Ichiro Suzuki","Yui Takahashi","Aya Watanabe"] };
+    // 여러 프로젝트에 걸친 샘플 데이터(프로젝트 인덱스 pi로 태그) — 텍스트는 언어별
+    var TASK_T={ ko:["광고 소재 3종 검수","계약서 표준 양식 확정","ICP 가설 2차 수립","웨비나 자료 준비","리드 CRM 업로드","랜딩페이지 A/B 테스트","경쟁사 광고 모니터링","인플루언서 제안서 발송","주간 보고서 작성","SOP 업데이트 교육","부스 동선 점검표","뉴스레터 발송"],
+      ja:["広告素材3種のレビュー","契約書の標準様式を確定","ICP仮説の2回目策定","ウェビナー資料の準備","リードをCRMへアップロード","LPのA/Bテスト","競合広告のモニタリング","インフルエンサー提案書の送付","週次レポート作成","SOP更新の教育","ブース動線チェック表","ニュースレター配信"],
+      en:["Review 3 ad creatives","Finalize contract template","Draft ICP hypothesis v2","Prepare webinar deck","Upload leads to CRM","A/B test landing page","Monitor competitor ads","Send influencer proposal","Write weekly report","SOP update training","Booth flow checklist","Send newsletter"] };
+    var TASK=[{pi:5,s:1,a:0,due:"06/13"},{pi:1,s:3,a:1,due:"06/05"},{pi:0,s:1,a:2,due:"06/16"},{pi:8,s:0,a:3,due:"06/18"},{pi:0,s:2,a:4,due:"06/12"},{pi:6,s:1,a:5,due:"06/20"},{pi:4,s:0,a:1,due:"06/22"},{pi:9,s:1,a:0,due:"06/14"},{pi:8,s:3,a:2,due:"06/06"},{pi:8,s:0,a:3,due:"06/24"},{pi:1,s:2,a:4,due:"06/11"},{pi:0,s:0,a:5,due:"06/26"}];
+    var FILE_T={ ko:["광고_시안_v3.pdf","표준_계약서.docx","ICP_리서치.xlsx","웨비나_슬라이드.pptx","리드_리스트.csv","브랜드_가이드.pdf","현장_사진.zip","주간보고_0604.pdf"],
+      ja:["広告_デザイン_v3.pdf","標準_契約書.docx","ICP_リサーチ.xlsx","ウェビナー_スライド.pptx","リード_リスト.csv","ブランド_ガイド.pdf","現場_写真.zip","週次報告_0604.pdf"],
+      en:["ad_design_v3.pdf","standard_contract.docx","ICP_research.xlsx","webinar_slides.pptx","lead_list.csv","brand_guide.pdf","site_photos.zip","weekly_0604.pdf"] };
+    var FILE=[{pi:0,t:"pdf",sz:"2.4 MB"},{pi:1,t:"doc",sz:"480 KB"},{pi:0,t:"xls",sz:"1.1 MB"},{pi:8,t:"ppt",sz:"6.2 MB"},{pi:0,t:"csv",sz:"320 KB"},{pi:7,t:"pdf",sz:"3.0 MB"},{pi:4,t:"zip",sz:"18 MB"},{pi:8,t:"pdf",sz:"900 KB"}];
+    var FMTC={pdf:"#F2584A",doc:"#2B579A",xls:"#1E7145",ppt:"#D24726",csv:"#1E7145",zip:"#8A6D3B"};
+    var MENT_T={ ko:["@노소연 광고 시안 확인 부탁드려요!","@노소연 계약서 검토되면 알려주세요","@노소연 ICP 자료 공유 감사합니다","@노소연 웨비나 발표자 정해졌나요?","@노소연 이번 주 보고서 같이 볼까요?"],
+      ja:["@田中 広告デザインの確認お願いします!","@田中 契約書のレビューが終わったら教えてください","@田中 ICP資料の共有ありがとうございます","@田中 ウェビナーの登壇者は決まりましたか?","@田中 今週のレポート一緒に見ましょうか?"],
+      en:["@Emma please check the ad creatives!","@Emma let me know when the contract is reviewed","@Emma thanks for sharing the ICP doc","@Emma is the webinar speaker decided?","@Emma shall we review this week's report?"] };
+    var MENT=[{pi:0,a:0,tm:"5分前"},{pi:1,a:1,tm:"1時間前"},{pi:0,a:2,tm:"3時間前"},{pi:8,a:3,tm:"昨日"},{pi:8,a:4,tm:"昨日"}];
+    var POST_T={ ko:["이번 주 마케팅 위클리 공유","신제품 키 비주얼 투표","전시회 부스 운영 일정","리드 312건 수집 완료 보고","경쟁사 신규 광고 분석"],
+      ja:["今週のマーケティング・ウィークリー共有","新製品キービジュアルの投票","展示会ブース運営スケジュール","リード312件の収集完了レポート","競合の新規広告分析"],
+      en:["This week's marketing weekly","New product key visual vote","Expo booth operation schedule","312 leads collected — report","Competitor new ad analysis"] };
+    var POST=[{pi:5,tm:"06/04"},{pi:0,tm:"06/03"},{pi:8,tm:"06/02"},{pi:5,tm:"05/30"},{pi:4,tm:"05/28"}];
+    var DRAFT_T={ ko:["9월 캠페인 기획 (작성 중)","파트너십 제안 메일 초안","Q3 KPI 회고 메모"], ja:["9月キャンペーン企画 (作成中)","パートナーシップ提案メール下書き","Q3 KPI 振り返りメモ"], en:["Sept campaign plan (draft)","Partnership proposal email","Q3 KPI retro notes"] };
+    var DRAFT=[{pi:5,tm:"06/05"},{pi:6,tm:"06/01"},{pi:0,tm:"05/27"}];
+    var BM=[{src:"post",ti:0},{src:"file",ti:1},{src:"post",ti:1},{src:"file",ti:5},{src:"task",ti:0}];
+    var EVT=[{pi:0,d:4,t:{ko:"광고 검수",ja:"広告レビュー",en:"Ad review"}},{pi:8,d:4,t:{ko:"부스 운영",ja:"ブース運営",en:"Booth ops"}},{pi:1,d:5,t:{ko:"계약 마감",ja:"契約締切",en:"Contract due"}},{pi:0,d:11,t:{ko:"A/B 결과 공유",ja:"A/B結果共有",en:"A/B results"}},{pi:5,d:13,t:{ko:"위클리 미팅",ja:"週次MTG",en:"Weekly MTG"}},{pi:8,d:18,t:{ko:"SOP 교육",ja:"SOP教育",en:"SOP training"}},{pi:6,d:20,t:{ko:"경쟁사 리뷰",ja:"競合レビュー",en:"Competitor review"}},{pi:9,d:24,t:{ko:"제안 발송",ja:"提案送付",en:"Proposal"}}];
+
+    function esc(t){ return String(t==null?"":t).replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c];}); }
+    function projName(i){ return (NAMES[LANG]||NAMES.ja)[i]; }
+    function ptag(pi){ return '<span class="pv-ptag"><span class="dot" style="background:'+META[pi].c+'"></span>'+esc(projName(pi))+'</span>'; }
+    function stBadge(s){ var c=STC[s]; return '<span class="pv-st" style="background:'+c.bg+';color:'+c.c+'"><span class="d" style="background:'+c.d+'"></span>'+esc(stLabel(s))+'</span>'; }
+    function person(a){ return esc((PPL[LANG]||PPL.ja)[a]); }
+
+    /* ---------- 뷰 렌더러 ---------- */
+    function vProjects(){
+      var nm=(NAMES[LANG]||NAMES.ja);
+      return '<div class="fav-h">'+T('favorites')+'</div><div id="pgrid">'+META.map(function(p,i){
+        return '<div class="pcard" data-mem="'+(p.mem||1)+'" data-pi="'+i+'" style="--c:'+p.c+'"><div class="pc-stripe"></div>'+(p.cnt?'<span class="pc-cnt">'+p.cnt+'</span>':'')+'<div class="pc-top"><span class="star">★</span></div><div class="pc-name">'+(p.em?'<span>'+p.em+'</span>':'')+'<span>'+esc(nm[i])+'</span></div><div class="pc-foot"><span class="mem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9a9aa2" stroke-width="1.8"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6"/></svg> '+p.mem+'</span>'+(p.globe?'<span class="globe">🌐</span>':'')+'</div></div>';
+      }).join("")+'</div>';
+    }
+    function vAllProjects(){
+      var nm=(NAMES[LANG]||NAMES.ja);
+      return '<div class="pv-note">'+T('crossNote')+'</div><div id="pgrid">'+META.map(function(p,i){
+        return '<div class="pcard" data-mem="'+(p.mem||1)+'" data-pi="'+i+'" style="--c:'+p.c+'"><div class="pc-stripe"></div><div class="pc-top"></div><div class="pc-name">'+(p.em?'<span>'+p.em+'</span>':'')+'<span>'+esc(nm[i])+'</span></div><div class="pc-foot"><span class="mem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9a9aa2" stroke-width="1.8"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6"/></svg> '+p.mem+'</span></div></div>';
+      }).join("")+'</div>';
+    }
+    function vTasks(){
+      var tt=(TASK_T[LANG]||TASK_T.ja);
+      var rows=TASK.map(function(x,i){ return '<tr><td class="t">'+esc(tt[i])+'</td><td>'+ptag(x.pi)+'</td><td>'+stBadge(x.s)+'</td><td>'+person(x.a)+'</td><td class="due">'+x.due+'</td></tr>'; }).join("");
+      return '<div class="pv-note">'+T('crossNote')+'</div><table class="pv-tbl"><thead><tr><th>'+T('colTask')+'</th><th>'+T('colProject')+'</th><th>'+T('colStatus')+'</th><th>'+T('colAssignee')+'</th><th>'+T('colDue')+'</th></tr></thead><tbody>'+rows+'</tbody></table>';
+    }
+    function vGantt(){
+      var tt=(TASK_T[LANG]||TASK_T.ja); var DAYS=14;
+      var head='<div class="g-row g-head"><div class="g-lab"></div><div class="g-tl">'+Array.apply(null,{length:DAYS}).map(function(_,d){return '<span class="g-d'+(d%7>=5?' we':'')+'">'+(d+5)+'</span>';}).join("")+'</div></div>';
+      var body=TASK.slice(0,9).map(function(x,i){ var start=(i*1+ (i%3))%9, len=2+(i%4);
+        var bar='<div class="g-bar" style="left:'+(start/DAYS*100)+'%;width:'+(len/DAYS*100)+'%;background:'+STC[x.s].d+'"></div>';
+        return '<div class="g-row"><div class="g-lab">'+ptag(x.pi)+'<span class="g-tt">'+esc(tt[i])+'</span></div><div class="g-tl">'+bar+'</div></div>';
+      }).join("");
+      return '<div class="pv-note">'+T('crossNote')+'</div><div class="pv-gantt">'+head+body+'</div>';
+    }
+    function vCalendar(){
+      var first=1; /* 6/1 = 월요일 가정 */ var days=30; var wd=T('wd');
+      var cells='';
+      for(var i=0;i<first;i++) cells+='<div class="c-cell empty"></div>';
+      for(var d=1;d<=days;d++){ var evs=EVT.filter(function(e){return e.d===d;});
+        cells+='<div class="c-cell"><span class="c-n">'+d+'</span>'+evs.map(function(e){return '<span class="c-ev" style="background:'+META[e.pi].c+'">'+esc(e.t[LANG]||e.t.ja)+'</span>';}).join("")+'</div>';
+      }
+      return '<div class="pv-note">'+T('crossNote')+'</div><div class="pv-cal-h">'+T('thisMonth')+'</div><div class="pv-cal"><div class="c-wd">'+wd.map(function(w,i){return '<span'+(i===0?' class="sun"':(i===6?' class="sat"':''))+'>'+w+'</span>';}).join("")+'</div><div class="c-grid">'+cells+'</div></div>';
+    }
+    function vFiles(){
+      var ft=(FILE_T[LANG]||FILE_T.ja);
+      return '<div class="pv-note">'+T('crossNote')+'</div><div class="pv-files">'+FILE.map(function(f,i){ var col=FMTC[f.t]||"#9a9aa2";
+        return '<div class="fcard"><div class="fic" style="background:'+col+'">'+f.t.toUpperCase()+'</div><div class="fnm">'+esc(ft[i])+'</div><div class="fmeta">'+ptag(f.pi)+'</div><div class="fsz">'+f.sz+'</div></div>';
+      }).join("")+'</div>';
+    }
+    function listRows(arr, titles, withTime){
+      return '<div class="pv-list">'+arr.map(function(x,i){ return '<div class="pv-li"><div class="pv-li-b"><div class="pv-li-t">'+esc(titles[i])+'</div><div class="pv-li-m">'+ptag(x.pi)+(withTime&&x.tm?'<span class="sep">·</span><span class="tm">'+esc(x.tm)+'</span>':'')+'</div></div></div>'; }).join("")+'</div>';
+    }
+    function vMentions(){ var tt=(MENT_T[LANG]||MENT_T.ja);
+      return '<div class="pv-note">'+T('crossNote')+'</div><div class="pv-list">'+MENT.map(function(x,i){ return '<div class="pv-li"><span class="pv-av" style="background:linear-gradient(135deg,#9DC8FF,#C5A3FF)"></span><div class="pv-li-b"><div class="pv-li-t"><b>'+person(x.a)+'</b> '+esc(tt[i])+'</div><div class="pv-li-m">'+ptag(x.pi)+'<span class="sep">·</span><span class="tm">'+esc(x.tm)+'</span></div></div></div>'; }).join("")+'</div>';
+    }
+    function vMyPosts(){ return '<div class="pv-note">'+T('crossNote')+'</div>'+listRows(POST,(POST_T[LANG]||POST_T.ja),true); }
+    function vDrafts(){ return '<div class="pv-note">'+T('crossNote')+'</div>'+listRows(DRAFT,(DRAFT_T[LANG]||DRAFT_T.ja),true); }
+    function vBookmarks(){
+      var pt=(POST_T[LANG]||POST_T.ja), ftt=(FILE_T[LANG]||FILE_T.ja), tt=(TASK_T[LANG]||TASK_T.ja);
+      return '<div class="pv-note">'+T('crossNote')+'</div><div class="pv-list">'+BM.map(function(b){
+        var title = b.src==='post'?pt[b.ti] : b.src==='file'?ftt[b.ti] : tt[b.ti];
+        var pi = b.src==='post'?POST[b.ti].pi : b.src==='file'?FILE[b.ti].pi : TASK[b.ti].pi;
+        var ic = b.src==='post'?'📝':b.src==='file'?'📎':'✅';
+        return '<div class="pv-li"><span class="pv-bm">'+ic+'</span><div class="pv-li-b"><div class="pv-li-t">'+esc(title)+'</div><div class="pv-li-m">'+ptag(pi)+'</div></div><span class="pv-star">★</span></div>';
+      }).join("")+'</div>';
+    }
+    function vDashboard(){
+      var active=TASK.filter(function(t){return t.s===1;}).length, dueWk=TASK.filter(function(t){var d=+t.due.split("/")[1];return d>=5&&d<=11;}).length;
+      var stats=[[META.length,T('dProjects'),"#6449FC"],[active,T('dActive'),"#19B43A"],[dueWk,T('dDue'),"#E8730C"],[MENT.length,T('dMent'),"#00B5F1"]];
+      var cards='<div class="d-stats">'+stats.map(function(s){return '<div class="d-card"><div class="d-num" style="color:'+s[2]+'">'+s[0]+'</div><div class="d-lab">'+s[1]+'</div></div>';}).join("")+'</div>';
+      var prog='<div class="d-sec">'+T('dProgress')+'</div><div class="d-prog">'+[5,1,0,8,6].map(function(pi,k){ var pct=[72,45,90,30,60][k]; return '<div class="d-pr"><div class="d-pr-h">'+ptag(pi)+'<span class="d-pct">'+pct+'%</span></div><div class="d-bar"><span style="width:'+pct+'%;background:'+META[pi].c+'"></span></div></div>'; }).join("")+'</div>';
+      var rt=(POST_T[LANG]||POST_T.ja);
+      var recent='<div class="d-sec">'+T('dRecent')+'</div><div class="pv-list">'+POST.slice(0,4).map(function(x,i){return '<div class="pv-li"><span class="pv-av" style="background:linear-gradient(135deg,#9DC8FF,#C5A3FF)"></span><div class="pv-li-b"><div class="pv-li-t">'+esc(rt[i])+'</div><div class="pv-li-m">'+ptag(x.pi)+'<span class="sep">·</span><span class="tm">'+esc(x.tm)+'</span></div></div></div>';}).join("")+'</div>';
+      return cards+prog+recent;
+    }
+    function vMore(){
+      var items=T('moreItems');
+      return '<div class="pv-list">'+items.map(function(t){return '<div class="pv-li"><span class="pv-bm">▫️</span><div class="pv-li-b"><div class="pv-li-t">'+esc(t)+'</div></div></div>';}).join("")+'</div>';
+    }
+    function vInvite(){
+      return '<div class="pv-invite"><div class="iv-ic">👥</div><div class="iv-h">'+T('invite')+'</div><div class="iv-p">'+T('invHint')+'</div><div class="iv-row"><input class="iv-in" placeholder="'+T('invPh')+'" /><button class="iv-btn">'+T('invBtn')+'</button></div></div>';
+    }
+    var RENDER={ projects:vProjects, allprojects:vAllProjects, dashboard:vDashboard, tasks:vTasks, gantt:vGantt, calendar:vCalendar, files:vFiles, bookmarks:vBookmarks, mentions:vMentions, myposts:vMyPosts, drafts:vDrafts, more:vMore, invite:vInvite };
+    var TITLEKEY={ projects:'myProjects', allprojects:'allMember', dashboard:'dashboard', tasks:'tasks', gantt:'gantt', calendar:'calendar', files:'files', bookmarks:'bookmarks', mentions:'mentions', myposts:'myPosts', drafts:'savedDrafts', more:'more', invite:'invite' };
+    var VIEW='projects';
+    function renderMain(){
+      document.getElementById('pv-title').textContent = T(TITLEKEY[VIEW]||'myProjects');
+      document.getElementById('pv-ctl').style.display = (VIEW==='projects'||VIEW==='allprojects')?'flex':'none';
+      document.getElementById('pv-body').innerHTML = (RENDER[VIEW]||vProjects)();
+      [].forEach.call(document.querySelectorAll('.sb-item[data-view]'), function(e){ e.classList.toggle('on', e.getAttribute('data-view')===VIEW); });
+    }
+    function setView(v){ if(!RENDER[v]) return; VIEW=v; renderMain(); var sb=document.querySelector('.sb'); if(sb) sb.classList.remove('mopen'); var ov=document.getElementById('mob-ov'); if(ov) ov.classList.remove('on'); }
+    document.querySelector('.sb').addEventListener('click', function(e){ var it=e.target.closest('.sb-item[data-view]'); if(it) setView(it.getAttribute('data-view')); });
+
     function applyI18n(){
       var d=UI[LANG]||UI.ja;
       [].forEach.call(document.querySelectorAll('[data-i18n]'), function(e){ var k=e.getAttribute('data-i18n'); if(d[k]) e.textContent=d[k]; });
       document.documentElement.lang=LANG;
-      var nm=(NAMES[LANG]||NAMES.ja);
-      document.getElementById("pgrid").innerHTML = META.map(function(p,i){
-        return '<div class="pcard" data-mem="'+(p.mem||1)+'" style="--c:'+p.c+'">' +
-          '<div class="pc-stripe"></div>' +
-          (p.cnt?'<span class="pc-cnt">'+p.cnt+'</span>':'') +
-          '<div class="pc-top"><span class="star">★</span></div>' +
-          '<div class="pc-name">'+(p.em?'<span>'+p.em+'</span>':'')+'<span>'+(nm[i]||'')+'</span></div>' +
-          '<div class="pc-foot"><span class="mem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9a9aa2" stroke-width="1.8"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6"/></svg> '+p.mem+'</span>'+(p.globe?'<span class="globe">🌐</span>':'')+'</div>' +
-          '</div>';
-      }).join("");
+      renderMain();
     }
     applyI18n();
     // 언어 토글(우하단) — 누르면 그 언어로 다시 그림 + 앱과 동기화(mm_lang)
@@ -177,7 +344,7 @@
       ov.addEventListener("click", close);
     })();
     // 프로젝트 클릭 → 사람 수만큼 프로필 사진이 칸 안 숫자 옆에 차례로 생겼다가 사라진 뒤 Feed로 이동
-    document.getElementById("pgrid").addEventListener("click", function(e){
+    document.getElementById("pv-body").addEventListener("click", function(e){
       var card=e.target.closest(".pcard"); if(!card || card._busy) return; card._busy=true;
       var mem=Math.max(1, +card.getAttribute("data-mem")||1);
       var foot=card.querySelector(".pc-foot .mem"); if(!foot){ location.href="app.html#feed"; return; }
