@@ -374,34 +374,100 @@
     // 화살표는 gantt와 동일(흰 채움+진한 외곽선) 고정, 사진만 교체
     var ph = el.querySelector(".ca-photo"); if (ph) { ph.style.backgroundImage = "url(" + url + ")"; ph.style.backgroundColor = color; }
   }
-  M.initCursorAvatar = function () {
-    if (M._curAva || !document.body) return;
+  // ===== 진입 시 '마우스에 프로필 사진 붙이기' on/off 선택 (1회 후 기억) =====
+  function _cursorOff() { try { return localStorage.getItem("mm_cursor_on") === "0"; } catch (e) { return false; } }
+  function _cursLang() { try { var u = new URLSearchParams(location.search); return u.get("lang") || localStorage.getItem("mm_lang") || "ja"; } catch (e) { return "ja"; } }
+  var _CURTX = {
+    ko: { title: "마우스에 프로필 사진을 붙일까요?", desc: "데모 중 마우스 커서에 담당자 프로필 사진이 따라다닙니다. 녹화·발표용으로 끌 수도 있어요. (좌측 하단에서 언제든 변경)", yes: "붙이기", no: "일반 커서", label: "프로필 커서" },
+    ja: { title: "マウスにプロフィール写真を付けますか?", desc: "デモ中、マウスカーソルに担当者のプロフィール写真が付いてきます。録画・発表用にオフにもできます。(左下からいつでも変更)", yes: "付ける", no: "通常カーソル", label: "プロフィールカーソル" },
+    en: { title: "Attach a profile photo to your cursor?", desc: "During the demo a profile photo follows your cursor. You can turn it off for recording or presenting. (Change anytime, bottom-left.)", yes: "Attach", no: "Normal cursor", label: "Profile cursor" }
+  };
+  function _startCursorAvatar() {
+    M._curHidden = false;
+    // OS 기본 커서를 숨겨 '커서 2개'로 보이지 않게 함(커스텀 커서만 표시)
+    if (!document.getElementById("mm-curhide")) { var hs = document.createElement("style"); hs.id = "mm-curhide"; hs.textContent = "html,body,*{cursor:none !important;}"; document.head.appendChild(hs); }
+    if (M._curAva) { M._curAva.style.opacity = "1"; return; }
+    if (!document.body) return;
     function rnd() { return (window.MM_AV) ? MM_AV.randomAny() : "assets/profile/man" + (1 + Math.floor(Math.random() * 6)) + ".png"; }
     var saved = null; try { saved = localStorage.getItem("mm_cursor"); } catch (e) {}
     var url = saved || rnd(), color = _bgOf(url);
     var el = document.createElement("div"); el.id = "mm-curava";
     el.style.cssText = "position:fixed;z-index:9998;width:0;height:0;pointer-events:none;left:-300px;top:-300px;opacity:0;transition:opacity .2s;";
-    // 1번째 첨부 이미지의 화살표 커서(프로필 배경색) + 우측 아래 프로필 사진 배지
     el.innerHTML = '<svg class="ca-arrow" width="44" height="44" viewBox="0 0 24 24" style="position:absolute;left:0;top:0;filter:drop-shadow(0 2px 4px rgba(0,0,0,.45));"><path d="M5 2.5l14.5 7.2-6.3 1.7L9.7 18.5z" fill="#fff" stroke="#2b2b33" stroke-width="1.3" stroke-linejoin="round"/></svg>' +
       '<span class="ca-photo" style="position:absolute;left:22px;top:26px;width:58px;height:58px;border-radius:15px;background:' + color + ' center/cover no-repeat;background-image:url(' + url + ');box-shadow:0 5px 16px rgba(0,0,0,.34);"></span>';
     document.body.appendChild(el); M._curAva = el;
-    // OS 기본 커서를 숨겨 '커서 2개'로 보이지 않게 함(커스텀 커서만 표시)
-    if (!document.getElementById("mm-curhide")) { var hs = document.createElement("style"); hs.id = "mm-curhide"; hs.textContent = "html,body,*{cursor:none !important;}"; document.head.appendChild(hs); }
     document.addEventListener("mousemove", function (e) { if (M._curHidden) { el.style.opacity = "0"; return; } el.style.left = (e.clientX - 3) + "px"; el.style.top = (e.clientY - 2) + "px"; el.style.opacity = "1"; });
     document.addEventListener("mouseleave", function () { el.style.opacity = "0"; });
     // 선택된 사진이 없으면 항상 랜덤으로 바뀜(화살표 색도 함께). 선택(룰렛)되면 고정.
     if (!saved) M._curAvaTimer = setInterval(function () { var u = rnd(); _applyCursor(el, u, _bgOf(u)); }, 2500);
+  }
+  function _stopCursorAvatar() {
+    M._curHidden = true;
+    if (M._curAvaTimer) { clearInterval(M._curAvaTimer); M._curAvaTimer = null; }
+    if (M._curAva) M._curAva.style.opacity = "0";
+    var hs = document.getElementById("mm-curhide"); if (hs) hs.remove();
+  }
+  // 좌측 하단 토글(코너 hover 시 진하게): 프로필 커서 켜기/끄기 — 언제든 변경
+  function _addCursorToggle(isOn) {
+    if (document.getElementById("mm-curtoggle") || !document.body) return;
+    var tx = _CURTX[_cursLang()] || _CURTX.ja;
+    var b = document.createElement("div"); b.id = "mm-curtoggle";
+    b.style.cssText = "position:fixed;left:14px;bottom:14px;z-index:99990;display:flex;align-items:center;gap:6px;background:rgba(20,20,26,.62);color:#eaeaf0;font:600 11px Roboto,'Noto Sans JP','Noto Sans KR',sans-serif;padding:6px 11px;border-radius:16px;cursor:pointer;opacity:.16;transition:opacity .2s;backdrop-filter:blur(4px);user-select:none;";
+    function paint(on) { b.innerHTML = '🖱 ' + tx.label + ' <b style="color:' + (on ? '#3FD09E' : '#FF6B6B') + '">' + (on ? 'ON' : 'OFF') + '</b>'; }
+    paint(isOn);
+    b.addEventListener("mouseenter", function () { b.style.opacity = "1"; });
+    b.addEventListener("mouseleave", function () { b.style.opacity = ".16"; });
+    b.addEventListener("click", function () {
+      var curOn; try { curOn = localStorage.getItem("mm_cursor_on") !== "0"; } catch (e) { curOn = true; }
+      var nowOn = !curOn;
+      try { localStorage.setItem("mm_cursor_on", nowOn ? "1" : "0"); } catch (e) {}
+      if (nowOn) _startCursorAvatar(); else _stopCursorAvatar();
+      paint(nowOn);
+    });
+    document.body.appendChild(b);
+  }
+  function _askCursorChoice() {
+    if (!document.body) { document.addEventListener("DOMContentLoaded", _askCursorChoice); return; }
+    if (document.getElementById("mm-curask")) return;
+    var tx = _CURTX[_cursLang()] || _CURTX.ja;
+    var ov = document.createElement("div"); ov.id = "mm-curask";
+    ov.style.cssText = "position:fixed;inset:0;z-index:100002;display:flex;align-items:center;justify-content:center;background:rgba(18,18,26,.55);backdrop-filter:blur(3px);font-family:Roboto,'Noto Sans JP','Noto Sans KR',sans-serif;";
+    ov.innerHTML = '<div style="background:#fff;border-radius:18px;padding:30px 30px 24px;max-width:380px;width:88%;box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center;">'
+      + '<div style="font-size:34px;margin-bottom:8px;">🖱️</div>'
+      + '<div style="font-size:18px;font-weight:800;color:#23233a;margin-bottom:8px;">' + tx.title + '</div>'
+      + '<div style="font-size:13px;line-height:1.6;color:#73737f;margin-bottom:22px;">' + tx.desc + '</div>'
+      + '<div style="display:flex;gap:10px;">'
+      + '<button id="mm-cur-no" style="flex:1;padding:12px 0;border:1px solid #e2e2ea;background:#f4f4f8;color:#4b4b5a;font:700 14px inherit;border-radius:11px;cursor:pointer;">' + tx.no + '</button>'
+      + '<button id="mm-cur-yes" style="flex:1;padding:12px 0;border:0;background:#6449FC;color:#fff;font:700 14px inherit;border-radius:11px;cursor:pointer;">' + tx.yes + '</button>'
+      + '</div></div>';
+    document.body.appendChild(ov);
+    function choose(on) { try { localStorage.setItem("mm_cursor_on", on ? "1" : "0"); } catch (e) {} ov.remove(); if (on) _startCursorAvatar(); _addCursorToggle(on); }
+    document.getElementById("mm-cur-yes").addEventListener("click", function () { choose(true); });
+    document.getElementById("mm-cur-no").addEventListener("click", function () { choose(false); });
+  }
+  M.initCursorAvatar = function () {
+    if (M._curAva) return;
+    // 임베드(iframe)·터치 기기에서는 커서 아바타/선택 미표시
+    try { var q = new URLSearchParams(location.search); if (q.get("embed")) return; } catch (e) {}
+    var fine = !window.matchMedia || window.matchMedia("(pointer:fine)").matches;
+    if (!fine) return;
+    var choice = null; try { choice = localStorage.getItem("mm_cursor_on"); } catch (e) {}
+    if (choice === "0") { _addCursorToggle(false); return; }
+    if (choice === "1") { _startCursorAvatar(); _addCursorToggle(true); return; }
+    _askCursorChoice(); // 처음 진입: 한 번 물어보고 기억
   };
   // 룰렛에서 고른 프로필을 커서에 고정(화살표 색=배경색) + 다른 뷰/페이지에도 적용(localStorage)
   M.setCursorPhoto = function (url) {
+    if (_cursorOff()) return;
     try { localStorage.setItem("mm_cursor", url); } catch (e) {}
     if (M._curAvaTimer) { clearInterval(M._curAvaTimer); M._curAvaTimer = null; }
     if (M._curAva) _applyCursor(M._curAva, url, _bgOf(url));
   };
   // 커서 프로필 표시/숨김(로고뷰 진입 시 숨겼다가 카드 선택되면 표시)
   M.setCursorVisible = function (v) {
+    if (_cursorOff()) return;
     M._curHidden = !v;
-    if (M._curAva && !v) M._curAva.style.opacity = "0";
+    if (M._curAva) M._curAva.style.opacity = v ? "1" : "0";
   };
 
   window.MM_MOTION = M;

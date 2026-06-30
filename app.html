@@ -249,6 +249,9 @@
     /* 좌측 사이드바 폭 살짝 축소 */
     .sb{width:264px;} .side{width:264px;}
   }
+  /* 임베드 모드(My Projects 홈 안에서 카테고리 화면만 표시) — 외부 크롬/룸헤더/플로팅 UI 숨김 */
+  body.embed .top, body.embed .sb, body.embed .side, body.embed .sub{display:none !important;}
+  body.embed #mm-rec, body.embed #m-lang, body.embed #mm-ed, body.embed #mm-curtoggle, body.embed #mm-curask{display:none !important;}
 </style>
 </head>
 <body>
@@ -345,7 +348,7 @@
   </div>
 
   <script src="effects/avatars.js?v=2"></script>
-  <script src="effects/motion.js?v=28"></script>
+  <script src="effects/motion.js?v=29"></script>
   <script src="effects/gamify.js?v=4"></script>
   <script src="effects/recorder.js?v=31"></script>
   <script src="effects/editor.js?v=1"></script>
@@ -362,6 +365,7 @@
   <script src="agents_view.js?v=8"></script>
   <script>
     (function(){
+      try{ if(new URLSearchParams(location.search).get("embed")) document.body.classList.add("embed"); }catch(e){}
       var SIDEBAR = { calendar:"sb-calendar", files:"sb-files" };
       var tabs = [].slice.call(document.querySelectorAll(".tab"));
       var secs = [].slice.call(document.querySelectorAll(".vsec"));

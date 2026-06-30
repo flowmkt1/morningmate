@@ -101,19 +101,34 @@
   .d-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;} .d-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;} .d-num{font-size:30px;font-weight:800;line-height:1;} .d-lab{font-size:13px;color:#8a8a92;margin-top:8px;}
   .d-sec{font-size:15px;font-weight:700;color:#444;margin:26px 0 12px;} .d-prog{background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px 18px;} .d-pr{padding:13px 0;border-bottom:1px solid #F4F4F6;} .d-pr:last-child{border-bottom:none;} .d-pr-h{display:flex;align-items:center;margin-bottom:9px;} .d-pct{margin-left:auto;font-size:13px;font-weight:700;color:#555;} .d-bar{height:8px;border-radius:5px;background:#EFEFF2;overflow:hidden;} .d-bar span{display:block;height:100%;border-radius:5px;}
   .pv-ptag{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:#666;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;} .pv-ptag .dot{width:9px;height:9px;border-radius:3px;flex-shrink:0;}
-  .fav-h{font-size:15px;font-weight:700;color:#444;margin:0 0 14px;}
-  #pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px;}
-  .pcard{position:relative;background:#FAFAFA;border:1px solid #DDD;border-radius:6px;padding:15px 15px 15px 30px;height:170px;cursor:pointer;display:flex;flex-direction:column;transition:box-shadow .15s;} .pcard:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);}
-  .pc-stripe{position:absolute;left:0;top:0;bottom:0;width:9px;background:var(--c);border-radius:6px 0 0 6px;}
-  .pc-cnt{position:absolute;top:-8px;right:-6px;background:#FF3B30;color:#fff;font-size:11px;font-weight:700;border-radius:50%;min-width:22px;height:22px;display:flex;align-items:center;justify-content:center;padding:0 5px;}
-  .pc-top{height:22px;} .pc-top .star{color:#FFB800;font-size:17px;} .pc-name{margin-top:18px;display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#333;line-height:1.4;} .pc-foot{display:flex;align-items:center;color:#999;font-size:14px;margin-top:auto;} .pc-foot .mem{display:flex;align-items:center;gap:5px;} .pc-foot .globe{margin-left:auto;opacity:.55;}
+  /* 카테고리 임베드(프로젝트방 실제 화면을 홈 안에 표시) */
+  .pv-frame{width:100%;height:100%;border:0;display:block;background:#F4F2F7;}
+  .pwrap.frame{overflow:hidden;}
+  /* My Projects 그리드 — 맞춰둔 사양으로 원복(좌우 여백/카드 크기) */
+  .pv-gwrap{padding:26px 40px 60px;}
+  .pv-inner{max-width:1146px;margin:0 auto;}
+  .pwrap-h{display:flex;align-items:center;margin-bottom:20px;}
+  .pwrap-h h1{font-size:24px;font-weight:700;margin:0;flex:1;color:#23233a;}
+  .pwrap-h .ctl{display:flex;align-items:center;gap:18px;color:#888;font-size:13px;}
+  .pwrap-h .ctl span{white-space:nowrap;}
+  .pwrap-h .ctl .vt{display:flex;gap:4px;}
+  .pwrap-h .ctl .vt .v{width:30px;height:30px;border:1px solid #E2E2E8;border-radius:6px;display:flex;align-items:center;justify-content:center;}
+  .pwrap-h .ctl .vt .v.on{background:#EFECFF;color:var(--mm);border-color:#D9D2FF;}
+  .fav-h{font-size:15px;font-weight:700;color:#444;margin:6px 0 14px;}
+  #pgrid{display:grid;grid-template-columns:repeat(4,273px);gap:18px;justify-content:start;}
+  .pcard{position:relative;background:#FAFAFA;border:1px solid #DDD;border-radius:6px;padding:15px 15px 15px 32px;height:180px;cursor:pointer;display:flex;flex-direction:column;transition:box-shadow .15s;} .pcard:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);}
+  .pc-stripe{position:absolute;left:0;top:0;bottom:0;width:10px;background:var(--c);border-radius:6px 0 0 6px;}
+  .pc-cnt{position:absolute;top:-8px;right:-6px;background:#FF3B30;color:#fff;font-size:12px;font-weight:700;border-radius:50%;min-width:24px;height:24px;display:flex;align-items:center;justify-content:center;padding:0 6px;box-shadow:0 1px 4px rgba(0,0,0,.22);}
+  .pc-top{height:24px;} .pc-top .star{color:#FFB800;font-size:18px;} .pc-name{margin-top:22px;display:flex;align-items:center;gap:8px;font-size:16px;font-weight:700;color:#333;line-height:1.4;} .pc-foot{display:flex;align-items:center;color:#999;font-size:14px;margin-top:auto;} .pc-foot .mem{display:flex;align-items:center;gap:5px;} .pc-foot .globe{margin-left:auto;opacity:.55;}
   .pv-invite{background:#fff;border:1px solid var(--line);border-radius:14px;padding:40px;text-align:center;max-width:460px;} .iv-ic{font-size:40px;} .iv-h{font-size:19px;font-weight:800;margin:12px 0 6px;} .iv-p{font-size:13.5px;color:#8a8a9a;margin-bottom:20px;} .iv-row{display:flex;gap:10px;} .iv-in{flex:1;border:1px solid #E2E2E8;border-radius:9px;padding:11px 14px;font-size:13.5px;font-family:inherit;outline:none;} .iv-in:focus{border-color:var(--mm);} .iv-btn{background:var(--mm);color:#fff;border:0;border-radius:9px;padding:0 20px;font-weight:700;cursor:pointer;}
   .pv-list{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;} .pv-li{display:flex;align-items:center;gap:12px;background:#fff;padding:14px 16px;cursor:pointer;} .pv-li:hover{background:#FAFAFB;} .pv-av{width:34px;height:34px;border-radius:50%;flex-shrink:0;} .pv-bm{font-size:18px;width:30px;text-align:center;flex-shrink:0;} .pv-li-b{flex:1;min-width:0;} .pv-li-t{font-size:13.5px;color:#2b2b33;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;} .pv-li-m{display:flex;align-items:center;gap:8px;margin-top:5px;font-size:12px;color:#9a9aa2;} .pv-li-m .sep{color:#d8d8de;} .pv-star{color:#FFB800;font-size:16px;}
   #mob-ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1150;}
   @media (max-width:880px){
     .mham{display:flex;margin-right:4px;} .search{position:static;transform:none;flex:1;width:auto;} .search .txt{text-align:left;}
     .sb{position:fixed;top:0;left:0;bottom:0;z-index:1200;transform:translateX(-100%);transition:transform .25s;box-shadow:4px 0 24px rgba(0,0,0,.18);} .sb.mopen{transform:translateX(0);} #mob-ov.on{display:block;}
-    .pv-h,.pv-ctl,.pv-pad,.cal-top,.ml-top,.ml-cnt,.ml-list{padding-left:16px;padding-right:16px;} .cal{margin-left:16px;margin-right:16px;} #pgrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));}
+    .pv-h,.pv-ctl,.pv-pad,.cal-top,.ml-top,.ml-cnt,.ml-list{padding-left:16px;padding-right:16px;} .cal{margin-left:16px;margin-right:16px;}
+    .pv-gwrap{padding:18px 14px 50px;} .pwrap-h h1{font-size:20px;} .pwrap-h .ctl{gap:10px;font-size:12px;}
+    #pgrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));} .pcard{height:150px;padding:13px 13px 13px 26px;}
   }
 </style>
 </head>
@@ -161,11 +176,11 @@
       ja:["English Markets GTM","[日本] フリーランス協業ルーム","AIチーム構築プロジェクト","[マイ] 個人ToDo","[日本] 競合モニタリング (Auto)","[グローバル] 2026 Morningmate 3.0 リリース","Global MKT Hub","動画クリエイティブチーム協業ルーム","Japan Business","[インフルエンサー代理店] KGNC","[UK] Event/Seminar"],
       en:["English Markets GTM","[Japan] Freelance Collaboration","Build an AI Team Project","[My] Personal To-do","[Japan] Competitor Monitoring (Auto)","[Global] 2026 Morningmate 3.0 Launch","Global MKT Hub","Video Creative Team Room","Japan Business","[Influencer Agency] KGNC","[UK] Event/Seminar"]};
     var UI={
-      ko:{newProject:"새 프로젝트",myProjects:"내 프로젝트",dashboard:"대시보드",allMember:"공개 프로젝트",more:"그 외",collectionView:"컬렉션 뷰",activity:"액티비티",guide:"이용 가이드",tasks:"전체 태스크",gantt:"간트차트",calendar:"캘린더",files:"라이브러리",bookmarks:"북마크",mentions:"나를 멘션",myPosts:"내가 올린 것",savedDrafts:"임시 저장",invite:"자사 멤버 초대",search:"스마트 검색",favorites:"즐겨찾기",
+      ko:{newProject:"새 프로젝트",myProjects:"내 프로젝트",dashboard:"대시보드",allMember:"공개 프로젝트",more:"그 외",collectionView:"컬렉션 뷰",activity:"액티비티",guide:"이용 가이드",tasks:"전체 태스크",gantt:"간트차트",calendar:"캘린더",files:"라이브러리",bookmarks:"북마크",mentions:"나를 멘션",myPosts:"내가 올린 것",savedDrafts:"임시 저장",invite:"자사 멤버 초대",search:"스마트 검색",favorites:"즐겨찾기",sort:"정렬",settings:"설정",
         crossNote:"내가 참여한 모든 프로젝트를 한곳에 모았습니다",filter:"필터",groupView:"그룹 뷰",hide:"비표시",closeAll:"모두 닫기",addTask:"+ 태스크 추가",colTask:"태스크명",colStatus:"상태",colAssignee:"담당자",colStart:"시작일",colDue:"기한",colPriority:"우선순위",colProgress:"진척",colAuthor:"작성자",colReg:"등록일",colMod:"수정일",colNo:"태스크넘버",notStarted:"시작 전",inProgress:"진행중",done:"완료",thisMonth:"2026년 6월",todayBtn:"오늘",projCal:"프로젝트 캘린더 보기",addEvent:"+ 일정 추가",attendance:"출퇴근 기록",fileType:"파일 형식",allFormats:"전체",allProjects:"전체 프로젝트",colFile:"파일명",colSize:"크기",colReg2:"등록자",colRegDt:"등록일",mentKw:"키워드를 입력하세요",total:"전체",comment:"코멘트",invHint:"이메일로 동료를 초대해 함께 협업하세요.",invPh:"이메일 주소 입력",invBtn:"초대 보내기",moreItems:["휴지통","템플릿","아카이브된 프로젝트","태그 관리"],wd:["일","월","화","수","목","금","토"],dProjects:"프로젝트",dActive:"진행 중 태스크",dDue:"이번 주 기한",dMent:"새 멘션",dProgress:"프로젝트별 진척",dRecent:"최근 활동"},
-      ja:{newProject:"プロジェクトの作成",myProjects:"Myプロジェクト",dashboard:"ダッシュボード",allMember:"公開プロジェクト",more:"その他",collectionView:"コレクションビュー",activity:"アクティビティ",guide:"ご利用ガイド",tasks:"全体タスク",gantt:"ガントチャート",calendar:"カレンダー",files:"ライブラリ",bookmarks:"ブックマーク",mentions:"自分をメンション",myPosts:"自分が投稿したもの",savedDrafts:"一時保存",invite:"自社メンバーを招待する",search:"スマート検索",favorites:"お気に入り",
+      ja:{newProject:"プロジェクトの作成",myProjects:"Myプロジェクト",dashboard:"ダッシュボード",allMember:"公開プロジェクト",more:"その他",collectionView:"コレクションビュー",activity:"アクティビティ",guide:"ご利用ガイド",tasks:"全体タスク",gantt:"ガントチャート",calendar:"カレンダー",files:"ライブラリ",bookmarks:"ブックマーク",mentions:"自分をメンション",myPosts:"自分が投稿したもの",savedDrafts:"一時保存",invite:"自社メンバーを招待する",search:"スマート検索",favorites:"お気に入り",sort:"並び替え",settings:"設定",
         crossNote:"参加している全プロジェクトをまとめて表示します",filter:"フィルタ",groupView:"グループビュー",hide:"非表示",closeAll:"すべて閉じる",addTask:"+ タスクを追加",colTask:"タスク名",colStatus:"ステータス",colAssignee:"担当者",colStart:"開始日",colDue:"期日",colPriority:"優先順位",colProgress:"進捗",colAuthor:"作成者",colReg:"登録日",colMod:"修正日",colNo:"タスクナンバー",notStarted:"開始前",inProgress:"進行中",done:"完了",thisMonth:"2026年6月",todayBtn:"今日",projCal:"プロジェクトカレンダー",addEvent:"+ 予定を追加",attendance:"出退勤記録",fileType:"ファイル形式",allFormats:"全体",allProjects:"全体プロジェクト",colFile:"ファイル名",colSize:"サイズ",colReg2:"登録者",colRegDt:"登録日",mentKw:"キーワードを入力してください",total:"全体",comment:"コメント",invHint:"メールで同僚を招待して一緒に協業しましょう。",invPh:"メールアドレスを入力",invBtn:"招待を送る",moreItems:["ゴミ箱","テンプレート","アーカイブ済みプロジェクト","タグ管理"],wd:["日","月","火","水","木","金","土"],dProjects:"プロジェクト",dActive:"進行中タスク",dDue:"今週締切",dMent:"新着メンション",dProgress:"プロジェクト別 進捗",dRecent:"最近の活動"},
-      en:{newProject:"New Project",myProjects:"My Projects",dashboard:"Dashboard",allMember:"Public projects",more:"More",collectionView:"Collection View",activity:"Activity",guide:"User Guide",tasks:"All Tasks",gantt:"Gantt",calendar:"Calendar",files:"Library",bookmarks:"Bookmarks",mentions:"Mentions",myPosts:"My Posts",savedDrafts:"Saved drafts",invite:"Invite Employees",search:"Smart Search",favorites:"Favorites",
+      en:{newProject:"New Project",myProjects:"My Projects",dashboard:"Dashboard",allMember:"Public projects",more:"More",collectionView:"Collection View",activity:"Activity",guide:"User Guide",tasks:"All Tasks",gantt:"Gantt",calendar:"Calendar",files:"Library",bookmarks:"Bookmarks",mentions:"Mentions",myPosts:"My Posts",savedDrafts:"Saved drafts",invite:"Invite Employees",search:"Smart Search",favorites:"Favorites",sort:"Sort",settings:"Settings",
         crossNote:"All projects you belong to, in one place",filter:"Filter",groupView:"Group view",hide:"Hide",closeAll:"Close all",addTask:"+ Add task",colTask:"Task",colStatus:"Status",colAssignee:"Assignee",colStart:"Start",colDue:"Due",colPriority:"Priority",colProgress:"Progress",colAuthor:"Author",colReg:"Created",colMod:"Updated",colNo:"Task No.",notStarted:"Not started",inProgress:"In progress",done:"Done",thisMonth:"June 2026",todayBtn:"Today",projCal:"Project calendar",addEvent:"+ Add event",attendance:"Attendance log",fileType:"File type",allFormats:"All",allProjects:"All projects",colFile:"File name",colSize:"Size",colReg2:"Owner",colRegDt:"Created",mentKw:"Enter a keyword",total:"All",comment:"Comment",invHint:"Invite teammates by email to collaborate.",invPh:"Enter email address",invBtn:"Send invite",moreItems:["Trash","Templates","Archived projects","Manage tags"],wd:["S","M","T","W","T","F","S"],dProjects:"Projects",dActive:"Active tasks",dDue:"Due this week",dMent:"New mentions",dProgress:"Progress by project",dRecent:"Recent activity"}};
     function T(k){return (UI[LANG]||UI.ja)[k];}
     function esc(t){return String(t==null?"":t).replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c];});}
@@ -262,10 +277,21 @@
       var rows=MENT.map(function(m,i){return '<div class="ml-row"><div class="ml-ic">💬 '+esc(T('comment'))+'</div><div class="ml-b"><div class="ml-t"><b>'+person(0)+'</b> '+esc(tt[i])+(m.att?' 📎 ('+esc(T('files'))+')':'')+'</div><div class="ml-m">'+ptag(m.pi)+'</div></div><div class="ml-rt"><div class="who">'+person(m.who)+'</div><div>'+m.tm+'</div></div></div>';}).join("");
       return '<div class="pv-h"><h1>'+esc(T('mentions'))+'</h1></div><div class="ml-top"><div class="ml-srch">🔍 '+esc(T('mentKw'))+'</div></div><div class="ml-cnt">'+esc(T('total'))+' 20+</div><div class="ml-list">'+rows+'</div>';
     }
+    // 좌측 카테고리 = 프로젝트방 실제 화면을 홈 안에 임베드(딥링크). 디자인 100% 동일.
+    var EMBED={tasks:'table',gantt:'gantt',calendar:'calendar',files:'files',mentions:'activity',dashboard:'insights'};
+    function vEmbed(h){return '<iframe class="pv-frame" src="app.html?lang='+LANG+'&embed=1#'+h+'"></iframe>';}
     function vProjects(grid){
-      return '<div class="pv-h"><h1>'+esc(T(grid==='all'?'allMember':'myProjects'))+'</h1>'+(grid!=='all'?'<span class="cnt">36</span>':'')+'</div><div class="pv-pad">'+(grid!=='all'?'<div class="fav-h">'+esc(T('favorites'))+'</div>':'<div class="pv-sub" style="margin-bottom:14px">'+esc(T('crossNote'))+'</div>')+'<div id="pgrid">'+META.map(function(p,i){
-        return '<div class="pcard" data-mem="'+(p.mem||1)+'" data-pi="'+i+'" style="--c:'+p.c+'"><div class="pc-stripe"></div>'+(grid!=='all'&&(i===0||i===1)?'<span class="pc-cnt">'+(i===0?20:18)+'</span>':'')+'<div class="pc-top">'+(grid!=='all'?'<span class="star">★</span>':'')+'</div><div class="pc-name">'+(p.em?'<span>'+p.em+'</span>':'')+'<span>'+esc(pn(i))+'</span></div><div class="pc-foot"><span class="mem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9a9aa2" stroke-width="1.8"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6"/></svg> '+p.mem+'</span>'+(p.globe?'<span class="globe">🌐</span>':'')+'</div></div>';
-      }).join("")+'</div></div>';
+      var isAll=grid==='all';
+      var cards=META.map(function(p,i){
+        var badge=(!isAll&&(i===0||i===1))?'<span class="pc-cnt">'+(i===0?20:18)+'</span>':'';
+        return '<div class="pcard" data-mem="'+(p.mem||1)+'" data-pi="'+i+'" style="--c:'+p.c+'"><div class="pc-stripe"></div>'+badge+'<div class="pc-top">'+(isAll?'':'<span class="star">★</span>')+'</div><div class="pc-name">'+(p.em?'<span>'+p.em+'</span>':'')+'<span>'+esc(pn(i))+'</span></div><div class="pc-foot"><span class="mem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9a9aa2" stroke-width="1.8"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6"/></svg> '+p.mem+'</span>'+(p.globe?'<span class="globe">🌐</span>':'')+'</div></div>';
+      }).join("");
+      return '<div class="pv-gwrap">'
+        +'<div class="pwrap-h"><h1>'+esc(T(isAll?'allMember':'myProjects'))+'</h1><div class="ctl"><span>⇅ '+esc(T('sort'))+'</span><span>⚙ '+esc(T('settings'))+'</span><span class="vt"><span class="v on">▦</span><span class="v">☰</span></span></div></div>'
+        +'<div class="pv-inner">'
+        +(isAll?'<div class="pv-sub" style="margin:0 0 14px">'+esc(T('crossNote'))+'</div>':'<div class="fav-h">'+esc(T('favorites'))+'</div>')
+        +'<div id="pgrid">'+cards+'</div>'
+        +'</div></div>';
     }
     var POST_T={ko:["이번 주 마케팅 위클리 공유","신제품 키 비주얼 투표","전시회 부스 운영 일정","리드 312건 수집 완료 보고"],ja:["今週のマーケティング・ウィークリー共有","新製品キービジュアルの投票","展示会ブース運営スケジュール","リード312件の収集完了レポート"],en:["This week's marketing weekly","New product key visual vote","Expo booth schedule","312 leads collected — report"]};
     var POSTP=[5,5,8,4],POSTTM=["06/04","06/03","06/02","05/30"];
@@ -285,9 +311,11 @@
     function vMore(){return '<div class="pv-h"><h1>'+esc(T('more'))+'</h1></div><div class="pv-pad"><div class="pv-list">'+T('moreItems').map(function(t){return '<div class="pv-li"><span class="pv-bm">▫️</span><div class="pv-li-b"><div class="pv-li-t">'+esc(t)+'</div></div></div>';}).join("")+'</div></div>';}
     function vInvite(){return '<div class="pv-h"><h1>'+esc(T('invite'))+'</h1></div><div class="pv-pad"><div class="pv-invite"><div class="iv-ic">👥</div><div class="iv-h">'+esc(T('invite'))+'</div><div class="iv-p">'+esc(T('invHint'))+'</div><div class="iv-row"><input class="iv-in" placeholder="'+esc(T('invPh'))+'"><button class="iv-btn">'+esc(T('invBtn'))+'</button></div></div></div>';}
 
-    var RENDER={projects:function(){return vProjects();},allprojects:function(){return vProjects('all');},dashboard:vDashboard,tasks:vTasks,gantt:vGantt,calendar:vCalendar,files:vFiles,bookmarks:vBookmarks,mentions:vMentions,myposts:vMyPosts,drafts:vDrafts,more:vMore,invite:vInvite};
+    var RENDER={projects:function(){return vProjects();},allprojects:function(){return vProjects('all');},
+      dashboard:function(){return vEmbed(EMBED.dashboard);},tasks:function(){return vEmbed(EMBED.tasks);},gantt:function(){return vEmbed(EMBED.gantt);},calendar:function(){return vEmbed(EMBED.calendar);},files:function(){return vEmbed(EMBED.files);},mentions:function(){return vEmbed(EMBED.mentions);},
+      bookmarks:vBookmarks,myposts:vMyPosts,drafts:vDrafts,more:vMore,invite:vInvite};
     var VIEW='projects';
-    function renderMain(){document.getElementById('pv-root').innerHTML=(RENDER[VIEW]||RENDER.projects)();[].forEach.call(document.querySelectorAll('.sb-item[data-view]'),function(e){e.classList.toggle('on',e.getAttribute('data-view')===VIEW);});}
+    function renderMain(){var root=document.getElementById('pv-root');root.classList.toggle('frame',!!EMBED[VIEW]);root.innerHTML=(RENDER[VIEW]||RENDER.projects)();[].forEach.call(document.querySelectorAll('.sb-item[data-view]'),function(e){e.classList.toggle('on',e.getAttribute('data-view')===VIEW);});}
     function renderSidebar(){
       var d=UI[LANG]||UI.ja;
       [].forEach.call(document.querySelectorAll('[data-i18n]'),function(e){var k=e.getAttribute('data-i18n');if(d[k])e.textContent=d[k];});
