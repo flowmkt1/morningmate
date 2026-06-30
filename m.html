@@ -112,7 +112,6 @@
   .cm-input{display:flex;align-items:center;gap:9px;margin-top:13px;} .cm-plus{width:26px;height:26px;border-radius:50%;border:1.5px solid #D8D8DE;color:#9a9aa2;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
   .cm-box{flex:1;display:flex;align-items:center;background:#F4F4F6;border-radius:20px;padding:9px 12px;} .cm-ph{flex:1;font-size:13.5px;color:#b0b0b8;} .cm-send{width:30px;height:30px;border-radius:50%;background:#C7C7CF;color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0;}
   .fd-top .who .nm b{font-weight:400;color:#888;font-size:12px;margin-left:3px;} .fd-top .who .nm .tt2{font-weight:400;color:#aaa;font-size:12px;margin-left:6px;}
-  .fd-top .tno{font-size:11px;color:#888;background:#F2F2F4;border-radius:4px;padding:5px 9px;white-space:nowrap;align-self:flex-start;}
   .fd-rows{margin-top:4px;} .fd-rows .fr{display:flex;align-items:center;min-height:44px;} .fd-rows .lab{width:84px;font-size:14px;color:#888;flex-shrink:0;white-space:nowrap;}
   .fd-asg{display:flex;align-items:center;gap:10px;} .fd-asg .chip{display:inline-flex;align-items:center;gap:6px;background:#ECECEF;border-radius:6px;padding:4px 9px 4px 4px;font-size:13.5px;font-weight:600;color:#333;} .fd-asg .chip .cx{color:#999;font-size:11px;} .fd-asg .chg{font-size:13.5px;color:#999;}
   .fd-due{font-size:14.5px;color:#FF3B30;} .fd-due .cx{color:#ccc;font-size:12px;margin-left:6px;}
@@ -580,7 +579,7 @@ function projectsView(){
 function badge(b,cls){ var k=b.key||String(b.label||"").toLowerCase(); var t=tr('status.'+k); var lab=(t&&t!=='status.'+k)?t:(b.label||""); return '<span class="'+(cls||"fd-badge")+'" style="background:'+b.bg+';color:'+b.color+'"><span class="dot" style="background:'+b.dot+'"></span>'+esc(lab)+'</span>'; }
 
 function postHead(time, taskNo){
-  return '<div class="fd-top">'+ava(AUTHOR.av,40,null,AUTHOR.name)+'<div class="who"><div class="nm">'+esc(AUTHOR.name)+' <b>'+esc(AUTHOR.role)+'</b> <span class="tt2">'+esc(time)+'</span></div><div class="tm">'+esc(AUTHOR.team)+'</div></div>'+(taskNo?'<span class="tno">업무번호 '+esc(taskNo)+'</span>':'')+'</div>';
+  return '<div class="fd-top">'+ava(AUTHOR.av,40,null,AUTHOR.name)+'<div class="who"><div class="nm">'+esc(AUTHOR.name)+' <b>'+esc(AUTHOR.role)+'</b> <span class="tt2">'+esc(time)+'</span></div><div class="tm">'+esc(AUTHOR.team)+'</div></div></div>';
 }
 function fbadge(b,extra){ return '<span class="fd-badge" data-skey="'+(b.key||'')+'" style="background:'+b.bg+';color:'+b.color+'"><span class="dot" style="background:'+b.dot+'"></span>'+esc(statusLabel(b))+(extra||'')+'</span>'; }
 var CHEV='<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="margin-left:2px"><path d="M6 9l6 6 6-6"/></svg>';
