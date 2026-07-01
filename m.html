@@ -1328,17 +1328,22 @@ document.addEventListener("mouseover", function(e){
   var cb=e.target.closest(".cm-box"); if(cb){ mWriteComment(cb.closest(".fd-card")); return; }
 });
 /* 채팅: 메시지 보내기에 마우스 올리면 맥락 메시지 + 이모티콘 자동 전송(PC chatEmerge 참고) */
+function mNow(){ return LANG==='ja' ? 'たった今' : (LANG==='en' ? 'Just now' : '방금'); }
 function mAppendMe(body, html, isSticker){
   var row=document.createElement("div"); row.className="cr-row me";
   var inner = isSticker ? '<span class="cr-sticker">'+html+'</span>' : '<div class="cr-bub">'+html+'</div>';
-  row.innerHTML='<div class="cr-c"><div class="cr-line">'+inner+'<span class="cr-time">방금</span></div></div>';
+  row.innerHTML='<div class="cr-c"><div class="cr-line">'+inner+'<span class="cr-time">'+mNow()+'</span></div></div>';
   body.appendChild(row);
   if(row.animate) row.animate([{opacity:0,transform:"translateY(18px) scale(.8)"},{opacity:1,transform:"translateY(-3px) scale(1.04)",offset:.6},{opacity:1,transform:"translateY(0) scale(1)"}],{duration:440,easing:"cubic-bezier(.34,1.5,.5,1)"});
   row.scrollIntoView({block:"end",behavior:"smooth"});
 }
 function mChatReply(c){
-  if(c && c.members) return "다들 준비 고생 많으십니다! 현장에서 뵙겠습니다 🙌";
-  return "넵 확인했습니다! 그럼 그렇게 진행하겠습니다 🙏";
+  var R={
+    members:{ ko:"다들 준비 고생 많으십니다! 현장에서 뵙겠습니다 🙌", ja:"皆さん準備お疲れさまです!現場でお会いしましょう 🙌", en:"Thanks for all the prep, everyone! See you on-site 🙌" },
+    solo:{ ko:"넵 확인했습니다! 그럼 그렇게 진행하겠습니다 🙏", ja:"はい、承知しました!それで進めます 🙏", en:"Got it! I'll proceed that way 🙏" }
+  };
+  var k=(c && c.members)?'members':'solo';
+  return R[k][LANG] || R[k].ko;
 }
 function mSendMessage(){
   var body=document.querySelector(".cr-body"); if(!body || body._sent) return; body._sent=true;
