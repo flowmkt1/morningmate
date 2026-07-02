@@ -52,6 +52,20 @@
   function render() {
     var host = document.getElementById("gantt");
     if (!host) return false;
+    // 타임라인을 실제 데이터에 맞춤: 화면에 보이는 가장 빠른 날짜(=가장 이른 태스크 시작일)부터 막대가 시작되도록,
+    // 그리고 마지막 종료일까지 다 보이도록 시작일/기간을 동적으로 계산.
+    (function fitTimeline() {
+      var starts = [], ends = [];
+      (G.rows || []).forEach(function (r) {
+        if (r.start) { starts.push(r.start); ends.push(r.due || r.start); }
+        else if (r.due) { ends.push(r.due); }
+      });
+      if (!starts.length) return;
+      starts.sort(); ends.sort();
+      var minS = starts[0], maxE = ends[ends.length - 1];
+      G.start = minS;
+      G.days = Math.max(diff(maxE, minS) + 2, 14); // 마지막 막대 뒤 여유 2일
+    })();
     var startD = parse(G.start), W = G.dayW, N = G.days;
     // 헤더: 월 그룹 + 일, 주말 음영
     var months = [], days = "", weekend = "";
