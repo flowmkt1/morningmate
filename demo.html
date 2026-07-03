@@ -100,22 +100,13 @@
       <div class="pct" id="pct">0%</div>
     </div>
 
-    <!-- STEP C: 완료 + CTA -->
+    <!-- STEP C: 완료 → 시연 모드 선택(자동 시연 / 직접 해보기) -->
     <div class="card hide" id="done">
       <div class="done-emo">🎉</div>
       <div class="done-h" id="done-h"></div>
       <div class="done-p" id="done-p"></div>
-      <a class="cta pri" id="cta-signup" href="#"><span id="cta-signup-t"></span> →</a>
-      <a class="cta sec" id="cta-try" href="#"><span id="cta-try-t"></span></a>
-      <div class="softchat" id="softchat">
-        <div class="sc-msg"><span class="sc-av"></span><div class="sc-bub" id="sc-bub"></div></div>
-        <div class="sc-row" id="sc-form">
-          <input class="sc-in" id="sc-in" inputmode="tel">
-          <button class="sc-send" id="sc-send"><span id="sc-send-t"></span></button>
-        </div>
-        <div class="sc-consent" id="sc-consent"></div>
-        <div class="sc-ok hide" id="sc-ok"></div>
-      </div>
+      <a class="cta pri" id="cta-auto" href="#"><span id="cta-auto-t"></span> →</a>
+      <a class="cta sec" id="cta-manual" href="#"><span id="cta-manual-t"></span></a>
     </div>
   </div></div>
 
@@ -157,6 +148,7 @@ var T = {
        steps:function(x){ return [ "프로젝트방 생성", "핵심 프로젝트 <b>"+x.N+"개</b> 등록", "팀원 <b>"+x.M+"명</b> 초대", "업무 <b>"+x.K+"건</b> 자동 배치", "간트·대시보드 구성" ]; },
        doneH:function(c){ return (c?c+" ":"")+"워크스페이스가 준비됐어요"; },
        doneP:"바로 무료로 시작하거나, 먼저 둘러볼 수 있어요.",
+       chooseSub:"어떻게 둘러볼까요?", modeAuto:"🎬 자동 시연으로 보기", modeManual:"🖐 직접 해보기",
        signup:"무료로 시작하기", tryit:"지금 바로 체험",
        scBub:"5분이면 실제로 세팅해드려요. 번호 남겨주시면 완성본 링크를 문자로 보내드릴게요 🙂", send:"보내기",
        consent:"연락처는 워크스페이스 안내 목적에만 사용되며 언제든 수신 거부할 수 있어요.",
@@ -167,6 +159,7 @@ var T = {
        steps:function(x){ return [ "プロジェクトルーム作成", "主要プロジェクト <b>"+x.N+"件</b> 登録", "メンバー <b>"+x.M+"名</b> 招待", "タスク <b>"+x.K+"件</b> 自動配置", "ガント・ダッシュボード構成" ]; },
        doneH:function(c){ return (c?c+"の ":"")+"ワークスペースが完成しました"; },
        doneP:"今すぐ無料で始めるか、まず体験できます。",
+       chooseSub:"どちらで見ますか?", modeAuto:"🎬 自動デモで見る", modeManual:"🖐 自分で操作する",
        signup:"無料で始める", tryit:"今すぐ体験する",
        scBub:"5分で実際にセットアップします。番号を頂ければ完成版のリンクをSMSでお送りします 🙂", send:"送信",
        consent:"連絡先はワークスペース案内の目的にのみ使用し、いつでも配信停止できます。",
@@ -177,6 +170,7 @@ var T = {
        steps:function(x){ return [ "Create project room", "Add <b>"+x.N+"</b> key projects", "Invite <b>"+x.M+"</b> teammates", "Auto-place <b>"+x.K+"</b> tasks", "Build Gantt & dashboard" ]; },
        doneH:function(c){ return (c?c+"'s ":"Your ")+"workspace is ready"; },
        doneP:"Start free now, or explore it first.",
+       chooseSub:"How would you like to explore?", modeAuto:"🎬 Watch auto demo", modeManual:"🖐 Try it yourself",
        signup:"Start free", tryit:"Explore now",
        scBub:"We can set it up for real in 5 min. Leave your number and we'll text you the link 🙂", send:"Send",
        consent:"We use your contact only to send workspace info; you can opt out anytime.",
@@ -243,32 +237,14 @@ function runBuild(){
 }
 
 function runDone(){
-  var d=t(), x=indByInst(sel.inst);
+  var d=t();
   document.getElementById('done-h').textContent=d.doneH(sel.company);
-  document.getElementById('done-p').textContent=d.doneP;
-  document.getElementById('cta-signup-t').textContent=d.signup;
-  document.getElementById('cta-try-t').textContent=d.tryit;
-  var su=(CFG.signupUrl[LANG]||CFG.signupUrl.ja)+'?utm_source=demo&utm_campaign='+encodeURIComponent(sel.inst)+'_'+encodeURIComponent(sel.role||'');
-  document.getElementById('cta-signup').href=su;
-  document.getElementById('cta-try').href='app.html?inst='+encodeURIComponent(sel.inst)+'&lang='+LANG+(sel.role?'&role='+encodeURIComponent(sel.role):'')+'#feed';
-  document.getElementById('sc-bub').textContent=d.scBub;
-  document.getElementById('sc-send-t').textContent=d.send;
-  document.getElementById('sc-consent').textContent=d.consent;
-  document.getElementById('sc-in').placeholder = LANG==='ja'?'090-1234-5678':(LANG==='en'?'+81 90 1234 5678':'010-1234-5678');
-  var okEl=document.getElementById('sc-ok'), formEl=document.getElementById('sc-form'), consEl=document.getElementById('sc-consent');
-  okEl.classList.add('hide'); formEl.classList.remove('hide'); consEl.classList.remove('hide');
-  var inp=document.getElementById('sc-in'), btn=document.getElementById('sc-send');
-  function valid(v){ return (v.replace(/[^0-9]/g,'').length>=9); }
-  inp.value=''; btn.disabled=true;
-  inp.oninput=function(){ btn.disabled=!valid(inp.value); };
-  btn.onclick=function(){
-    if(!valid(inp.value)){ alert(d.invalid); return; }
-    btn.disabled=true;
-    submitLead({ phone:inp.value.trim(), firstname:sel.name, industry:x.label.en, jobtitle:sel.role||'' }, function(){
-      formEl.classList.add('hide'); consEl.classList.add('hide');
-      okEl.textContent=d.ok; okEl.classList.remove('hide');
-    });
-  };
+  document.getElementById('done-p').textContent=d.chooseSub;
+  document.getElementById('cta-auto-t').textContent=d.modeAuto;
+  document.getElementById('cta-manual-t').textContent=d.modeManual;
+  var base='app.html?inst='+encodeURIComponent(sel.inst)+'&lang='+LANG+(sel.role?'&role='+encodeURIComponent(sel.role):'')+(sel.name?'&name='+encodeURIComponent(sel.name):'')+(sel.company?'&company='+encodeURIComponent(sel.company):'')+'&convert=1';
+  document.getElementById('cta-auto').href=base+'&mode=auto#feed';
+  document.getElementById('cta-manual').href=base+'&mode=manual#feed';
   show('done');
 }
 
