@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>morningmate — AI 워크스페이스 세팅</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{--mm:#6449FC;--mm2:#8b5cf6;--ink:#12121a;--mut:#8a8a9a;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;font-family:Roboto,'Noto Sans JP','Noto Sans KR',sans-serif;background:radial-gradient(1200px 700px at 70% -10%,#241d4d 0%,#15131f 45%,#0e0d15 100%);color:#eae9f2;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+  .wrap{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 18px 48px;}
+  .stage{width:100%;max-width:520px;}
+  .brand{display:flex;align-items:center;gap:9px;justify-content:center;margin-bottom:26px;opacity:.9;}
+  .brand .orb{width:26px;height:26px;border-radius:9px;background:linear-gradient(135deg,var(--mm2),var(--mm));box-shadow:0 4px 16px rgba(124,92,255,.5);}
+  .brand b{font-weight:800;font-size:16px;letter-spacing:-.2px;}
+  .card{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:26px 22px;backdrop-filter:blur(8px);box-shadow:0 24px 70px rgba(0,0,0,.45);}
+  .hide{display:none!important;}
+  .q{font-size:20px;font-weight:800;letter-spacing:-.3px;margin-bottom:4px;}
+  .qsub{font-size:13px;color:var(--mut);margin-bottom:18px;line-height:1.6;}
+  .lbl{font-size:12px;color:#a7a7bb;font-weight:700;margin:16px 0 9px;}
+  .chips{display:flex;flex-wrap:wrap;gap:9px;}
+  .chip{display:inline-flex;align-items:center;gap:7px;padding:11px 15px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);font-size:14px;font-weight:600;cursor:pointer;transition:.14s;}
+  .chip:hover{border-color:rgba(139,92,246,.6);}
+  .chip.on{background:var(--mm);border-color:var(--mm);color:#fff;box-shadow:0 8px 22px rgba(100,73,252,.4);}
+  .go{margin-top:24px;width:100%;border:0;border-radius:13px;padding:15px 0;font:800 15px inherit;color:#fff;background:linear-gradient(135deg,var(--mm2),var(--mm));cursor:pointer;box-shadow:0 12px 30px rgba(100,73,252,.4);transition:.14s;display:flex;align-items:center;justify-content:center;gap:9px;}
+  .go:disabled{opacity:.4;cursor:not-allowed;box-shadow:none;}
+  .go:not(:disabled):hover{transform:translateY(-1px);}
+  .ai-head{display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+  .ai-orb{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,var(--mm2),var(--mm));flex-shrink:0;position:relative;box-shadow:0 6px 20px rgba(124,92,255,.5);}
+  .ai-orb::after{content:"";position:absolute;inset:-4px;border-radius:16px;border:2px solid rgba(139,92,246,.35);animation:pulse 1.6s ease-out infinite;}
+  @keyframes pulse{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+  .ai-name{font-weight:800;font-size:15px;} .ai-status{font-size:12px;color:#9a9aec;margin-top:2px;}
+  .ai-line{font-size:15px;line-height:1.55;font-weight:600;min-height:24px;margin-bottom:18px;}
+  .ai-line .cur{display:inline-block;width:2px;height:16px;background:#b9a9ff;vertical-align:-2px;margin-left:2px;animation:blink .9s steps(1) infinite;}
+  @keyframes blink{50%{opacity:0}}
+  .steps{display:flex;flex-direction:column;gap:11px;}
+  .step{display:flex;align-items:center;gap:11px;font-size:14px;color:#c9c9dc;opacity:.35;transform:translateY(4px);transition:.35s;}
+  .step.on{opacity:1;transform:none;}
+  .step .ic{width:22px;height:22px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;border:2px solid #4a4668;}
+  .step.on .ic{border-color:var(--mm2);}
+  .step.done .ic{background:#2ec27e;border-color:#2ec27e;}
+  .step .sp{width:11px;height:11px;border:2px solid #b9a9ff;border-top-color:transparent;border-radius:50%;animation:spin .7s linear infinite;}
+  .step .ck{display:none;color:#fff;font-size:12px;} .step.done .ck{display:block;} .step.done .sp{display:none;}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .step b{color:#fff;font-weight:700;}
+  .bar{height:6px;border-radius:5px;background:rgba(255,255,255,.09);overflow:hidden;margin-top:22px;}
+  .bar span{display:block;height:100%;width:0;border-radius:5px;background:linear-gradient(90deg,var(--mm2),var(--mm));transition:width .5s;}
+  .pct{text-align:right;font-size:12px;color:var(--mut);margin-top:7px;}
+  .done-emo{font-size:40px;text-align:center;}
+  .done-h{font-size:22px;font-weight:900;text-align:center;letter-spacing:-.4px;margin:10px 0 6px;}
+  .done-p{font-size:13.5px;color:#b6b6cc;text-align:center;line-height:1.65;margin-bottom:22px;}
+  .cta{width:100%;border:0;border-radius:13px;padding:16px 0;font:800 15.5px inherit;cursor:pointer;transition:.14s;display:flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;}
+  .cta.pri{color:#fff;background:linear-gradient(135deg,var(--mm2),var(--mm));box-shadow:0 14px 34px rgba(100,73,252,.45);}
+  .cta.pri:hover{transform:translateY(-1px);}
+  .cta.sec{margin-top:11px;background:rgba(255,255,255,.06);color:#dcdcec;border:1px solid rgba(255,255,255,.12);font-weight:700;}
+  .cta.sec:hover{background:rgba(255,255,255,.1);}
+  .softchat{margin-top:22px;border-top:1px solid rgba(255,255,255,.09);padding-top:20px;}
+  .sc-msg{display:flex;gap:10px;align-items:flex-start;margin-bottom:14px;}
+  .sc-av{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--mm2),var(--mm));flex-shrink:0;}
+  .sc-bub{background:rgba(255,255,255,.06);border-radius:4px 13px 13px 13px;padding:11px 14px;font-size:13.5px;line-height:1.55;color:#e7e7f5;}
+  .sc-row{display:flex;gap:8px;}
+  .sc-in{flex:1;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:11px;padding:13px 14px;color:#fff;font:600 14px inherit;outline:none;}
+  .sc-in::placeholder{color:#7c7c92;} .sc-in:focus{border-color:var(--mm2);}
+  .sc-send{border:0;border-radius:11px;padding:0 18px;font:800 14px inherit;color:#fff;background:var(--mm);cursor:pointer;}
+  .sc-send:disabled{opacity:.4;cursor:not-allowed;}
+  .sc-consent{font-size:11px;color:#7c7c92;margin-top:9px;line-height:1.5;}
+  .sc-ok{font-size:13.5px;color:#5fe0a0;font-weight:700;text-align:center;padding:10px 0;}
+  #lang{position:fixed;top:14px;right:14px;display:flex;gap:2px;background:rgba(255,255,255,.06);border-radius:16px;padding:3px;z-index:10;}
+  #lang span{font-size:11px;font-weight:700;padding:5px 9px;border-radius:13px;cursor:pointer;color:#b9b9cc;}
+  #lang span.on{background:#fff;color:#222;}
+  .fade{animation:fade .45s ease both;} @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+  <div id="lang"></div>
+  <div class="wrap"><div class="stage">
+    <div class="brand"><span class="orb"></span><b>morningmate</b></div>
+
+    <!-- STEP A: 자가선택(파라미터 없을 때) -->
+    <div class="card hide" id="pick">
+      <div class="q" id="pick-q"></div>
+      <div class="qsub" id="pick-sub"></div>
+      <div class="lbl" id="lbl-ind"></div>
+      <div class="chips" id="chips-ind"></div>
+      <div class="lbl" id="lbl-role"></div>
+      <div class="chips" id="chips-role"></div>
+      <button class="go" id="pick-go" disabled><span id="pick-go-t"></span> →</button>
+    </div>
+
+    <!-- STEP B: AI 세팅 -->
+    <div class="card hide" id="build">
+      <div class="ai-head">
+        <div class="ai-orb"></div>
+        <div><div class="ai-name">flow AI</div><div class="ai-status" id="ai-status"></div></div>
+      </div>
+      <div class="ai-line" id="ai-line"></div>
+      <div class="steps" id="steps"></div>
+      <div class="bar"><span id="bar"></span></div>
+      <div class="pct" id="pct">0%</div>
+    </div>
+
+    <!-- STEP C: 완료 + CTA -->
+    <div class="card hide" id="done">
+      <div class="done-emo">🎉</div>
+      <div class="done-h" id="done-h"></div>
+      <div class="done-p" id="done-p"></div>
+      <a class="cta pri" id="cta-signup" href="#"><span id="cta-signup-t"></span> →</a>
+      <a class="cta sec" id="cta-try" href="#"><span id="cta-try-t"></span></a>
+      <div class="softchat" id="softchat">
+        <div class="sc-msg"><span class="sc-av"></span><div class="sc-bub" id="sc-bub"></div></div>
+        <div class="sc-row" id="sc-form">
+          <input class="sc-in" id="sc-in" inputmode="tel">
+          <button class="sc-send" id="sc-send"><span id="sc-send-t"></span></button>
+        </div>
+        <div class="sc-consent" id="sc-consent"></div>
+        <div class="sc-ok hide" id="sc-ok"></div>
+      </div>
+    </div>
+  </div></div>
+
+<script>
+/* ===================== 설정 (실제 값으로 교체) ===================== */
+var CFG = {
+  // TODO: 실제 무료가입/트라이얼 URL (언어별). 확정 전엔 임시.
+  signupUrl: { ko:"https://flow.team", ja:"https://flow.team", en:"https://flow.team" },
+  // HubSpot 리드 저장 — portalId 확인됨(24076689). HubSpot에서 폼 1개 만들어 GUID를 넣으면 실제 전송.
+  hubspot: { portalId:"24076689", formGuid:"" } // 비어있으면 로컬 폴백(데모는 그대로 동작)
+};
+/* ================================================================= */
+
+var LANG = (function(){ try{ var u=new URLSearchParams(location.search); return u.get('lang')||localStorage.getItem('mm_lang')||'ja'; }catch(e){ return 'ja'; } })();
+try{ localStorage.setItem('mm_lang', LANG); }catch(e){}
+var Q = new URLSearchParams(location.search);
+
+var INDUS = [
+  { key:'mfg',       inst:'jp-manufacturing', emo:'🏭', label:{ko:'제조·공장', ja:'製造・工場', en:'Manufacturing'}, N:6, M:5, K:14 },
+  { key:'freelance', inst:'jp-freelance',     emo:'💼', label:{ko:'프리랜서·외주', ja:'フリーランス・外注', en:'Freelance/Agency'}, N:5, M:5, K:12 },
+  { key:'retail',    inst:'jp-retail',        emo:'🛍️', label:{ko:'매장·리테일', ja:'店舗・リテール', en:'Retail'}, N:5, M:6, K:13 }
+];
+var ROLES = [
+  { key:'member',  label:{ko:'실무 담당자', ja:'担当者', en:'Team member'} },
+  { key:'manager', label:{ko:'팀장·관리자', ja:'マネージャー', en:'Manager'} },
+  { key:'exec',    label:{ko:'대표·임원', ja:'代表・役員', en:'Executive'} }
+];
+function mapInst(v){ v=(v||'').toLowerCase();
+  if(/manufact|factory|제조|공장|製造|工場|물류|배송|logi|건설|現場|현장|construct/.test(v)) return 'jp-manufacturing';
+  if(/retail|store|매장|소매|판매|店舗|外食|음식|food|의료|간호|clinic|医療/.test(v)) return 'jp-retail';
+  return 'jp-freelance';
+}
+function indByInst(inst){ for(var i=0;i<INDUS.length;i++) if(INDUS[i].inst===inst) return INDUS[i]; return INDUS[1]; }
+
+var T = {
+  ko:{ pickQ:"어떤 일을 하세요?", pickSub:"AI가 당신에게 맞춰 워크스페이스를 조립합니다.", ind:"업종", role:"역할", go:"AI로 조립하기",
+       status:"구축 중…", statusDone:"완료",
+       line:function(c,ind){ return c ? (c+"의 "+ind+" 워크스페이스를 세팅할게요.") : (ind+" 워크스페이스를 세팅할게요."); },
+       steps:function(x){ return [ "프로젝트방 생성", "핵심 프로젝트 <b>"+x.N+"개</b> 등록", "팀원 <b>"+x.M+"명</b> 초대", "업무 <b>"+x.K+"건</b> 자동 배치", "간트·대시보드 구성" ]; },
+       doneH:function(c){ return (c?c+" ":"")+"워크스페이스가 준비됐어요"; },
+       doneP:"바로 무료로 시작하거나, 먼저 둘러볼 수 있어요.",
+       signup:"무료로 시작하기", tryit:"지금 바로 체험",
+       scBub:"5분이면 실제로 세팅해드려요. 번호 남겨주시면 완성본 링크를 문자로 보내드릴게요 🙂", send:"보내기",
+       consent:"연락처는 워크스페이스 안내 목적에만 사용되며 언제든 수신 거부할 수 있어요.",
+       ok:"✓ 접수됐어요! 세팅 후 문자로 보내드릴게요.", invalid:"전화번호를 확인해 주세요." },
+  ja:{ pickQ:"どんなお仕事ですか?", pickSub:"AIがあなたに合わせてワークスペースを組み立てます。", ind:"業種", role:"役割", go:"AIで組み立てる",
+       status:"構築中…", statusDone:"完了",
+       line:function(c,ind){ return c ? (c+"の"+ind+"ワークスペースを設定します。") : (ind+"ワークスペースを設定します。"); },
+       steps:function(x){ return [ "プロジェクトルーム作成", "主要プロジェクト <b>"+x.N+"件</b> 登録", "メンバー <b>"+x.M+"名</b> 招待", "タスク <b>"+x.K+"件</b> 自動配置", "ガント・ダッシュボード構成" ]; },
+       doneH:function(c){ return (c?c+"の ":"")+"ワークスペースが完成しました"; },
+       doneP:"今すぐ無料で始めるか、まず体験できます。",
+       signup:"無料で始める", tryit:"今すぐ体験する",
+       scBub:"5分で実際にセットアップします。番号を頂ければ完成版のリンクをSMSでお送りします 🙂", send:"送信",
+       consent:"連絡先はワークスペース案内の目的にのみ使用し、いつでも配信停止できます。",
+       ok:"✓ 受け付けました!設定後にSMSでお送りします。", invalid:"電話番号をご確認ください。" },
+  en:{ pickQ:"What do you do?", pickSub:"AI assembles a workspace tailored to you.", ind:"Industry", role:"Role", go:"Build with AI",
+       status:"Building…", statusDone:"Done",
+       line:function(c,ind){ return c ? ("Setting up the "+ind+" workspace for "+c+".") : ("Setting up your "+ind+" workspace."); },
+       steps:function(x){ return [ "Create project room", "Add <b>"+x.N+"</b> key projects", "Invite <b>"+x.M+"</b> teammates", "Auto-place <b>"+x.K+"</b> tasks", "Build Gantt & dashboard" ]; },
+       doneH:function(c){ return (c?c+"'s ":"Your ")+"workspace is ready"; },
+       doneP:"Start free now, or explore it first.",
+       signup:"Start free", tryit:"Explore now",
+       scBub:"We can set it up for real in 5 min. Leave your number and we'll text you the link 🙂", send:"Send",
+       consent:"We use your contact only to send workspace info; you can opt out anytime.",
+       ok:"✓ Got it! We'll text you after setup.", invalid:"Please check the phone number." }
+};
+function t(){ return T[LANG]||T.ja; }
+function esc(s){ return String(s==null?"":s).replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
+
+var sel = { inst:null, role:Q.get('role')||null, name:Q.get('name')||'', company:Q.get('company')||'' };
+
+function renderLang(){
+  var el=document.getElementById('lang');
+  el.innerHTML=['ko','ja','en'].map(function(l){ return '<span data-l="'+l+'"'+(l===LANG?' class="on"':'')+'>'+l.toUpperCase()+'</span>'; }).join('');
+  el.onclick=function(e){ var s=e.target.closest('[data-l]'); if(!s)return; LANG=s.getAttribute('data-l'); try{localStorage.setItem('mm_lang',LANG);}catch(x){} boot(); };
+}
+function show(id){ ['pick','build','done'].forEach(function(x){ document.getElementById(x).classList.toggle('hide', x!==id); }); var c=document.getElementById(id); c.classList.remove('fade'); void c.offsetWidth; c.classList.add('fade'); }
+
+function renderPick(){
+  var d=t();
+  document.getElementById('pick-q').textContent=d.pickQ;
+  document.getElementById('pick-sub').textContent=d.pickSub;
+  document.getElementById('lbl-ind').textContent=d.ind;
+  document.getElementById('lbl-role').textContent=d.role;
+  document.getElementById('pick-go-t').textContent=d.go;
+  document.getElementById('chips-ind').innerHTML=INDUS.map(function(x){ return '<span class="chip'+(sel.inst===x.inst?' on':'')+'" data-inst="'+x.inst+'">'+x.emo+' '+esc(x.label[LANG])+'</span>'; }).join('');
+  document.getElementById('chips-role').innerHTML=ROLES.map(function(r){ return '<span class="chip'+(sel.role===r.key?' on':'')+'" data-role="'+r.key+'">'+esc(r.label[LANG])+'</span>'; }).join('');
+  document.getElementById('chips-ind').onclick=function(e){ var c=e.target.closest('[data-inst]'); if(!c)return; sel.inst=c.getAttribute('data-inst'); renderPick(); };
+  document.getElementById('chips-role').onclick=function(e){ var c=e.target.closest('[data-role]'); if(!c)return; sel.role=c.getAttribute('data-role'); renderPick(); };
+  document.getElementById('pick-go').disabled = !(sel.inst && sel.role);
+  document.getElementById('pick-go').onclick=function(){ if(sel.inst&&sel.role) runBuild(); };
+  show('pick');
+}
+
+var _timers=[];
+function clearTimers(){ _timers.forEach(clearTimeout); _timers=[]; }
+function typeLine(el, text, done){
+  el.innerHTML=''; var i=0, cur='<span class="cur"></span>';
+  (function tick(){ el.innerHTML=esc(text.slice(0,i))+cur; if(i<text.length){ i++; _timers.push(setTimeout(tick, 26)); } else { el.innerHTML=esc(text); done&&done(); } })();
+}
+function runBuild(){
+  clearTimers();
+  var d=t(), x=indByInst(sel.inst), indLabel=x.label[LANG];
+  document.getElementById('ai-status').textContent=d.status;
+  document.getElementById('bar').style.width='0%'; document.getElementById('pct').textContent='0%';
+  var stepTexts=d.steps(x);
+  document.getElementById('steps').innerHTML=stepTexts.map(function(s){ return '<div class="step"><span class="ic"><span class="sp"></span><span class="ck">✓</span></span><span>'+s+'</span></div>'; }).join('');
+  var steps=[].slice.call(document.querySelectorAll('#steps .step'));
+  show('build');
+  typeLine(document.getElementById('ai-line'), d.line(sel.company, indLabel), function(){
+    var i=0;
+    (function next(){
+      if(i>0) steps[i-1].classList.add('done');
+      if(i>=steps.length){
+        document.getElementById('bar').style.width='100%'; document.getElementById('pct').textContent='100%';
+        document.getElementById('ai-status').textContent=d.statusDone;
+        _timers.push(setTimeout(runDone, 700)); return;
+      }
+      steps[i].classList.add('on');
+      var p=Math.round((i+1)/steps.length*100);
+      document.getElementById('bar').style.width=p+'%'; document.getElementById('pct').textContent=p+'%';
+      i++; _timers.push(setTimeout(next, 850));
+    })();
+  });
+}
+
+function runDone(){
+  var d=t(), x=indByInst(sel.inst);
+  document.getElementById('done-h').textContent=d.doneH(sel.company);
+  document.getElementById('done-p').textContent=d.doneP;
+  document.getElementById('cta-signup-t').textContent=d.signup;
+  document.getElementById('cta-try-t').textContent=d.tryit;
+  var su=(CFG.signupUrl[LANG]||CFG.signupUrl.ja)+'?utm_source=demo&utm_campaign='+encodeURIComponent(sel.inst)+'_'+encodeURIComponent(sel.role||'');
+  document.getElementById('cta-signup').href=su;
+  document.getElementById('cta-try').href='app.html?inst='+encodeURIComponent(sel.inst)+'&lang='+LANG+(sel.role?'&role='+encodeURIComponent(sel.role):'')+'#feed';
+  document.getElementById('sc-bub').textContent=d.scBub;
+  document.getElementById('sc-send-t').textContent=d.send;
+  document.getElementById('sc-consent').textContent=d.consent;
+  document.getElementById('sc-in').placeholder = LANG==='ja'?'090-1234-5678':(LANG==='en'?'+81 90 1234 5678':'010-1234-5678');
+  var okEl=document.getElementById('sc-ok'), formEl=document.getElementById('sc-form'), consEl=document.getElementById('sc-consent');
+  okEl.classList.add('hide'); formEl.classList.remove('hide'); consEl.classList.remove('hide');
+  var inp=document.getElementById('sc-in'), btn=document.getElementById('sc-send');
+  function valid(v){ return (v.replace(/[^0-9]/g,'').length>=9); }
+  inp.value=''; btn.disabled=true;
+  inp.oninput=function(){ btn.disabled=!valid(inp.value); };
+  btn.onclick=function(){
+    if(!valid(inp.value)){ alert(d.invalid); return; }
+    btn.disabled=true;
+    submitLead({ phone:inp.value.trim(), firstname:sel.name, industry:x.label.en, jobtitle:sel.role||'' }, function(){
+      formEl.classList.add('hide'); consEl.classList.add('hide');
+      okEl.textContent=d.ok; okEl.classList.remove('hide');
+    });
+  };
+  show('done');
+}
+
+function submitLead(data, cb){
+  var g=CFG.hubspot.formGuid;
+  if(!g){
+    try{ var a=JSON.parse(localStorage.getItem('mm_demo_leads')||'[]'); a.push(Object.assign({at:new Date().toISOString(), page:location.href}, data)); localStorage.setItem('mm_demo_leads', JSON.stringify(a)); }catch(e){}
+    return cb&&cb(true,'local');
+  }
+  var payload={ fields:[
+    {name:'phone', value:data.phone},
+    {name:'firstname', value:data.firstname||''},
+    {name:'industry', value:data.industry||''},
+    {name:'jobtitle', value:data.jobtitle||''}
+  ], context:{ pageUri:location.href, pageName:'demo-'+(sel.inst||'') } };
+  fetch('https://api.hsforms.com/submissions/v3/integration/submit/'+CFG.hubspot.portalId+'/'+g,
+    { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) })
+    .then(function(r){ cb&&cb(r.ok, r.status); }, function(){ cb&&cb(false,'err'); });
+}
+
+function boot(){
+  renderLang();
+  var qi=Q.get('inst'), qind=Q.get('industry'), qr=Q.get('role');
+  sel.name=Q.get('name')||sel.name; sel.company=Q.get('company')||sel.company; sel.role=qr||sel.role;
+  var inst = qi || (qind?mapInst(qind):null);
+  if(inst){ sel.inst=inst; if(!sel.role) sel.role='member'; runBuild(); }
+  else { renderPick(); }
+}
+boot();
+</script>
+</body>
+</html>
