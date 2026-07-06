@@ -158,8 +158,8 @@
     var W = G.dayW, maxX = G.days * W, left = parseFloat(bar.style.left) || 0, curW = parseFloat(bar.style.width) || W;
     var newW = Math.max(W - 6, Math.min(maxX - left, (1 + Math.floor(Math.random() * 7)) * W - 6));
     bar.style.transformOrigin = "center";
-    bar.animate([{ transform: "scaleY(1)" }, { transform: "scaleY(1.9)", offset: .25 }, { transform: "scaleY(1.9)", offset: .62 }, { transform: "scaleY(1)" }], { duration: 1000, easing: "ease-in-out" });
-    setTimeout(function () { bar.style.transition = "width .5s cubic-bezier(.4,0,.2,1)"; bar.style.width = newW + "px"; }, 250);
+    bar.animate([{ transform: "scaleY(1)" }, { transform: "scaleY(1.35)", offset: .25 }, { transform: "scaleY(1.35)", offset: .62 }, { transform: "scaleY(1)" }], { duration: 1400, easing: "ease-in-out" });
+    setTimeout(function () { bar.style.transition = "width .9s cubic-bezier(.4,0,.2,1)"; bar.style.width = newW + "px"; }, 300);
     // 다른 사람 프로필이 막대 '끝'에 붙어 길이를 잡고 움직이는 것처럼
     var track = bar.closest(".g-track");
     if (track) {
@@ -174,7 +174,7 @@
       av.animate([{ left: (left + curW) + "px", opacity: 0 }, { left: (left + curW) + "px", opacity: 1, offset: .18 }, { left: (left + newW) + "px", opacity: 1, offset: .85 }, { left: (left + newW) + "px", opacity: 0 }], { duration: 1050, delay: 200, easing: "cubic-bezier(.4,0,.2,1)", fill: "forwards" });
       setTimeout(function () { if (av.parentNode) av.parentNode.removeChild(av); }, 1350);
     }
-    setTimeout(function () { bar._pumping = false; bar.style.transition = ""; }, 1150);
+    setTimeout(function () { bar._pumping = false; bar.style.transition = ""; }, 1550);
   }
   function startBarPump() {
     if (barPumpTimer || !MM() || !MM().enabled) return;
@@ -182,7 +182,7 @@
     // 단, 한 번 시작한 애니메이션(~1.35s)이 다음 시작(0.95~1.55s 후)까지 이어지므로
     // 화면에는 여러 막대가 '동시에 움직이는' 것처럼 보인다(시작 타이밍만 어긋남).
     function tick() {
-      barPumpTimer = setTimeout(tick, 480 + Math.floor(Math.random() * 380));
+      barPumpTimer = setTimeout(tick, 1900 + Math.floor(Math.random() * 1500));
       var host = document.getElementById("gantt"); if (!host) { clearTimeout(barPumpTimer); barPumpTimer = null; return; }
       var sec = document.querySelector('.vsec[data-view="gantt"]'); if (sec && !sec.classList.contains("on")) return;
       if (drag) return;

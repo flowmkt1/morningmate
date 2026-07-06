@@ -129,7 +129,8 @@
     var host = document.getElementById("cal-grid"); if (!host) return;
     var cells = host.querySelectorAll('.cal-cell[data-act="calday"]');
     if (!cells.length) return;
-    var cell = cells[Math.floor(Math.random() * cells.length)];
+    // 월초에 더 집중되게 가중(제곱 → 앞쪽 셀 선택 확률↑)
+    var cell = cells[Math.floor(Math.pow(Math.random(), 2.2) * cells.length)];
     var key = cell.getAttribute("data-key");
     var who = CAL_ASG[Math.floor(Math.random() * CAL_ASG.length)];
     var photo = window.MM_AV ? MM_AV.photo(who) : "assets/profile/man4.png";
