@@ -242,7 +242,7 @@ function runDone(){
   document.getElementById('done-p').textContent=d.chooseSub;
   document.getElementById('cta-auto-t').textContent=d.modeAuto;
   document.getElementById('cta-manual-t').textContent=d.modeManual;
-  var base='app.html?inst='+encodeURIComponent(sel.inst)+'&lang='+LANG+(sel.role?'&role='+encodeURIComponent(sel.role):'')+(sel.name?'&name='+encodeURIComponent(sel.name):'')+(sel.company?'&company='+encodeURIComponent(sel.company):'')+'&convert=1';
+  var base='app.html?inst='+encodeURIComponent(sel.inst)+'&lang='+LANG+(sel.role?'&role='+encodeURIComponent(sel.role):'')+(sel.name?'&name='+encodeURIComponent(sel.name):'')+(sel.company?'&company='+encodeURIComponent(sel.company):'')+'&tutorial=1';
   document.getElementById('cta-auto').href=base+'&mode=auto#feed';
   document.getElementById('cta-manual').href=base+'&mode=manual#feed';
   show('done');

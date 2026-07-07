@@ -448,7 +448,7 @@
   M.initCursorAvatar = function () {
     if (M._curAva) return;
     // 임베드(iframe)·터치 기기·리드 데모(가이드 시연)에서는 커서 아바타/선택 미표시(OS 커서 유지)
-    try { var q = new URLSearchParams(location.search); if (q.get("embed") || q.get("convert") || q.get("mode") === "auto" || q.get("mode") === "manual") return; } catch (e) {}
+    try { var q = new URLSearchParams(location.search); if (q.get("embed") || q.get("convert") || q.get("tutorial") || q.get("mode") === "auto" || q.get("mode") === "manual") return; } catch (e) {}
     var fine = !window.matchMedia || window.matchMedia("(pointer:fine)").matches;
     if (!fine) return;
     var choice = null; try { choice = localStorage.getItem("mm_cursor_on"); } catch (e) {}
